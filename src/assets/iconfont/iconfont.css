@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1564113519118'); /* IE9 */
+  src: url('iconfont.eot?t=1564113519118#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARAAAsAAAAACHgAAAPxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqEMIN6ATYCJAMQCwoABCAFhG0HSxtvB8geiXEsykKjXr0FQjx87fc7u+9+M6xBEo0M1afj081Lx0ukNCIhE4qX8H56z3rBKu3Rc9KKTtNJ68mlWfDSo/h5/pKYAAED/3PMdAk+zA80l4zQor0BjlsHFNUXrQd6B3JAfhri1XQgb/MLu0lomjAKtZmYng/ugjsoIV2bDDy4VxRiID2pS6odMyOUmgMu6nkqfRHAS/L76R98cwdZpQB35NZpgh6iv+CZxKj/VSiPEMBcTwd5HgUWgSCddxoOMVlgEaNpxrKWgbqny6zV4PpM+l8KrGsR1AWBuf94mVQFV9AGdilY8AUBoxC6QiZBKCFFhjdEVJ9d+HYnsSNPEKpyX+uh7aDV9vDQaLs0aa9cyaevXi1oc/16EXPtmtHnFWa0WtsrV8qmnXKenn5SPVE9TBNpou7atSaRWbYdvh5UQBusm7Zp2fLtmzcuBXWLxl7eZckW3ZEr+Wuu9tjATbsWmF+05LeZdqVw2gn15PTTzlPV07evXnXswJYVK7c2XXmSf/VpwfXnRdeeFXM0x3CUhnJeL9JA835JD9Dsjc4jm+votavphs103eo1DbSFWNO6fjPbsGp16nMLNXs2FXKtEg30ggquBbFLz/Xo4NvBJ5jUd3gCVVpOxVMJ5aVxVCKo8Srx5eWQ+fqenXLz0DJ6LX35EDPFO/HywbUMrLe7N8T2t8f7FjjftLYbe6ws4cCx7+26HLvHv3BbWsGBbd/bstscHx2EdBecXGFtTJfhKW0mL8sYOTEvtHwhlMXa35ePM5vpz1sHjMurH5yxseeAgAH+WNUvr7Hz9zNXuo75uejJY0CrN1mE2BsMh/rddKFGDN4CZX8rjp4YHWePc98jOjUDSu4C+zxlA/RtJKgGKGcxnxgCUKrsK0b9A/yNj9LSpVXtwr+6a1iAz+rlJGHRhPAtMsnMrzsjXgKU/+OVwnaVEQbfoCjoCcIBV/gymp6FkluG3FtDNGqmktSNFpDVjEOhbhIZ2EWoaFmCqroVaFqQNL9lmIyRwgOYN5FB0rcbsq53KPRdQgb2LlSMeQtV/RhoOkidVmyZzsTFyZhXsB7pGpBJIHbRVytcmp6LDTVWXi6zE3whlh0mN/Lx9K6Hk7Ady2uMcdQafBVFRKJMbCiR7YetVoIkmZixoHgaFUUK9fISu17JUyA24GyQYTwFpofoNEBMBISdGJVWcI2fz4UZ1LDiyQN5TcpCmMzB1Dziw5M3AZkksJPynuUeh1oGvhQKESKSETZIItNhVi9AIFJ3NzNMoPBknOGThPLixUSqwHN/ke0VLoMm9wUj0RRDsZQLNC7sDoU3yLyNK8KCkZeVbL7BXeQFrCPEAgAAAAA=') format('woff2'),
+  url('iconfont.woff?t=1564113519118') format('woff'),
+  url('iconfont.ttf?t=1564113519118') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1564113519118#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e606";
+}
+
+.icon-WechartPay:before {
+  content: "\e670";
+}
+
+.icon-facebook:before {
+  content: "\e600";
+}
+
