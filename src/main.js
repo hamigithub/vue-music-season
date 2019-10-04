@@ -20,8 +20,7 @@ const i18n = new VueI18n({
   // this.$i18n.locale //通过切换locale的值来实现语言切换
   messages: {
     'en': require('./language/en.json'),
-    'zh': require('./language/zh.json'),
-    'it': require('./language/it.json')
+    'zh': require('./language/zh.json')
   }
 });
 
@@ -29,6 +28,6 @@ new Vue({
   el: '#app',
   router,
   i18n,
-  components: {App},
+  components: { App },
   template: '<App/>'
 });

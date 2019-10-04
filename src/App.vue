@@ -1,30 +1,33 @@
 <template>
   <div id="app">
-
     <header class="page-header">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
             <div class="page-logo">
               <router-link to="/">
-                <img src="./assets/img/logo2.png" alt="">
+                <img src="./assets/img/logo2.png" alt />
               </router-link>
             </div>
 
             <!--翻译功能按钮-->
-            <!--<div class="navLangChoose">-->
-            <!--<div class="wrapper">-->
-            <!--<div class="nav-item" :class='{active: index == nowIndex}' v-for='(tabItem,index) in tabParams'-->
-            <!--@click='tabToggle(index)'>-->
-            <!--<span :class='{dropdownBtn: index == 0}' @click='dropdown'>{{tabItem}}</span>-->
-            <!--<ul v-if="index==0" class="dropdownWrapper" v-show='dropdownActive'>-->
-            <!--<li @click="changeLangToEn">English</li>-->
-            <!--<li @click="changeLangToZh">中文</li>-->
-            <!--<li @click="changeLangToIt">Italiano</li>-->
-            <!--</ul>-->
-            <!--</div>-->
-            <!--</div>-->
-            <!--</div>-->
+            <div class="navLangChoose">
+              <div class="wrapper">
+                <div
+                  class="nav-item"
+                  :class="{active: index == nowIndex}"
+                  v-for="(tabItem,index) in tabParams"
+                  @click="tabToggle(index)"
+                  :key="index"
+                >
+                  <span :class="{dropdownBtn: index == 0}" @click="dropdown">{{tabItem}}</span>
+                  <ul v-if="index==0" class="dropdownWrapper" v-show="dropdownActive">
+                    <li @click="changeLangToEn">English</li>
+                    <li @click="changeLangToZh">中文</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
             <nav class="page-nav">
               <div class="page-nav__toggle" @click="navToggle">
@@ -55,7 +58,7 @@
                 </li>
                 <li class="page-nav__item">
                   <router-link :to="{name:'concerts'}">
-                    <span>Concerts</span>
+                    <span>{{$t('appNavText.concerts')}}</span>
                   </router-link>
                 </li>
                 <li class="page-nav__item">
@@ -65,7 +68,7 @@
                 </li>
                 <li class="page-nav__item">
                   <router-link :to="{name:'tripInfo'}">
-                    <span>Local Info</span>
+                    <span>{{$t('appNavText.local')}}</span>
                   </router-link>
                 </li>
                 <li class="page-nav__item">
@@ -82,7 +85,6 @@
 
     <div class="clearfix"></div>
 
-
     <router-view></router-view>
 
     <footer>
@@ -96,13 +98,8 @@
           <div class="padding-10">
             <div class="row">
               <div class="col-xs-12 col-md-4">
-                <img src="./assets/img/logo.png" alt="">
+                <img src="./assets/img/logo.png" alt />
               </div>
-              <!--<div class="col-xs-12 col-md-4">-->
-              <!--<p class="padding-10">{{$t('contactUs.row1')}}</p>-->
-              <!--<p class="padding-10">{{$t('contactUs.row2')}}</p>-->
-              <!--<p class="padding-10">{{$t('contactUs.row3')}}</p>-->
-              <!--</div>-->
               <div class="col-xs-12 col-md-4">
                 <p class="padding-10">International Piano Professionals Association</p>
                 <p class="padding-10">E-mail : support@coneromusicfestival.com</p>
@@ -110,21 +107,29 @@
               </div>
               <div class="col-xs-12 col-md-4">
                 <div class="shareIcon">
-                  <a @mouseenter="feedsEnter" @mouseleave="feedsLeave" class="feedsWrap" href="javascript:;" target="_blank">
+                  <a
+                    @mouseenter="feedsEnter"
+                    @mouseleave="feedsLeave"
+                    class="feedsWrap"
+                    href="javascript:;"
+                    target="_blank"
+                  >
                     <svg class="icon" aria-hidden="true">
-                      <use xlink:href="#icon-WechartPay"></use>
+                      <use xlink:href="#icon-WechartPay" />
                     </svg>
-                    <img v-show="feedsIsShow" class="feedsImg" src="./assets/img/WCFeeds.jpg" alt="">
+                    <img v-show="feedsIsShow" class="feedsImg" src="./assets/img/WCFeeds.jpg" alt />
                   </a>
-                  <a href="https://www.facebook.com/Conero-International-Music-Festival-2291960267721314/"
-                     target="_blank">
+                  <a
+                    href="https://www.facebook.com/Conero-International-Music-Festival-2291960267721314/"
+                    target="_blank"
+                  >
                     <svg class="icon" aria-hidden="true">
-                      <use xlink:href="#icon-facebook"></use>
+                      <use xlink:href="#icon-facebook" />
                     </svg>
                   </a>
                   <a href="https://www.instagram.com/coneromusic/" target="_blank">
                     <svg class="icon" aria-hidden="true">
-                      <use xlink:href="#icon-instagram"></use>
+                      <use xlink:href="#icon-instagram" />
                     </svg>
                   </a>
                 </div>
@@ -138,10 +143,11 @@
     <div class="companyRights">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12"><span>Copyright © www.coneromusicfestival.com. All Rights Reserved.</span></div>
+          <div class="col-xs-12">
+            <span>Copyright © www.coneromusicfestival.com. All Rights Reserved.</span>
+          </div>
         </div>
       </div>
-
     </div>
 
     <v-goTop></v-goTop>
@@ -149,279 +155,274 @@
 </template>
 
 <script>
-  import goTop from "./components/public/goTop"
-  import "./assets/iconfont/iconfont"
+import goTop from "./components/public/goTop";
+import "./assets/iconfont/iconfont";
 
-  export default {
-    name: 'App',
-    data() {
-      return {
-        screenWidth: document.body.clientWidth,
-        nowIndex: 0,
-        navActive: true,
-        dropdownActive: false,
-        tabParams: ['Translations >'],
-        feedsIsShow: false
-      }
-    },
-    components: {
-      'v-goTop': goTop
-    },
-    created: function () {
+export default {
+  name: "App",
+  data() {
+    return {
+      screenWidth: document.body.clientWidth,
+      nowIndex: 0,
+      navActive: true,
+      dropdownActive: false,
+      tabParams: ["Translations >"],
+      feedsIsShow: false
+    };
+  },
+  components: {
+    "v-goTop": goTop
+  },
+  created: function() {
+    if (this.screenWidth <= 996) {
+      this.navActive = false;
+    } else {
+      this.navActive = true;
+    }
+  },
+  methods: {
+    navToggle: function() {
       if (this.screenWidth <= 996) {
-        this.navActive = false;
+        this.navActive = !this.navActive;
+      }
+    },
+    dropdown: function(event) {
+      if (event.target.getAttribute("class") === "dropdownBtn") {
+        this.dropdownActive = !this.dropdownActive;
+      }
+    },
+    tabToggle: function(index) {
+      this.nowIndex = index;
+      if (index === 0) {
+        return;
       } else {
-        this.navActive = true;
+        this.dropdownActive = false;
       }
     },
-    methods: {
-      navToggle: function () {
-        if (this.screenWidth <= 996) {
-          this.navActive = !this.navActive;
-        }
-      },
-      dropdown: function (event) {
-        if (event.target.getAttribute('class') === 'dropdownBtn') {
-          this.dropdownActive = !this.dropdownActive;
-        }
-      },
-      tabToggle: function (index) {
-        this.nowIndex = index;
-        if (index === 0) {
-          return
-        } else {
-          this.dropdownActive = false;
-        }
-      },
-      changeLangToZh: function () {
-        this.$i18n.locale = 'zh';
-        this.dropdownActive = false;
-      },
-      changeLangToEn: function () {
-        this.$i18n.locale = 'en';
-        this.dropdownActive = false;
-      },
-      changeLangToIt: function () {
-        this.$i18n.locale = 'it';
-        this.dropdownActive = false;
-      },
-      feedsEnter() {
-        this.feedsIsShow = true;
-      },
-      feedsLeave() {
-        this.feedsIsShow = false;
-      }
+    changeLangToZh: function() {
+      this.$i18n.locale = "zh";
+      this.dropdownActive = false;
     },
+    changeLangToEn: function() {
+      this.$i18n.locale = "en";
+      this.dropdownActive = false;
+    },
+    feedsEnter() {
+      this.feedsIsShow = true;
+    },
+    feedsLeave() {
+      this.feedsIsShow = false;
+    }
   }
+};
 </script>
 
 <style>
-  /*iconfont全局样式*/
-  .icon {
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: -0.15em;
-    fill: currentColor;
-    overflow: hidden;
-  }
+/*iconfont全局样式*/
+.icon {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
 
-  .shareIcon a {
-    margin: 0 10px;
-  }
+.shareIcon a {
+  margin: 0 10px;
+}
 
-  .shareIcon svg:hover {
-    opacity: .5;
-  }
+.shareIcon svg:hover {
+  opacity: 0.5;
+}
 
-  .feedsWrap {
-    position: relative;
-  }
+.feedsWrap {
+  position: relative;
+}
 
-  .feedsImg {
+.feedsImg {
+  position: absolute;
+  top: -135px;
+  left: -10px;
+}
+
+/*导航栏*/
+.page-header {
+  position: relative;
+  /*height: 80px;*/
+  background-color: #24292e;
+  color: #fff;
+  line-height: 78px;
+}
+
+.page-logo img {
+  width: 80px;
+}
+
+.page-logo,
+.page-nav,
+.page-nav__list,
+.page-nav__toggle,
+.page-nav__item {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.page-nav {
+  /*height: 78px;*/
+  z-index: 9;
+  float: right;
+}
+
+.page-nav__list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.page-nav__item span {
+  display: flex;
+  flex-direction: ;
+  font-size: 14px;
+  padding: 0 8px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.page-nav__item span:hover {
+  background-color: #000;
+}
+
+.page-nav__toggle span {
+  display: block;
+  height: 3px;
+  width: 30px;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+.page-nav__toggle {
+  display: none;
+}
+
+@media screen and (max-width: 996px) {
+  .page-nav__toggle {
     position: absolute;
-    top: -135px;
-    left: -10px;
-  }
-
-  /*导航栏*/
-  .page-header {
-    position: relative;
-    /*height: 80px;*/
-    background-color: #24292e;
-    color: #fff;
-    line-height: 78px;
-  }
-
-  .page-logo img {
-    width: 80px;
-  }
-
-  .page-logo,
-  .page-nav,
-  .page-nav__list,
-  .page-nav__toggle,
-  .page-nav__item {
+    top: -35px;
+    right: 0;
     display: inline-block;
-    vertical-align: middle;
-    cursor: pointer;
+    float: right;
+    height: 50px;
+    padding-right: 13px;
+  }
+
+  .page-nav__item {
+    /*max-height: 0;*/
+    width: 100%;
+    background-color: #323232;
+    line-height: 40px;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out;
+  }
+
+  .page-header {
+    height: 50px;
+    line-height: 50px;
   }
 
   .page-nav {
-    /*height: 78px;*/
-    z-index: 9;
-    float: right;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 0;
   }
 
   .page-nav__list {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
+    width: 100%;
   }
 
   .page-nav__item span {
-    display: flex;
-    flex-direction:;
-    font-size: 14px;
-    padding: 0 8px;
-    color: #fff;
-    cursor: pointer;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-  }
-
-  .page-nav__item span:hover {
-    background-color: #000;
-  }
-
-  .page-nav__toggle span {
-    display: block;
-    height: 3px;
-    width: 30px;
-    margin-bottom: 5px;
-    background-color: #fff;
-  }
-
-  .page-nav__toggle {
-    display: none;
-  }
-
-  @media screen and (max-width: 996px) {
-    .page-nav__toggle {
-      position: absolute;
-      top: -35px;
-      right: 0;
-      display: inline-block;
-      float: right;
-      height: 50px;
-      padding-right: 13px;
-    }
-
-    .page-nav__item {
-      /*max-height: 0;*/
-      width: 100%;
-      background-color: #323232;
-      line-height: 40px;
-      overflow: hidden;
-      transition: max-height .25s ease-in-out;
-    }
-
-    .page-header {
-      height: 50px;
-      line-height: 50px;
-    }
-
-    .page-nav {
-      position: absolute;
-      width: 100%;
-      top: 50px;
-      left: 0;
-    }
-
-    .page-nav__list {
-      width: 100%;
-    }
-
-    .page-nav__item span {
-      width: 100%;
-    }
-
-    .page-logo {
-      vertical-align: top;
-    }
-
-    .page-logo img {
-      width: 40px;
-    }
-  }
-
-  /*语言切换*/
-  .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .wrapper > div {
-    flex: 1;
-    text-align: center;
-    height: 36px;
-    line-height: 36px;
-  }
-
-  .dropdownWrapper {
-    z-index: 99;
-    background: #24292e;
-    border: 1px solid #2C3E50;
-    font-size: 14px;
-  }
-
-  .dropdownWrapper li {
-    display: block;
-  }
-
-  .dropdownWrapper li:hover {
-    background: #000;
-  }
-
-  .nav-item.active {
-    border-radius: 5px;
-    background-image: linear-gradient(90deg, #b64816, #a62cb6);
-  }
-
-  .dropdownBtn {
-    display: inline-block;
-    padding: 0 10px;
     width: 100%;
-    height: 100%;
   }
 
-  .nav-item {
-    cursor: pointer;
+  .page-logo {
+    vertical-align: top;
   }
 
-  .navLangChoose {
-    margin-left: 20px;
-    display: inline-block;
-    vertical-align: middle;
+  .page-logo img {
+    width: 40px;
   }
+}
 
+/*语言切换*/
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  /*联系*/
-  .contact {
-    margin-top: 80px;
-    padding-top: 30px;
-    border-top: 1px solid #e1e4e8;
-    background: #fafbfc;
-  }
+.wrapper > div {
+  flex: 1;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+}
 
-  /*版权*/
-  .companyRights {
-    text-align: center;
-    color: #959595;
-    font-size: 12px;
-    margin: 5px 0;
-  }
+.dropdownWrapper {
+  z-index: 99;
+  background: #24292e;
+  border: 1px solid #2c3e50;
+  font-size: 14px;
+}
+
+.dropdownWrapper li {
+  display: block;
+}
+
+.dropdownWrapper li:hover {
+  background: #000;
+}
+
+.nav-item.active {
+  border-radius: 5px;
+  background-image: linear-gradient(90deg, #b64816, #a62cb6);
+}
+
+.dropdownBtn {
+  display: inline-block;
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.navLangChoose {
+  margin-left: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/*联系*/
+.contact {
+  margin-top: 80px;
+  padding-top: 30px;
+  border-top: 1px solid #e1e4e8;
+  background: #fafbfc;
+}
+
+/*版权*/
+.companyRights {
+  text-align: center;
+  color: #959595;
+  font-size: 12px;
+  margin: 5px 0;
+}
 </style>

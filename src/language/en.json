@@ -9,17 +9,19 @@
     "committee": "Faculty",
     "competition": "Competition",
     "constitution": "Constitution",
+    "concerts": "Concerts",
     "application": "Application",
+    "local": "Local Info",
     "about": "About"
   },
   "appContactText": {
     "contact": "Contact Us"
   },
   "homeSubject": {
-    "row1": "The 2019 Conero International Music Festival & Competition is designed for students of piano (both young and adult, professional and amateur) and piano teachers from all around the world, aiming to share the art of music making and music education. Hosted by International Piano Professionals Association. The festival committee strives to provide the best resources for participants. The renowned international faculty will teach musical technique and musicianship while nurturing the development of individual artistry. Significant funds are available for scholarships, which the festival committee will distribute according to the merit of the student’s application."
+    "row1": "The 2020 Conero International Music Festival & Competition is designed for students of piano (both young and adult, professional and amateur) and piano teachers from all around the world, aiming to share the art of music making and music education. Hosted by International Piano Professionals Association. The festival committee strives to provide the best resources for participants. The renowned international faculty will teach musical technique and musicianship while nurturing the development of individual artistry. Significant funds are available for scholarships, which the festival committee will distribute according to the merit of the student’s application."
   },
   "homeText": {
-    "title": "• Sightseeing on the Mediterranean coast: ",
+    "title": "",
     "row1": "• 3-4 private piano lessons (extra lesson)",
     "row2": "• 16 public masterclasses (selected students will play in one masterclass)",
     "row3": "• 6 Faculty Solo Recitals",
@@ -28,48 +30,16 @@
     "row6": "• Performance opportunities in a medieval village - Recanati",
     "row7": "• Concert engagements for competition winner in Italy and China",
     "row8": "• Accommodations in historical hotels (food included)",
-    "row9": "• Coast tour & medieval village tour",
-    "row10": "• Generous Scholarship for outstanding students"
+    "row9": "• Generous Scholarship for outstanding students"
   },
   "homeHosted": {
-    "title": "Hosted By",
-    "row1": "Associazione Musical “Clara Schumann”",
+    "title": "",
+    "row1": "",
     "row2": "Date And Place",
     "row3": "Time of Event",
-    "row3-1": "August 4th-15th 2019",
+    "row3-1": "August 1th-14th 2020",
     "row4": "Location of Event",
     "row4-1": "Recanati, Italy"
-  },
-  "homeSupported": {
-    "title": "Supported By",
-    "row1": "The City Government of Reggio Calabria",
-    "row2": "The Government of the Province of Reggio Calabria",
-    "row3": "University for Foreigners Students “Dante Alighieri” of Reggio Calabria"
-  },
-  "homeHotel": {
-    "title": "Hotel",
-    "hotelInfoTextTitle": "Altafiumara Resort Hotel",
-    "hotelInfoTextRow": "Just 6.8 mi from Reggio Calabria and set in more than 10 hectares of rich, green parkland, Altafiumara Resort is located on the high, rocky coast overlooking the sea and it offers a swimming pool and a spa.",
-    "hotelInfoTextRow2": "Enjoy Altafiumara Resort’s exclusive position facing the Sicilian coast. You will be between Villa San Giovanni and Scilla.",
-    "hotelInfoTextRow3": "The well-kept grounds of the resort are decorated with modern sculptures. Stroll through the botanical gardens. Have a swim in the outdoor pool. ",
-    "hotelInfoTextRow4": "Relax in classically furnished rooms with modern comforts. Enjoy the furnished patios and the surrounding green environment. Wired internet is available in every room at an additional cost. ",
-    "hotelInfoTextRow5": "Altafiumara Resort offers a 24-hour reception, free private parking and 10 meeting rooms.",
-    "hotelInfoTextRow6": "Relax in the wellness center and spa. There is an indoor pool, a hot tub, a sauna and a variety of massages.",
-    "hotelInfoTextRow7": "Savor Mediterranean and traditional Calabrian meals at this welcoming resort. You will appreciate fresh ingredients and a variety of flavors from the resort’s own herb garden. The resort’s wine cellar features over 8.000 labels of selected wines.",
-    "hotelInfoLocation": "Location: Calabria Altafiumara Resort (Italy) & Privince of Reggio Calabria",
-    "hotelInfoLink": "For Hotel info："
-  },
-  "homeTouristic": {
-    "title": "Touristic Info",
-    "row1": "Possible tour list:",
-    "row2": "Sicily Outlet & Wine Tour",
-    "row3": "REGGIO CALABRIA",
-    "row4": "Sicily Outlet Village",
-    "row5": "Bronzi di Riace",
-    "row6": "Ecolandia Park in Catona",
-    "row7": "Sicily Tour",
-    "row8": "Aeolian Island Tour",
-    "row9": "About hotel"
   },
   "committeeTitle": {
     "title": "Committee Faculty"
@@ -162,8 +132,7 @@
     "row2": "Musicologist, Music Critic And Translator",
     "row3": "Former vice-president of Shanghai Conservatory of Music"
   },
-  "yangyandiInfo": {
-  },
+  "yangyandiInfo": {},
   "committeeBioZhaoxiaohong": {
     "row1": "Guest Artist: Xiaohong Zhao",
     "row2": "Professor of Piano Department, Shanghai Conservatory of Music",
@@ -249,8 +218,7 @@
     "row2": "Technical Consultant",
     "row3": "Senior Software Developer, United States Appraisals"
   },
-  "markInfo": {
-  },
+  "markInfo": {},
   "competitionTitle": {
     "title": "2019 Conero International",
     "title2": "Piano Competition",
@@ -590,11 +558,7 @@
   "aboutTitle": {
     "title": "About Us"
   },
-  "contactUs": {
-    "row1": "Associazione Musicale \"Clara Schumann\"",
-    "row2": "Via Antonio Gramsci",
-    "row3": "87037 San Fili (Cosenza) - ITALY"
-  },
+  "contactUs": {},
   "result": {
     "title": "First Round Competition Result"
   }

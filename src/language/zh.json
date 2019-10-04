@@ -1,7 +1,7 @@
 {
   "appPublic": {
     "row1": "简介",
-    "row2": "2019年意大利卡拉布里亚国际音乐节暨比赛",
+    "row2": "科内罗国际国际音乐节暨比赛",
     "row3": "返回"
   },
   "appNavText": {
@@ -9,7 +9,9 @@
     "committee": "组委会",
     "competition": "赛事",
     "constitution": "章程",
+    "concerts": "音乐会",
     "application": "申请",
+    "local": "本地",
     "about": "关于"
   },
   "appContactText": {
@@ -28,48 +30,16 @@
     "row6": "获奖学生签定中国和意大利独奏音乐会合约",
     "row7": "参加总金额10000欧元的国际钢琴比赛",
     "row8": "优秀学员奖学金计划",
-    "row9": "12天无敌海景5星级超豪华海边酒店吃住",
-    "row10": "西西里岛观光体验&古希腊城堡感受欧洲文艺复兴的历史"
+    "row9": "西西里岛观光体验&古希腊城堡感受欧洲文艺复兴的历史"
   },
   "homeHosted": {
-    "title": "主办方",
-    "row1": "意大利“克拉拉舒曼”音乐艺术协会",
+    "title": "",
+    "row1": "",
     "row2": "时间 地点",
     "row3": "举办时间",
-    "row3-1": "2019年8月4日到15",
+    "row3-1": "2020年8月1日到14",
     "row4": "举办地点",
     "row4-1": "意大利"
-  },
-  "homeSupported": {
-    "title": "协办方",
-    "row1": "卡拉布里亚市政府",
-    "row2": "雷焦卡拉布里亚省政府",
-    "row3": "雷焦卡拉布里亚大学国际学院 “Dante Alighieri”"
-  },
-  "homeHotel": {
-    "title": "酒店",
-    "hotelInfoTextTitle": "Altafiumara 度假酒店",
-    "hotelInfoTextRow": "距离雷吉奥卡拉布里亚只有6.8英里，坐落在10多公顷富饶的绿色公园，阿尔塔菲马拉度假村位于高岩石海岸，俯瞰大海，它提供了一个游泳池和水疗中心。",
-    "hotelInfoTextRow2": "享受阿尔泰弗马拉度假村的独家位置，面对西西里海岸。你将处于圣乔凡尼别墅和西拉之间。",
-    "hotelInfoTextRow3": "保存完好的度假胜地，在各种现代雕塑的装饰中。漫步于植物园，畅泳在室外的游泳池。",
-    "hotelInfoTextRow4": "放松在古典家具与现代舒适的房间，享受带家具的露台和周围的绿色环境。每个房间都有有线网络的增值服务可选。 ",
-    "hotelInfoTextRow5": "Altafiumara度假村提供24小时接待，免费私人停车场和10个会议室。",
-    "hotelInfoTextRow6": "在健康中心和水疗中心放松。室内游泳池，热水浴缸，桑拿浴室和各种各样的按摩等你来。",
-    "hotelInfoTextRow7": "在这个欢迎度假胜地，品尝地中海和传统卡拉布里亚美食。您将体验到新鲜的材料和各种类型的，度假胜地的独有香草花园，度假村的酒窖拥有超过8000种精选葡萄酒的标签。",
-    "hotelInfoLocation": "地址: 意大利 Calabria ALtafiumara 酒店 & 雷焦卡拉布里亚音乐学院",
-    "hotelInfoLink": "更多酒店信息："
-  },
-  "homeTouristic": {
-    "title": "旅行信息",
-    "row1": "更多信息：",
-    "row2": "西西里岛出口&葡萄酒之旅",
-    "row3": "REGGIO CALABRIA",
-    "row4": "Sicily Outlet Village",
-    "row5": "Bronzi di Riace",
-    "row6": "Ecolandia Park in Catona",
-    "row7": "Sicily Tour",
-    "row8": "Aeolian Island Tour",
-    "row9": "About hotel"
   },
   "committeeTitle": {
     "title": "组委会成员"
@@ -161,8 +131,7 @@
     "row2": " 音乐学家、批评家、翻译家",
     "row3": "上海音乐学院原副院长"
   },
-  "yangyandiInfo": {
-  },
+  "yangyandiInfo": {},
   "committeeBioZhaoxiaohong": {
     "row1": "赵小红",
     "row2": "上海音乐学院钢琴系教授",
@@ -249,8 +218,7 @@
     "row3": "美国资产评估公司",
     "row4": "软件开发工程师"
   },
-  "markInfo": {
-  },
+  "markInfo": {},
   "competitionTitle": {
     "title": "2019年卡拉布里亚",
     "title2": "国际钢琴比赛",
@@ -595,11 +563,7 @@
   "aboutTitle": {
     "title": "关于我们"
   },
-  "contactUs": {
-    "row1": "Associazione Musicale \"Clara Schumann\"",
-    "row2": "Via Antonio Gramsci",
-    "row3": "87037 San Fili (Cosenza) - ITALY"
-  },
+  "contactUs": {},
   "result": {
     "title": "初赛比赛结果"
   }
