@@ -98,7 +98,8 @@
     "row3": "十项国际钢琴大赛获奖者",
     "row4": "蒙扎Rina Sala Gallo 国际钢琴大赛金奖",
     "row5": "鲁宾斯坦国际钢琴大赛铜奖",
-    "row6": "意大利威尼托音乐学院钢琴教授"
+    "row6": "意大利威尼托音乐学院钢琴教授",
+    "row7": "Artistic Director of the Cittadella International Music Festival & Masterclass"
   },
   "ferratiInfo": {
     "title": "马西米利亚诺·法拉提",
@@ -563,7 +564,6 @@
   "aboutTitle": {
     "title": "关于我们"
   },
-  "contactUs": {},
   "result": {
     "title": "初赛比赛结果"
   }

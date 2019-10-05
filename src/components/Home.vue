@@ -258,7 +258,6 @@ export default {
 /*banner图*/
 .bannerWrap {
   position: relative;
-  z-index: -10;
 }
 
 .homeBanner {

@@ -11,23 +11,9 @@
             </div>
 
             <!--翻译功能按钮-->
-            <div class="navLangChoose">
-              <div class="wrapper">
-                <div
-                  class="nav-item"
-                  :class="{active: index == nowIndex}"
-                  v-for="(tabItem,index) in tabParams"
-                  @click="tabToggle(index)"
-                  :key="index"
-                >
-                  <span :class="{dropdownBtn: index == 0}" @click="dropdown">{{tabItem}}</span>
-                  <ul v-if="index==0" class="dropdownWrapper" v-show="dropdownActive">
-                    <li @click="changeLangToEn">English</li>
-                    <li @click="changeLangToZh">中文</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+
+            <span class="translateSpan" @click="changeLangToEn">English</span>
+            <span class="translateSpan" @click="changeLangToZh">中文</span>
 
             <nav class="page-nav">
               <div class="page-nav__toggle" @click="navToggle">
@@ -308,6 +294,11 @@ export default {
 
 .page-nav__toggle {
   display: none;
+}
+
+.translateSpan {
+  padding: 0 10px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 996px) {
