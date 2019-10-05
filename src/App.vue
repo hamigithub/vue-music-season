@@ -87,7 +87,7 @@
                 <img src="./assets/img/logo.png" alt />
               </div>
               <div class="col-xs-12 col-md-4">
-                <p class="padding-10">International Piano Professionals Association</p>
+                <p class="padding-10">{{$t('appContactText.row1')}}</p>
                 <p class="padding-10">E-mail : support@coneromusicfestival.com</p>
                 <p class="padding-10">Tel : ＋1-785-551-0823</p>
               </div>
