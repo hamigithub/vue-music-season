@@ -52,6 +52,9 @@
         <div class="col-xs-12 padding-top20">
           <div class="homeSubject padding-bottom20">
             <p class="lineHeight">{{$t('homeSubject.row1')}}</p>
+            <p class="lineHeight">{{$t('homeSubject.row2')}}</p>
+            <p class="lineHeight">{{$t('homeSubject.row3')}}</p>
+            <p class="lineHeight">{{$t('homeSubject.row4')}}</p>
           </div>
         </div>
       </div>
@@ -59,7 +62,7 @@
 
     <div class="container">
       <div class="row padding-top50">
-        <div class="col-xs-12 col-md-6">
+        <!-- <div class="col-xs-12 col-md-6">
           <table class="padding-bottom20" border="0" cellpadding="10">
             <tr>
               <td>{{$t('homeText.row1')}}</td>
@@ -89,7 +92,7 @@
               <td>{{$t('homeText.row9')}}</td>
             </tr>
           </table>
-        </div>
+        </div>-->
         <div class="col-xs-12 col-md-6">
           <table border="0" cellpadding="10">
             <tr>
@@ -108,7 +111,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col-xs-12 text-center">
           <router-link :to="{name:'tripInfo'}">
@@ -121,7 +124,7 @@
           </router-link>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 

@@ -19,7 +19,10 @@
     "row1": "International Piano Professionals Association"
   },
   "homeSubject": {
-    "row1": "The 2020 Conero International Music Festival & Competition is designed for students of piano (both young and adult, professional and amateur) and piano teachers from all around the world, aiming to share the art of music making and music education. Hosted by International Piano Professionals Association. The festival committee strives to provide the best resources for participants. The renowned international faculty will teach musical technique and musicianship while nurturing the development of individual artistry. Significant funds are available for scholarships, which the festival committee will distribute according to the merit of the student’s application."
+    "row1": "The 2020 Conero International Music Festival & Competition is designed for students of piano (both young and adult, professional and amateur) and piano teachers from all around the world, aiming to share the art of music making and music education. Hosted by International Piano Professionals Association. The festival committee strives to provide the best resources for participants. The renowned international faculty will teach musical technique and musicianship while nurturing the development of individual artistry. Significant funds are available for scholarships, which the festival committee will distribute according to the merit of the student’s application.",
+    "row2":"",
+    "row3":"",
+    "row4":""
   },
   "homeText": {
     "title": "",
@@ -221,8 +224,8 @@
   },
   "markInfo": {},
   "competitionTitle": {
-    "title": "2019 Conero International",
-    "title2": "Piano Competition",
+    "title": "2020 Conero",
+    "title2": "International Piano Competition",
     "title3": "First Round Competition Result"
   },
   "competitionText1": {
