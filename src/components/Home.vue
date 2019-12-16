@@ -40,12 +40,15 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="text-center">
-            <video
-              width="80%"
-              src="../assets/films/v3.mp4"
-              controls="controls"
-              poster="../assets/films/v3-wrap.jpg"
-            >your browser does not support the video tag</video>
+            <iframe
+              class="mainVideo"
+              src="//player.bilibili.com/player.html?aid=79452026&cid=135964771&page=1"
+              scrolling="no"
+              border="0"
+              frameborder="no"
+              framespacing="0"
+              allowfullscreen="true"
+            ></iframe>
             <p class="text-center padding-top15 text-gray">Take a look of the beautiful city.</p>
           </div>
         </div>
@@ -171,6 +174,13 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (min-width: 720px) {
+  .mainVideo {
+    width: 98%;
+    height: 600px;
+  }
+}
+
 .homeTitleLogo {
   margin-right: 20px;
   width: 80px;
