@@ -28,10 +28,11 @@
           </div>
         </div>
         <div class="col-xs-12">
-          <p class="thxfor">
-            This festival is being hosted with the cooperation of
-            Civica Scuola di Musica Beniamino Gigli， special thanks for their hospitality
-          </p>
+          <p>Session I ：July 27th –August 3rd</p>
+          <p>Session II: July 31st –August 12th</p>
+          <p>Pedagogy Scholar Session: July 29th –August 7th</p>
+          <p>2020 Conero International Piano Competition Final: August 1st -2nd</p>
+          <p>Application Deadline： May 25th，2020</p>
         </div>
       </div>
     </div>
@@ -49,7 +50,7 @@
               framespacing="0"
               allowfullscreen="true"
             ></iframe>
-            <p class="text-center padding-top15 text-gray">Take a look of the beautiful city.</p>
+            <p class="text-center padding-top15 text-gray">Take a look of the nice concert.</p>
           </div>
         </div>
         <div class="col-xs-12 padding-top20">
@@ -186,23 +187,9 @@ export default {
   width: 80px;
 }
 
-.thxfor {
-  padding: 20px 50% 20px 0;
-  font-style: italic;
-  color: red;
-  font-size: 18px;
-}
-
 @media screen and (max-width: 996px) {
   .homeTitleLogo {
     width: 60px;
-  }
-
-  .thxfor {
-    padding: 20px 50% 20px 0;
-    font-style: italic;
-    color: red;
-    font-size: 14px;
   }
 }
 

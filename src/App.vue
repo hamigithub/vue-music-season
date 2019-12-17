@@ -130,6 +130,12 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
+            This festival is being hosted with the cooperation of
+            Civica Scuola di Musica Beniamino Gigli，special thanks for their hospitality
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
             <span>Copyright © www.coneromusicfestival.com. All Rights Reserved.</span>
           </div>
         </div>
