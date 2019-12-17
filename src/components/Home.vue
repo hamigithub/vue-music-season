@@ -27,11 +27,13 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-12">
-          <p>Session I ：July 27th –August 3rd</p>
-          <p>Session II: July 31st –August 12th</p>
-          <p>Pedagogy Scholar Session: July 29th –August 7th</p>
-          <p>2020 Conero International Piano Competition Final: August 1st -2nd</p>
+        <div class="col-xs-12 padding-bottom20">
+          <p class="font-bold">Session I ：July 27th –August 3rd</p>
+          <p class="font-bold">Session II: July 31st –August 12th</p>
+          <p class="font-bold">Pedagogy Scholar Session: July 29th –August 7th</p>
+          <p
+            class="padding-top50"
+          >2020 Conero International Piano Competition Final: August 1st -2nd</p>
           <p>Application Deadline： May 25th，2020</p>
         </div>
       </div>
@@ -40,7 +42,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <div class="text-center padding-top50 ">
+          <div class="text-center padding-top50">
             <iframe
               class="mainVideo"
               src="//player.bilibili.com/player.html?aid=79452026&cid=135964771&page=1"
@@ -50,7 +52,9 @@
               framespacing="0"
               allowfullscreen="true"
             ></iframe>
-            <p class="text-center padding-top15 text-gray">The highlights of 2019 Conero Music Festival</p>
+            <p
+              class="text-center padding-top15 text-gray"
+            >The highlights of 2019 Conero Music Festival</p>
           </div>
         </div>
         <div class="col-xs-12 padding-top20">
@@ -110,25 +114,22 @@
               <td>{{$t('homeHosted.row4')}}</td>
               <td>{{$t('homeHosted.row4-1')}}</td>
             </tr>
+            <tr>
+              <td>Session I ：</td>
+              <td>July 27th –August 3rd</td>
+            </tr>
+            <tr>
+              <td>Session II:</td>
+              <td>July 31st –August 12th</td>
+            </tr>
+            <tr>
+              <td>Pedagogy Scholar Session:</td>
+              <td>July 29th –August 7th</td>
+            </tr>
           </table>
         </div>
       </div>
     </div>
-
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-xs-12 text-center">
-          <router-link :to="{name:'tripInfo'}">
-            <div class="tripWrap">
-              <img width="100%" src="../assets/img/conero-1.jpg" alt="conero" />
-              <div class="tripLink">
-                <p class="tripLinkText">Learn More ></p>
-              </div>
-            </div>
-          </router-link>
-        </div>
-      </div>
-    </div>-->
   </div>
 </template>
 
