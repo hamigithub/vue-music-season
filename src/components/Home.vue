@@ -40,7 +40,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <div class="text-center">
+          <div class="text-center padding-top50 ">
             <iframe
               class="mainVideo"
               src="//player.bilibili.com/player.html?aid=79452026&cid=135964771&page=1"
