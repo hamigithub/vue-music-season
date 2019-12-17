@@ -50,7 +50,7 @@
               framespacing="0"
               allowfullscreen="true"
             ></iframe>
-            <p class="text-center padding-top15 text-gray">Take a look of the nice concert.</p>
+            <p class="text-center padding-top15 text-gray">The highlights of 2019 Conero Music Festival</p>
           </div>
         </div>
         <div class="col-xs-12 padding-top20">
