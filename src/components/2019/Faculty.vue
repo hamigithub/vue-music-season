@@ -17,14 +17,13 @@
         </div>
       </div>
     </div>
-
     <div class="container">
       <router-link class="text-black" to="/bio/smith#smith">
         <div class="row">
           <div id="bioSmith" class="bioWrap clearfix">
             <div class="col-md-3 col-xs-12">
               <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Smith.jpg" alt />
+                <img src="../../assets/img/Smith.jpg" alt />
               </div>
             </div>
             <div class="col-md-8 col-xs-12">
@@ -49,24 +48,81 @@
         </div>
       </router-link>
 
-      <router-link class="text-black" to="/bio/jack#jack">
+      <router-link class="text-black" to="/bio/cong#cong">
         <div class="row">
-          <div id="bioJack" class="bioWrap clearfix">
+          <div id="bioCong" class="bioWrap clearfix">
             <div class="col-md-3 col-xs-12">
               <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Jack.jpg" alt />
+                <img src="../../assets/img/Cong.jpg" alt />
               </div>
             </div>
             <div class="col-md-8 col-xs-12">
               <div class="margin-l-top40">
-                <h2>{{$t('committeeBioJack.row1')}}</h2>
+                <h2>{{$t('committeeBioCong.row1')}}</h2>
                 <p class="lineHeight">
                   <br />
-                  * {{$t('committeeBioJack.row2')}}
+                  * {{$t('committeeBioCong.row2')}}
                   <br />
-                  * {{$t('committeeBioJack.row3')}}
+                  * {{$t('committeeBioCong.row3')}}
                   <br />
-                  * {{$t('committeeBioJack.row4')}}
+                  * {{$t('committeeBioCong.row4')}}
+                  <br />
+                  * {{$t('committeeBioCong.row5')}}
+                  <br />
+                  {{$t('committeeBioCong.row6')}}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link class="text-black" to="/bio/asaf#asaf">
+        <div class="row">
+          <div id="bioAsaf" class="bioWrap clearfix">
+            <div class="col-md-3 col-xs-12">
+              <div class="committeeFacultyWrap padding-20">
+                <img src="../../assets/img/Asaf.jpg" alt />
+              </div>
+            </div>
+            <div class="col-md-8 col-xs-12">
+              <div class="margin-l-top40">
+                <h2>{{$t('committeeBioAsaf.row1')}}</h2>
+                <p class="lineHeight">
+                  <br />
+                  * {{$t('committeeBioAsaf.row2')}}
+                  <br />
+                  * {{$t('committeeBioAsaf.row3')}}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link class="text-black" to="/bio/cristiano#cristiano">
+        <div class="row">
+          <div id="bioCristiano" class="bioWrap clearfix">
+            <div class="col-md-3 col-xs-12">
+              <div class="committeeFacultyWrap padding-20">
+                <img src="../../assets/img/Cristiano.jpg" alt />
+              </div>
+            </div>
+            <div class="col-md-8 col-xs-12">
+              <div class="margin-l-top40">
+                <h2>{{$t('committeeBioCristiano.row1')}}</h2>
+                <p class="lineHeight">
+                  <br />
+                  * {{$t('committeeBioCristiano.row2')}}
+                  <br />
+                  * {{$t('committeeBioCristiano.row3')}}
+                  <br />
+                  * {{$t('committeeBioCristiano.row4')}}
+                  <br />
+                  * {{$t('committeeBioCristiano.row5')}}
+                  <br />
+                  * {{$t('committeeBioCristiano.row6')}}
+                  <br />
                 </p>
               </div>
             </div>
@@ -79,7 +135,7 @@
           <div id="bioEnrico" class="bioWrap clearfix">
             <div class="col-md-3 col-xs-12">
               <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Enrico.jpg" alt />
+                <img src="../../assets/img/Enrico.jpg" alt />
               </div>
             </div>
             <div class="col-md-8 col-xs-12">
@@ -96,12 +152,36 @@
         </div>
       </router-link>
 
+      <router-link class="text-black" to="/bio/lorenzo#lorenzo">
+        <div class="row">
+          <div id="bioLorenzo" class="bioWrap clearfix">
+            <div class="col-md-3 col-xs-12">
+              <div class="committeeFacultyWrap padding-20">
+                <img src="../../assets/img/Lorenzo.jpg" alt />
+              </div>
+            </div>
+            <div class="col-md-8 col-xs-12">
+              <div class="margin-l-top40">
+                <h2>Guest Artist: Lorenzo Di Bella</h2>
+                <p class="lineHeight">
+                  <br />* 1st Prize and Gold Medal "Horowitz" Int. Piano Competition - Kiev
+                  <br />* Piano Professor "Braga" Conservatory - Teramo
+                  <br />* Artistic Director "Mugellini Festival"
+                  <br />* Artistic Director "Civitanova Classica Piano Festival"
+                  <br />* Artistic Director "La Palma d'Oro" Int. Piano Competition
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </router-link>
+
       <router-link class="text-black" to="/bio/ferrati#ferrati">
         <div class="row">
           <div id="bioFerrati" class="bioWrap clearfix">
             <div class="col-md-3 col-xs-12">
               <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Ferrati.jpg" alt />
+                <img src="../../assets/img/Ferrati.jpg" alt />
               </div>
             </div>
             <div class="col-md-8 col-xs-12">
@@ -127,86 +207,39 @@
         </div>
       </router-link>
 
-      <router-link class="text-black" to="/bio/cong#cong">
+      <router-link class="text-black" to="/bio/tamara#tamara">
         <div class="row">
-          <div id="bioCong" class="bioWrap clearfix">
+          <div id="bioTamara" class="bioWrap clearfix">
             <div class="col-md-3 col-xs-12">
               <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Cong.jpg" alt />
+                <img src="../../assets/img/Tamara.jpg" alt />
               </div>
             </div>
             <div class="col-md-8 col-xs-12">
               <div class="margin-l-top40">
-                <h2>{{$t('committeeBioCong.row1')}}</h2>
+                <h2>{{$t('committeeBioTamara.row1')}}</h2>
                 <p class="lineHeight">
                   <br />
-                  * {{$t('committeeBioCong.row2')}}
+                  * {{$t('committeeBioTamara.row2')}}
                   <br />
-                  * {{$t('committeeBioCong.row3')}}
+                  * {{$t('committeeBioTamara.row3')}}
                   <br />
-                  * {{$t('committeeBioCong.row4')}}
+                  * {{$t('committeeBioTamara.row4')}}
                   <br />
-                  * {{$t('committeeBioCong.row5')}}
-                  <br />
-                  {{$t('committeeBioCong.row6')}}
+                  {{$t('committeeBioTamara.row5')}}
                 </p>
               </div>
             </div>
           </div>
         </div>
       </router-link>
-
-      <router-link class="text-black" to="/bio/lorenzo#lorenzo">
-        <div class="row">
-          <div id="bioLorenzo" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Lorenzo.jpg" alt />
-              </div>
-            </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>Guest Artist: Lorenzo Di Bella</h2>
-                <p class="lineHeight">
-                  <br />* 1st Prize and Gold Medal "Horowitz" Int. Piano Competition - Kiev
-                  <br />* Piano Professor "Braga" Conservatory - Teramo
-                  <br />* Artistic Director "Mugellini Festival"
-                  <br />* Artistic Director "Civitanova Classica Piano Festival"
-                  <br />* Artistic Director "La Palma d'Oro" Int. Piano Competition
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
-
-      <div class="row">
-        <div id="bioYangyandi" class="text-black pointer-hand bioWrap clearfix">
-          <div class="col-md-3 col-xs-12">
-            <div class="committeeFacultyWrap padding-20">
-              <img src="../assets/img/Yangyandi.jpg" alt />
-            </div>
-          </div>
-          <div class="col-md-8 col-xs-12">
-            <div class="margin-l-top40">
-              <h2>{{$t('committeeBioYangyandi.row1')}}</h2>
-              <p class="lineHeight">
-                <br />
-                * {{$t('committeeBioYangyandi.row2')}}
-                <br />
-                * {{$t('committeeBioYangyandi.row3')}}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <router-link class="text-black" to="/bio/zhaoxiaohong#zhaoxiaohong">
         <div class="row">
           <div id="bioZhaoxiaohong" class="text-black pointer-hand bioWrap clearfix">
             <div class="col-md-3 col-xs-12">
               <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Zhaoxiaohong.jpg" alt />
+                <img src="../../assets/img/Zhaoxiaohong.jpg" alt />
               </div>
             </div>
             <div class="col-md-8 col-xs-12">
@@ -232,35 +265,33 @@
         </div>
       </router-link>
 
-      <router-link class="text-black" to="/bio/asaf#asaf">
-        <div class="row">
-          <div id="bioAsaf" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Asaf.jpg" alt />
-              </div>
+      <div class="row">
+        <div id="bioYangyandi" class="text-black pointer-hand bioWrap clearfix">
+          <div class="col-md-3 col-xs-12">
+            <div class="committeeFacultyWrap padding-20">
+              <img src="../../assets/img/Yangyandi.jpg" alt />
             </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioAsaf.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioAsaf.row2')}}
-                  <br />
-                  * {{$t('committeeBioAsaf.row3')}}
-                </p>
-              </div>
+          </div>
+          <div class="col-md-8 col-xs-12">
+            <div class="margin-l-top40">
+              <h2>{{$t('committeeBioYangyandi.row1')}}</h2>
+              <p class="lineHeight">
+                <br />
+                * {{$t('committeeBioYangyandi.row2')}}
+                <br />
+                * {{$t('committeeBioYangyandi.row3')}}
+              </p>
             </div>
           </div>
         </div>
-      </router-link>
+      </div>
 
       <router-link class="text-black" to="/bio/ivy#ivy">
         <div class="row">
           <div id="bioIvy" class="bioWrap clearfix">
             <div class="col-md-3 col-xs-12">
               <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Ivy.jpg" alt />
+                <img src="../../assets/img/Ivy.jpg" alt />
               </div>
             </div>
             <div class="col-md-8 col-xs-12">
@@ -284,59 +315,11 @@
         </div>
       </router-link>
 
-      <router-link class="text-black" to="/bio/boris#boris">
-        <div class="row">
-          <div id="bioBoris" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Boris.jpg" alt />
-              </div>
-            </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioBoris.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioBoris.row2')}}
-                  <br />
-                  * {{$t('committeeBioBoris.row3')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
-
-      <router-link class="text-black" to="/bio/alla#alla">
-        <div class="row">
-          <div id="bioAlla" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Alla.jpg" alt />
-              </div>
-            </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioAlla.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioAlla.row2')}}
-                  <br />
-                  * {{$t('committeeBioAlla.row3')}}
-                  <br />
-                  * {{$t('committeeBioAlla.row4')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
-
       <div class="row">
         <div id="bioMark" class="text-black pointer-hand bioWrap clearfix">
           <div class="col-md-3 col-xs-12">
             <div class="committeeFacultyWrap padding-20">
-              <img src="../assets/img/Mark.jpg" alt />
+              <img src="../../assets/img/Mark.jpg" alt />
             </div>
           </div>
           <div class="col-md-8 col-xs-12">
@@ -349,19 +332,6 @@
                 * {{$t('committeeBioMark.row3')}}
               </p>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="passActivity padding-top50">
-            <h3>Pass Activity:</h3>
-            <router-link to="/faculty/2019">
-              <h5 class="padding-top20 padding-bottom10">2019</h5>
-            </router-link>
           </div>
         </div>
       </div>
@@ -407,11 +377,6 @@ export default {
 
 .bioWrap:hover {
   background-color: #f5f5f5;
-}
-
-.passActivity {
-  float: right;
-  border-bottom: 1px solid #ccc;
 }
 
 @media screen and (max-width: 996px) {

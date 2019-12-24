@@ -27,11 +27,13 @@ import Lorenzo from './bio/Lorenzo'
 import Zhaoxiaohong from './bio/Zhaoxiaohong'
 import Tamara from './bio/Tamara'
 import Asaf from './bio/Asaf'
-import Andrea from './bio/Andrea'
-import Ingrid from './bio/Ingrid'
 import Ivy from './bio/Ivy'
 import Mark from './bio/Mark'
 
+//2020新增
+import Alla from './bio/2020/Alla'
+import Jack from './bio/2020/Jack'
+import Boris from './bio/2020/Boris'
 
 export default new Router({
   mode: 'history',
@@ -61,6 +63,12 @@ export default new Router({
       path: "/faculty",
       name: "faculty",
       component: () => import(/* webpackChunkName: "group-main" */'./components/Faculty')
+    },
+    //2010 Faculty
+    {
+      path: "/faculty/2019",
+      name: "faculty2019",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/2019/Faculty')
     },
     {
       path: "/competition",
@@ -135,20 +143,25 @@ export default new Router({
       component: Asaf
     },
     {
-      path: "/bio/andrea",
-      component: Andrea
-    },
-    {
-      path: "/bio/ingrid",
-      component: Ingrid
-    },
-    {
       path: "/bio/ivy",
       component: Ivy
     },
     {
       path: "/bio/mark",
       component: Mark
+    },
+    //2020新增简历
+    {
+      path: "/bio/jack",
+      component: Jack
+    },
+    {
+      path: "/bio/boris",
+      component: Boris
+    },
+    {
+      path: "/bio/alla",
+      component: Alla
     },
     //音乐会路由
     {
