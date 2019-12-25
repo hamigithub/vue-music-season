@@ -84,11 +84,14 @@
             </div>
             <div class="col-md-8 col-xs-12">
               <div class="margin-l-top40">
-                <h2>Distinguished Guest Artist - Enrico Elisi</h2>
+                <h2>{{$t('committeeBioEnrico.row1')}}</h2>
                 <p class="lineHeight">
-                  <br />* Steinway artist
-                  <br />* Associate Professor of Piano at University of Toronto, Faculty of Music
-                  <br />* Concert pianist
+                  <br />
+                  * {{$t('committeeBioEnrico.row2')}}
+                  <br />
+                  * {{$t('committeeBioEnrico.row3')}}
+                  <br />
+                  * {{$t('committeeBioEnrico.row4')}}
                 </p>
               </div>
             </div>
@@ -166,13 +169,18 @@
             </div>
             <div class="col-md-8 col-xs-12">
               <div class="margin-l-top40">
-                <h2>Guest Artist: Lorenzo Di Bella</h2>
+                <h2>{{$t('committeeBioLorenzo.row1')}}</h2>
                 <p class="lineHeight">
-                  <br />* 1st Prize and Gold Medal "Horowitz" Int. Piano Competition - Kiev
-                  <br />* Piano Professor "Braga" Conservatory - Teramo
-                  <br />* Artistic Director "Mugellini Festival"
-                  <br />* Artistic Director "Civitanova Classica Piano Festival"
-                  <br />* Artistic Director "La Palma d'Oro" Int. Piano Competition
+                  <br />
+                  * {{$t('committeeBioLorenzo.row2')}}
+                  <br />
+                  * {{$t('committeeBioLorenzo.row3')}}
+                  <br />
+                  * {{$t('committeeBioLorenzo.row4')}}
+                  <br />
+                  * {{$t('committeeBioLorenzo.row5')}}
+                  <br />
+                  {{$t('committeeBioLorenzo.row6')}}
                 </p>
               </div>
             </div>
