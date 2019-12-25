@@ -332,7 +332,7 @@
         </div>
       </router-link>
 
-      <div class="row">
+      <div class="row topLine margin-top20">
         <div id="bioMark" class="text-black pointer-hand bioWrap clearfix">
           <div class="col-md-3 col-xs-12">
             <div class="committeeFacultyWrap padding-20">
@@ -358,7 +358,7 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="passActivity padding-top50">
-            <h3>Pass Activity:</h3>
+            <h3>Past Activity:</h3>
             <router-link to="/faculty/2019">
               <h5 class="padding-top20 padding-bottom10">2019</h5>
             </router-link>
@@ -412,6 +412,10 @@ export default {
 .passActivity {
   float: right;
   border-bottom: 1px solid #ccc;
+}
+
+.topLine {
+  border-top: 1px solid #ccc;
 }
 
 @media screen and (max-width: 996px) {
