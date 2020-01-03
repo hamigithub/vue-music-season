@@ -11,6 +11,7 @@
     "constitution": "Constitution",
     "concerts": "Concerts",
     "application": "Application",
+    "gallery": "Gallery",
     "local": "Local Info",
     "about": "About"
   },
@@ -607,6 +608,9 @@
     "wcPay1": "WeChat payment is available for Chinese students. To cover currency conversion fees, please use the exchange rate of 1 Euro = 8 RMB.",
     "wcPay2": " You can pay through scanning this QR code, and we will confirm with you that payment has been received.",
     "wcPay3": "We highly recommend you to pay the rest of the tuition through bank transfer. Please email us if you need any information. Thank you!"
+  },
+  "galleryTitle": {
+    "title": "Gallery"
   },
   "aboutTitle": {
     "title": "About Us"

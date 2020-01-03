@@ -53,6 +53,11 @@
                   </router-link>
                 </li>
                 <li class="page-nav__item">
+                  <router-link :to="{name:'gallery'}">
+                    <span>{{$t('appNavText.gallery')}}</span>
+                  </router-link>
+                </li>
+                <li class="page-nav__item">
                   <router-link :to="{name:'tripInfo'}">
                     <span>{{$t('appNavText.local')}}</span>
                   </router-link>

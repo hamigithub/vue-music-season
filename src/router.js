@@ -86,6 +86,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "group-main" */'./components/Application')
     },
     {
+      path: "/gallery",
+      name: "gallery",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/Gallery')
+    },
+    {
       path: "/tripInfo",
       name: "tripInfo",
       component: () => import(/* webpackChunkName: "group-main" */'./components/TripInfo')
