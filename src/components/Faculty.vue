@@ -49,31 +49,6 @@
         </div>
       </router-link>
 
-      <router-link class="text-black" to="/bio/jack#jack">
-        <div class="row">
-          <div id="bioJack" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Jack.jpg" alt />
-              </div>
-            </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioJack.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioJack.row2')}}
-                  <br />
-                  * {{$t('committeeBioJack.row3')}}
-                  <br />
-                  * {{$t('committeeBioJack.row4')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
-
       <router-link class="text-black" to="/bio/enrico#enrico">
         <div class="row">
           <div id="bioEnrico" class="bioWrap clearfix">
@@ -92,6 +67,31 @@
                   * {{$t('committeeBioEnrico.row3')}}
                   <br />
                   * {{$t('committeeBioEnrico.row4')}}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </router-link>
+
+      <router-link class="text-black" to="/bio/jack#jack">
+        <div class="row">
+          <div id="bioJack" class="bioWrap clearfix">
+            <div class="col-md-3 col-xs-12">
+              <div class="committeeFacultyWrap padding-20">
+                <img src="../assets/img/Jack.jpg" alt />
+              </div>
+            </div>
+            <div class="col-md-8 col-xs-12">
+              <div class="margin-l-top40">
+                <h2>{{$t('committeeBioJack.row1')}}</h2>
+                <p class="lineHeight">
+                  <br />
+                  * {{$t('committeeBioJack.row2')}}
+                  <br />
+                  * {{$t('committeeBioJack.row3')}}
+                  <br />
+                  * {{$t('committeeBioJack.row4')}}
                 </p>
               </div>
             </div>
