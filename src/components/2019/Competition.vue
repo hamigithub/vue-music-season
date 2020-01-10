@@ -348,19 +348,6 @@
         </div>
       </div>
     </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="passActivity padding-top50">
-            <h3>Past Activity:</h3>
-            <router-link to="/competition/2019">
-              <h5 class="padding-top20 padding-bottom10">2019</h5>
-            </router-link>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -414,9 +401,4 @@ export default {
 /*background-position: 100% 0%;*/
 /*}*/
 /*}*/
-
-.passActivity {
-  float: right;
-  border-bottom: 1px solid #ccc;
-}
 </style>

@@ -76,9 +76,19 @@ export default new Router({
       component: () => import(/* webpackChunkName: "group-main" */'./components/Competition')
     },
     {
+      path: "/competition/2019",
+      name: "competition2019",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/2019/Competition')
+    },
+    {
       path: "/constitution",
       name: "constitution",
       component: () => import(/* webpackChunkName: "group-main" */'./components/Constitution')
+    },
+    {
+      path: "/constitution/2019",
+      name: "constitution2019",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/2019/Constitution')
     },
     {
       path: "/application",
