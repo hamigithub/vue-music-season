@@ -80,6 +80,37 @@ export default new Router({
       name: "competition2019",
       component: () => import(/* webpackChunkName: "group-main" */'./components/2019/Competition')
     },
+    //四大赛区
+    {
+      path: "/division/usa",
+      name: "divisionUsa",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/usa/divisionUsa.vue')
+    },
+    {
+      path: "/division/usa/apply",
+      name: "applyUsa",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/usa/applyUsa.vue')
+    },
+    {
+      path: "/division/china",
+      name: "divisionChina",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/china/divisionChina.vue')
+    },
+    {
+      path: "/division/australia",
+      name: "divisionAustralia",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/australia/divisionAustralia.vue')
+    },
+    {
+      path: "/division/online",
+      name: "divisionOnline",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/online/divisionOnline.vue')
+    },
+    {
+      path: "/division/online/apply",
+      name: "applyOnline",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/online/applyOnline.vue')
+    },
     {
       path: "/constitution",
       name: "constitution",
