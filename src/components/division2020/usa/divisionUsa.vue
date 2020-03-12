@@ -53,7 +53,7 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <p>
-            Information about competition rules and eligibility will be available at the festival website as well as in the informational brochure below. Applications for the Kansas City, US competition are due by March 10th, 2020 and must be submitted with a $30 non-refundable application fee. Please follow the link for the Kansas City, US competition here:
+            Information about competition rules and eligibility will be available at the festival website as well as in the informational brochure below. Applications for the Kansas City, US competition are due by March 18th, 2020 and must be submitted with a $30 non-refundable application fee. Please follow the link for the Kansas City, US competition here:
             <a
               href="http://www.coneromusicfestival.com/competition"
             >http://www.coneromusicfestival.com/competition</a>
@@ -66,13 +66,14 @@
       <div class="row padding-top50">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-6 text-center">
+            <div class="col-xs-12 col-md-6 text-center padding-bottom20">
               <router-link to="/division/usa/apply">
                 <div class="btn btnBgm">{{$t('applyTitle.title3')}}</div>
               </router-link>
             </div>
             <div class="col-xs-12 col-md-6">
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <div class="text-center">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                 <input type="hidden" name="cmd" value="_s-xclick" />
                 <input type="hidden" name="hosted_button_id" value="CL448JFGF8SKJ" />
                 <input
@@ -90,6 +91,7 @@
                   height="1"
                 />
               </form>
+              </div>
               <p class="padding-20">{{$t('applyFee.ps')}}</p>
             </div>
           </div>

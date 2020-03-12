@@ -15,30 +15,32 @@
       <div class="row padding-top50">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-6 text-center">
+            <div class="col-xs-12 col-md-6 text-center padding-bottom20">
               <router-link to="/division/online/apply">
                 <div class="btn btnBgm">{{$t('applyTitle.title3')}}</div>
               </router-link>
             </div>
             <div class="col-xs-12 col-md-6">
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="CL448JFGF8SKJ" />
-                <input
-                  type="image"
-                  src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
-                  border="0"
-                  name="submit"
-                  alt="PayPal - The safer, easier way to pay online!"
-                />
-                <img
-                  alt
-                  border="0"
-                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                  width="1"
-                  height="1"
-                />
-              </form>
+              <div class="text-center">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick" />
+                  <input type="hidden" name="hosted_button_id" value="CL448JFGF8SKJ" />
+                  <input
+                    type="image"
+                    src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+                    border="0"
+                    name="submit"
+                    alt="PayPal - The safer, easier way to pay online!"
+                  />
+                  <img
+                    alt
+                    border="0"
+                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                    width="1"
+                    height="1"
+                  />
+                </form>
+              </div>
               <p class="padding-20">{{$t('applyFee.ps')}}</p>
             </div>
           </div>
