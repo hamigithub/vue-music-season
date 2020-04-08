@@ -3,12 +3,6 @@
     <div class="homeBanner">
       <div id="bannerWrap" class="bannerWrap">
         <img class="homeBannerImg" src="../assets/img/trip-1.jpg" alt />
-        <div id="tripLink">
-          <div class="tripLinkText">
-            <router-link class="font-white" :to="{name:'tripInfo'}">Learn more about Recanati ></router-link>
-          </div>
-          <div class="tripLink"></div>
-        </div>
       </div>
     </div>
 
@@ -22,19 +16,13 @@
                   <img class="homeLogo" src="../assets/img/logo.png" alt />
                   {{$t('appPublic.row2')}}
                 </p>
-                <span class="spanCity">—— City of Recanati</span>
               </div>
             </div>
           </div>
         </div>
         <div class="col-xs-12 padding-bottom20">
-          <p class="font-bold">Session I ：July 27th –August 3rd</p>
-          <p class="font-bold">Session II: July 31st –August 12th</p>
-          <p class="font-bold">Pedagogy Scholar Session: July 29th –August 7th</p>
-          <p
-            class="padding-top50"
-          >2020 Conero International Piano Competition Final: August 1st -2nd</p>
-          <p>Application Deadline： May 25th，2020</p>
+          <p class="lineHeight">{{$t('homeTitle.row1')}}</p>
+          <p class="padding-top50">{{$t('homeTitle.row2')}}</p>
         </div>
       </div>
     </div>
@@ -68,39 +56,8 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row padding-top50">
-        <!-- <div class="col-xs-12 col-md-6">
-          <table class="padding-bottom20" border="0" cellpadding="10">
-            <tr>
-              <td>{{$t('homeText.row1')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('homeText.row2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('homeText.row3')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('homeText.row4')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('homeText.row5')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('homeText.row6')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('homeText.row7')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('homeText.row8')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('homeText.row9')}}</td>
-            </tr>
-          </table>
-        </div>-->
         <div class="col-xs-12 col-md-6">
           <table border="0" cellpadding="10">
             <tr>
@@ -114,22 +71,10 @@
               <td>{{$t('homeHosted.row4')}}</td>
               <td>{{$t('homeHosted.row4-1')}}</td>
             </tr>
-            <tr>
-              <td>Session I ：</td>
-              <td>July 27th –August 3rd</td>
-            </tr>
-            <tr>
-              <td>Session II:</td>
-              <td>July 31st –August 12th</td>
-            </tr>
-            <tr>
-              <td>Pedagogy Scholar Session:</td>
-              <td>July 29th –August 7th</td>
-            </tr>
           </table>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 
@@ -139,39 +84,7 @@ export default {
   data() {
     return {};
   },
-  methods: {
-    onmovein() {
-      // let bannerWrap = document.getElementById('bannerWrap');
-      let tripLink = document.getElementById("tripLink");
-
-      /*function addClass(obj, cn) {
-            if (!hasClass(obj, cn)) {
-              obj.className += " " + cn;
-            }
-          }
-
-          function hasClass(obj, cn) {
-            var reg = new RegExp("\\b" + cn + "\\b");
-            return reg.test(obj.className);
-          }
-
-          function removeClass(obj, cn) {
-            var reg = new RegExp("\\b" + cn + "\\b");
-            obj.className = obj.className.replace(reg, "");
-          }
-
-          function toggleClass(obj, cn) {
-            if (hasClass(obj, cn)) {
-              removeClass(obj, cn);
-            } else {
-              //没有，则添加
-              addClass(obj, cn);
-            }
-          }
-
-          toggleClass(tripLink, `tripLink-hover`);*/
-    }
-  }
+  methods: {}
 };
 </script>
 
@@ -274,62 +187,5 @@ export default {
   border-radius: 5px;
   position: relative;
   cursor: pointer;
-}
-
-.tripLink {
-  text-align: center;
-  color: #ffffff;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: transparent;
-  -webkit-transition: all 1.5s;
-  -moz-transition: all 1.5s;
-  -o-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-.tripLinkText {
-  font-size: 4rem;
-  color: #ffffff;
-  z-index: 1;
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
-  cursor: pointer;
-  -webkit-transition: color 0.5s;
-  -moz-transition: color 0.5s;
-  -o-transition: color 0.5s;
-  transition: color 0.5s;
-}
-
-.tripLinkText:hover {
-  opacity: 0.8;
-  color: #ffc000;
-}
-
-.tripLinkText:hover + .tripLink {
-  opacity: 0.5;
-  background-color: #000000;
-}
-
-@media all and (max-width: 996px) {
-  .homeLogo {
-    width: 50px;
-  }
-
-  .tripLinkText {
-    color: #ffc000;
-    font-size: 1.2rem;
-    bottom: 20px;
-    right: 20px;
-  }
-
-  .tripLinkText:hover {
-    opacity: 1;
-    color: red;
-  }
 }
 </style>

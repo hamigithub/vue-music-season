@@ -38,6 +38,9 @@
             <tr>
               <td>{{$t('competition2020text2.row3')}}</td>
             </tr>
+            <tr>
+              <td>{{$t('competition2020text2.row4')}}</td>
+            </tr>
           </table>
         </div>
       </div>
@@ -82,19 +85,12 @@
           <h2>{{$t('competition2020text3.row1')}}</h2>
           <table>
             <tr>
-              <td>{{$t('competition2020text3.row2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('competition2020text3.row3')}}</td>
-            </tr>
-            <tr>
               <td>
-                <a href="http://www.coneromusicfestival.com">www.coneromusicfestival.com</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a href="#">support@coneromusicfestival.com</a>
+                {{$t('competition2020text3.row2')}}
+                <a
+                  href="http://www.coneromusicfestival.com"
+                >www.coneromusicfestival.com</a>
+                {{$t('competition2020text3.row3')}}
               </td>
             </tr>
             <tr>
@@ -268,6 +264,14 @@
             </tr>
             <tr>
               <td>{{$t('competition2020text5.row20')}}</td>
+            </tr>
+          </table>
+
+          <table class="padding-top15">
+            <tr>
+              <td class="font-bold">
+                <h3>{{$t('competition2020text5.row20-2')}}</h3>
+              </td>
             </tr>
           </table>
 
