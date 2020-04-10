@@ -4,8 +4,12 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="componentTitle committeeTitle">
-            <div class="titleBtn"><span class="titleBtnInside">{{$t('applyTitle.title')}}</span></div>
-            <div><p class="title_p">{{$t('appPublic.row2')}}</p></div>
+            <div class="titleBtn">
+              <span class="titleBtnInside">{{$t('applyTitle.title')}}</span>
+            </div>
+            <div>
+              <p class="title_p">{{$t('appPublic.row2')}}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -13,6 +17,39 @@
 
     <div class="container">
       <div class="row">
+        <div class="col-xs-6 col-md-3 padding-top50">
+          <div class="text-center">
+            <router-link :to="{name:'divisionUsa'}">
+              <div class="pointer-hand division-all division1">{{$t('division.row1')}}</div>
+            </router-link>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3 padding-top50">
+          <div class="text-center">
+            <router-link :to="{name:'divisionChina'}">
+              <div class="pointer-hand division-all division2">{{$t('division.row2')}}</div>
+            </router-link>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3 padding-top50">
+          <div class="text-center">
+            <router-link :to="{name:'divisionAustralia'}">
+              <div class="pointer-hand division-all division3">{{$t('division.row3')}}</div>
+            </router-link>
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3 padding-top50">
+          <div class="text-center">
+            <router-link :to="{name:'divisionOnline'}">
+              <div class="pointer-hand division-all division4">{{$t('division.row4')}}</div>
+            </router-link>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
         <div class="col-xs-12">
           <router-link to="/application/applyForm#applyForm">
             <div class="btn btnBgm">{{$t('applyTitle.title3')}}</div>
@@ -64,7 +101,7 @@
           <p class="padding-20 textIndent">{{$t('applyFee.wcPay3')}}</p>
         </div>
         <div class="col-xs-12 col-md-4 text-center">
-          <img class="wcPay" src="../assets/img/wcPay.jpg" alt="">
+          <img class="wcPay" src="../assets/img/wcPay.jpg" alt />
         </div>
       </div>
     </div>
@@ -114,320 +151,93 @@
         </div>
       </div>
     </div>
-
-    <div class="container">
-      <div class="row padding-top50">
-        <div class="col-xs-12 padding-top15">
-          <h1>{{$t('applyTitle.title2')}}</h1>
-          <p>{{$t('applyTitle.title2-2')}}</p>
-          <table>
-            <h2 class="padding-top15">{{$t('applyText1.title')}}</h2>
-            <tr>
-              <td>{{$t('applyText1.row1')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText1.row2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText1.row3')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText1.row4')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText1.row5')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText1.row6')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText1.row7')}}</td>
-            </tr>
-            <!--<tr>-->
-            <!--<td>{{$t('applyText1.row8')}}</td>-->
-            <!--</tr>-->
-            <tr>
-              <td>{{$t('applyText1.row9')}}</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <table>
-            <h2 class="padding-top15">{{$t('applyText2.title')}}</h2>
-            <tr>
-              <td>{{$t('applyText2.row1')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText2.row2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText2.row3')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText2.row4')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText2.row5')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText2.row6')}}</td>
-            </tr>
-            <!--<tr>-->
-            <!--<td>{{$t('applyText2.row7')}}</td>-->
-            <!--</tr>-->
-            <tr>
-              <td>{{$t('applyText2.row8')}}</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <table>
-            <h2 class="padding-top15">{{$t('applyText3.title')}}</h2>
-            <tr>
-              <td>{{$t('applyText3.row1')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText3.row2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText3.row3')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText3.row4')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText3.row5')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText3.row6')}}</td>
-            </tr>
-            <!--<tr>-->
-            <!--<td>{{$t('applyText3.row7')}}</td>-->
-            <!--</tr>-->
-            <tr>
-              <td>{{$t('applyText3.row8')}}</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <table>
-            <h2 class="padding-top15">{{$t('applyText4.title')}}</h2>
-            <tr>
-              <td>{{$t('applyText4.row1')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText4.row2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText4.row3')}}</td>
-            </tr>
-            <!--<tr>-->
-            <!--<td>{{$t('applyText4.row4')}}</td>-->
-            <!--</tr>-->
-            <tr>
-              <td>{{$t('applyText4.row5')}}</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <table>
-            <h2 class="padding-top15">{{$t('applyText5.title')}}</h2>
-            <tr>
-              <td>{{$t('applyText5.row1')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText5.row2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText5.row3')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText5.row4')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText5.row5')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText5.row6')}}</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <h1 class="padding-top15">{{$t('applyText6.title')}}</h1>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <table>
-            <h2 class="padding-top15">{{$t('applyText6.title1')}}</h2>
-            <tr>
-              <td>{{$t('applyText6.row1-2')}}</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <table>
-            <h3 class="padding-top15">{{$t('applyText6.title2')}}</h3>
-            <tr>
-              <td>{{$t('applyText6.row2-2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row2-3')}}</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <table>
-            <h3 class="padding-top15">{{$t('applyText6.title3')}}</h3>
-            <tr>
-              <td>{{$t('applyText6.row3-1')}}</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <table>
-            <h3 class="padding-top15">{{$t('applyText6.title4')}}</h3>
-            <tr>
-              <td>{{$t('applyText6.row4-1')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row4-2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row4-3')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row4-4')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row4-5')}}</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <table>
-            <h3 class="padding-top15">{{$t('applyText6.title5')}}</h3>
-            <tr>
-              <td>{{$t('applyText6.row5-1')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row5-2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row5-3')}}</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <table>
-            <h3 class="padding-top15">{{$t('applyText6.title6')}}</h3>
-            <tr>
-              <td>{{$t('applyText6.row6-1')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row6-2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row6-3')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row6-4')}}</td>
-            </tr>
-          </table>
-        </div>
-
-        <div class="col-xs-12 padding-top15">
-          <table>
-            <h2 class="padding-top15">{{$t('applyText6.title7')}}</h2>
-            <tr>
-              <td>{{$t('applyText6.row7-1')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row7-2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row7-3')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row7-4')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row7-5')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row7-6')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyText6.row7-7')}}</td>
-            </tr>
-          </table>
-        </div>
-
-      </div>
-    </div>
-
   </div>
 </template>
 
 <script>
-  export default {
-    name: "Application"
-  }
+export default {
+  name: "Application"
+};
 </script>
 
 <style scoped>
-  .wcPay {
-    width: 200px;
-  }
+.wcPay {
+  width: 200px;
+}
 
-  .titleBtn {
-    background-image: linear-gradient(90deg, #b219b6, #b6a60b);
-  }
+.titleBtn {
+  background-image: linear-gradient(90deg, #b219b6, #b6a60b);
+}
 
-  .applyFeeTitle {
-    padding: 5px 10px;
-  }
+.applyFeeTitle {
+  padding: 5px 10px;
+}
 
-  .btn {
-    display: inline-block;
-    padding: 20px;
-    font-size: 24px;
-    color: #fff;
-    border-radius: 3px;
-  }
+.btn {
+  display: inline-block;
+  padding: 20px;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 3px;
+}
 
-  .btnBgm {
-    background: linear-gradient(90deg, #7939aa, #a8306e, #a8431d, #7939aa);
-    background-size: 1400% 300%;
-    animation: mymove 3.5s ease infinite;
-    -webkit-animation: mymove 3.5s ease infinite;
-    -moz-animation: mymove 3.5s ease infinite;
-  }
+.btnBgm {
+  background: linear-gradient(90deg, #7939aa, #a8306e, #a8431d, #7939aa);
+  background-size: 1400% 300%;
+  animation: mymove 3.5s ease infinite;
+  -webkit-animation: mymove 3.5s ease infinite;
+  -moz-animation: mymove 3.5s ease infinite;
+}
 
-  @keyframes mymove {
-    0% {
-      background-position: 0 25%;
-    }
-    25% {
-      background-position: 25% 50%;
-    }
-    50% {
-      background-position: 50% 75%;
-    }
-    75% {
-      background-position: 75% 100%;
-    }
-    100% {
-      background-position: 100% 0;
-    }
+@keyframes mymove {
+  0% {
+    background-position: 0 25%;
   }
+  25% {
+    background-position: 25% 50%;
+  }
+  50% {
+    background-position: 50% 75%;
+  }
+  75% {
+    background-position: 75% 100%;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.passActivity {
+  float: right;
+  border-bottom: 1px solid #ccc;
+}
+
+.division-all {
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+
+.division-all:hover {
+  background: #e6d242;
+  color: #000000;
+  box-shadow: 1px 1px 1px #757575;
+}
+
+.division1 {
+  background: #c2254c;
+}
+
+.division2 {
+  background: #c2254c;
+}
+
+.division3 {
+  background: #c2254c;
+}
+
+.division4 {
+  background: #c2254c;
+}
 </style>

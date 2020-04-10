@@ -4,10 +4,7 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <div class="text-center">
-            <h1>
-              2020 Conero International Piano Competition
-              Kansas City, US
-            </h1>
+            <h1>2020 Conero International Piano Competition, US Division</h1>
           </div>
         </div>
       </div>
@@ -15,18 +12,10 @@
 
     <div class="container">
       <div class="row padding-top50">
-        <div class="col-xs-12 col-md-6">
-          <p>
-            <span class="font-bold">Location:</span> Performance Center, Schmitt Music.
-          </p>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <p>
-            <span class="font-bold">Dates:</span> March 27th-29th
-          </p>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <p>7315 W 119th St, Overland Park, KS 66213</p>
+        <div class="col-xs-12">
+          <p
+            class="font-bold"
+          >Due to the COVID-19 outbreak, the live competition located in Kansas City will be operated online. The first round deadline is Apirl 30th 2020.</p>
         </div>
       </div>
       <div class="row padding-top50">
@@ -52,12 +41,7 @@
       </div>
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <p>
-            Information about competition rules and eligibility will be available at the festival website as well as in the informational brochure below. Applications for the Kansas City, US competition are due by March 18th, 2020 and must be submitted with a $30 non-refundable application fee. Please follow the link for the Kansas City, US competition here:
-            <a
-              href="http://www.coneromusicfestival.com/competition"
-            >http://www.coneromusicfestival.com/competition</a>
-          </p>
+          <p>Information about US national competition rules and eligibility is available at the festival website as well as in the informational brochure below. Applications for the US competition are due by April 30th, 2020 and must be submitted with a $30 non-refundable application fee. Please complete your application below.</p>
         </div>
       </div>
     </div>
@@ -74,23 +58,23 @@
             <div class="col-xs-12 col-md-6">
               <div class="text-center">
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="CL448JFGF8SKJ" />
-                <input
-                  type="image"
-                  src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
-                  border="0"
-                  name="submit"
-                  alt="PayPal - The safer, easier way to pay online!"
-                />
-                <img
-                  alt
-                  border="0"
-                  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                  width="1"
-                  height="1"
-                />
-              </form>
+                  <input type="hidden" name="cmd" value="_s-xclick" />
+                  <input type="hidden" name="hosted_button_id" value="CL448JFGF8SKJ" />
+                  <input
+                    type="image"
+                    src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+                    border="0"
+                    name="submit"
+                    alt="PayPal - The safer, easier way to pay online!"
+                  />
+                  <img
+                    alt
+                    border="0"
+                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                    width="1"
+                    height="1"
+                  />
+                </form>
               </div>
               <p class="padding-20">{{$t('applyFee.ps')}}</p>
             </div>
@@ -136,7 +120,7 @@
           >Participants will receive written feedback about their performance from judges (including where they can improve, best parts of the performance, etc).</p>
           <p
             class="padding-top20 font-bold"
-          >All contestants must meet the age requirements at the time of the competition. If their birthday will place them in another age category, that birthday must take place after March 29th, 2020.</p>
+          >All contestants must meet the age requirements at the time of the competition. If their birthday will place them in another age category, that birthday must take place after April 30th, 2020.</p>
         </div>
       </div>
     </div>
@@ -145,28 +129,18 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h2>Awards</h2>
-          <h3
-            class="padding-top20"
-          >The top six winners of each division will advance to the final round in Italy. They will also be eligible for scholarships to participate in the Conero International Piano Festival and Competition.</h3>
-          <p class="padding-top20 textIndent">
-            <span class="font-bold">• Professional Adult Division:</span> Maximum
-            <span class="font-bold">2000 Euros scholarship</span>
-          </p>
-          <p class="textIndent">
-            <span class="font-bold">• Piano Teachers Division:</span> Maximum
-            <span class="font-bold">1000 Euros scholarship</span>; also, will have priority to be selected to give a pedagogy lecture in the festival.
-          </p>
-          <p class="textIndent">
-            <span class="font-bold">• Senior and Junior Division:</span> Maximum
-            <span class="font-bold">500 Euros scholarship</span>
-          </p>
-          <p class="textIndent">
-            <span class="font-bold">• Amateur Adult Division:</span> Maximum
-            <span class="font-bold">200 Euros scholarship</span>
-          </p>
           <p
-            class="padding-top20 font-bold"
-          >The scholarships will not be received as cash; they will apply to the festival tuition.</p>
+            class="padding-top20 textIndent"
+          >1 Each winner will be awarded a certificate of award，comment of the performance from the jury and a souvenir of Conero International Piano Festival.</p>
+          <p
+            class="padding-top20 textIndent"
+          >2 The top six winners of each division will advance to the final round in August.</p>
+          <p
+            class="padding-top20 textIndent"
+          >3 The first prize of each group will be awarded full scholarship in order to participate in the 2020 Conero International Festival(Online).</p>
+          <p
+            class="padding-top20 textIndent"
+          >4 The 1st prize of Piano Teachers’ Group will have the priority of attending the forum of pedagogy in the Conero International Festival.</p>
         </div>
       </div>
     </div>
@@ -174,24 +148,20 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <h2>Rules</h2>
-          <p class="padding-top20">1) All the pieces should be performed from memory.</p>
-          <p>2) Changes will not be allowed once the repertoires have been submitted.</p>
-          <p>3) Piano concertos, original compositions, and transcriptions done by the participant are not accepted.</p>
-          <p>4) Repeats are not required except the place marked with D.C.</p>
-          <p>5) Judges have the right to interrupt competitors’ performance and ask them to perform certain sections, which will not influence competitors’ scores.</p>
-          <p>6) Judges reserve the right of final decision.</p>
-          <p>7) The national final will be open to the public.</p>
-          <p>8) The Competition committee has the copyright of performance’s videos, audios and pictures of the competition and the award ceremony. The organizing committee has the legal right of using these materials.</p>
-          <p>9) The Organizing committee reserves all the right for the final interpretation.</p>
-          <p>10) During the competition, competitors are responsible for their own health, injuries, accidents and any theft, loss, and/or damage to their persons or property.</p>
-          <p>11) Shall get their visa by themselves if they go to Italy for the final. If competitors need an invitation letter for the visa, please contact the organizing committee.</p>
-          <p class="padding-top20 font-bold">
-            For the Final Competition Rules and Regulation, please visit
-            <a
-              href="http://www.coneromusicfestival.com"
-            >www.coneromusicfestival.com</a>
-          </p>
+          <h2>Competition Regulations</h2>
+          <p
+            class="padding-top20"
+          >1) Because of the corona virus, the 2020 competition will be held online through video recording submission</p>
+          <p>2) All the pieces should be performed from memory.</p>
+          <p>3) Changes would not be allowed once the repertoires are submitted.</p>
+          <p>4) Piano concerto, own composition, or own transcriptions are not accepted.</p>
+          <p>5) Repeats are not required except the place marked with D.C..</p>
+          <p>6) Video recordings must be performed by applicants and may not be edited (the performance must be 'one take', no cuts), nor should any effects be added.（You will not be penalized for the recording quality of your video, although it is important that it is good enough for the jury to be able to see and hear you clearly.）</p>
+          <p>7) Preliminary videos should be recorded no more than 12 months before the date of your submission. Final round videos should be recorded after 2020 June.</p>
+          <p>8) Judges reserve the right of final decision.</p>
+          <p>9) The organizing competition committee has the copyright of performance’s videos, audios and pictures of the competition and the award ceremony. The organizing competition committee has the legal right of using these materials.</p>
+          <p>10) The organizing competition committee reserves all the right for the final interpretation.</p>
+          <p>In order to express our love and care for the medical workers who fought against the epidemic of 2019-nCoV, their children who sigh up to participate in the preliminary will be exempt from the registration fee. Please contact us if you are eligible.</p>
         </div>
       </div>
     </div>
