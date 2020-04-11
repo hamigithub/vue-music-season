@@ -52,7 +52,7 @@
           <div class="row">
             <div class="col-xs-12 col-md-6 text-center padding-bottom20">
               <router-link to="/division/usa/apply">
-                <div class="btn btnBgm">{{$t('applyTitle.title3')}}</div>
+                <div class="btn btnBgm">{{$t('applyTitle.title2')}}</div>
               </router-link>
             </div>
             <div class="col-xs-12 col-md-6">

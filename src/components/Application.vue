@@ -16,7 +16,11 @@
     </div>
 
     <div class="container">
-      <div class="row">
+      <div class="row padding-bottom100">
+        <div class="col-xs-12">
+          <div class="btn btnBgm">{{$t('applyTitle.title2')}}</div>
+        </div>
+
         <div class="col-xs-6 col-md-3 padding-top50">
           <div class="text-center">
             <router-link :to="{name:'divisionUsa'}">
@@ -93,16 +97,16 @@
           <!--name="submit" alt="PayPal - The safer, easier way to pay online!">-->
           <!--<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">-->
           <!--</form>-->
-          <p class="padding-20">{{$t('applyFee.ps')}}</p>
+          <!-- <p class="padding-20">{{$t('applyFee.ps')}}</p> -->
         </div>
-        <div class="col-xs-12 col-md-4">
+        <!-- <div class="col-xs-12 col-md-4">
           <p class="padding-20 textIndent">{{$t('applyFee.wcPay1')}}</p>
           <p class="textIndent">{{$t('applyFee.wcPay2')}}</p>
           <p class="padding-20 textIndent">{{$t('applyFee.wcPay3')}}</p>
-        </div>
-        <div class="col-xs-12 col-md-4 text-center">
+        </div> -->
+        <!-- <div class="col-xs-12 col-md-4 text-center">
           <img class="wcPay" src="../assets/img/wcPay.jpg" alt />
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -128,24 +132,6 @@
             </tr>
             <tr>
               <td>{{$t('applyInstructions.row3')}}</td>
-            </tr>
-            <!--<tr>-->
-            <!--<td class="font-bold">{{$t('applyInstructions.title4')}}</td>-->
-            <!--</tr>-->
-            <!--<tr>-->
-            <!--<td>{{$t('applyInstructions.row4')}}</td>-->
-            <!--</tr>-->
-            <tr>
-              <td class="font-bold">{{$t('applyInstructions.title5')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyInstructions.row5')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyInstructions.row6')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyInstructions.row7')}}</td>
             </tr>
           </table>
         </div>
