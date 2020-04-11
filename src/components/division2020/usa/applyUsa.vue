@@ -266,7 +266,7 @@
             </div>
 
             <div class="padding-top15">
-              <div>{{$t('applyForm.recordingLink')}}</div>
+              <div>RecordingLink:</div>
               <div>
                 <label class="font12">
                   <input

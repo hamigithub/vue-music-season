@@ -14,12 +14,12 @@
       <div class="row padding-top50">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-6 text-center padding-bottom20">
+            <div class="col-xs-12 col-md-4 text-center padding-bottom20">
               <router-link to="/division/china/apply">
                 <div class="btn btnBgm">{{$t('applyTitle.title2')}}</div>
               </router-link>
             </div>
-            <div class="col-xs-12 col-md-6">
+            <div class="col-xs-12 col-md-4">
               <div class="text-center">
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick" />
@@ -40,7 +40,12 @@
                   />
                 </form>
               </div>
-              <p class="padding-20">{{$t('applyFee.ps')}}</p>
+              <p class="padding-20 text-center">{{$t('applyFee.ps')}}</p>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center padding-bottom20">
+              <div class="payImg">
+                <img src="../../../assets/img/chinaPay.jpg" alt />
+              </div>
             </div>
           </div>
         </div>
@@ -49,8 +54,8 @@
 
     <div class="container">
       <div class="row padding-top50">
-        <h2>{{$t('divisionChina.category-title')}}</h2>
         <div class="col-xs-12">
+          <h2>{{$t('divisionChina.category-title')}}</h2>
           <p class="padding-top20">{{$t('divisionChina.category1')}}</p>
           <p>{{$t('divisionChina.category2')}}</p>
         </div>
@@ -156,5 +161,26 @@ export default {
   animation: mymove 3.5s ease infinite;
   -webkit-animation: mymove 3.5s ease infinite;
   -moz-animation: mymove 3.5s ease infinite;
+}
+
+@keyframes mymove {
+  0% {
+    background-position: 0 25%;
+  }
+  25% {
+    background-position: 25% 50%;
+  }
+  50% {
+    background-position: 50% 75%;
+  }
+  75% {
+    background-position: 75% 100%;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+.payImg img {
+  width: 60%;
 }
 </style>

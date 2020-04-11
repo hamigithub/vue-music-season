@@ -3,11 +3,8 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <h1>Competition Application，US</h1>
-          <p
-            v-show="key!==1"
-            class="padding-top15"
-          >Please complete the form below, and submit your application fee via Paypal on the main Application page.</p>
+          <h1>{{$t('divisionChina.apply-title')}}</h1>
+          <p v-show="key!==1" class="padding-top15">{{$t('divisionChina.apply-title2')}}</p>
         </div>
       </div>
     </div>
@@ -17,7 +14,7 @@
         <div class="col-md-8 col-xs-12">
           <form>
             <div class="padding-top15">
-              <div>Name:</div>
+              <div>{{$t('divisionChina.apply1')}}</div>
               <div class="inputWrap formWrap">
                 <label class="font12">
                   <input
@@ -55,7 +52,7 @@
             <div class="padding-top15">
               <div class="inputWrap formWrap">
                 <label class="font12">
-                  <span>Date Of Birth:</span>
+                  <span>{{$t('divisionChina.apply2')}}</span>
                   <input
                     class="inputBox"
                     v-model="participant.dateOfBirth"
@@ -65,7 +62,7 @@
               </div>
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
-                  <span>Country Of Birth:</span>
+                  <span>{{$t('divisionChina.apply3')}}</span>
                   <input class="inputBox" v-model="participant.countryOfBirth" placeholder />
                 </label>
               </div>
@@ -75,12 +72,12 @@
 
             <div class="padding-top15">
               <div class="wrapMargin">
-                <span>Gender:</span>
+                <span>{{$t('divisionChina.apply4')}}</span>
                 <label>
                   <select v-model="participant.gender">
-                    <option disabled value>Please Select</option>
-                    <option>Male</option>
-                    <option>Female</option>
+                    <option disabled value>{{$t('divisionChina.apply5')}}</option>
+                    <option>{{$t('divisionChina.apply6')}}</option>
+                    <option>{{$t('divisionChina.apply7')}}</option>
                   </select>
                 </label>
               </div>
@@ -89,7 +86,7 @@
             <div class="clearfix"></div>
 
             <div class="padding-top15">
-              <div>E-mail：</div>
+              <div>{{$t('divisionChina.apply8')}}</div>
               <div>
                 <label class="font12">
                   <input
@@ -106,7 +103,7 @@
             </div>
 
             <div class="padding-top15">
-              <div>Phone Number:</div>
+              <div>{{$t('divisionChina.apply9')}}</div>
               <div>
                 <label class="font12">
                   <input
@@ -119,7 +116,7 @@
             </div>
 
             <div class="padding-top15">
-              <div>Address Line 1:</div>
+              <div>{{$t('divisionChina.apply10')}}</div>
               <div>
                 <label class="font12">
                   <input class="inputBox" v-model="participant.addressLine1" placeholder />
@@ -128,7 +125,7 @@
             </div>
 
             <div class="padding-top15">
-              <div>Address Line 2:</div>
+              <div>{{$t('divisionChina.apply11')}}</div>
               <div>
                 <label class="font12">
                   <input class="inputBox" v-model="participant.addressLine2" placeholder />
@@ -139,25 +136,25 @@
             <div class="padding-top15">
               <div class="inputWrap20 formWrap">
                 <label class="font12">
-                  <span>City:</span>
+                  <span>{{$t('divisionChina.apply12')}}</span>
                   <input class="inputBox" v-model="participant.city" placeholder />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
-                  <span>Province:</span>
+                  <span>{{$t('divisionChina.apply13')}}</span>
                   <input class="inputBox" v-model="participant.province" placeholder />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
-                  <span>Postal Code:</span>
+                  <span>{{$t('divisionChina.apply14')}}</span>
                   <input class="inputBox" v-model="participant.postalCode" placeholder />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
-                  <span>Country Of Residence</span>
+                  <span>{{$t('divisionChina.apply15')}}</span>
                   <input class="inputBox" v-model="participant.countryOfResidence" placeholder />
                 </label>
               </div>
@@ -166,7 +163,7 @@
             <div class="clearfix"></div>
 
             <div class="padding-top15">
-              <div>Education:</div>
+              <div>{{$t('divisionChina.apply16')}}</div>
               <div>
                 <label class="font12">
                   <input class="inputBox" v-model="participant.education" placeholder="Education" />
@@ -175,7 +172,7 @@
             </div>
 
             <div class="padding-top15">
-              <div>Bio:</div>
+              <div>{{$t('divisionChina.apply17')}}</div>
               <div class="wrapMargin">
                 <label class="font12">
                   <textarea class="textArea" v-model="participant.bio"></textarea>
@@ -185,14 +182,14 @@
 
             <div class="padding-top15">
               <div class="wraoMargin">
-                <span>How You Found:</span>
+                <span>{{$t('divisionChina.apply18')}}</span>
                 <label>
                   <select v-model="participant.howYouFound">
-                    <option disabled value>Please Select</option>
-                    <option>Social Media</option>
-                    <option>Professor/Teacher</option>
-                    <option>Friend/Colleague</option>
-                    <option>Other</option>
+                    <option disabled value>{{$t('divisionChina.apply5')}}</option>
+                    <option>{{$t('divisionChina.apply19')}}</option>
+                    <option>{{$t('divisionChina.apply20')}}</option>
+                    <option>{{$t('divisionChina.apply21')}}</option>
+                    <option>{{$t('divisionChina.apply22')}}</option>
                   </select>
                 </label>
               </div>
@@ -201,7 +198,7 @@
             <div class="clearfix"></div>
 
             <div class="padding-top15">
-              <div>Parents/Guardian Email:</div>
+              <div>{{$t('divisionChina.apply23')}}</div>
               <div>
                 <label class="font12">
                   <input
@@ -214,7 +211,7 @@
             </div>
 
             <div class="padding-top15">
-              <div>Parent Phone Number:</div>
+              <div>{{$t('divisionChina.apply24')}}</div>
               <div>
                 <label class="font12">
                   <input class="inputBox" v-model="participant.parentPhoneNumber" placeholder />
@@ -225,13 +222,13 @@
             <div class="padding-top15">
               <div class="inputWrap formWrap">
                 <label class="font12">
-                  <span>Piano Teacher Name:</span>
+                  <span>{{$t('divisionChina.apply25')}}</span>
                   <input class="inputBox" v-model="participant.pianoTeacherName" placeholder />
                 </label>
               </div>
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
-                  <span>Piano Teacher Phone Number:</span>
+                  <span>{{$t('divisionChina.apply26')}}</span>
                   <input class="inputBox" v-model="participant.pianoTeacherPhoneNumber" placeholder />
                 </label>
               </div>
@@ -240,7 +237,7 @@
             <div class="clearfix"></div>
 
             <div class="padding-top15">
-              <div>Piano Teacher Email:</div>
+              <div>{{$t('divisionChina.apply27')}}</div>
               <div>
                 <label class="font12">
                   <input
@@ -253,7 +250,7 @@
             </div>
 
             <div class="padding-top15">
-              <div>Competition Category:</div>
+              <div>{{$t('divisionChina.apply28')}}</div>
               <div>
                 <label class="font12">
                   <input
@@ -266,7 +263,7 @@
             </div>
 
             <div class="padding-top15">
-              <div>{{$t('applyForm.recordingLink')}}</div>
+              <div>{{$t('divisionChina.apply29')}}</div>
               <div>
                 <label class="font12">
                   <input
@@ -284,7 +281,7 @@
                   class="submitBtn"
                   @click.prevent="onSubmit"
                   :disabled="submitDisabled!==0"
-                >Submit</button>
+                >{{$t('divisionChina.apply30')}}</button>
               </div>
             </div>
           </form>
