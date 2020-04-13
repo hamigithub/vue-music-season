@@ -24,7 +24,7 @@
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick" />
                   <input type="hidden" name="hosted_button_id" value="LXVMMJ5HA8X5L" />
-                  <table>
+                  <table class="feeTable">
                     <tr>
                       <td>
                         <input type="hidden" name="on0" value="Participant name(s):" />Participant name(s):
@@ -43,7 +43,13 @@
                     name="submit"
                     alt="PayPal - The safer, easier way to pay online!"
                   />
-                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  <img
+                    alt
+                    border="0"
+                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                    width="1"
+                    height="1"
+                  />
                 </form>
               </div>
               <p class="padding-20 text-center">{{$t('applyFee.ps')}}</p>
@@ -186,7 +192,12 @@ export default {
     background-position: 100% 0;
   }
 }
+
 .payImg img {
   width: 60%;
+}
+
+.feeTable {
+  margin: 0 auto;
 }
 </style>
