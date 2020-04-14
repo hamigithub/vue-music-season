@@ -54,9 +54,7 @@
               <router-link to="/division/usa/apply">
                 <div class="btn btnBgm">{{$t('applyTitle.title2')}}</div>
               </router-link>
-            </div>
-            <div class="col-xs-12 col-md-6">
-              <div class="text-center">
+              <div class="text-center padding-top20">
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick" />
                   <input type="hidden" name="hosted_button_id" value="CL448JFGF8SKJ" />
@@ -77,6 +75,11 @@
                 </form>
               </div>
               <p class="padding-20">{{$t('applyFee.ps')}}</p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div class="imgWrap text-center">
+                <img src="../../../assets/img/posterUS.png" alt />
+              </div>
             </div>
           </div>
         </div>
@@ -215,5 +218,9 @@ export default {
   100% {
     background-position: 100% 0;
   }
+}
+
+.imgWrap img {
+  width: 80%;
 }
 </style>

@@ -54,59 +54,16 @@
 
     <div class="container">
       <div class="row padding-top50">
-        <div class="col-xs-12">
+        <div class="col-xs-12 col-md-6">
           <router-link to="/application/applyForm#applyForm">
             <div class="btn btnBgm">{{$t('applyTitle.title3')}}</div>
           </router-link>
         </div>
-      </div>
-      <div class="row padding-top20">
-        <div class="col-xs-12 col-md-4">
-          <!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">-->
-          <!--<input type="hidden" name="cmd" value="_xclick">-->
-          <!--<input type="hidden" name="business" value="associazioneclaraschumann2018@gmail.com">-->
-          <!--<input type="hidden" name="lc" value="US">-->
-          <!--<input type="hidden" name="item_name" value="Festival and Competition Fees">-->
-          <!--<input type="hidden" name="button_subtype" value="services">-->
-          <!--<input type="hidden" name="no_note" value="0">-->
-          <!--<input type="hidden" name="currency_code" value="EUR">-->
-          <!--<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">-->
-          <!--<table>-->
-          <!--<tr>-->
-          <!--<td><input type="hidden" name="on0" value="Fees">{{$t('applyFee.applicationFee')}}</td>-->
-          <!--</tr>-->
-          <!--<tr>-->
-          <!--<td><select name="os0">-->
-          <!--<option value="Festival Application">{{$t('applyFee.option1')}}</option>-->
-          <!--<option value="Festival Deposit">{{$t('applyFee.option2')}}</option>-->
-          <!--<option value="Competition final 1">{{$t('applyFee.option3')}}</option>-->
-          <!--<option value="Competition final 2">{{$t('applyFee.option4')}}</option>-->
-          <!--</select></td>-->
-          <!--</tr>-->
-          <!--</table>-->
-          <!--<input type="hidden" name="option_select0" value="Festival Application">-->
-          <!--<input type="hidden" name="option_amount0" value="150.00">-->
-          <!--<input type="hidden" name="option_select1" value="Festival Deposit">-->
-          <!--<input type="hidden" name="option_amount1" value="500.00">-->
-          <!--<input type="hidden" name="option_select2" value="Competition final 1">-->
-          <!--<input type="hidden" name="option_amount2" value="60.00">-->
-          <!--<input type="hidden" name="option_select3" value="Competition final 2">-->
-          <!--<input type="hidden" name="option_amount3" value="80.00">-->
-          <!--<input type="hidden" name="option_index" value="0">-->
-          <!--<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0"-->
-          <!--name="submit" alt="PayPal - The safer, easier way to pay online!">-->
-          <!--<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">-->
-          <!--</form>-->
-          <!-- <p class="padding-20">{{$t('applyFee.ps')}}</p> -->
+        <div class="col-xs-12 col-md-6">
+          <div class="imgWrap text-center padding-top20">
+            <img src="../assets/img/posterEnd.jpg" alt />
+          </div>
         </div>
-        <!-- <div class="col-xs-12 col-md-4">
-          <p class="padding-20 textIndent">{{$t('applyFee.wcPay1')}}</p>
-          <p class="textIndent">{{$t('applyFee.wcPay2')}}</p>
-          <p class="padding-20 textIndent">{{$t('applyFee.wcPay3')}}</p>
-        </div> -->
-        <!-- <div class="col-xs-12 col-md-4 text-center">
-          <img class="wcPay" src="../assets/img/wcPay.jpg" alt />
-        </div> -->
       </div>
     </div>
 
@@ -225,5 +182,9 @@ export default {
 
 .division4 {
   background: #c2254c;
+}
+
+.imgWrap img {
+  width: 80%;
 }
 </style>

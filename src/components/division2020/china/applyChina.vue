@@ -250,14 +250,21 @@
             </div>
 
             <div class="padding-top15">
-              <div>{{$t('divisionChina.apply28')}}</div>
               <div>
-                <label class="font12">
-                  <input
-                    class="inputBox"
-                    v-model="participant.competitionCategory"
-                    placeholder="Type In"
-                  />
+                <span>{{$t('divisionChina.apply28')}}</span>
+                <label>
+                  <select v-model="participant.competitionCategory">
+                    <option disabled value>{{$t('divisionChina.apply5')}}</option>
+                    <option>{{$t('divisionChina.apply28-2')}}</option>
+                    <option>{{$t('divisionChina.apply28-3')}}</option>
+                    <option>{{$t('divisionChina.apply28-4')}}</option>
+                    <option>{{$t('divisionChina.apply28-5')}}</option>
+                    <option>{{$t('divisionChina.apply28-6')}}</option>
+                    <option>{{$t('divisionChina.apply28-7')}}</option>
+                    <option>{{$t('divisionChina.apply28-8')}}</option>
+                    <option>{{$t('divisionChina.apply28-9')}}</option>
+                    <option>{{$t('divisionChina.apply28-10')}}</option>
+                  </select>
                 </label>
               </div>
             </div>
