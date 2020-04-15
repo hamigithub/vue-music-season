@@ -293,12 +293,7 @@
       <div class="row">
         <div class="col-xs-12 padding-top50">
           <div class="asafWrap">
-            <p
-              class="padding-top15"
-            >Dear friends, due to the COVID-19 outbreak, we have decided to operate the entire festival online. We are currently working on reshceduling the online festival. Thanks for your patience. Please stay well and healthy and we are looking forward to making music in beautiful Recanati in 2021!</p>
-            <p
-              class="padding-top15"
-            >亲爱的朋友们， 由于COVID-19的爆发，我们决定将整个艺术节进行网上运作。目前我们正在紧锣密鼓的重新调整艺术节的行程，谢谢你们的理解和耐心。请大家多多保重身体健康， 我们期待2021年在美丽的雷卡纳蒂重聚！</p>
+            <p class="padding-top15">{{$t('appPublic.virus')}}</p>
           </div>
         </div>
       </div>

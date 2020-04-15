@@ -117,6 +117,152 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
+          <h2>2020科雷诺国际钢琴比赛 中国赛区评审团</h2>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <div class="flexBox">
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_1.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('divisionChina.cnJudge.ycg.name')}}</p>
+                  <p class="padding-top5">{{$t('divisionChina.cnJudge.ycg.title1')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.ycg.title2')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.ycg.title3')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.ycg.title4')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.ycg.title5')}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_2.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('divisionChina.cnJudge.xjx.name')}}</p>
+                  <p class="padding-top5">{{$t('divisionChina.cnJudge.xjx.title1')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.xjx.title2')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.xjx.title3')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.xjx.title4')}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_3.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('divisionChina.cnJudge.lyt.name')}}</p>
+                  <p class="padding-top5">{{$t('divisionChina.cnJudge.lyt.title1')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.lyt.title2')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.lyt.title3')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.lyt.title4')}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_4.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('divisionChina.cnJudge.zy.name')}}</p>
+                  <p class="padding-top5">{{$t('divisionChina.cnJudge.zy.title1')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.zy.title2')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.zy.title3')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.zy.title4')}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_5.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('divisionChina.cnJudge.wyq.name')}}</p>
+                  <p class="padding-top5">{{$t('divisionChina.cnJudge.wyq.title1')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.wyq.title2')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.wyq.title3')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.wyq.title4')}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_6.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('divisionChina.cnJudge.dy.name')}}</p>
+                  <p class="padding-top5">{{$t('divisionChina.cnJudge.dy.title1')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.dy.title2')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.dy.title3')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.dy.title4')}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_7.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('divisionChina.cnJudge.lj.name')}}</p>
+                  <p class="padding-top5">{{$t('divisionChina.cnJudge.lj.title1')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.lj.title2')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.lj.title3')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.lj.title4')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.lj.title5')}}</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_8.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('divisionChina.cnJudge.ccc.name')}}</p>
+                  <p class="padding-top5">{{$t('divisionChina.cnJudge.ccc.title1')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.ccc.title2')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.ccc.title3')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.ccc.title4')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.ccc.title5')}}</p>
+                  <p>{{$t('divisionChina.cnJudge.ccc.title6')}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
           <h2>{{$t('divisionChina.awards-title')}}</h2>
           <p class="padding-top20">{{$t('divisionChina.awards1')}}</p>
           <p class="padding-top20">{{$t('divisionChina.awards2')}}</p>
@@ -199,5 +345,43 @@ export default {
 
 .feeTable {
   margin: 0 auto;
+}
+
+.imgWrap {
+  margin-top: 10px;
+}
+.titleWrap {
+  padding: 10px 20px;
+}
+
+.titleWrap p {
+  font-size: 12px;
+  text-align: left;
+}
+
+.judgeImg {
+  width: 250px;
+  border-radius: 5%;
+}
+
+.flexBox {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-child {
+  display: inline-block;
+  width: 25%;
+}
+
+@media (max-width: 992px) {
+  .judgeImg {
+    width: 150px;
+  }
+
+  .box-child {
+    width: 50%;
+  }
 }
 </style>

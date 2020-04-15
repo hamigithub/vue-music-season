@@ -61,6 +61,16 @@
     </div>
 
     <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="imgWrap text-center padding-top20">
+            <img src="../assets/img/posterEnd.jpg" alt />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h2 class="padding-bottom10">{{$t('competition2020text2.row1')}}</h2>
@@ -470,5 +480,11 @@ export default {
 
 .division4 {
   background: #c2254c;
+}
+
+@media (max-width: 992px) {
+  .imgWrap img {
+    width: 80%;
+  }
 }
 </style>

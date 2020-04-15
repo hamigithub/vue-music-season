@@ -2,7 +2,8 @@
   "appPublic": {
     "row1": "Introduction",
     "row2": "2020 Conero International Music Festival & Competition",
-    "row3": "Back"
+    "row3": "Back",
+    "virus": "Dear friends, due to the COVID-19 outbreak, we have decided to operate the entire festival online. We are currently working on reshceduling the online festival. Thanks for your patience. Please stay well and healthy and we are looking forward to making music in beautiful Recanati in 2021!"
   },
   "appNavText": {
     "home": "Home",
@@ -537,7 +538,69 @@
     "apply28-9": "Children Group 1",
     "apply28-10": "Children Group 2",
     "apply29": "RecordingLink:",
-    "apply30": "Submit"
+    "apply30": "Submit",
+    "cnJudge": {
+      "ycg": {
+        "name": "Chengang Yang",
+        "title1": "Vice Chair and Professor, Piano Department at Sichuan Conservatory of Music",
+        "title2": "Reserve Candidate, Academic Leader of Sichuan Province",
+        "title3": "Vice President, Sichuan piano society",
+        "title4": "",
+        "title5": ""
+      },
+      "xjx": {
+        "name": "Jingxian Xie",
+        "title1": "Expert of Alexander Technique",
+        "title2": "Associate Professor, Piano Department at Shanghai Conservatory of Music",
+        "title3": "Prize Winner of Munich International, Seiler International and Stravinsky Competition",
+        "title4": ""
+      },
+      "lyt": {
+        "name": "Yuntian Liu",
+        "title1": "Yamaha Artist",
+        "title2": "Golden Prize Winner of the prestigious Golden Bell Award",
+        "title3": "Instructor, Piano Department at Xinghai Conservatory of Music",
+        "title4": ""
+      },
+      "zy": {
+        "name": "Ying Zhou",
+        "title1": "Director of the Collaborative Piano at Central Conservatory of Music",
+        "title2": "Instructor, Raffles School of Music, Singapore",
+        "title3": "Guest Artist, Synpura Conservatory of Music",
+        "title4": ""
+      },
+      "wyq": {
+        "name": "Yiqing Wu",
+        "title1": "Associate professor, department of piano, wuhan conservatory of music",
+        "title2": "Chair, Keyboard Skills Research at Piano Departmen",
+        "title3": "Master Supervisor",
+        "title4": "Vice Secretary, Hubei Piano Professional Committee"
+      },
+      "dy": {
+        "name": "Yang Ding",
+        "title1": "Yamaha artist",
+        "title2": "D. M. A at North Texas University, USA",
+        "title3": "Instructor, Piano Department, Zhejiang Conservatory of Music",
+        "title4": ""
+      },
+      "lj": {
+        "name": "Jia Liu",
+        "title1": "Associate Professor, Piano Department at Xi’an Conservatory of Music",
+        "title2": "Former Vice Chair, Piano Department",
+        "title3": "Council member, Chinese Piano Society",
+        "title4": "President, Xi’an Piano Association",
+        "title5": ""
+      },
+      "ccc": {
+        "name": "Congcong Chai",
+        "title1": "Director, IBLA China",
+        "title2": "Faculty, International Institute for Young Musicians",
+        "title3": "Founder and Co-Artist Director, Conero International Piano Festival and Competition",
+        "title4": "Visiting Professor, Hainan University",
+        "title5": "Piano Instructor, Wuhan Conservatory of Music",
+        "title6": ""
+      }
+    }
   },
   "divisionAustralia": {
     "row1": "Conero Music Festival & Australian Music World",
