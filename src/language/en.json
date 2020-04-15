@@ -22,7 +22,7 @@
   },
   "homeTitle": {
     "row1": "We value the health and well-being of everyone interested in the 2020 Conero International Piano Festival & Competition.  We had hoped to continue providing in-person music activities while abiding by the guidelines set by the public health officials, but due to the continued spread of COVID-19, this is no longer possible. As a result, we have decided to operate the whole competition and festival online. We thank you for your understanding at this time and we are currently working on rescheduling  the online festival. We will be in touch with updates as they happen. We appreciate your patience as we assess this situation and let’s continue to make music! ",
-    "row2": "2020 Conero International Piano Competition Final: August 10th"
+    "row2": "2020 Conero International Piano Competition Final: August 10th"
   },
   "homeSubject": {
     "row1": "The 2020 Conero International Music Festival & Competition is designed for students of piano (both young and adult, professional and amateur) and piano teachers from all around the world, aiming to share the art of music making and music education. Hosted by International Piano Professionals Association. The festival committee strives to provide the best resources for participants. The renowned international faculty will teach musical technique and musicianship while nurturing the development of individual artistry. Significant funds are available for scholarships, which the festival committee will distribute according to the merit of the student’s application.",
@@ -527,6 +527,8 @@
     "apply25": "Piano Teacher Name:",
     "apply26": "Piano Teacher Phone Number:",
     "apply27": "Piano Teacher Email:",
+    "apply27-2":"Reference/Competition Category Name",
+    "apply27-3":"Phone number",
     "apply28": "Competition Category:",
     "apply28-2": "Piano Teachers' Group",
     "apply28-3": "Professional Adult Group",

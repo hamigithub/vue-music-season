@@ -250,6 +250,23 @@
             </div>
 
             <div class="padding-top15">
+              <div class="inputWrap formWrap">
+                <label class="font12">
+                  <span>{{$t('divisionChina.apply27-2')}}</span>
+                  <input class="inputBox" v-model="participant.referenceName" placeholder />
+                </label>
+              </div>
+              <div class="inputWrap formWrap marginLeft2">
+                <label class="font12">
+                  <span>{{$t('divisionChina.apply27-3')}}</span>
+                  <input class="inputBox" v-model="participant.referenceNumber" placeholder />
+                </label>
+              </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="padding-top15">
               <div>
                 <span>{{$t('divisionChina.apply28')}}</span>
                 <label>
@@ -351,6 +368,8 @@ export default {
         pianoTeacherName: "", //*
         pianoTeacherPhoneNumber: "", //*
         pianoTeacherEmail: "", //*
+        referenceName: "",
+        referenceNumber: "",
         competitionCategory: "",
         recordingLink: "",
         location: "China"

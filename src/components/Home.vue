@@ -22,7 +22,7 @@
         </div>
         <div class="col-xs-12 padding-bottom20">
           <p class="lineHeight">{{$t('homeTitle.row1')}}</p>
-          <p class="padding-top50">{{$t('homeTitle.row2')}}</p>
+          <h5 class="padding-top20">{{$t('homeTitle.row2')}}</h5>
         </div>
       </div>
     </div>
