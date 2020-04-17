@@ -106,7 +106,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h2>{{$t('divisionOnline.row30')}}</h2>
@@ -123,8 +123,29 @@
           <p>{{$t('divisionOnline.row41')}}</p>
         </div>
       </div>
-    </div>
+    </div>-->
 
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <h2>Competition Regulations</h2>
+          <p
+            class="padding-top20"
+          >1) Because of the corona virus, the 2020 competition will be held online through video recording submission</p>
+          <p>2) All the pieces should be performed from memory.</p>
+          <p>3) Changes would not be allowed once the repertoires are submitted.</p>
+          <p>4) Piano concerto, own composition, or own transcriptions are not accepted.</p>
+          <p>5) Repeats are not required except the place marked with D.C..</p>
+          <p>6) Video recordings must be performed by applicants and may not be edited (the performance must be 'one take', no cuts), nor should any effects be added.（You will not be penalized for the recording quality of your video, although it is important that it is good enough for the jury to be able to see and hear you clearly.）</p>
+          <p>7) Preliminary videos should be recorded no more than 12 months before the date of your submission. Final round videos should be recorded after 2020 June.</p>
+          <p>8) Judges reserve the right of final decision.</p>
+          <p>9) The organizing competition committee has the copyright of performance’s videos, audios and pictures of the competition and the award ceremony. The organizing competition committee has the legal right of using these materials.</p>
+          <p>10) The organizing competition committee reserves all the right for the final interpretation.</p>
+          <p>In order to express our love and care for the medical workers who fought against the epidemic of 2019-nCoV, their children who sigh up to participate in the preliminary will be exempt from the registration fee. Please contact us if you are eligible.</p>
+        </div>
+      </div>
+    </div>
+    
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
