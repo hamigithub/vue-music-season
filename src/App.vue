@@ -1,153 +1,155 @@
 <template>
   <div id="app">
-    <header class="page-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="page-logo">
-              <router-link to="/">
-                <img src="./assets/img/logo2.png" alt />
-              </router-link>
-            </div>
-
-            <!--翻译功能按钮-->
-
-            <span class="translateSpan" @click="changeLangToEn">English</span>
-            <span class="translateSpan" @click="changeLangToZh">中文</span>
-
-            <nav class="page-nav">
-              <div class="page-nav__toggle" @click="navToggle">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-              <ul class="page-nav__list" v-if="navActive" @click="navToggle">
-                <li class="page-nav__item">
-                  <router-link :to="{name:'home'}">
-                    <span>{{$t('appNavText.home')}}</span>
-                  </router-link>
-                </li>
-                <li class="page-nav__item">
-                  <router-link :to="{name:'faculty'}">
-                    <span>{{$t('appNavText.committee')}}</span>
-                  </router-link>
-                </li>
-                <li class="page-nav__item">
-                  <router-link :to="{name:'competition'}">
-                    <span>{{$t('appNavText.competition')}}</span>
-                  </router-link>
-                </li>
-                <li class="page-nav__item">
-                  <router-link :to="{name:'constitution'}">
-                    <span>{{$t('appNavText.constitution')}}</span>
-                  </router-link>
-                </li>
-                <li class="page-nav__item">
-                  <router-link :to="{name:'concerts'}">
-                    <span>{{$t('appNavText.concerts')}}</span>
-                  </router-link>
-                </li>
-                <li class="page-nav__item">
-                  <router-link :to="{name:'application'}">
-                    <span>{{$t('appNavText.application')}}</span>
-                  </router-link>
-                </li>
-                <li class="page-nav__item">
-                  <router-link :to="{name:'gallery'}">
-                    <span>{{$t('appNavText.gallery')}}</span>
-                  </router-link>
-                </li>
-                <li class="page-nav__item">
-                  <router-link :to="{name:'tripInfo'}">
-                    <span>{{$t('appNavText.local')}}</span>
-                  </router-link>
-                </li>
-                <li class="page-nav__item">
-                  <router-link :to="{name:'about'}">
-                    <span>{{$t('appNavText.about')}}</span>
-                  </router-link>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <div class="clearfix"></div>
-
-    <router-view></router-view>
-
-    <footer>
-      <div class="contact">
+    <div id="appWrap">
+      <header class="page-header">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              <h1>{{$t('appContactText.contact')}}</h1>
+              <div class="page-logo">
+                <router-link to="/">
+                  <img src="./assets/img/logo2.png" alt />
+                </router-link>
+              </div>
+
+              <!--翻译功能按钮-->
+
+              <span class="translateSpan" @click="changeLangToEn">English</span>
+              <span class="translateSpan" @click="changeLangToZh">中文</span>
+
+              <nav class="page-nav">
+                <div class="page-nav__toggle" @click="navToggle">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <ul class="page-nav__list" v-if="navActive" @click="navToggle">
+                  <li class="page-nav__item">
+                    <router-link :to="{name:'home'}">
+                      <span>{{$t('appNavText.home')}}</span>
+                    </router-link>
+                  </li>
+                  <li class="page-nav__item">
+                    <router-link :to="{name:'faculty'}">
+                      <span>{{$t('appNavText.committee')}}</span>
+                    </router-link>
+                  </li>
+                  <li class="page-nav__item">
+                    <router-link :to="{name:'competition'}">
+                      <span>{{$t('appNavText.competition')}}</span>
+                    </router-link>
+                  </li>
+                  <li class="page-nav__item">
+                    <router-link :to="{name:'constitution'}">
+                      <span>{{$t('appNavText.constitution')}}</span>
+                    </router-link>
+                  </li>
+                  <li class="page-nav__item">
+                    <router-link :to="{name:'concerts'}">
+                      <span>{{$t('appNavText.concerts')}}</span>
+                    </router-link>
+                  </li>
+                  <li class="page-nav__item">
+                    <router-link :to="{name:'application'}">
+                      <span>{{$t('appNavText.application')}}</span>
+                    </router-link>
+                  </li>
+                  <li class="page-nav__item">
+                    <router-link :to="{name:'gallery'}">
+                      <span>{{$t('appNavText.gallery')}}</span>
+                    </router-link>
+                  </li>
+                  <li class="page-nav__item">
+                    <router-link :to="{name:'tripInfo'}">
+                      <span>{{$t('appNavText.local')}}</span>
+                    </router-link>
+                  </li>
+                  <li class="page-nav__item">
+                    <router-link :to="{name:'about'}">
+                      <span>{{$t('appNavText.about')}}</span>
+                    </router-link>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
-          <div class="padding-10">
+        </div>
+      </header>
+
+      <div class="clearfix"></div>
+
+      <router-view></router-view>
+
+      <footer>
+        <div class="contact">
+          <div class="container">
             <div class="row">
-              <div class="col-xs-12 col-md-4">
-                <img src="./assets/img/logo.png" alt />
+              <div class="col-xs-12">
+                <h1>{{$t('appContactText.contact')}}</h1>
               </div>
-              <div class="col-xs-12 col-md-4">
-                <p class="padding-10">{{$t('appContactText.row1')}}</p>
-                <p class="padding-10">E-mail : support@coneromusicfestival.com</p>
-                <p class="padding-10">Tel : ＋1-785-551-0823</p>
-              </div>
-              <div class="col-xs-12 col-md-4">
-                <div class="shareIcon">
-                  <a
-                    @mouseenter="feedsEnter"
-                    @mouseleave="feedsLeave"
-                    class="feedsWrap"
-                    href="javascript:;"
-                    target="_blank"
-                  >
-                    <svg class="icon" aria-hidden="true">
-                      <use xlink:href="#icon-WechartPay" />
-                    </svg>
-                    <img v-show="feedsIsShow" class="feedsImg" src="./assets/img/WCFeeds.jpg" alt />
-                  </a>
-                  <a
-                    href="https://www.facebook.com/Conero-International-Music-Festival-2291960267721314/"
-                    target="_blank"
-                  >
-                    <svg class="icon" aria-hidden="true">
-                      <use xlink:href="#icon-facebook" />
-                    </svg>
-                  </a>
-                  <a href="https://www.instagram.com/coneromusic/" target="_blank">
-                    <svg class="icon" aria-hidden="true">
-                      <use xlink:href="#icon-instagram" />
-                    </svg>
-                  </a>
+            </div>
+            <div class="padding-10">
+              <div class="row">
+                <div class="col-xs-12 col-md-4">
+                  <img src="./assets/img/logo.png" alt />
+                </div>
+                <div class="col-xs-12 col-md-4">
+                  <p class="padding-10">{{$t('appContactText.row1')}}</p>
+                  <p class="padding-10">E-mail : support@coneromusicfestival.com</p>
+                  <p class="padding-10">Tel : ＋1-785-551-0823</p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                  <div class="shareIcon">
+                    <a
+                      @mouseenter="feedsEnter"
+                      @mouseleave="feedsLeave"
+                      class="feedsWrap"
+                      href="javascript:;"
+                      target="_blank"
+                    >
+                      <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-WechartPay" />
+                      </svg>
+                      <img v-show="feedsIsShow" class="feedsImg" src="./assets/img/WCFeeds.jpg" alt />
+                    </a>
+                    <a
+                      href="https://www.facebook.com/Conero-International-Music-Festival-2291960267721314/"
+                      target="_blank"
+                    >
+                      <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-facebook" />
+                      </svg>
+                    </a>
+                    <a href="https://www.instagram.com/coneromusic/" target="_blank">
+                      <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-instagram" />
+                      </svg>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
 
-    <div class="companyRights">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            This festival is being hosted with the cooperation of
-            Civica Scuola di Musica Beniamino Gigli，special thanks for their hospitality
+      <div class="companyRights">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              This festival is being hosted with the cooperation of
+              Civica Scuola di Musica Beniamino Gigli，special thanks for their hospitality
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12">
-            <span>Copyright © www.coneromusicfestival.com. All Rights Reserved.</span>
+          <div class="row">
+            <div class="col-xs-12">
+              <span>Copyright © www.coneromusicfestival.com. All Rights Reserved.</span>
+            </div>
           </div>
         </div>
       </div>
+
+      <v-goTop></v-goTop>
     </div>
-
-    <v-goTop></v-goTop>
   </div>
 </template>
 
