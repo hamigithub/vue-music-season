@@ -342,9 +342,7 @@
         </div>
       </div>
     </div>
-    <div v-show="isWechat===true" class="tipWrap">
-      <h1>请在本地浏览器打开!</h1>
-    </div>
+    <div v-show="isWechat===true" class="tipWrap"></div>
   </div>
 </template>
 
@@ -387,7 +385,7 @@ export default {
     };
   },
   created: function() {
-    console.log(navigator.userAgent.toLowerCase());
+    // console.log(navigator.userAgent.toLowerCase());
     var ua = navigator.userAgent.toLowerCase();
     if (ua.match(/MicroMessenger/i) == "micromessenger") {
       this.isWechat = true;
@@ -513,7 +511,9 @@ export default {
 }
 
 .tipWrap {
-  background: fuchsia;
+  background: rgba(0, 0, 0, 0.699) url(../../../assets/img/WeChatTip.png)
+    no-repeat fixed top;
+  background-size: 96%;
   z-index: 999;
   position: fixed;
   top: 0;
