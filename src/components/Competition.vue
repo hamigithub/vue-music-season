@@ -348,9 +348,6 @@
           <h2 class="padding-bottom10">{{$t('competition2020text5.row34')}}</h2>
           <table>
             <tr>
-              <td>{{$t('competition2020text5.row34')}}</td>
-            </tr>
-            <tr>
               <td>{{$t('competition2020text5.row35')}}</td>
             </tr>
             <tr>

@@ -137,13 +137,10 @@
           >1 Each winner will be awarded a certificate of award，comment of the performance from the jury and a souvenir of Conero International Piano Festival.</p>
           <p
             class="padding-top20 textIndent"
-          >2 The top six winners of each division will advance to the final round in August.</p>
+          >2 The first prize of each group will be awarded full scholarship in order to participate in the 2020 Conero International Festival(Online).</p>
           <p
             class="padding-top20 textIndent"
-          >3 The first prize of each group will be awarded full scholarship in order to participate in the 2020 Conero International Festival(Online).</p>
-          <p
-            class="padding-top20 textIndent"
-          >4 The 1st prize of Piano Teachers’ Group will have the priority of attending the forum of pedagogy in the Conero International Festival.</p>
+          >3 The 1st prize of Piano Teachers’ Group will have the priority of attending the forum of pedagogy in the Conero International Festival.</p>
         </div>
       </div>
     </div>
@@ -160,7 +157,7 @@
           <p>4) Piano concerto, own composition, or own transcriptions are not accepted.</p>
           <p>5) Repeats are not required except the place marked with D.C..</p>
           <p>6) Video recordings must be performed by applicants and may not be edited (the performance must be 'one take', no cuts), nor should any effects be added.（You will not be penalized for the recording quality of your video, although it is important that it is good enough for the jury to be able to see and hear you clearly.）</p>
-          <p>7) Preliminary videos should be recorded no more than 12 months before the date of your submission. Final round videos should be recorded after 2020 June.</p>
+          <p>7) Final round videos would be prefered to be recorded in after May 10th, 2020.</p>
           <p>8) Judges reserve the right of final decision.</p>
           <p>9) The organizing competition committee has the copyright of performance’s videos, audios and pictures of the competition and the award ceremony. The organizing competition committee has the legal right of using these materials.</p>
           <p>10) The organizing competition committee reserves all the right for the final interpretation.</p>

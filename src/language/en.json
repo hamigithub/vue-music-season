@@ -383,13 +383,13 @@
     "row3": " Registration must be completed in 10 days after the premilitary round.",
     "row4": "Registration fee for the final round in August:",
     "row5": "• Professional Groups/Teachers’ Group: 100€",
-    "row6": "• Amateur groups: 80€"
+    "row6": "• Amateur Groups: 80€"
   },
   "competition2020text4": {
     "row1": "Final Round Category",
     "row2": "1 Professional Adult Group (aged above 18)",
     "row3": "A recital of 18-25 minutes which includes at least 3 works of different styles. Only one piece is allowed to be the same as previous rounds.",
-    "row4": "2 Professional Young Artist Group (Aged under 18)",
+    "row4": "2 Professional Young Artist Group (aged under 18)",
     "row5": "A recital of 12 to 18 minutes which includes at least 2 works of different styles. Only one piece is allowed to be the same as previous rounds.",
     "row6": "3 Piano Teacher‘s Group (aged above 22, Piano teachers)",
     "row7": "Competition of the Piano Teachers’ Group will have two parts：",
@@ -448,7 +448,7 @@
     "row37": "3. Piano concerto, own composition, or own transcriptions are not accepted.",
     "row38": "4. Repeats are not required except the place marked with D.C..",
     "row39": "5. Video recordings must be performed by applicants and may not be edited (the performance must be 'one take', no cuts), nor should any effects be added.（You will not be penalized for the recording quality of your video, although it is important that it is good enough for the jury to be able to see and hear you clearly.）",
-    "row40": "6. Preliminary videos should be recorded no more than 12 months before the date of your submission. Final round videos should be recorded after 2020 June. ",
+    "row40": "6. Preliminary videos should be recorded no more than 12 months before the date of your submission. Final round videos would be prefered to be recorded in after June 1st, 2020.",
     "row41": "7. Judges reserve the right of final decision.",
     "row42": "8. The organizing competition committee has the copyright of performance’s videos, audios and pictures of the competition and the award ceremony. The organizing competition committee has the legal right of using these materials.",
     "row43": "9. The organizing competition committee reserves all the right for the final interpretation."
@@ -707,7 +707,7 @@
     "row41": "11 Competitors shall get their visa by themselves if they go to Italy for the final. If competitors need the invitation letter for the visa, please contact the organizing committee.",
     "row42": "Awards for Online Preliminary Competition",
     "row43": "1. The festival committee will selecte the final cadidates based on their performance. The result will be announced at the end of June.",
-    "row44": "2. The selected outstanding performers will obtain a scholarship and travel allowance to participate in the Conero International Festival and final competition."
+    "row44": "2. The selected outstanding performers will obtain a scholarship to participate in the Conero International Festival and final competition."
   },
   "constitutionTitle": {
     "title": "Constitution"

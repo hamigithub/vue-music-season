@@ -406,7 +406,7 @@ export default {
           let jsonData = JSON.stringify(data);
           this.$http
             .post(
-              "http://crm.coneromusicfestival.com:8080/application/create",
+              "http://crm.coneromusicfestival.com/application/create",
               jsonData,
               { emulateJSON: true }
             )
