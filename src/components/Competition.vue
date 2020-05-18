@@ -73,44 +73,31 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <h2 class="padding-bottom10">{{$t('competition2020text2.row1')}}</h2>
+          <h2 class="padding-bottom10 text-center">{{$t('competition2020text2.row1')}}</h2>
           <table>
             <tr>
-              <td>{{$t('competition2020text2.row2')}}</td>
+              <td>First Round:</td>
+              <td>Please check the rules and deadlines in your division.</td>
             </tr>
             <tr>
-              <td>{{$t('competition2020text2.row3')}}</td>
+              <td>Final Round:</td>
+              <td>Video submission due by August 10th.</td>
             </tr>
             <tr>
-              <td>{{$t('competition2020text2.row4')}}</td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row padding-top50">
-        <div class="col-xs-12">
-          <h2>{{$t('competition2020text3.row1')}}</h2>
-          <table>
-            <tr>
-              <td>
-                {{$t('competition2020text3.row2')}}
-                <a
-                  href="http://www.coneromusicfestival.com"
-                >www.coneromusicfestival.com</a>
-                {{$t('competition2020text3.row3')}}
-              </td>
+              <td></td>
+              <td>(Every finalist must submit their final round application. Registration should completed within 30 days of the preliminary round result)</td>
             </tr>
             <tr>
-              <td>{{$t('competition2020text3.row4')}}</td>
+              <td>Registration fee for final round:</td>
+              <td>Professional Groups/ Teachers’ Group: $100</td>
             </tr>
             <tr>
-              <td>{{$t('competition2020text3.row5')}}</td>
+              <td></td>
+              <td>All Amateur Groups: $80</td>
             </tr>
             <tr>
-              <td>{{$t('competition2020text3.row6')}}</td>
+              <td>Location:</td>
+              <td>Online</td>
             </tr>
           </table>
         </div>

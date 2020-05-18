@@ -34,14 +34,28 @@
       </div>
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <p
-            class="font-bold"
-          >The Conero International Piano Competition is an international competition whose final round will be held in Recanati, Italy on August 1st -2nd. Associated competitions will be held in many locations all over the world, including Thailand, China, Australia, and the United States. Selected winners of these competitions will qualify for the final competition, held in Recanti, Italy. The competition is hosted by the International Piano Professionals Association (U.S.), in cooperation with the Civica Scuola di Musica Beniamino Gigli (Recanati, Italy), and is a member of the Alink-Argerich Foundation.</p>
-        </div>
-      </div>
-      <div class="row padding-top50">
-        <div class="col-xs-12">
-          <p>Information about US national competition rules and eligibility is available at the festival website as well as in the informational brochure below. Applications for the US competition are due by April 30th, 2020 and must be submitted with a $30 non-refundable application fee. Please complete your application below.</p>
+          <table>
+            <tr>
+              <td>First Round：</td>
+              <td>Video submission due by April 30th.</td>
+            </tr>
+            <tr>
+              <td>Final Round:</td>
+              <td>Video submission due by August 10th.</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>(Every finalist must submit their final round application. Registration should completed within 30 days of the preliminary round result)</td>
+            </tr>
+            <tr>
+              <td>Registration fee for final round:</td>
+              <td>Professional Groups/ Teachers’ Group: $100</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>All Amateur Groups: $80</td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
@@ -75,6 +89,11 @@
                 </form>
               </div>
               <p class="padding-20">{{$t('applyFee.ps')}}</p>
+              <div class="padding-top50">
+                <router-link to="/division/usa/finalists">
+                  <div class="listsWrap font-italic">Final Lists</div>
+                </router-link>
+              </div>
             </div>
             <div class="col-xs-12 col-md-6">
               <div class="imgWrap text-center">
@@ -156,7 +175,7 @@
           <p>3) Changes would not be allowed once the repertoires are submitted.</p>
           <p>4) Piano concerto, own composition, or own transcriptions are not accepted.</p>
           <p>5) Repeats are not required except the place marked with D.C..</p>
-          <p>6) Video recordings must be performed by applicants and may not be edited (the performance must be 'one take', no cuts), nor should any effects be added.（You will not be penalized for the recording quality of your video, although it is important that it is good enough for the jury to be able to see and hear you clearly.）</p>
+          <p>6) Video recordings must be performed by applicants and may not be edited (the performance must be 'one take'), nor should any effects be added.（You will not be penalized for the recording quality of your video, although it is important that it is good enough for the jury to be able to see and hear you clearly.）</p>
           <p>7) Final round videos would be prefered to be recorded in after May 10th, 2020.</p>
           <p>8) Judges reserve the right of final decision.</p>
           <p>9) The organizing competition committee has the copyright of performance’s videos, audios and pictures of the competition and the award ceremony. The organizing competition committee has the legal right of using these materials.</p>
@@ -219,5 +238,15 @@ export default {
 
 .imgWrap img {
   width: 80%;
+}
+
+.listsWrap {
+  background: rgb(255, 0, 0);
+  width: 320px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 30px;
+  color: #ffe600;
 }
 </style>

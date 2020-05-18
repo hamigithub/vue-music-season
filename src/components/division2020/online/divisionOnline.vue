@@ -130,6 +130,9 @@
         <div class="col-xs-12">
           <h2>Competition Regulations</h2>
           <p
+            class="padding-top20 font-red font-bold"
+          >In order to express our love and care for the medical workers who fought against the epidemic of 2019-nCoV, their children who sigh up to participate in the preliminary will be exempt from the registration fee. Please contact us if you are eligible.</p>
+          <p
             class="padding-top20"
           >1) Because of the corona virus, the 2020 competition will be held online through video recording submission</p>
           <p>2) All the pieces should be performed from memory.</p>
@@ -141,11 +144,10 @@
           <p>8) Judges reserve the right of final decision.</p>
           <p>9) The organizing competition committee has the copyright of performance’s videos, audios and pictures of the competition and the award ceremony. The organizing competition committee has the legal right of using these materials.</p>
           <p>10) The organizing competition committee reserves all the right for the final interpretation.</p>
-          <p>In order to express our love and care for the medical workers who fought against the epidemic of 2019-nCoV, their children who sigh up to participate in the preliminary will be exempt from the registration fee. Please contact us if you are eligible.</p>
         </div>
       </div>
     </div>
-    
+
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
