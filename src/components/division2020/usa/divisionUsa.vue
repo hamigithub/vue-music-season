@@ -71,7 +71,33 @@
               <div class="text-center padding-top20">
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="hidden" name="hosted_button_id" value="CL448JFGF8SKJ" />
+                  <input type="hidden" name="hosted_button_id" value="RZH4HAC9T4BRN" />
+                  <table class="payTable">
+                    <tr>
+                      <td>
+                        <input type="hidden" name="on0" value="Group Type" />Group Type
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <select name="os0">
+                          <option value="Professionals/Teachers">Professionals/Teachers $100.00 USD</option>
+                          <option value="Amateurs">Amateurs $80.00 USD</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="hidden" name="on1" value="Participant name(s):" />Participant name(s):
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="text" name="os1" maxlength="200" />
+                      </td>
+                    </tr>
+                  </table>
+                  <input type="hidden" name="currency_code" value="USD" />
                   <input
                     type="image"
                     src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
@@ -241,12 +267,16 @@ export default {
 }
 
 .listsWrap {
-  background: rgb(255, 0, 0);
+  background: rgb(255, 39, 39);
   width: 320px;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 3px;
   padding: 15px;
   font-size: 30px;
-  color: #ffe600;
+  color: #ffed4f;
+}
+
+.payTable {
+  margin: 0 auto;
 }
 </style>

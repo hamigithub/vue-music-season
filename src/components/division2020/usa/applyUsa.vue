@@ -273,7 +273,7 @@
                     class="inputBox"
                     v-model="participant.recordingLink"
                     placeholder="Youtube or other video/audio link"
-                  >
+                  />
                 </label>
               </div>
             </div>
@@ -296,6 +296,64 @@
       <div class="row padding-top15">
         <div class="col-xs-12">
           <p>{{$t('applyMsg.row1')}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div v-show="key===1" class="container">
+      <div class="row padding-top50">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center padding-bottom20">
+              <div class="text-center padding-top20">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick" />
+                  <input type="hidden" name="hosted_button_id" value="RZH4HAC9T4BRN" />
+                  <table class="payTable">
+                    <tr>
+                      <td>
+                        <input type="hidden" name="on0" value="Group Type" />Group Type
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <select name="os0">
+                          <option value="Professionals/Teachers">Professionals/Teachers $100.00 USD</option>
+                          <option value="Amateurs">Amateurs $80.00 USD</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="hidden" name="on1" value="Participant name(s):" />Participant name(s):
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="text" name="os1" maxlength="200" />
+                      </td>
+                    </tr>
+                  </table>
+                  <input type="hidden" name="currency_code" value="USD" />
+                  <input
+                    type="image"
+                    src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+                    border="0"
+                    name="submit"
+                    alt="PayPal - The safer, easier way to pay online!"
+                  />
+                  <img
+                    alt
+                    border="0"
+                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                    width="1"
+                    height="1"
+                  />
+                </form>
+              </div>
+              <p class="padding-20">{{$t('applyFee.ps')}}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -348,8 +406,8 @@ export default {
         pianoTeacherPhoneNumber: "", //*
         pianoTeacherEmail: "", //*
         competitionCategory: "",
-        recordingLink:"",
-        location:"US"
+        recordingLink: "",
+        location: "US"
       }
     };
   },
@@ -468,5 +526,9 @@ export default {
 
 .submitBtn {
   padding: 10px 20px;
+}
+
+.payTable {
+  margin: 0 auto;
 }
 </style>
