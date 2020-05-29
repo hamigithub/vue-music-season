@@ -66,7 +66,7 @@
           <div class="row">
             <div class="col-xs-12 col-md-6 text-center padding-bottom20">
               <router-link to="/division/usa/apply">
-                <div class="btn btnBgm">{{$t('applyTitle.title2')}}</div>
+                <div class="btn btnBgm">Final  Round Application --></div>
               </router-link>
               <div class="text-center padding-top20">
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
