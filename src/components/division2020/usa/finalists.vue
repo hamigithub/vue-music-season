@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="col-xs-12 padding-top50">
-          <h3>Full scholarship list selected in US Division</h3>
+          <h3>Finalists of US Division</h3>
           <div class="text-center">
             <h5 class="padding-top20">Adult Professional Group</h5>
             <p class="padding-top5">Chang Li</p>
@@ -48,14 +48,14 @@
             <p class="padding-top5">Nathan Chen</p>
             <p class="padding-top5">Matthew Liu</p>
             <p class="padding-top5">Oslo Haggadone</p>
-            <p class="padding-top5">Honnold Johnny</p>
+            <p class="padding-top5">Johnny Honnold</p>
           </div>
           <div class="text-center">
             <h5 class="padding-top20">Senior Division 1 (Classical)</h5>
             <p class="padding-top5">Moeckly Lane</p>
             <p class="padding-top5">Lewis Muehklberger</p>
-            <p class="padding-top5">Fleming Kyle</p>
-            <p class="padding-top5">Rong Max</p>
+            <p class="padding-top5">Kyle Fleming</p>
+            <p class="padding-top5">Max Rong</p>
             <p class="padding-top5">Annie Tang</p>
           </div>
           <div class="text-center">

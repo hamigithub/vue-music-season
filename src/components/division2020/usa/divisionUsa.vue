@@ -117,7 +117,7 @@
               <p class="padding-20">{{$t('applyFee.ps')}}</p>
               <div class="padding-top50">
                 <router-link to="/division/usa/finalists">
-                  <div class="listsWrap font-italic">Final Lists</div>
+                  <div class="listsWrap font-italic">Finalist</div>
                 </router-link>
               </div>
             </div>
