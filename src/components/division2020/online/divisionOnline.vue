@@ -17,7 +17,7 @@
           <div class="row">
             <div class="col-xs-12 col-md-6 text-center padding-bottom20">
               <router-link to="/division/online/apply">
-                <div class="btn btnBgm">{{$t('applyTitle.title2')}}</div>
+                <div class="btn btnBgm">{{$t('applyTitle.title4')}}</div>
               </router-link>
             </div>
             <div class="col-xs-12 col-md-6">
@@ -43,6 +43,13 @@
               </div>
               <p class="padding-20">{{$t('applyFee.ps')}}</p>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-md-6 text-center padding-bottom20">
+                <router-link to="/division/online/finalists">
+                  <div class="listsWrap font-italic text-center">Finalist</div>
+                </router-link>
+              </div>
           </div>
         </div>
       </div>
@@ -208,4 +215,15 @@ export default {
     background-position: 100% 0;
   }
 }
+
+.listsWrap {
+  background: rgb(255, 39, 39);
+  width: 333px;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 30px;
+  color: #ffed4f;
+}
+
 </style>

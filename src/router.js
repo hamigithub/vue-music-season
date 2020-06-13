@@ -93,7 +93,7 @@ export default new Router({
     },
     {
       path: "/division/usa/finalists",
-      name: "applyUsa",
+      name: "applyUsaFinalists",
       component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/usa/finalists.vue')
     },
     {
@@ -120,6 +120,11 @@ export default new Router({
       path: "/division/online/apply",
       name: "applyOnline",
       component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/online/applyOnline.vue')
+    },
+    {
+      path: "/division/online/finalists",
+      name: "applyOnlineFinalists",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/online/finalists.vue')
     },
     {
       path: "/constitution",
