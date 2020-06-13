@@ -31,6 +31,7 @@
             <p class="padding-top5">Giusy Ines Tuttolomondo</p>
             <p class="padding-top5">Wenting Yu</p>
             <p class="padding-top5">Sixuan Zhang</p>
+            <p class="padding-top5">Luowen Huang</p>
           </div>
 
           <div class="text-center">
