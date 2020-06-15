@@ -2,7 +2,7 @@
   "appPublic": {
     "row1": "Introduction",
     "row2": "2020 Conero International Music Festival & Competition",
-    "row3": "Back",
+    "row3": "< Back",
     "virus": "Dear friends, due to the COVID-19 outbreak, we have decided to operate the entire festival online. We are currently working on reshceduling the online festival. Thanks for your patience. Please stay well and healthy and we are looking forward to making music in beautiful Recanati in 2021!"
   },
   "appNavText": {
@@ -172,16 +172,11 @@
   },
   "ivyInfo": {
     "title": "Ivy Lu Wang biography",
-    "row1": "Ivy Lu Wang is a Chinese pianist, who started piano when she was 5 years old. In 2008-2015, she studied her undergraduate and graduate specialize in piano performance at Sichuan Conservatory of Music in China. During these years, she joined many competitions, seminars, and recitals. In January 2011, she got the first prize in the 5th Zhongsin International Music Competition in Singapore, a representative to collaborate a recital with Russian pianists, Pavel Egorov. In June 2011, she got the first prize in the Second Deutschland and China & Gemeinsam Competition in Sichuan Province.",
-    "row2": "She also interested in doing research, cooperated with some medicine major students, she created a research program named “How Pianists coexist with tenosynovitis”, the project got the “honored research program” in Sichuan conservatory of music in 2014.",
-    "row3": "In 2016 January, she started her doctoral program in piano performance in University of Kansas in United States, under the guidance of prestigious piano and pedagogy professor, Dr. Scott McBride Smith, minor in piano pedagogy. She was represented the KU chapter, selected to give lecture in 2017 MTNA conference in Baltimore, and also invited to present in KMTA conference in Kansas.",
-    "row4": "In 2018, she was selected to perform in the honor recital of the KU graduate school of music. Meanwhile, she has a passion for Baroque music, and perform on harpsichord in the Baroque music recital in KU.",
-    "row5": "She has been actively attended many international piano festivals, such as Changchun International piano festival, SiChuan Conservatory International Piano festival, Rebecca Penneys Piano Festival in Florida, International Institution of Young Musicians Piano festival in Kansas, and Tel-Hai piano festival in Israel, Cortona New Music Sessions in Italy. In 2018 summer, she was invited to give lectures, workshops in universities and piano schools in China.",
-    "row6": "",
-    "row7": "",
-    "row8": "",
-    "row9": "",
-    "row10": ""
+    "row1": "Ivy Lu Wang is an active pianist, chamber musician, lecturer, teacher, and founder of the Conero International Piano Festival & Competition and the International Piano Professionals Association (IPPA). A DMA graduate from the University of Kansas, she studied under the guidance of prestigious piano and pedagogy professor Dr. Scott McBride Smith.",
+    "row2": "As an inspiring lecturer and teacher, she is frequently invited to give concerts, masterclasses, lectures in many different universities and piano schools. She has given online pedagogical lectures on topics such as “How to make Baroque style teaching more practical?”, “The comparison between the high finger technique and the rotation principle”, and “How to apply healthy piano technique in teaching”, which have drawn an audience of thousands of piano teachers. ",
+    "row3": "Her academic research specialty is injury prevention. She graduated with honors from University of Kansas with her doctoral Dissertation “Applying the Rotation Principle to Avoid Injury in Piano Practice”. She was selected to represent the KU MTNA chapter to give a presentation on remote piano teaching methods in 2017 MTNA conference in Baltimore, and also presented at the 2017 KMTA conference. During her masters program, she cooperated with medical doctoral students, and created a research program named “How Pianists coexist with tenosynovitis”, which received a research grant and was named as the honored research program in Sichuan Conservatory of Music in 2014. ",
+    "row4": "In her performance career, she has won multiple competition prizes, including the first prize in the 2011 Zhong-sin International Music Competition in Singapore, where she was invited to perform in the award ceremony with the jury. In June 2011, she got the first prize in the Second Deutschland and China & Gemeinsam Competition in Sichuan Province. She performed on multiple occasions in China, Singapore, Italy, Israel and the US. She has been invited every year to perform in the PBD international music concert at the University of Kansas, and the Chinese New Year Concert in Kansas City since 2017.",
+    "row5": "Baroque music and New Music repertoire are her special interests. She has performed harpsichord with the KU Baroque Chamber Music recital, and premiered several New Music pieces in the Cortona New Music Festival and KU New Music Concert. As an active chamber musician, she has collaborated frequently with string, flute, clarinet and vocal artists. She has played with the Sichuan Symphony Orchestra and the Overland Park Orchestra in their concert series.In September 2018, she was selected to perform in the honor recital of the KU graduate school of music."
   },
   "committeeBioMark": {
     "row1": "Secretary Of Festival Committee: Mark Erickson",
@@ -773,10 +768,8 @@
     "title": "Application Instructions",
     "title1": "Payment Method",
     "row1": "Please complete the application form and submit payment through PayPal. Accepted payment methods are PayPal account balance or credit card (UnionPay, Visa, MasterCard, as well as other major credit cards are accepted). Note that signing up for a PayPal account is not required to send credit card payment.",
-    "title2": "Application Type",
-    "row2": "You may choose to take part in the competition, the festival, or both. Please indicate on the application form and pay the appropriate application fee. Parent information is only required if the applicant is under 18 years old.",
-    "title3": "Application Recording",
-    "row3": "In addition to the application form, Piano Professionals and Amateur Pianists, as well as those participating in the competition are required to upload their choice of performance videos, no more than 20 minutes total. If your recording is not ready, you may submit the application first and email us your link as soon as possible (scholarships will not be considered without a recording). It is required to use a video sharing website such as YouTube or YouKu. Please do not try to send video files through email - we will not receive any email with an attachment larger than 5MB."
+    "title2": "Application Recording",
+    "row2": "In addition to the application form, Piano Professionals and Amateur Pianists are required to upload their choice of performance videos, no more than 20 minutes total. If your recording is not ready, you may submit the application first and email us your link as soon as possible (scholarships will not be considered without a recording). It is required to use a video sharing website such as YouTube or YouKu. Please do not try to send video files through email - we will not receive any email with an attachment larger than 5MB."
   },
   "applyTitle": {
     "title": "Application",
@@ -790,12 +783,10 @@
     "disabled": "Please Select",
     "name": "Name：",
     "participantType": "Participant Type:",
-    "pt1": "Piano Professional",
-    "pt2": "Amateur Pianist",
-    "pt3": "Pedagogy Scholar",
-    "pt4": "Local Auditor",
-    "pt5": "Accompanying Person",
-    "pt6": "Competition Candidate",
+    "pt1": "Professional Performance Group",
+    "pt2": "Amateur Pianists",
+    "pt3": "Piano Pedagogy Scholars",
+    "pt4": "Observers",
     "dateOfBirth": "Date Of Birth:",
     "countryOfBirth": "Country Of Birth:",
     "preferredLanguage": "Preferred Language:",
@@ -809,7 +800,7 @@
     "postalCode": "Postcode",
     "countryOfResidence": "Country",
     "education": "Education:",
-    "essay": "Essay:",
+    "essay": "Bio:",
     "howYouFound": "How You Found:",
     "hyf1": "Social Media",
     "hyf2": "Professor/Teacher",
@@ -818,15 +809,10 @@
     "referringPersonName": "Referring Person Name:",
     "parentEmail": "Parents/Guardian Email:",
     "parentPhoneNumber": "Parent Phone Number:",
-    "roommateRequest": "Roommate Request:",
     "pianoTeacherName": "Piano Teacher Name:",
     "pianoTeacherPhoneNumber": "Piano Teacher Phone Number:",
     "pianoTeacherEmail": "Piano Teacher Email:",
-    "applicationType": "Application Type:",
-    "at1": "Competition only",
-    "at2": "Festival only",
-    "at3": "Competition and Festival",
-    "preferredTeachers": "Preferred Teachers:",
+    "preferredTeachers": "Preferred Teachers (If you are going to request extra private lessons):",
     "recordingLink": "RecordingLink:",
     "submit": "SUBMIT"
   },

@@ -84,12 +84,6 @@
             <tr>
               <td>{{$t('applyInstructions.row2')}}</td>
             </tr>
-            <tr>
-              <td class="font-bold">{{$t('applyInstructions.title3')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('applyInstructions.row3')}}</td>
-            </tr>
           </table>
         </div>
       </div>

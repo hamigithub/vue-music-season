@@ -17,7 +17,7 @@
         <div class="col-xs-12">
           <router-link to="/faculty#bioCristiano">
             <div class="bioClick">
-              < {{$t('appPublic.row3')}}
+              {{$t('appPublic.row3')}}
             </div>
           </router-link>
         </div>

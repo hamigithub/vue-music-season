@@ -23,7 +23,7 @@
                     name="firstName"
                     v-validate="'required'"
                     placeholder="First Name"
-                  >
+                  />
                 </label>
                 <span
                   v-show="errors.has('firstName')"
@@ -38,7 +38,7 @@
                     name="lastName"
                     v-validate="'required'"
                     placeholder="Last Name"
-                  >
+                  />
                 </label>
                 <span
                   v-show="errors.has('lastName')"
@@ -58,8 +58,6 @@
                     <option>{{$t('applyForm.pt2')}}</option>
                     <option>{{$t('applyForm.pt3')}}</option>
                     <option>{{$t('applyForm.pt4')}}</option>
-                    <option>{{$t('applyForm.pt5')}}</option>
-                    <option>{{$t('applyForm.pt6')}}</option>
                   </select>
                 </label>
               </div>
@@ -73,13 +71,13 @@
                     class="inputBox"
                     v-model="participant.dateOfBirth"
                     placeholder="MM/DD/YYYY"
-                  >
+                  />
                 </label>
               </div>
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
                   <span>{{$t('applyForm.countryOfBirth')}}</span>
-                  <input class="inputBox" v-model="participant.countryOfBirth" placeholder>
+                  <input class="inputBox" v-model="participant.countryOfBirth" placeholder />
                 </label>
               </div>
             </div>
@@ -93,7 +91,7 @@
                     class="inputBox"
                     v-model="participant.preferredLanguage"
                     placeholder="Preferred Language"
-                  >
+                  />
                 </label>
               </div>
             </div>
@@ -143,7 +141,7 @@
                     v-model="participant.email"
                     v-validate="'required|email'"
                     placeholder="yourmail@xx.com"
-                  >
+                  />
                 </label>
               </div>
               <span v-show="errors.has('myEmail')" class="is-danger">{{ errors.first('myEmail')}}</span>
@@ -157,7 +155,7 @@
                     class="inputBox"
                     v-model="participant.phoneNumber"
                     placeholder="+1-888-888-8888 Include Country Extension"
-                  >
+                  />
                 </label>
               </div>
             </div>
@@ -166,7 +164,7 @@
               <div>{{$t('applyForm.addressLine1')}}</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="participant.addressLine1" placeholder>
+                  <input class="inputBox" v-model="participant.addressLine1" placeholder />
                 </label>
               </div>
             </div>
@@ -175,7 +173,7 @@
               <div>{{$t('applyForm.addressLine2')}}</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="participant.addressLine2" placeholder>
+                  <input class="inputBox" v-model="participant.addressLine2" placeholder />
                 </label>
               </div>
             </div>
@@ -184,25 +182,25 @@
               <div class="inputWrap20 formWrap">
                 <label class="font12">
                   <span>{{$t('applyForm.city')}}</span>
-                  <input class="inputBox" v-model="participant.city" placeholder>
+                  <input class="inputBox" v-model="participant.city" placeholder />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
                   <span>{{$t('applyForm.province')}}</span>
-                  <input class="inputBox" v-model="participant.province" placeholder>
+                  <input class="inputBox" v-model="participant.province" placeholder />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
                   <span>{{$t('applyForm.postalCode')}}</span>
-                  <input class="inputBox" v-model="participant.postalCode" placeholder>
+                  <input class="inputBox" v-model="participant.postalCode" placeholder />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
                   <span>{{$t('applyForm.countryOfResidence')}}</span>
-                  <input class="inputBox" v-model="participant.countryOfResidence" placeholder>
+                  <input class="inputBox" v-model="participant.countryOfResidence" placeholder />
                 </label>
               </div>
             </div>
@@ -212,7 +210,7 @@
               <div>{{$t('applyForm.education')}}</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="application.education" placeholder="Education">
+                  <input class="inputBox" v-model="application.education" placeholder="Education" />
                 </label>
               </div>
             </div>
@@ -245,13 +243,13 @@
               <div class="inputWrap formWrap">
                 <label class="font12">
                   <span>{{$t('applyForm.referringPersonName')}}</span>
-                  <input class="inputBox" v-model="application.referringPersonName" placeholder>
+                  <input class="inputBox" v-model="application.referringPersonName" placeholder />
                 </label>
               </div>
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
                   <span>{{$t('applyForm.parentEmail')}}</span>
-                  <input class="inputBox" v-model="application.parentEmail" placeholder>
+                  <input class="inputBox" v-model="application.parentEmail" placeholder />
                 </label>
               </div>
             </div>
@@ -261,13 +259,7 @@
               <div class="inputWrap formWrap">
                 <label class="font12">
                   <span>{{$t('applyForm.parentPhoneNumber')}}</span>
-                  <input class="inputBox" v-model="application.parentPhoneNumber" placeholder>
-                </label>
-              </div>
-              <div class="inputWrap formWrap marginLeft2">
-                <label class="font12">
-                  <span>{{$t('applyForm.roommateRequest')}}</span>
-                  <input class="inputBox" v-model="application.roommateRequest" placeholder>
+                  <input class="inputBox" v-model="application.parentPhoneNumber" placeholder />
                 </label>
               </div>
             </div>
@@ -277,13 +269,13 @@
               <div class="inputWrap formWrap">
                 <label class="font12">
                   <span>{{$t('applyForm.pianoTeacherName')}}</span>
-                  <input class="inputBox" v-model="application.pianoTeacherName" placeholder>
+                  <input class="inputBox" v-model="application.pianoTeacherName" placeholder />
                 </label>
               </div>
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
                   <span>{{$t('applyForm.pianoTeacherPhoneNumber')}}</span>
-                  <input class="inputBox" v-model="application.pianoTeacherPhoneNumber" placeholder>
+                  <input class="inputBox" v-model="application.pianoTeacherPhoneNumber" placeholder />
                 </label>
               </div>
             </div>
@@ -297,21 +289,7 @@
                     class="inputBox"
                     v-model="application.pianoTeacherEmail"
                     placeholder="teacherEmail@xx.com"
-                  >
-                </label>
-              </div>
-            </div>
-
-            <div class="padding-top15">
-              <div class="wrapMargin">
-                <span>{{$t('applyForm.applicationType')}}</span>
-                <label>
-                  <select v-model="application.applicationType">
-                    <option disabled value>{{$t('applyForm.disabled')}}</option>
-                    <option>{{$t('applyForm.at1')}}</option>
-                    <option>{{$t('applyForm.at2')}}</option>
-                    <option>{{$t('applyForm.at3')}}</option>
-                  </select>
+                  />
                 </label>
               </div>
             </div>
@@ -320,7 +298,7 @@
               <div>{{$t('applyForm.preferredTeachers')}}</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="application.preferredTeachers" placeholder>
+                  <input class="inputBox" v-model="application.preferredTeachers" placeholder />
                 </label>
               </div>
             </div>
@@ -333,7 +311,7 @@
                     class="inputBox"
                     v-model="application.recordingLink"
                     placeholder="Youtube or other video/audio link"
-                  >
+                  />
                 </label>
               </div>
             </div>
@@ -410,11 +388,9 @@ export default {
         referringPersonName: "", //Always visible
         parentEmail: "", //required if younger than 18
         parentPhoneNumber: "", //required if younger than 18
-        roommateRequest: "", //*Name of preferred roommate. They must also request you
         pianoTeacherName: "", //*
         pianoTeacherPhoneNumber: "", //*
         pianoTeacherEmail: "", //*
-        applicationType: "", //[Competition only, Festival only, Competition and Festival]
         preferredTeachers: "", //*In order of preference (three)
         recordingLink: "" //*Youtube or other video/audio link
       }

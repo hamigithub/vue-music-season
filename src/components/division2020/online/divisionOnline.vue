@@ -14,7 +14,33 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="container">
-          <div class="row">
+          <div class="row padding-top50">
+            <div class="col-xs-12">
+              <table>
+                <tr>
+                  <td>First Round：</td>
+                  <td>Video submission due by April 30th.</td>
+                </tr>
+                <tr>
+                  <td>Final Round:</td>
+                  <td>Video submission due by August 10th.</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>(Every finalist must submit their final round application. Registration should completed within 30 days of the preliminary round result)</td>
+                </tr>
+                <tr>
+                  <td>Registration fee for final round:</td>
+                  <td>Professional Groups/ Teachers’ Group: $100</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>All Amateur Groups: $80</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="row padding-top20">
             <div class="col-xs-12 col-md-6 text-center padding-bottom20">
               <router-link to="/division/online/apply">
                 <div class="btn btnBgm">{{$t('applyTitle.title4')}}</div>
@@ -46,10 +72,10 @@
           </div>
           <div class="row">
             <div class="col-xs-12 col-md-6 text-center padding-bottom20">
-                <router-link to="/division/online/finalists">
-                  <div class="listsWrap font-italic text-center">Finalist</div>
-                </router-link>
-              </div>
+              <router-link to="/division/online/finalists">
+                <div class="listsWrap font-italic text-center">Finalist</div>
+              </router-link>
+            </div>
           </div>
         </div>
       </div>
@@ -225,5 +251,4 @@ export default {
   font-size: 30px;
   color: #ffed4f;
 }
-
 </style>

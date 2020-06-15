@@ -20,7 +20,7 @@
         <div class="col-xs-12">
           <router-link to="/faculty#bioTamara">
             <div class="bioClick">
-              < {{$t('appPublic.row3')}}
+              {{$t('appPublic.row3')}}
             </div>
           </router-link>
         </div>
