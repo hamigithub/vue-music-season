@@ -340,7 +340,7 @@ export default {
 }
 
 .payImg img {
-  width: 60%;
+  width: 50%;
 }
 
 .feeTable {

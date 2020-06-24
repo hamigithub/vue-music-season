@@ -2,8 +2,7 @@
   "appPublic": {
     "row1": "Introduction",
     "row2": "2020 Conero International Music Festival & Competition",
-    "row3": "< Back",
-    "virus": "Dear friends, due to the COVID-19 outbreak, we have decided to operate the entire festival online. We are currently working on reshceduling the online festival. Thanks for your patience. Please stay well and healthy and we are looking forward to making music in beautiful Recanati in 2021!"
+    "row3": "< Back"
   },
   "appNavText": {
     "home": "Home",
@@ -20,24 +19,27 @@
     "contact": "Contact Us",
     "row1": "International Piano Professionals Association"
   },
-  "homeTitle": {
-    "row1": "We value the health and well-being of everyone interested in the 2020 Conero International Piano Festival & Competition.  We had hoped to continue providing in-person music activities while abiding by the guidelines set by the public health officials, but due to the continued spread of COVID-19, this is no longer possible. As a result, we have decided to operate the whole competition and festival online. We thank you for your understanding at this time and we are currently working on rescheduling  the online festival. We will be in touch with updates as they happen. We appreciate your patience as we assess this situation and let’s continue to make music! ",
-    "row2": "2020 Conero International Piano Competition Final: August 10th"
+  "home": {
+    "homeTitle": {
+      "row1": "The Conero International Piano Festival welcomes the participation of piano students and piano teachers from all over the world!",
+      "row1-2": "There are several things that make it compelling:",
+      "row2": "* Precisely designed to meet the practical needs of piano students and piano teachers",
+      "row3": "* Praised by internationally acclaimed pianists and professors",
+      "row4": "* Subverts the traditional model and constantly innovates and breaks through with an in-depth, customized, interactive learning experience",
+      "row5": "* The strongest academic atmosphere and the least commercial operation"
+    },
+    "homeText": {
+      "row1": "In 2019, the first Conero International Piano Festival was successfully held in Recanti, Italy. A pioneer in including piano pedagogy in the festival program, it breaks the performance-oriented mode of the traditional music festival, with students learning, and teachers learning by teaching, making piano performance and piano teaching complement each other in a self-reinforcing process, and bringing a full experience of the combination of performance practice and music theory to every participant.",
+      "row2": "This festival has always been striving to provide the best quality music resources to young pianists and piano teachers, and to support their passions towards performing and teaching. We invite world-renowned musicians to customize programs for performers and teachers at different skill levels, aiming to provide a quality educational experience for every participant.",
+      "row3": ""
+    }
   },
-  "homeSubject": {
-    "row1": "The 2020 Conero International Music Festival & Competition is designed for students of piano (both young and adult, professional and amateur) and piano teachers from all around the world, aiming to share the art of music making and music education. Hosted by International Piano Professionals Association. The festival committee strives to provide the best resources for participants. The renowned international faculty will teach musical technique and musicianship while nurturing the development of individual artistry. Significant funds are available for scholarships, which the festival committee will distribute according to the merit of the student’s application.",
-    "row2": "",
-    "row3": "",
-    "row4": ""
-  },
-  "homeHosted": {
-    "title": "",
-    "row1": "",
-    "row2": "Date And Place",
-    "row3": "Time of Event",
-    "row3-1": "July 27th－August 12th 2020",
-    "row4": "Location of Event",
-    "row4-1": "Recanati, Italy"
+  "about": {
+    "aboutText": {
+      "row1": "In 2019, the first Conero International Piano Festival was successfully held in Recanti, Italy. A pioneer in including piano pedagogy in the festival program, it breaks the performance-oriented mode of the traditional music festival, with students learning, and teachers learning by teaching, making piano performance and piano teaching complement each other in a self-reinforcing process, and bringing a full experience of the combination of performance practice and music theory to every participant.",
+      "row2": "This festival has always been striving to provide the best quality music resources to young pianists and piano teachers, and to support their passions towards performing and teaching.",
+      "row3": "We invite world-renowned musicians to customize programs for performers and teachers at different skill levels, aiming to provide a quality educational experience for every participant."
+    }
   },
   "committeeTitle": {
     "title": "Committee Faculty"
@@ -764,12 +766,150 @@
     "row2": "Training these improvisational abilities can help us tremendously in the performance of classical music. What if you could give the impression that what you are playing was written on the spot, straight from the heart? ",
     "row3": "In this workshop you will develop those spontaneous elements. Creating through singing, drumming and conducting, outside of the comfort zone of the played instrument, will help us find the creative impulse. Later, we’ll apply what we’ve learned to the keyboard, with different methods and models of free improvisation. Come join us for something different from your usual piano lesson."
   },
-  "applyInstructions": {
-    "title": "Application Instructions",
-    "title1": "Payment Method",
-    "row1": "Please complete the application form and submit payment through PayPal. Accepted payment methods are PayPal account balance or credit card (UnionPay, Visa, MasterCard, as well as other major credit cards are accepted). Note that signing up for a PayPal account is not required to send credit card payment.",
-    "title2": "Application Recording",
-    "row2": "In addition to the application form, Piano Professionals and Amateur Pianists are required to upload their choice of performance videos, no more than 20 minutes total. If your recording is not ready, you may submit the application first and email us your link as soon as possible (scholarships will not be considered without a recording). It is required to use a video sharing website such as YouTube or YouKu. Please do not try to send video files through email - we will not receive any email with an attachment larger than 5MB."
+  "constitution2020": {
+    "form": {
+      "row1": "Date",
+      "row1-2": "Morning",
+      "row1-3": "Afternoon",
+      "row1-4": "Evening",
+      "row2": "10th August",
+      "row2-2": "Registration/Testing Technology Connection",
+      "row2-3": "10th AugustOnline Reception/Meet other festival friends from different countries",
+      "row2-4": "Festival Opening Concert- Italian Pianists Concert",
+      "row3": "11th August",
+      "row3-2": "9:00-9:45am &10:30-11:15am",
+      "row3-3": "Classical Period Style Workshop-Lecture 1&2",
+      "row3-4": "Dr. Scott McBride Smith",
+      "row3-5": "Performance Evaluation Masterclass",
+      "row3-6": "Seminar/Group Discussion",
+      "row3-7": "Pedagogy Scholars Forum",
+      "row4": "12th August",
+      "row4-2": "9:00am-9:45am",
+      "row4-3": "The Classical Style and Piano Works of Three Masters: Characteristics and Interpretation",
+      "row4-4": "Prof. Yandi Yang",
+      "row4-5": "10:30-11:15",
+      "row4-6": "How to develop the sensibility of Romantic pianism: the Art of phrasing and tonal combination",
+      "row4-7": "Prof. Jianing Kong",
+      "row4-8": "Performance Evaluation Masterclass",
+      "row4-9": "Seminar/Group Discussion",
+      "row4-10": "Pedagogy Scholars Forum",
+      "row5": "13th August",
+      "row5-2": "9:00-9:45&10:30-11:15",
+      "row5-3": "Romantic Period Style Workshop-Lecture 1&2",
+      "row5-4": "Dr. Scott McBride Smith",
+      "row5-5": "Performance Evaluation Masterclass",
+      "row5-6": "Seminar/Group Discussion",
+      "row5-7": "Pedagogy Scholars Forum",
+      "row5-8": "Student Honor Recital (Recorded Broadcast)",
+      "row6": "14th August",
+      "row6-2": "9:00-10:30",
+      "row6-3": "Piano Technique Workshop Topic 2",
+      "row6-4": "Injury Prevention",
+      "row6-5": "Prof. Zhou Xiang/Dr. Jack Winerock /Dr. Ivy Lu Wang",
+      "row6-6": "Performance Evaluation Masterclass (Recorded Broadcast)",
+      "row6-7": "Seminar/Group Discussion",
+      "row6-8": "Pedagogy Scholars Forum",
+      "row7": "15th August",
+      "row7-2": "9：00-11：30",
+      "row7-3": "Pedagogy Fellow Presentation",
+      "row7-4": "Performance Evaluation Masterclass",
+      "row8": "16th August",
+      "row8-2": "Performance Evaluation Masterclass (Recorded Broadcast)",
+      "row8-3": "2:00-3:30",
+      "row8-4": "Online International Piano Pedagogy",
+      "row8-5": "Symposium",
+      "row8-6": "Piano Professional Career Planning Workshop",
+      "row9": "17th August",
+      "row9-2": "9:00-10:00",
+      "row9-3": "Piano Technique Workshop Topic 2",
+      "row9-4": "Capturing the Magic of Sound and Touch: Synergy od the Ears and Fingers",
+      "row9-5": "Prof. Vladimir Valijarević",
+      "row9-6": "Performance Evaluation Masterclass",
+      "row9-7": "Seminar/Group Discussion",
+      "row9-8": "Pedagogy Scholars Forum",
+      "row10": "18th August",
+      "row10-2": "9:00-10:00",
+      "row10-3": "Piano Technique Workshop Topic 3",
+      "row10-4": "Piano Technique in Chopin‘s Music",
+      "row10-5": "Prof. Massimiliano Ferrati",
+      "row10-6": "Performance Evaluation Masterclass",
+      "row10-7": "Seminar/Group Discussion",
+      "row10-8": "Pedagogy Scholars Forum",
+      "row10-9": "Festival Closing Ceremony (Online)"
+    },
+    "text": {
+      "row1": "Classical & Romantic Style Performance Practice Workshop",
+      "row2": "One of the most challenging tasks in piano performance and teaching is to precisely master musical style and interpretation. Performance practices such as ornamentations, articulations, pedal, dynamics, touch, rubato, and so on are treated differently in each musical period.",
+      "row3": "The Classical & Romantic Style workshop assembles distinguished pianists and esteemed piano pedagogues across the globe to carry out a series of 6 lectures, tracing the development of performance styles from the Classical period to the Romantic period, analyzing the evolving performance and teaching methods. It aims to create a systematic and coherent learning experience for every participant.",
+      "row4": "In order to maximize the learning results, students in the performance category are required to upload recordings of assigned repertoire in this workshop, and teachers in the pedagogy scholars group are required to write a teaching analysis on these performances. Our faculty will provide direct comments and detailed instructions for selected performers and teachers.",
+      "row5": "International Piano Pedagogy Symposium",
+      "row6": "One of the most important features of the Conero International Piano Festival is the International Piano Pedagogy Symposium, which brings together experts and professors from the world's top teaching fields to discuss topics related to current pedagogical development and techniques. We will collect the best and most challenging questions from young teachers and scholars from countries all over the world to discuss in the symposium.",
+      "row7": "Piano Performance Evaluation Masterclasses",
+      "row8": "Due to the Covid-19 pandemic, traditional masterclasses with a live audience are not possible this year. We are developing an effective and innovative method for long distance learning and participation in masterclasses.",
+      "row9": "Piano Performance Evaluation Masterclasses provide a platform for our faculty to help students solve core problems. Our faculty will give direct feedback, evaluations, and demonstrations based on the student’s performance recording. With the help of modern technology, we can complete the masterclass without appearing on the same stage. We will present the Evaluation Masterclass in the format of the student’s performance and faculty’s feedback together as one video. All the students and pedagogy scholars will benefit from watching other students’ performances and faculty’s teaching method.",
+      "row10": "Students of the professional group are required to upload 8-12 minutes of performance video in advance; students of the amateur group are required to upload 2-6 minutes of performance video.",
+      "row11": "One on one virtual piano lessons",
+      "row12": "Every student in the festival can apply extra piano lessons with our faculty. Please contact us to schedule the virtual lessons with your favorite professor.",
+      "row13": "Piano Technique Workshop",
+      "row14": "Piano Technique, in a narrow sense means finger movement coordinated with multiple body movements; in a broad sense it means how to express music more effectively.",
+      "row15": "The Conero Piano Festival will offer a piano technique workshop demonstrating the different approaches to technique, including American, Asian and European piano education systems. Through participating in our workshop, students will learn to identify and avoid technical difficulties and common mistakes.",
+      "row16": "Professor Vladimir Valjarević will offer a seminar named “Capturing the Magic of Sound and Touch: Synergy of the Ears and Fingers”. Good piano pedagogy trains both ears and fingers from early age, and the well-trained ear enables the fingers to create almost endless varieties and nuances of expression at the piano.",
+      "row17": "Professor Massimiliano Ferrati will tell us how good technique benefits expressive elements in Chopin’s music.",
+      "row18": "In the Injury Prevention workshop, we invited Professor Zhou Xiang,a surgeon specializing in the hand and wrist, who completed his post-doctorate program at Harvard School of Medicine. Through sharing his clinical experience with musicians, we will get to know the major causes of injury and how to avoid getting injured. Based on the scientific analysis of our hand structure, Dr. Jack Winerock will explain healthy piano techniques, as well as the most common traps that pianists usually fall into. Dr. Ivy Lu Wang will share how kinesiology benefits healthy piano technique.",
+      "row19": "* Students who need to participate in the Injury Prevention workshop, need to contact us ASAP to receive individualized guidance."
+    }
+  },
+  "application": {
+    "applyInstructions": {
+      "title": "Application Instructions",
+      "title1": "Payment Method",
+      "row1": "Please complete the application form and submit payment through PayPal. Accepted payment methods are PayPal account balance or credit card (UnionPay, Visa, MasterCard, as well as other major credit cards are accepted). Note that signing up for a PayPal account is not required to send credit card payment.",
+      "title2": "Application Recording",
+      "row2": "In addition to the application form, Piano Professionals and Amateur Pianists are required to upload their choice of performance videos, no more than 20 minutes total. If your recording is not ready, you may submit the application first and email us your link as soon as possible (scholarships will not be considered without a recording). It is required to use a video sharing website such as YouTube or YouKu. Please do not try to send video files through email - we will not receive any email with an attachment larger than 5MB."
+    },
+    "tuition": {
+      "title": "Festival Tuition",
+      "row1": "Professional Pianist Group",
+      "row1-2": "$399",
+      "row1-3": "Application Fee: $80",
+      "row1-4": "Deadline :July 20th",
+      "row2": "Piano Pedagogy Scholars Group",
+      "row2-2": "$299",
+      "row3": "Amateur Pianist Group",
+      "row3-2": "$159",
+      "row4": "Observers",
+      "row4-2": "$149",
+      "row4-3": "(Three for $297)",
+      "row4-4": "No Application Fee",
+      "row4-5": "Application deadline: August 10th",
+      "row5": "* Early Bird discount: $50 off  Deadline: June 30th"
+    },
+    "categories": {
+      "title": "Festival Categories",
+      "pianist": "Professional Pianist Group:",
+      "pianist2": "1. With given repertoires, students receive one-on-one instruction on “Stylistic Approaches in the Classical and Romantic Eras” and “Piano Technique” workshops.",
+      "pianist3": "2. Participate in Piano Performance Evaluation Masterclass: a one-on-one online instruction with our faculty.",
+      "pianist4": "3. Opportunity to be chosen to participate in the Student Honor Recital.",
+      "pianist5": "4. Eligible to join the Career Planning Workshop and the International Piano Pedagogy Symposium.",
+      "pianist6": "5. Full access to all Conero Festival lectures, Evaluation Masterclasses and Recitals.",
+      "pianist7": "6. Acquire the Conero International Piano Festival official certification signed by all faculties.",
+      "pianist8": "7. Extra opportunity to have private lessons with your favorite professor.",
+      "scholars": "Piano Pedagogy Scholars Group:",
+      "scholars2": "1. Participate the “Classical & Romantic Eras Performance Practice Workshop” and “Piano Technique Workshop”. Activities include group discussion and teaching analysis.",
+      "scholars3": "2. Eligible to join the International Piano Pedagogy Symposium.",
+      "scholars4": "3. Full access to all Conero Festival lectures, Evaluation Masterclasses and Recitals.",
+      "scholars5": "4. Acquire the Conero Pedagogy Scholars Certification signed by all faculties.",
+      "scholars6": "5. Extra opportunity to have private lessons with your favorite professor.",
+      "amateur": "Amateur Pianist Group:",
+      "amateur2": "1. Participate in Piano Performance Evaluation Masterclass: a one-on-one online instruction with our faculty.",
+      "amateur3": "2. Full access to all Conero Festival lectures, Evaluation Masterclasses and Recitals.",
+      "amateur4": "3. Acquire the Conero International Piano Festival official certification signed by all faculties.",
+      "amateur5": "4. Extra opportunity to have private lessons with your favorite professor.",
+      "observers": "Observers:",
+      "observers2": "1. Full access to all Conero Festival lectures, Evaluation Masterclasses and Recitals.",
+      "observers3": "2. Eligible to join the International Piano Pedagogy Symposium.",
+      "observers4": "3. Extra opportunity to have private lessons with your favorite professor."
+    }
   },
   "applyTitle": {
     "title": "Application",

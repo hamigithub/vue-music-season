@@ -21,8 +21,12 @@
           </div>
         </div>
         <div class="col-xs-12 padding-bottom20">
-          <p class="lineHeight">{{$t('homeTitle.row1')}}</p>
-          <h5 class="padding-top20">{{$t('homeTitle.row2')}}</h5>
+          <h3 class="lineHeight">{{$t('home.homeTitle.row1')}}</h3>
+          <p>{{$t('home.homeTitle.row1-2')}}</p>
+          <p class="padding-top20">{{$t('home.homeTitle.row2')}}</p>
+          <p>{{$t('home.homeTitle.row3')}}</p>
+          <p>{{$t('home.homeTitle.row4')}}</p>
+          <p>{{$t('home.homeTitle.row5')}}</p>
         </div>
       </div>
     </div>
@@ -47,34 +51,13 @@
         </div>
         <div class="col-xs-12 padding-top20">
           <div class="homeSubject padding-bottom20">
-            <p class="lineHeight">{{$t('homeSubject.row1')}}</p>
-            <p class="lineHeight">{{$t('homeSubject.row2')}}</p>
-            <p class="lineHeight">{{$t('homeSubject.row3')}}</p>
-            <p class="lineHeight">{{$t('homeSubject.row4')}}</p>
+            <p class="lineHeight">{{$t('home.homeText.row1')}}</p>
+            <p class="lineHeight">{{$t('home.homeText.row2')}}</p>
+            <p class="lineHeight">{{$t('home.homeText.row3')}}</p>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- <div class="container">
-      <div class="row padding-top50">
-        <div class="col-xs-12 col-md-6">
-          <table border="0" cellpadding="10">
-            <tr>
-              <td class="font-bold">{{$t('homeHosted.row2')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('homeHosted.row3')}}</td>
-              <td>{{$t('homeHosted.row3-1')}}</td>
-            </tr>
-            <tr>
-              <td>{{$t('homeHosted.row4')}}</td>
-              <td>{{$t('homeHosted.row4-1')}}</td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </div>-->
   </div>
 </template>
 

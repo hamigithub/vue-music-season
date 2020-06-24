@@ -4,10 +4,15 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="componentTitle committeeTitle">
-            <div>{{$t('constitutionTitle.title')}}
-              <div class="titleBtn"><span class="titleBtnInside">{{$t('appPublic.row1')}}</span></div>
+            <div>
+              {{$t('constitutionTitle.title')}}
+              <div class="titleBtn">
+                <span class="titleBtnInside">{{$t('appPublic.row1')}}</span>
+              </div>
             </div>
-            <div><p class="title_p">{{$t('appPublic.row2')}}</p></div>
+            <div>
+              <p class="title_p">{{$t('appPublic.row2')}}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -36,154 +41,177 @@
             </tr>
             <tr>
               <td>August 6th</td>
-              <td>9:00-11:15<br>
-                Piano lessons<br>
-                11:30-13:00<br>
-                Scott McBride Smith Pedagogy lecture
+              <td>
+                9:00-11:15
+                <br />Piano lessons
+                <br />11:30-13:00
+                <br />Scott McBride Smith Pedagogy lecture
               </td>
-              <td>14:45-16:15<br>
-                Piano lessons<br>
-                16:30-18:00<br>
-                Enrico Elisi Masterclasses<br>
-                18:00-18:30<br>
-                Pedagogy forum
+              <td>
+                14:45-16:15
+                <br />Piano lessons
+                <br />16:30-18:00
+                <br />Enrico Elisi Masterclasses
+                <br />18:00-18:30
+                <br />Pedagogy forum
               </td>
-              <td>20:30<br>
-                Cristiano Burato<br>
-                Piano Recital
+              <td>
+                20:30
+                <br />Cristiano Burato
+                <br />Piano Recital
               </td>
             </tr>
             <tr>
               <td>August 7th</td>
-              <td>9:00-11:15<br>
-                Piano lessons<br>
-                11:30-13:00<br>
-                Yandi Yang<br>
-                Pedagogy lecture
+              <td>
+                9:00-11:15
+                <br />Piano lessons
+                <br />11:30-13:00
+                <br />Yandi Yang
+                <br />Pedagogy lecture
               </td>
-              <td>14:45-16:15<br>
-                Tamara Licheli Masterclasses<br>
-                17:00-18:00<br>
-                Xiaohong Zhao Masterclasses<br>
-                18:00-18:30<br>
-                Pedagogy forum
+              <td>
+                14:45-16:15
+                <br />Tamara Licheli Masterclasses
+                <br />17:00-18:00
+                <br />Xiaohong Zhao Masterclasses
+                <br />18:00-18:30
+                <br />Pedagogy forum
               </td>
-              <td>20:30<br>
-                Tamara Licheli<br>
-                Piano Recital
+              <td>
+                20:30
+                <br />Tamara Licheli
+                <br />Piano Recital
               </td>
             </tr>
             <tr>
               <td>August 8th</td>
               <td>Half day tour to Recanati Beach</td>
               <td>International Piano Pedagogy Symposium</td>
-              <td>20:30<br>
-                Student Recital
+              <td>
+                20:30
+                <br />Student Recital
               </td>
             </tr>
             <tr>
               <td>August 9th</td>
-              <td>9:00-11:15<br>
-                Piano lessons<br>
-                11:30-13:00<br>
-                Cristiano Burato<br>
-                Pedagogy lecture
+              <td>
+                9:00-11:15
+                <br />Piano lessons
+                <br />11:30-13:00
+                <br />Cristiano Burato
+                <br />Pedagogy lecture
               </td>
-              <td>14:45-16:15<br>
-                Piano lessons<br>
-                16:30-18:00<br>
-                Cristiano Burato Masterclasses<br>
-                18:00-18:30<br>
-                Pedagogy forum
+              <td>
+                14:45-16:15
+                <br />Piano lessons
+                <br />16:30-18:00
+                <br />Cristiano Burato Masterclasses
+                <br />18:00-18:30
+                <br />Pedagogy forum
               </td>
-              <td>20:30<br>
-                Student Recital
+              <td>
+                20:30
+                <br />Student Recital
               </td>
             </tr>
             <tr>
               <td>August 10th</td>
-              <td>9:00-11:15<br>
-                Piano lessons<br>
-                11:30-13:00<br>
-                Scott McBride Smith<br>
-                Pedagogy lecture
+              <td>
+                9:00-11:15
+                <br />Piano lessons
+                <br />11:30-13:00
+                <br />Scott McBride Smith
+                <br />Pedagogy lecture
               </td>
-              <td>14:45-16:15<br>
-                Piano lessons<br>
-                16:30-18:00<br>
-                Scott Smith Masterclasses<br>
-                18:00-18:30<br>
-                Pedagogy forum
+              <td>
+                14:45-16:15
+                <br />Piano lessons
+                <br />16:30-18:00
+                <br />Scott Smith Masterclasses
+                <br />18:00-18:30
+                <br />Pedagogy forum
               </td>
-              <td>20:30<br>
-                Congcong Chai<br>
-                Piano Recital
+              <td>
+                20:30
+                <br />Congcong Chai
+                <br />Piano Recital
               </td>
             </tr>
             <tr>
               <td>August 11th</td>
               <td colspan="2">One day tour in historical towns</td>
-              <td>20:30<br>
-                Student Recital
+              <td>
+                20:30
+                <br />Student Recital
               </td>
             </tr>
             <tr>
               <td>August 12th</td>
-              <td>9:00-11:15<br>
-                Piano lessons<br>
-                11:30-13:00<br>
-                Congcong Chai<br>
-                Pedagogy lecture
+              <td>
+                9:00-11:15
+                <br />Piano lessons
+                <br />11:30-13:00
+                <br />Congcong Chai
+                <br />Pedagogy lecture
               </td>
-              <td>14:45-16:15<br>
-                Piano lessons<br>
-                16:30-18:00<br>
-                Massimillano Ferrati Masterclasses<br>
-                18:00-18:30<br>
-                Pedagogy forum
+              <td>
+                14:45-16:15
+                <br />Piano lessons
+                <br />16:30-18:00
+                <br />Massimillano Ferrati Masterclasses
+                <br />18:00-18:30
+                <br />Pedagogy forum
               </td>
-              <td>20:30<br>
-                Asaf Kleimann<br>
-                Piano Recital
+              <td>
+                20:30
+                <br />Asaf Kleimann
+                <br />Piano Recital
               </td>
             </tr>
             <tr>
               <td>August 13th</td>
-              <td>9:00-11:15<br>
-                Piano lessons<br>
-                11:30-13:00<br>
-                Ivy Lu Wang<br>
-                Pedagogy lecture
+              <td>
+                9:00-11:15
+                <br />Piano lessons
+                <br />11:30-13:00
+                <br />Ivy Lu Wang
+                <br />Pedagogy lecture
               </td>
-              <td>14:45-16:15<br>
-                Piano lessons<br>
-                16:30-18:00<br>
-                Asaf Kleimann Masterclasses<br>
-                18:00-18:30<br>
-                Pedagogy forum
+              <td>
+                14:45-16:15
+                <br />Piano lessons
+                <br />16:30-18:00
+                <br />Asaf Kleimann Masterclasses
+                <br />18:00-18:30
+                <br />Pedagogy forum
               </td>
-              <td>20:30<br>
-                Massimillano Ferrati<br>
-                Piano Recital
+              <td>
+                20:30
+                <br />Massimillano Ferrati
+                <br />Piano Recital
               </td>
             </tr>
             <tr>
               <td>August 14th</td>
-              <td>9:00-11:15<br>
-                Piano lessons<br>
-                11:30-13:00<br>
-                Asaf Kleinmann<br>
-                Improvisation workshop
+              <td>
+                9:00-11:15
+                <br />Piano lessons
+                <br />11:30-13:00
+                <br />Asaf Kleinmann
+                <br />Improvisation workshop
               </td>
-              <td>14:45-16:15<br>
-                Piano lessons<br>
-                16:30-18:00<br>
-                Congcong Chai Masterclasses<br>
-                18:00-18:30<br>
-                Pedagogy forum
+              <td>
+                14:45-16:15
+                <br />Piano lessons
+                <br />16:30-18:00
+                <br />Congcong Chai Masterclasses
+                <br />18:00-18:30
+                <br />Pedagogy forum
               </td>
-              <td>20:30<br>
-                Festival Closing Ceremony & Rewards
+              <td>
+                20:30
+                <br />Festival Closing Ceremony & Rewards
               </td>
             </tr>
             <tr>
@@ -260,44 +288,43 @@
         </div>
       </div>
     </div>
-
   </div>
 </template>
 
 <script>
-  export default {
-    name: "Constitution"
-  }
+export default {
+  name: "Constitution"
+};
 </script>
 
 <style scoped>
-  .titleBtn {
-    background-image: linear-gradient(90deg, #00a0b6, #4cb602);
-  }
+.titleBtn {
+  background-image: linear-gradient(90deg, #00a0b6, #4cb602);
+}
 
-  table {
-    font-size: 14px;
-  }
+table {
+  font-size: 12px;
+}
 
-  .asafWrap {
-    padding: 20px;
-    border: #2c3e50 solid 1px;
-    border-radius: 10px;
-  }
+.asafWrap {
+  padding: 20px;
+  border: #2c3e50 solid 1px;
+  border-radius: 10px;
+}
 
-  .concertsWrap {
-    padding: 20px;
-    border: transparent solid 1px;
-    border-radius: 10px;
-  }
+.concertsWrap {
+  padding: 20px;
+  border: transparent solid 1px;
+  border-radius: 10px;
+}
 
-  .concertsWrap:hover {
-    border: #cccccc solid 1px;
-    box-shadow: 1px 1px 5px #cccccc;
-  }
+.concertsWrap:hover {
+  border: #cccccc solid 1px;
+  box-shadow: 1px 1px 5px #cccccc;
+}
 
-  .concerts {
-    background: linear-gradient(45deg, #ff0036, #ff9c00);
-    color: #fff;
-  }
+.concerts {
+  background: linear-gradient(45deg, #ff0036, #ff9c00);
+  color: #fff;
+}
 </style>

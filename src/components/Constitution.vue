@@ -1,6 +1,6 @@
 <template>
   <div id="constitution">
-    <!-- <div class="container">
+    <div class="container">
       <div class="row">
         <div class="col-xs-12">
           <div class="componentTitle committeeTitle">
@@ -16,212 +16,183 @@
           </div>
         </div>
       </div>
-    </div>-->
+    </div>
 
-    <!-- <div class="container">
+    <div class="container">
       <div class="row">
         <div class="col-xs-12">
           <h3 class="padding-bottom10">Daily Schedule</h3>
           <table class="text-center" border="1">
             <tr>
-              <th>Dates</th>
-              <th>Morning</th>
-              <th>Afternoon</th>
-              <th>Evening</th>
+              <th>{{$t('constitution2020.form.row1')}}</th>
+              <th>{{$t('constitution2020.form.row1-2')}}</th>
+              <th>{{$t('constitution2020.form.row1-3')}}</th>
+              <th>{{$t('constitution2020.form.row1-4')}}</th>
             </tr>
+
             <tr>
-              <td>August 4th</td>
-              <td colspan="2">Arrival & Registration</td>
-              <td>Festival Opening Reception</td>
-            </tr>
-            <tr>
-              <td>August 5th</td>
-              <td colspan="2">2019 Italy Conero International Piano Competition (Final Round)</td>
-              <td>Award Ceremony and Lorenzo Di Bella Piano Recital</td>
-            </tr>
-            <tr>
-              <td>August 6th</td>
-              <td>
-                9:00-11:15
-                <br />Piano lessons
-                <br />11:30-13:00
-                <br />Scott McBride Smith Pedagogy lecture
-              </td>
-              <td>
-                14:45-16:15
-                <br />Piano lessons
-                <br />16:30-18:00
-                <br />Enrico Elisi Masterclasses
-                <br />18:00-18:30
-                <br />Pedagogy forum
-              </td>
-              <td>
-                20:30
-                <br />Cristiano Burato
-                <br />Piano Recital
+              <td>{{$t('constitution2020.form.row2')}}</td>
+              <td colspan="3">
+                {{$t('constitution2020.form.row2-2')}}
+                <br />
+                {{$t('constitution2020.form.row2-3')}}
+                <br />
+                {{$t('constitution2020.form.row2-4')}}
               </td>
             </tr>
+
             <tr>
-              <td>August 7th</td>
+              <td>{{$t('constitution2020.form.row3')}}</td>
               <td>
-                9:00-11:15
-                <br />Piano lessons
-                <br />11:30-13:00
-                <br />Yandi Yang
-                <br />Pedagogy lecture
+                {{$t('constitution2020.form.row3-2')}}
+                <br />
+                {{$t('constitution2020.form.row3-3')}}
+                <br />
+                {{$t('constitution2020.form.row3-4')}}
               </td>
               <td>
-                14:45-16:15
-                <br />Tamara Licheli Masterclasses
-                <br />17:00-18:00
-                <br />Xiaohong Zhao Masterclasses
-                <br />18:00-18:30
-                <br />Pedagogy forum
+                {{$t('constitution2020.form.row3-5')}}
+                <br />
+                {{$t('constitution2020.form.row3-6')}}
+                <br />
+                {{$t('constitution2020.form.row3-7')}}
+              </td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>{{$t('constitution2020.form.row4')}}</td>
+              <td>
+                {{$t('constitution2020.form.row4-2')}}
+                <br />
+                {{$t('constitution2020.form.row4-3')}}
+                <br />
+                {{$t('constitution2020.form.row4-4')}}
+                <br />
+                {{$t('constitution2020.form.row4-5')}}
+                <br />
+                {{$t('constitution2020.form.row4-6')}}
+                <br />
+                {{$t('constitution2020.form.row4-7')}}
               </td>
               <td>
-                20:30
-                <br />Tamara Licheli
-                <br />Piano Recital
+                {{$t('constitution2020.form.row4-8')}}
+                <br />
+                {{$t('constitution2020.form.row4-9')}}
+                <br />
+                {{$t('constitution2020.form.row4-10')}}
               </td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td>{{$t('constitution2020.form.row5')}}</td>
+              <td>
+                {{$t('constitution2020.form.row5-2')}}
+                <br />
+                {{$t('constitution2020.form.row5-3')}}
+                <br />
+                {{$t('constitution2020.form.row5-4')}}
+              </td>
+              <td>
+                {{$t('constitution2020.form.row5-5')}}
+                <br />
+                {{$t('constitution2020.form.row5-6')}}
+                <br />
+                {{$t('constitution2020.form.row5-7')}}
+              </td>
+              <td>{{$t('constitution2020.form.row5-8')}}</td>
+            </tr>
+
+            <tr>
+              <td>{{$t('constitution2020.form.row6')}}</td>
+              <td>
+                {{$t('constitution2020.form.row6-2')}}
+                <br />
+                {{$t('constitution2020.form.row6-3')}}
+                <br />
+                {{$t('constitution2020.form.row6-4')}}
+                <br />
+                {{$t('constitution2020.form.row6-5')}}
+              </td>
+              <td>
+                {{$t('constitution2020.form.row6-6')}}
+                <br />
+                {{$t('constitution2020.form.row6-7')}}
+                <br />
+                {{$t('constitution2020.form.row6-8')}}
+              </td>
+              <td></td>
             </tr>
             <tr>
-              <td>August 8th</td>
-              <td>Half day tour to Recanati Beach</td>
-              <td>International Piano Pedagogy Symposium</td>
+              <td>{{$t('constitution2020.form.row7')}}</td>
               <td>
-                20:30
-                <br />Student Recital
+                {{$t('constitution2020.form.row7-2')}}
+                <br />
+                {{$t('constitution2020.form.row7-3')}}
               </td>
+              <td>{{$t('constitution2020.form.row7-4')}}</td>
+              <td></td>
             </tr>
+
             <tr>
-              <td>August 9th</td>
+              <td>{{$t('constitution2020.form.row8')}}</td>
+              <td>{{$t('constitution2020.form.row8-2')}}</td>
               <td>
-                9:00-11:15
-                <br />Piano lessons
-                <br />11:30-13:00
-                <br />Cristiano Burato
-                <br />Pedagogy lecture
+                {{$t('constitution2020.form.row8-3')}}
+                <br />
+                {{$t('constitution2020.form.row8-4')}}
+                <br />
+                {{$t('constitution2020.form.row8-5')}}
               </td>
-              <td>
-                14:45-16:15
-                <br />Piano lessons
-                <br />16:30-18:00
-                <br />Cristiano Burato Masterclasses
-                <br />18:00-18:30
-                <br />Pedagogy forum
-              </td>
-              <td>
-                20:30
-                <br />Student Recital
-              </td>
+              <td>{{$t('constitution2020.form.row8-6')}}</td>
             </tr>
+
             <tr>
-              <td>August 10th</td>
+              <td>{{$t('constitution2020.form.row9')}}</td>
               <td>
-                9:00-11:15
-                <br />Piano lessons
-                <br />11:30-13:00
-                <br />Scott McBride Smith
-                <br />Pedagogy lecture
+                {{$t('constitution2020.form.row9-2')}}
+                <br />
+                {{$t('constitution2020.form.row9-3')}}
+                <br />
+                {{$t('constitution2020.form.row9-4')}}
+                <br />
+                {{$t('constitution2020.form.row9-5')}}
               </td>
               <td>
-                14:45-16:15
-                <br />Piano lessons
-                <br />16:30-18:00
-                <br />Scott Smith Masterclasses
-                <br />18:00-18:30
-                <br />Pedagogy forum
+                {{$t('constitution2020.form.row9-6')}}
+                <br />
+                {{$t('constitution2020.form.row9-7')}}
+                <br />
+                {{$t('constitution2020.form.row9-8')}}
               </td>
-              <td>
-                20:30
-                <br />Congcong Chai
-                <br />Piano Recital
-              </td>
+              <td></td>
             </tr>
+
             <tr>
-              <td>August 11th</td>
-              <td colspan="2">One day tour in historical towns</td>
+              <td>{{$t('constitution2020.form.row10')}}</td>
               <td>
-                20:30
-                <br />Student Recital
-              </td>
-            </tr>
-            <tr>
-              <td>August 12th</td>
-              <td>
-                9:00-11:15
-                <br />Piano lessons
-                <br />11:30-13:00
-                <br />Congcong Chai
-                <br />Pedagogy lecture
+                {{$t('constitution2020.form.row10-2')}}
+                <br />
+                {{$t('constitution2020.form.row10-3')}}
+                <br />
+                {{$t('constitution2020.form.row10-4')}}
+                <br />
+                {{$t('constitution2020.form.row10-5')}}
               </td>
               <td>
-                14:45-16:15
-                <br />Piano lessons
-                <br />16:30-18:00
-                <br />Massimillano Ferrati Masterclasses
-                <br />18:00-18:30
-                <br />Pedagogy forum
+                {{$t('constitution2020.form.row10-6')}}
+                <br />
+                {{$t('constitution2020.form.row10-7')}}
+                <br />
+                {{$t('constitution2020.form.row10-8')}}
               </td>
-              <td>
-                20:30
-                <br />Asaf Kleimann
-                <br />Piano Recital
-              </td>
-            </tr>
-            <tr>
-              <td>August 13th</td>
-              <td>
-                9:00-11:15
-                <br />Piano lessons
-                <br />11:30-13:00
-                <br />Ivy Lu Wang
-                <br />Pedagogy lecture
-              </td>
-              <td>
-                14:45-16:15
-                <br />Piano lessons
-                <br />16:30-18:00
-                <br />Asaf Kleimann Masterclasses
-                <br />18:00-18:30
-                <br />Pedagogy forum
-              </td>
-              <td>
-                20:30
-                <br />Massimillano Ferrati
-                <br />Piano Recital
-              </td>
-            </tr>
-            <tr>
-              <td>August 14th</td>
-              <td>
-                9:00-11:15
-                <br />Piano lessons
-                <br />11:30-13:00
-                <br />Asaf Kleinmann
-                <br />Improvisation workshop
-              </td>
-              <td>
-                14:45-16:15
-                <br />Piano lessons
-                <br />16:30-18:00
-                <br />Congcong Chai Masterclasses
-                <br />18:00-18:30
-                <br />Pedagogy forum
-              </td>
-              <td>
-                20:30
-                <br />Festival Closing Ceremony & Rewards
-              </td>
-            </tr>
-            <tr>
-              <td>August 15th</td>
-              <td colspan="3">Check out hotel</td>
+              <td>{{$t('constitution2020.form.row10-9')}}</td>
             </tr>
           </table>
         </div>
       </div>
-    </div>-->
+    </div>
 
     <!-- <div class="container">
       <div class="row">
@@ -275,21 +246,47 @@
       </div>
     </div>-->
 
-    <!-- <div class="container">
+    <div class="container">
       <div class="row">
         <div class="col-xs-12 padding-top50">
-          <div class="asafWrap">
-            <h3>Asaf Improvisation Workshop</h3>
-            <h4 class="font-italic">——{{$t('constitutionText.title')}}</h4>
-            <p class="padding-top15">{{$t('constitutionText.row1')}}</p>
-            <p class="padding-top15">{{$t('constitutionText.row2')}}</p>
-            <p class="padding-top15">{{$t('constitutionText.row3')}}</p>
+          <div class="textWrap">
+            <h3 class="font-blue">{{$t('constitution2020.text.row1')}}</h3>
+            <p class="padding-top15">{{$t('constitution2020.text.row2')}}</p>
+            <p class="padding-top15">{{$t('constitution2020.text.row3')}}</p>
+            <p class="padding-top15">{{$t('constitution2020.text.row4')}}</p>
+          </div>
+
+          <div class="textWrap margin-top20">
+            <h3 class="font-blue">{{$t('constitution2020.text.row13')}}</h3>
+            <p class="padding-top15">{{$t('constitution2020.text.row14')}}</p>
+            <p class="padding-top15">{{$t('constitution2020.text.row15')}}</p>
+            <p class="padding-top15">{{$t('constitution2020.text.row16')}}</p>
+            <p class="padding-top15">{{$t('constitution2020.text.row17')}}</p>
+            <p class="padding-top15">{{$t('constitution2020.text.row18')}}</p>
+            <h5 class="padding-top15">{{$t('constitution2020.text.row19')}}</h5>
+          </div>
+
+          <div class="textWrap margin-top20">
+            <h3 class="font-blue">{{$t('constitution2020.text.row5')}}</h3>
+            <p class="padding-top15">{{$t('constitution2020.text.row6')}}</p>
+          </div>
+
+          <div class="textWrap margin-top20">
+            <h3 class="font-blue">{{$t('constitution2020.text.row7')}}</h3>
+            <p class="padding-top15">{{$t('constitution2020.text.row8')}}</p>
+            <p class="padding-top15">{{$t('constitution2020.text.row9')}}</p>
+            <p class="padding-top15">{{$t('constitution2020.text.row10')}}</p>
+          </div>
+
+          <div class="textWrap margin-top20">
+            <h3 class="font-blue">{{$t('constitution2020.text.row11')}}</h3>
+            <p class="padding-top15">{{$t('constitution2020.text.row12')}}</p>
           </div>
         </div>
       </div>
-    </div>-->
+    </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col-xs-12 padding-top50">
           <div class="asafWrap">
@@ -297,7 +294,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
 
     <div class="container">
       <div class="row">
@@ -326,10 +323,10 @@ export default {
 }
 
 table {
-  font-size: 14px;
+  font-size: 12px;
 }
 
-.asafWrap {
+.textWrap {
   padding: 20px;
   border: #2c3e50 solid 1px;
   border-radius: 10px;
