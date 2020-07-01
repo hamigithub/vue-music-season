@@ -264,8 +264,7 @@
     "row6": "Ms. Aranovskaya received her education at the St. Petersburg State Conservatory and at the Rimsky-Korsakov Music College in St. Petersburg, Russia, where her primary teachers were Mark Komissarov, the Wieniawsky Competition winner, and Vladimir Ovcharek, the first violinist of the Taneyev String Quartet. She is a prize winner of the All-Russian Violin Competition."
   },
   "competitionTitle": {
-    "title": "2020 Conero",
-    "title2": "International Piano Competition",
+    "title2": "2020 Conero International Piano Competition",
     "title3": "First Round Competition Result"
   },
   "competitionText1": {
@@ -365,8 +364,8 @@
     "row11": "11 The committee has the final say regarding all rules."
   },
   "competition2020text1": {
-    "row1": "The Conero International Piano Competition is organized by the International Piano Professionals Association (of the United States) and the Civica Scuola di Musica Beniamino Gigli (Recanati, Italy).",
-    "row2": "The Conero International Piano Competition has been accepted as a member of the Alink-Argerich Foundation because of its professionalism and internationalism. This organization only admits members meeting certain requirements and standards for piano competitions."
+    "row1": "The Conero International Piano Competition is organized by the International Piano Professionals Association (United States) and the Civica Scuola di Musica Beniamino Gigli (Recanati, Italy).",
+    "row2": "It has been accepted as a member of the Alink-Argerich Foundation."
   },
   "competition2020text2": {
     "row1": "2020 Conero International Piano Festival Competition guide",
@@ -822,15 +821,15 @@
       "row9": "17th August",
       "row9-2": "9:00-10:00",
       "row9-3": "Piano Technique Workshop Topic 2",
-      "row9-4": "Capturing the Magic of Sound and Touch: Synergy od the Ears and Fingers",
-      "row9-5": "Prof. Vladimir Valijarević",
+      "row9-4": "Capturing the Magic of Sound and Touch: Synergy of the Ears and Fingers",
+      "row9-5": "Prof. Vladimir Valjarevic",
       "row9-6": "Performance Evaluation Masterclass",
       "row9-7": "Seminar/Group Discussion",
       "row9-8": "Pedagogy Scholars Forum",
       "row10": "18th August",
       "row10-2": "9:00-10:00",
       "row10-3": "Piano Technique Workshop Topic 3",
-      "row10-4": "Piano Technique in Chopin‘s Music",
+      "row10-4": "Mozart Fantasy K475, Beethoven Op.111,Chopin op.35:The Sense of Life and Death",
       "row10-5": "Prof. Massimiliano Ferrati",
       "row10-6": "Performance Evaluation Masterclass",
       "row10-7": "Seminar/Group Discussion",
@@ -839,8 +838,8 @@
     },
     "text": {
       "row1": "Classical & Romantic Style Performance Practice Workshop",
-      "row2": "One of the most challenging tasks in piano performance and teaching is to precisely master musical style and interpretation. Performance practices such as ornamentations, articulations, pedal, dynamics, touch, rubato, and so on are treated differently in each musical period.",
-      "row3": "The Classical & Romantic Style workshop assembles distinguished pianists and esteemed piano pedagogues across the globe to carry out a series of 6 lectures, tracing the development of performance styles from the Classical period to the Romantic period, analyzing the evolving performance and teaching methods. It aims to create a systematic and coherent learning experience for every participant.",
+      "row2": "One of the most challenging tasks in piano performance and teaching is to precisely master musical style and interpretation. Performance practices such as ornamentations, articulation, pedal, dynamics, touch and rubato are treated differently in each musical period.",
+      "row3": "The Classical & Romantic Style workshop assembles distinguished pianists and esteemed piano pedagogues across from the globe for a series of 6 lectures, tracing the development of performance styles from the Classical period to the Romantic period, analyzing the evolving performance and teaching methods. It aims to create a systematic and coherent learning experience for every participant.",
       "row4": "In order to maximize the learning results, students in the performance category are required to upload recordings of assigned repertoire in this workshop, and teachers in the pedagogy scholars group are required to write a teaching analysis on these performances. Our faculty will provide direct comments and detailed instructions for selected performers and teachers.",
       "row5": "International Piano Pedagogy Symposium",
       "row6": "One of the most important features of the Conero International Piano Festival is the International Piano Pedagogy Symposium, which brings together experts and professors from the world's top teaching fields to discuss topics related to current pedagogical development and techniques. We will collect the best and most challenging questions from young teachers and scholars from countries all over the world to discuss in the symposium.",
@@ -882,7 +881,7 @@
       "row4-3": "(Three for $297)",
       "row4-4": "No Application Fee",
       "row4-5": "Application deadline: August 10th",
-      "row5": "* Early Bird discount: $50 off  Deadline: June 30th"
+      "row5": "* Early Bird discount: $50 off Deadline: July 10th"
     },
     "categories": {
       "title": "Festival Categories",
@@ -909,6 +908,16 @@
       "observers2": "1. Full access to all Conero Festival lectures, Evaluation Masterclasses and Recitals.",
       "observers3": "2. Eligible to join the International Piano Pedagogy Symposium.",
       "observers4": "3. Extra opportunity to have private lessons with your favorite professor."
+    },
+    "fee": {
+      "row1": "Festival Fees (Early Bird)",
+      "row2": "Festival Application $80",
+      "row3": "Performance Pianists Group Tuition ¥349(Early bird)",
+      "row4": "Amateur Pianist Group Tuition $109 (Early bird)",
+      "row5": "Observers Tuition $149 (one person)",
+      "row6": "Observers Tuition $297 (three people)",
+      "row7": "Participant name(s):",
+      "row8": "Please put your name and application type in you payment information."
     }
   },
   "applyTitle": {

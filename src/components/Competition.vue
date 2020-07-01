@@ -3,15 +3,9 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <div class="componentTitle">
-            <div>
-              {{$t('competitionTitle.title')}}
-              <div class="titleBtn">
-                <span class="titleBtnInside">{{$t('competitionTitle.title2')}}</span>
-              </div>
-            </div>
-            <div>
-              <p class="title_p">{{$t('appPublic.row2')}}</p>
+          <div class="componentTitle text-center">
+            <div class="titleBtn">
+              <span class="titleBtnInside font-bold">{{$t('competitionTitle.title2')}}</span>
             </div>
           </div>
         </div>
@@ -23,49 +17,6 @@
         <div class="col-xs-12">
           <p class="font-bold">{{$t('competition2020text1.row1')}}</p>
           <p class="font-bold">{{$t('competition2020text1.row2')}}</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row padding-bottom100">
-        <div class="col-xs-6 col-md-3 padding-top50">
-          <div class="text-center">
-            <router-link :to="{name:'divisionUsa'}">
-              <div class="pointer-hand division-all division1">{{$t('division.row1')}}</div>
-            </router-link>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 padding-top50">
-          <div class="text-center">
-            <router-link :to="{name:'divisionChina'}">
-              <div class="pointer-hand division-all division2">{{$t('division.row2')}}</div>
-            </router-link>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 padding-top50">
-          <div class="text-center">
-            <router-link :to="{name:'divisionAustralia'}">
-              <div class="pointer-hand division-all division3">{{$t('division.row3')}}</div>
-            </router-link>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 padding-top50">
-          <div class="text-center">
-            <router-link :to="{name:'divisionOnline'}">
-              <div class="pointer-hand division-all division4">{{$t('division.row4')}}</div>
-            </router-link>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="imgWrap text-center padding-top20">
-            <img src="../assets/img/posterEnd.jpg" alt />
-          </div>
         </div>
       </div>
     </div>
@@ -104,8 +55,44 @@
       </div>
     </div>
 
+    <div class="container padding-top50">
+      <div class="row padding-bottom100">
+        <div class="col-xs-12 col-md-6">
+          <h2 class="text-center padding-top20">Preliminary Round Rules</h2>
+          <div class="text-center">
+            <router-link :to="{name:'divisionUsa'}">
+              <div class="pointer-hand division-all division1">{{$t('division.row1')}}</div>
+            </router-link>
+          </div>
+
+          <div class="text-center">
+            <router-link :to="{name:'divisionChina'}">
+              <div class="pointer-hand division-all division2">{{$t('division.row2')}}</div>
+            </router-link>
+          </div>
+
+          <div class="text-center">
+            <router-link :to="{name:'divisionAustralia'}">
+              <div class="pointer-hand division-all division3">{{$t('division.row3')}}</div>
+            </router-link>
+          </div>
+
+          <div class="text-center">
+            <router-link :to="{name:'divisionOnline'}">
+              <div class="pointer-hand division-all division4">{{$t('division.row4')}}</div>
+            </router-link>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="imgWrap text-center padding-top20">
+            <img src="../assets/img/posterEnd.jpg" alt />
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
-      <div class="row padding-top50">
+      <div class="row">
         <div class="col-xs-12 padding-top50">
           <div class="padding-bottom10 text-center">
             <h2>{{$t('competition2020text4.row1')}}</h2>
@@ -438,6 +425,7 @@ export default {
 }
 
 .division-all {
+  margin: 40px 100px;
   padding: 10px;
   color: #fff;
   border: 1px solid #cccccc;
@@ -465,6 +453,10 @@ export default {
 .division4 {
   background: #c2254c;
 }
+
+.imgWrap img {
+    width: 80%;
+  }
 
 @media (max-width: 992px) {
   .imgWrap img {

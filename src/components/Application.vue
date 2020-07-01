@@ -61,7 +61,38 @@
             </div>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
               <input type="hidden" name="cmd" value="_s-xclick" />
-              <input type="hidden" name="hosted_button_id" value="CL448JFGF8SKJ" />
+              <input type="hidden" name="hosted_button_id" value="VEXCA53QFVEEE" />
+              <table class="autoMargin">
+                <tr>
+                  <td>
+                    <input type="hidden" name="on0" value="Festival Fees (Early Bird)" />
+                    {{$t('application.fee.row1')}}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <select name="os0">
+                      <option value="Application Fee">{{$t('application.fee.row2')}}</option>
+                      <option value="Performance Pianist Tuition">{{$t('application.fee.row3')}}</option>
+                      <option value="Amateur Pianist Tuition">{{$t('application.fee.row4')}}</option>
+                      <option value="Observer Tuition">{{$t('application.fee.row5')}}</option>
+                      <option value="Observer Tuition (three people)">{{$t('application.fee.row6')}}</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="hidden" name="on1" value="Participant name(s):" />
+                    {{$t('application.fee.row7')}}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" name="os1" maxlength="200" />
+                  </td>
+                </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="USD" />
               <input
                 type="image"
                 src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
@@ -77,7 +108,7 @@
                 height="1"
               />
             </form>
-            <p class="padding-20">{{$t('applyFee.ps')}}</p>
+            <p class="padding-20">{{$t('application.fee.row8')}}</p>
           </div>
         </div>
         <div class="col-xs-12 col-md-6 padding-top20">
@@ -217,6 +248,10 @@ table {
 
 .wcPay {
   width: 200px;
+}
+
+.autoMargin {
+  margin: 0 auto;
 }
 
 .titleBtn {

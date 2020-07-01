@@ -247,40 +247,136 @@
     </div>-->
 
     <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <div class="textWrap">
+            <div>
+              <h3 class="font-blue">{{$t('constitution2020.text.row1')}}</h3>
+              <p class="padding-top15">{{$t('constitution2020.text.row2')}}</p>
+              <p class="padding-top15">{{$t('constitution2020.text.row3')}}</p>
+              <p class="padding-top15">{{$t('constitution2020.text.row4')}}</p>
+            </div>
+            <div class="flexBox">
+              <div class="box-child-1 text-center">
+                <div class="imgWrap">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/constitution/practice_1.png"
+                    alt
+                  />
+                </div>
+              </div>
+              <div class="box-child-1 text-center">
+                <div class="imgWrap">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/constitution/practice_2.png"
+                    alt
+                  />
+                </div>
+              </div>
+              <div class="box-child-1 text-center">
+                <div class="imgWrap">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/constitution/practice_3.png"
+                    alt
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-xs-12 padding-top50">
-          <div class="textWrap">
-            <h3 class="font-blue">{{$t('constitution2020.text.row1')}}</h3>
-            <p class="padding-top15">{{$t('constitution2020.text.row2')}}</p>
-            <p class="padding-top15">{{$t('constitution2020.text.row3')}}</p>
-            <p class="padding-top15">{{$t('constitution2020.text.row4')}}</p>
-          </div>
-
           <div class="textWrap margin-top20">
-            <h3 class="font-blue">{{$t('constitution2020.text.row13')}}</h3>
-            <p class="padding-top15">{{$t('constitution2020.text.row14')}}</p>
-            <p class="padding-top15">{{$t('constitution2020.text.row15')}}</p>
-            <p class="padding-top15">{{$t('constitution2020.text.row16')}}</p>
-            <p class="padding-top15">{{$t('constitution2020.text.row17')}}</p>
-            <p class="padding-top15">{{$t('constitution2020.text.row18')}}</p>
-            <h5 class="padding-top15">{{$t('constitution2020.text.row19')}}</h5>
+            <div>
+              <h3 class="font-blue">{{$t('constitution2020.text.row13')}}</h3>
+              <p class="padding-top15">{{$t('constitution2020.text.row14')}}</p>
+              <p class="padding-top15">{{$t('constitution2020.text.row15')}}</p>
+              <p class="padding-top15">{{$t('constitution2020.text.row16')}}</p>
+              <p class="padding-top15">{{$t('constitution2020.text.row17')}}</p>
+              <p class="padding-top15">{{$t('constitution2020.text.row18')}}</p>
+              <h5 class="padding-top15">{{$t('constitution2020.text.row19')}}</h5>
+            </div>
+            <div class="flexBox">
+              <div class="box-child-1 text-center">
+                <div class="imgWrap">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/constitution/technique_1.png"
+                    alt
+                  />
+                </div>
+              </div>
+              <div class="box-child-1 text-center">
+                <div class="imgWrap">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/constitution/technique_2.png"
+                    alt
+                  />
+                </div>
+              </div>
+              <div class="box-child-1 text-center">
+                <div class="imgWrap">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/constitution/technique_3.png"
+                    alt
+                  />
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-xs-12 padding-top50">
           <div class="textWrap margin-top20">
-            <h3 class="font-blue">{{$t('constitution2020.text.row5')}}</h3>
-            <p class="padding-top15">{{$t('constitution2020.text.row6')}}</p>
+            <div class="box-child-2">
+              <h3 class="font-blue">{{$t('constitution2020.text.row5')}}</h3>
+              <p class="padding-top15">{{$t('constitution2020.text.row6')}}</p>
+            </div>
+            <div class="box-child-2 text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg-2 pointer-hand"
+                  src="../assets/img/constitution/symposium_1.png"
+                  alt
+                />
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-xs-12 padding-top50">
           <div class="textWrap margin-top20">
             <h3 class="font-blue">{{$t('constitution2020.text.row7')}}</h3>
             <p class="padding-top15">{{$t('constitution2020.text.row8')}}</p>
             <p class="padding-top15">{{$t('constitution2020.text.row9')}}</p>
             <p class="padding-top15">{{$t('constitution2020.text.row10')}}</p>
           </div>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-xs-12 padding-top50">
           <div class="textWrap margin-top20">
-            <h3 class="font-blue">{{$t('constitution2020.text.row11')}}</h3>
-            <p class="padding-top15">{{$t('constitution2020.text.row12')}}</p>
+            <div class="box-child-2">
+              <h3 class="font-blue">{{$t('constitution2020.text.row11')}}</h3>
+              <p class="padding-top15">{{$t('constitution2020.text.row12')}}</p>
+            </div>
+            <div class="box-child-2 text-center">
+              <div class="imgWrap">
+                <img class="judgeImg-2 pointer-hand" src="../assets/img/constitution/one_1.png" alt />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -351,5 +447,49 @@ table {
 .passActivity {
   float: right;
   border-bottom: 1px solid #ccc;
+}
+
+.judgeImg {
+  width: 250px;
+  border-radius: 5%;
+}
+
+.judgeImg-2 {
+  width: 300px;
+  border-radius: 5%;
+}
+
+.flexBox {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-child-1 {
+  display: inline-block;
+  width: 33%;
+}
+
+.box-child-2 {
+  display: inline-block;
+  width: 48%;
+}
+
+.imgWrap {
+  margin: 20px 0;
+}
+
+@media (max-width: 992px) {
+  .box-child-1 {
+    width: 100%;
+  }
+
+  .box-child-2 {
+    width: 100%;
+  }
+
+  .judgeImg-2 {
+    width: 250px;
+  }
 }
 </style>
