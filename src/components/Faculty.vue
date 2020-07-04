@@ -19,343 +19,212 @@
     </div>
 
     <div class="container">
-      <router-link class="text-black" to="/bio/smith#smith">
-        <div class="row">
-          <div id="bioSmith" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Smith.jpg" alt />
-              </div>
-            </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioSmith.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioSmith.row2')}}
-                  <br />
-                  * {{$t('committeeBioSmith.row3')}}
-                  <br />
-                  &nbsp&nbsp{{$t('committeeBioSmith.row4')}}
-                  <br />
-                  * {{$t('committeeBioSmith.row5')}}
-                  <br />
-                  * {{$t('committeeBioSmith.row6')}}
-                  <br />
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
-
-      <router-link class="text-black" to="/bio/enrico#enrico">
-        <div class="row">
-          <div id="bioEnrico" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Enrico.jpg" alt />
-              </div>
-            </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioEnrico.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioEnrico.row2')}}
-                  <br />
-                  * {{$t('committeeBioEnrico.row3')}}
-                  <br />
-                  * {{$t('committeeBioEnrico.row4')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
-
-      <router-link class="text-black" to="/bio/jack#jack">
-        <div class="row">
-          <div id="bioJack" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Jack.jpg" alt />
-              </div>
-            </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioJack.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioJack.row2')}}
-                  <br />
-                  * {{$t('committeeBioJack.row3')}}
-                  <br />
-                  * {{$t('committeeBioJack.row4')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
-
-      <router-link class="text-black" to="/bio/ferrati#ferrati">
-        <div class="row">
-          <div id="bioFerrati" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Ferrati.jpg" alt />
-              </div>
-            </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioFerrati.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioFerrati.row2')}}
-                  <br />
-                  * {{$t('committeeBioFerrati.row3')}}
-                  <br />
-                  * {{$t('committeeBioFerrati.row4')}}
-                  <br />
-                  * {{$t('committeeBioFerrati.row5')}}
-                  <br />
-                  * {{$t('committeeBioFerrati.row6')}}
-                  <br />
-                  * {{$t('committeeBioFerrati.row7')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
-
-      <router-link class="text-black" to="/bio/cong#cong">
-        <div class="row">
-          <div id="bioCong" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Cong.jpg" alt />
-              </div>
-            </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioCong.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioCong.row2')}}
-                  <br />
-                  * {{$t('committeeBioCong.row3')}}
-                  <br />
-                  * {{$t('committeeBioCong.row4')}}
-                  <br />
-                  * {{$t('committeeBioCong.row5')}}
-                  <br />
-                  {{$t('committeeBioCong.row6')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
-
-      <router-link class="text-black" to="/bio/lorenzo#lorenzo">
-        <div class="row">
-          <div id="bioLorenzo" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Lorenzo.jpg" alt />
-              </div>
-            </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioLorenzo.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioLorenzo.row2')}}
-                  <br />
-                  * {{$t('committeeBioLorenzo.row3')}}
-                  <br />
-                  * {{$t('committeeBioLorenzo.row4')}}
-                  <br />
-                  * {{$t('committeeBioLorenzo.row5')}}
-                  <br />
-                  {{$t('committeeBioLorenzo.row6')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
-
-      <div class="row">
-        <div id="bioYangyandi" class="text-black pointer-hand bioWrap clearfix">
-          <div class="col-md-3 col-xs-12">
-            <div class="committeeFacultyWrap padding-20">
-              <img src="../assets/img/Yangyandi.jpg" alt />
-            </div>
-          </div>
-          <div class="col-md-8 col-xs-12">
-            <div class="margin-l-top40">
-              <h2>{{$t('committeeBioYangyandi.row1')}}</h2>
-              <p class="lineHeight">
-                <br />
-                * {{$t('committeeBioYangyandi.row2')}}
-                <br />
-                * {{$t('committeeBioYangyandi.row3')}}
-              </p>
-            </div>
-          </div>
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <h2>2020科雷诺国际钢琴比赛 评审团</h2>
         </div>
       </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <div class="flexBox">
+            <div class="box-child text-center">
+              <div id="bioSmith" class="imgWrap">
+                <router-link class="text-black" to="/bio/smith#smith">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Smith.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioSmith.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioSmith.row2')}}</p>
+                  <p>{{$t('committeeBioSmith.row3')}}</p>
+                  <p>{{$t('committeeBioSmith.row4')}}</p>
+                  <p>{{$t('committeeBioSmith.row5')}}</p>
+                  <p>{{$t('committeeBioSmith.row6')}}</p>
+                  <p>{{$t('committeeBioSmith.row7')}}</p>
+                </div>
+              </div>
+            </div>
 
-      <router-link class="text-black" to="/bio/zhaoxiaohong#zhaoxiaohong">
-        <div class="row">
-          <div id="bioZhaoxiaohong" class="text-black pointer-hand bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Zhaoxiaohong.jpg" alt />
+            <div class="box-child text-center">
+              <div id="bioEnrico" class="imgWrap">
+                <router-link class="text-black" to="/bio/enrico#enrico">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Enrico.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioEnrico.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioEnrico.row2')}}</p>
+                  <p>{{$t('committeeBioEnrico.row3')}}</p>
+                  <p>{{$t('committeeBioEnrico.row4')}}</p>
+                </div>
               </div>
             </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioZhaoxiaohong.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioZhaoxiaohong.row2')}}
-                  <br />
-                  * {{$t('committeeBioZhaoxiaohong.row3')}}
-                  <br />
-                  * {{$t('committeeBioZhaoxiaohong.row4')}}
-                  <br />
-                  * {{$t('committeeBioZhaoxiaohong.row5')}}
-                  <br />
-                  * {{$t('committeeBioZhaoxiaohong.row6')}}
-                  <br />
-                  * {{$t('committeeBioZhaoxiaohong.row7')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
 
-      <router-link class="text-black" to="/bio/asaf#asaf">
-        <div class="row">
-          <div id="bioAsaf" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Asaf.jpg" alt />
+            <div class="box-child text-center">
+              <div id="bioBlaha" class="imgWrap">
+                <router-link class="text-black" to="/bio/blaha#blaha">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Blaha.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioBlaha.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioBlaha.row2')}}</p>
+                  <p>{{$t('committeeBioBlaha.row3')}}</p>
+                  <p>{{$t('committeeBioBlaha.row4')}}</p>
+                  <p>{{$t('committeeBioBlaha.row5')}}</p>
+                </div>
               </div>
             </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioAsaf.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioAsaf.row2')}}
-                  <br />
-                  * {{$t('committeeBioAsaf.row3')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
 
-      <router-link class="text-black" to="/bio/ivy#ivy">
-        <div class="row">
-          <div id="bioIvy" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Ivy.jpg" alt />
+            <div class="box-child text-center">
+              <div id="bioJianing" class="imgWrap">
+                <router-link class="text-black" to="/bio/jianing#jianing">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Jianing.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioJianing.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioJianing.row2')}}</p>
+                  <p>{{$t('committeeBioJianing.row3')}}</p>
+                  <p>{{$t('committeeBioJianing.row4')}}</p>
+                  <p>{{$t('committeeBioJianing.row5')}}</p>
+                  <p>{{$t('committeeBioJianing.row6')}}</p>
+                </div>
               </div>
             </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioIvy.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioIvy.row2')}}
-                  <br />
-                  * {{$t('committeeBioIvy.row3')}}
-                  <br />
-                  * {{$t('committeeBioIvy.row4')}}
-                  <br />
-                  * {{$t('committeeBioIvy.row5')}}
-                  <br />
-                  {{$t('committeeBioIvy.row6')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
 
-      <router-link class="text-black" to="/bio/boris#boris">
-        <div class="row">
-          <div id="bioBoris" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Boris.jpg" alt />
+            <div class="box-child text-center">
+              <div id="bioLorenzo" class="imgWrap">
+                <router-link class="text-black" to="/bio/lorenzo#lorenzo">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Lorenzo.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioLorenzo.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioLorenzo.row2')}}</p>
+                  <p>{{$t('committeeBioLorenzo.row3')}}</p>
+                  <p>{{$t('committeeBioLorenzo.row4')}}</p>
+                  <p>{{$t('committeeBioLorenzo.row5')}}</p>
+                  <p>{{$t('committeeBioLorenzo.row6')}}</p>
+                </div>
               </div>
             </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioBoris.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioBoris.row2')}}
-                  <br />
-                  * {{$t('committeeBioBoris.row3')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
 
-      <router-link class="text-black" to="/bio/alla#alla">
-        <div class="row">
-          <div id="bioAlla" class="bioWrap clearfix">
-            <div class="col-md-3 col-xs-12">
-              <div class="committeeFacultyWrap padding-20">
-                <img src="../assets/img/Alla.jpg" alt />
+            <div class="box-child text-center">
+              <div id="bioVladimir" class="imgWrap">
+                <router-link class="text-black" to="/bio/vladimir#vladimir">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Vladimir.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioVladimir.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioVladimir.row2')}}</p>
+                  <p>{{$t('committeeBioVladimir.row3')}}</p>
+                  <p>{{$t('committeeBioVladimir.row4')}}</p>
+                </div>
               </div>
             </div>
-            <div class="col-md-8 col-xs-12">
-              <div class="margin-l-top40">
-                <h2>{{$t('committeeBioAlla.row1')}}</h2>
-                <p class="lineHeight">
-                  <br />
-                  * {{$t('committeeBioAlla.row2')}}
-                  <br />
-                  * {{$t('committeeBioAlla.row3')}}
-                  <br />
-                  * {{$t('committeeBioAlla.row4')}}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </router-link>
 
-      <div class="row topLine margin-top20">
-        <div id="bioMark" class="text-black pointer-hand bioWrap clearfix">
-          <div class="col-md-3 col-xs-12">
-            <div class="committeeFacultyWrap padding-20">
-              <img src="../assets/img/Mark.jpg" alt />
+            <div class="box-child text-center">
+              <div id="bioJack" class="imgWrap">
+                <router-link class="text-black" to="/bio/jack#jack">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Jack.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioJack.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioJack.row2')}}</p>
+                  <p>{{$t('committeeBioJack.row3')}}</p>
+                  <p>{{$t('committeeBioJack.row4')}}</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-md-8 col-xs-12">
-            <div class="margin-l-top40">
-              <h2>{{$t('committeeBioMark.row1')}}</h2>
-              <p class="lineHeight">
-                <br />
-                * {{$t('committeeBioMark.row2')}}
-                <br />
-                * {{$t('committeeBioMark.row3')}}
-              </p>
+
+            <div class="box-child text-center">
+              <div id="bioFerrati" class="imgWrap">
+                <router-link class="text-black" to="/bio/ferrati#ferrati">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Ferrati.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioFerrati.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioFerrati.row2')}}</p>
+                  <p>{{$t('committeeBioFerrati.row3')}}</p>
+                  <p>{{$t('committeeBioFerrati.row4')}}</p>
+                  <p>{{$t('committeeBioFerrati.row5')}}</p>
+                  <p>{{$t('committeeBioFerrati.row6')}}</p>
+                  <p>{{$t('committeeBioFerrati.row7')}}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioYangyandi" class="imgWrap">
+                <div class="text-black">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Yangyandi.jpg" alt />
+                </div>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioYangyandi.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioYangyandi.row2')}}</p>
+                  <p>{{$t('committeeBioYangyandi.row3')}}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioZhaoxiaohong" class="imgWrap">
+                <router-link class="text-black" to="/bio/zhaoxiaohong#zhaoxiaohong">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Zhaoxiaohong.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioZhaoxiaohong.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioZhaoxiaohong.row2')}}</p>
+                  <p>{{$t('committeeBioZhaoxiaohong.row3')}}</p>
+                  <p>{{$t('committeeBioZhaoxiaohong.row4')}}</p>
+                  <p>{{$t('committeeBioZhaoxiaohong.row5')}}</p>
+                  <p>{{$t('committeeBioZhaoxiaohong.row6')}}</p>
+                  <p>{{$t('committeeBioZhaoxiaohong.row7')}}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioIannone" class="imgWrap">
+                <router-link class="text-black" to="/bio/iannone#iannone">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Iannone.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioIannone.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioIannone.row2')}}</p>
+                  <p>{{$t('committeeBioIannone.row3')}}</p>
+                  <p>{{$t('committeeBioIannone.row4')}}</p>
+                  <p>{{$t('committeeBioIannone.row5')}}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioCong" class="imgWrap">
+                <router-link class="text-black" to="/bio/cong#cong">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Cong.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioCong.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioCong.row2')}}</p>
+                  <p>{{$t('committeeBioCong.row3')}}</p>
+                  <p>{{$t('committeeBioCong.row4')}}</p>
+                  <p>{{$t('committeeBioCong.row5')}}</p>
+                  <p>{{$t('committeeBioCong.row6')}}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioIvy" class="imgWrap">
+                <router-link class="text-black" to="/bio/ivy#ivy">
+                  <img class="judgeImg pointer-hand" src="../assets/img/Ivy.jpg" alt />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{$t('committeeBioIvy.row1')}}</p>
+                  <p class="padding-top5">{{$t('committeeBioIvy.row2')}}</p>
+                  <p>{{$t('committeeBioIvy.row3')}}</p>
+                  <p>{{$t('committeeBioIvy.row4')}}</p>
+                  <p>{{$t('committeeBioIvy.row5')}}</p>
+                  <p>{{$t('committeeBioIvy.row6')}}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -429,6 +298,45 @@ export default {
 @media screen and (max-width: 996px) {
   .committeeFacultyWrap {
     text-align: center;
+  }
+}
+
+.imgWrap {
+  margin-top: 10px;
+}
+
+.titleWrap {
+  padding: 10px 20px;
+}
+
+.titleWrap p {
+  font-size: 12px;
+  text-align: left;
+}
+
+.judgeImg {
+  width: 250px;
+  border-radius: 5%;
+}
+
+.flexBox {
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-child {
+  display: inline-block;
+  width: 25%;
+}
+
+@media (max-width: 992px) {
+  .judgeImg {
+    width: 150px;
+  }
+
+  .box-child {
+    width: 50%;
   }
 }
 </style>

@@ -16,26 +16,40 @@
           <div class="row">
             <div class="col-xs-12 col-md-4 text-center padding-bottom20">
               <router-link to="/division/china/apply">
-                <div class="btn btnBgm">{{$t('applyTitle.title2')}}</div>
+                <div class="btn btnBgm">{{$t('applyTitle.title4')}}</div>
               </router-link>
             </div>
             <div class="col-xs-12 col-md-4">
               <div class="text-center">
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="hidden" name="hosted_button_id" value="LXVMMJ5HA8X5L" />
-                  <table class="feeTable">
+                  <input type="hidden" name="hosted_button_id" value="RZH4HAC9T4BRN" />
+                  <table class="payTable">
                     <tr>
                       <td>
-                        <input type="hidden" name="on0" value="Participant name(s):" />Participant name(s):
+                        <input type="hidden" name="on0" value="Group Type" />Group Type
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <input type="text" name="os0" maxlength="200" />
+                        <select name="os0">
+                          <option value="Professionals/Teachers">Professionals/Teachers $100.00 USD</option>
+                          <option value="Amateurs">Amateurs $80.00 USD</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="hidden" name="on1" value="Participant name(s):" />Participant name(s):
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="text" name="os1" maxlength="200" />
                       </td>
                     </tr>
                   </table>
+                  <input type="hidden" name="currency_code" value="USD" />
                   <input
                     type="image"
                     src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
@@ -339,6 +353,10 @@ export default {
   }
 }
 
+.payTable {
+  margin: 0 auto;
+}
+
 .payImg img {
   width: 50%;
 }
@@ -350,6 +368,7 @@ export default {
 .imgWrap {
   margin-top: 10px;
 }
+
 .titleWrap {
   padding: 10px 20px;
 }

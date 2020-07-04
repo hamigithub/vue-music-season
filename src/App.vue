@@ -43,11 +43,11 @@
                       <span>{{$t('appNavText.constitution')}}</span>
                     </router-link>
                   </li>
-                  <li class="page-nav__item">
+                  <!-- <li class="page-nav__item">
                     <router-link :to="{name:'concerts'}">
                       <span>{{$t('appNavText.concerts')}}</span>
                     </router-link>
-                  </li>
+                  </li>-->
                   <li class="page-nav__item">
                     <router-link :to="{name:'application'}">
                       <span>{{$t('appNavText.application')}}</span>

@@ -34,6 +34,10 @@ import Mark from './bio/Mark'
 import Alla from './bio/2020/Alla'
 import Jack from './bio/2020/Jack'
 import Boris from './bio/2020/Boris'
+import Blaha from './bio/2020/Blaha'
+import Jianing from './bio/2020/Jianing'
+import Vladimir from './bio/2020/Vladimir'
+import Iannone from './bio/2020/Iannone'
 
 export default new Router({
   mode: 'history',
@@ -223,6 +227,22 @@ export default new Router({
     {
       path: "/bio/alla",
       component: Alla
+    },
+    {
+      path: "/bio/blaha",
+      component: Blaha
+    },
+    {
+      path: "/bio/jianing",
+      component: Jianing
+    },
+    {
+      path: "/bio/vladimir",
+      component: Vladimir
+    },
+    {
+      path: "/bio/iannone",
+      component: Iannone
     },
     //音乐会路由
     {

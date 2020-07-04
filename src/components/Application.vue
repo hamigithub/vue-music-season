@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row padding-bottom100">
         <div class="col-xs-12">
           <div class="btn btnBgm">{{$t('applyTitle.title2')}}</div>
@@ -50,7 +50,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
 
     <div class="container">
       <div class="row padding-top50">
@@ -59,6 +59,19 @@
             <div class="payImg padding-bottom20">
               <img src="../assets/img/chinaPay.jpg" alt />
             </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 padding-top20">
+          <div class="text-center">
+            <router-link to="/application/applyForm#applyForm">
+              <div class="btn btnBgm">{{$t('applyTitle.title3')}}</div>
+            </router-link>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="text-center padding-top20">
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
               <input type="hidden" name="cmd" value="_s-xclick" />
               <input type="hidden" name="hosted_button_id" value="VEXCA53QFVEEE" />
@@ -111,10 +124,13 @@
             <p class="padding-20">{{$t('application.fee.row8')}}</p>
           </div>
         </div>
-        <div class="col-xs-12 col-md-6 padding-top20">
-          <router-link to="/application/applyForm#applyForm">
-            <div class="btn btnBgm">{{$t('applyTitle.title3')}}</div>
-          </router-link>
+        <div class="col-xs-12 col-md-6">
+          <div class="text-center padding-top20">
+            <p class="font-14 padding-bottom20">{{$t('applyFee.customFee')}}</p>
+            <a href="https://www.paypal.me/payIPPA?locale.x=en_US" target="_blank">
+              <img src="../assets/img/paypalEn.png" alt />
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -335,6 +351,6 @@ table {
 }
 
 .payImg img {
-  width: 60%;
+  width: 40%;
 }
 </style>

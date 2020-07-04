@@ -21,6 +21,14 @@
           </div>
         </div>
         <div class="col-xs-12 padding-bottom20">
+          <div class="padding-bottom20">
+            <h2 class="text-center font-blue">{{$t('home.homeTitle.row6')}}</h2>
+            <h2 class="text-center font-blue">{{$t('home.homeTitle.row7')}}</h2>
+            <h2 class="text-center font-blue padding-bottom20">{{$t('home.homeTitle.row8')}}</h2>
+            <router-link class="font-white" :to="{name:'constitution'}">
+              <div class="arrows">===></div>
+            </router-link>
+          </div>
           <h3 class="lineHeight">{{$t('home.homeTitle.row1')}}</h3>
           <p>{{$t('home.homeTitle.row1-2')}}</p>
           <p class="padding-top20">{{$t('home.homeTitle.row2')}}</p>
@@ -169,6 +177,18 @@ export default {
   border: #ffffff solid 10px;
   border-radius: 5px;
   position: relative;
+  cursor: pointer;
+}
+
+.arrows {
+  width: 200px;
+  height: 50px;
+  background: #0366d6;
+  text-align: center;
+  font-size: 32px;
+  color: #ffffff;
+  margin: 0 auto;
+  border-radius: 10px;
   cursor: pointer;
 }
 </style>

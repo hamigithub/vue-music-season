@@ -367,10 +367,15 @@
 
       <div class="row">
         <div class="col-xs-12 padding-top50">
-          <div class="textWrap margin-top20">
+          <div class="flexBox textWrap margin-top20">
             <div class="box-child-2">
               <h3 class="font-blue">{{$t('constitution2020.text.row11')}}</h3>
               <p class="padding-top15">{{$t('constitution2020.text.row12')}}</p>
+              <h3 class="font-blue padding-top20">{{$t('constitution2020.text.row12-1')}}</h3>
+              <p class="padding-top15">{{$t('constitution2020.text.row12-2')}}</p>
+              <p class="padding-top15">{{$t('constitution2020.text.row12-3')}}</p>
+              <p class="padding-top15">{{$t('constitution2020.text.row12-4')}}</p>
+              <p class="padding-top15">{{$t('constitution2020.text.row12-5')}}</p>
             </div>
             <div class="box-child-2 text-center">
               <div class="imgWrap">
