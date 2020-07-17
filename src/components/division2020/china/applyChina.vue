@@ -283,9 +283,6 @@
                       <option>{{$t('divisionChina.apply28-5')}}</option>
                       <option>{{$t('divisionChina.apply28-6')}}</option>
                       <option>{{$t('divisionChina.apply28-7')}}</option>
-                      <option>{{$t('divisionChina.apply28-8')}}</option>
-                      <option>{{$t('divisionChina.apply28-9')}}</option>
-                      <option>{{$t('divisionChina.apply28-10')}}</option>
                     </select>
                   </label>
                 </div>
