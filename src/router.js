@@ -111,6 +111,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/china/applyChina.vue')
     },
     {
+      path: "/division/china/finalists",
+      name: "chinaFinalists",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/china/finalists.vue')
+    },
+    {
       path: "/division/australia",
       name: "divisionAustralia",
       component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/australia/divisionAustralia.vue')

@@ -78,25 +78,28 @@
               <table class="autoMargin">
                 <tr>
                   <td>
-                    <input type="hidden" name="on0" value="Festival Fees (Early Bird)" />
-                    {{$t('application.fee.row1')}}
+                    <input type="hidden" name="on0" value="Festival Fees" />Festival Fees
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <select name="os0">
-                      <option value="Application Fee">{{$t('application.fee.row2')}}</option>
-                      <option value="Performance Pianist Tuition">{{$t('application.fee.row3')}}</option>
-                      <option value="Amateur Pianist Tuition">{{$t('application.fee.row4')}}</option>
-                      <option value="Observer Tuition">{{$t('application.fee.row5')}}</option>
-                      <option value="Observer Tuition (three people)">{{$t('application.fee.row6')}}</option>
+                      <option value="Application Fee">Application Fee $80.00 USD</option>
+                      <option
+                        value="Performance Pianist Tuition"
+                      >Performance Pianist Tuition $399.00 USD</option>
+                      <option value="Amateur Pianist Tuition">Amateur Pianist Tuition $159.00 USD</option>
+                      <option value="Pedagogy Scholar Fee">Pedagogy Scholar Fee $299.00 USD</option>
+                      <option value="Observer Tuition">Observer Tuition $149.00 USD</option>
+                      <option
+                        value="Observer Tuition (three people)"
+                      >Observer Tuition (three people) $297.00 USD</option>
                     </select>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <input type="hidden" name="on1" value="Participant name(s):" />
-                    {{$t('application.fee.row7')}}
+                    <input type="hidden" name="on1" value="Participant name(s):" />Participant name(s):
                   </td>
                 </tr>
                 <tr>

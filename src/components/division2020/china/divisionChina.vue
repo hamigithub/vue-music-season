@@ -18,6 +18,11 @@
               <router-link to="/division/china/apply">
                 <div class="btn btnBgm">{{$t('applyTitle.title4')}}</div>
               </router-link>
+              <div class="margin-top20">
+                <router-link to="/division/china/finalists">
+                  <div class="listsWrap font-italic text-center">Finalist</div>
+                </router-link>
+              </div>
             </div>
             <div class="col-xs-12 col-md-4">
               <div class="text-center">
@@ -392,6 +397,16 @@ export default {
 .box-child {
   display: inline-block;
   width: 25%;
+}
+
+.listsWrap {
+  background: rgb(255, 39, 39);
+  width: 333px;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 30px;
+  color: #ffed4f;
 }
 
 @media (max-width: 992px) {
