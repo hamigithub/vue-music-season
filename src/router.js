@@ -253,7 +253,38 @@ export default new Router({
     {
       path: "/concerts",
       name: "concerts",
-      component: () => import(/* webpackChunkName: "group-concerts" */'./components/concerts/Concerts'),
+      component: () => import(/* webpackChunkName: "group-concerts" */'./components/concerts/Concerts')
     },
+    //比赛名单2020
+    {
+      path: "/youngArtistGroup",
+      name: "youngArtistGroup",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./components/result/youngArtistGroup.vue')
+    },
+    {
+      path: "/professionalAdultGroup",
+      name: "professionalAdultGroup",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./components/result/professionalAdultGroup.vue')
+    },
+    {
+      path: "/pianoTeachersGroup",
+      name: "pianoTeachersGroup",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./components/result/pianoTeachersGroup.vue')
+    },
+    {
+      path: "/childrenGroup",
+      name: "childrenGroup",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./components/result/childrenGroup.vue')
+    },
+    {
+      path: "/amateurJuvenileGroup",
+      name: "amateurJuvenileGroup",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./components/result/amateurJuvenileGroup.vue')
+    },
+    {
+      path: "/amateurAdultGroup",
+      name: "amateurAdultGroup",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./components/result/amateurAdultGroup.vue')
+    }
   ]
 })

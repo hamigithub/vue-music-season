@@ -67,25 +67,63 @@
 
           <div class="text-center">
             <router-link :to="{name:'divisionChina'}">
-              <div class="pointer-hand division-all division2">{{$t('division.row2')}}</div>
+              <div class="pointer-hand division-all division1">{{$t('division.row2')}}</div>
             </router-link>
           </div>
 
           <div class="text-center">
             <router-link :to="{name:'divisionAustralia'}">
-              <div class="pointer-hand division-all division3">{{$t('division.row3')}}</div>
+              <div class="pointer-hand division-all division1">{{$t('division.row3')}}</div>
             </router-link>
           </div>
 
           <div class="text-center">
             <router-link :to="{name:'divisionOnline'}">
-              <div class="pointer-hand division-all division4">{{$t('division.row4')}}</div>
+              <div class="pointer-hand division-all division1">{{$t('division.row4')}}</div>
             </router-link>
           </div>
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="imgWrap text-center padding-top20">
             <img src="../assets/img/posterEnd.jpg" alt />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-bottom100">
+        <div class="col-xs-12">
+          <h2 class="text-center padding-top20">Result Announcement</h2>
+          <div class="text-center">
+            <router-link :to="{name:'youngArtistGroup'}">
+              <div class="pointer-hand division-all division1">Professional Young Artist Group</div>
+            </router-link>
+          </div>
+          <div class="text-center">
+            <router-link :to="{name:'professionalAdultGroup'}">
+              <div class="pointer-hand division-all division1">Professional Adult Group</div>
+            </router-link>
+          </div>
+          <div class="text-center">
+            <router-link :to="{name:'pianoTeachersGroup'}">
+              <div class="pointer-hand division-all division1">Piano Teachers Group</div>
+            </router-link>
+          </div>
+          <div class="text-center">
+            <router-link :to="{name:'childrenGroup'}">
+              <div class="pointer-hand division-all division1">Children Group</div>
+            </router-link>
+          </div>
+          <div class="text-center">
+            <router-link :to="{name:'amateurJuvenileGroup'}">
+              <div class="pointer-hand division-all division1">Amateur Juvenile Group</div>
+            </router-link>
+          </div>
+          <div class="text-center">
+            <router-link :to="{name:'amateurAdultGroup'}">
+              <div class="pointer-hand division-all division1">Amateur Adult Group</div>
+            </router-link>
           </div>
         </div>
       </div>
@@ -370,7 +408,7 @@
 
 <script>
 export default {
-  name: "competition"
+  name: "competition",
 };
 </script>
 
@@ -425,7 +463,7 @@ export default {
 }
 
 .division-all {
-  margin: 40px 100px;
+  margin: 40px 40px;
   padding: 10px;
   color: #fff;
   border: 1px solid #cccccc;
@@ -442,21 +480,9 @@ export default {
   background: #c2254c;
 }
 
-.division2 {
-  background: #c2254c;
-}
-
-.division3 {
-  background: #c2254c;
-}
-
-.division4 {
-  background: #c2254c;
-}
-
 .imgWrap img {
-    width: 80%;
-  }
+  width: 80%;
+}
 
 @media (max-width: 992px) {
   .imgWrap img {
