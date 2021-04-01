@@ -14,27 +14,38 @@
               <div class="homeTitleWrap">
                 <p class="title_p">
                   <img class="homeLogo" src="../assets/img/logo.png" alt />
-                  {{$t('appPublic.row2')}}
+                  {{ $t("appPublic.row2") }}
                 </p>
               </div>
             </div>
           </div>
         </div>
         <div class="col-xs-12 padding-bottom20">
-          <div class="padding-bottom20">
-            <h2 class="text-center font-blue">{{$t('home.homeTitle.row6')}}</h2>
-            <h2 class="text-center font-blue">{{$t('home.homeTitle.row7')}}</h2>
-            <h2 class="text-center font-blue padding-bottom20">{{$t('home.homeTitle.row8')}}</h2>
-            <router-link class="font-white" :to="{name:'constitution'}">
-              <div class="arrows">===></div>
+          <div class="padding-bottom20 font-grayBlue">
+            <h2 class="text-center">
+              {{ $t("home.homeTitle.row6") }}
+            </h2>
+            <h2 class="text-center">
+              {{ $t("home.homeTitle.row7") }}
+            </h2>
+            <router-link :to="{ name: 'constitution' }">
+              <h2 class="text-center font-grayBlue">
+                {{ $t("home.homeTitle.row8") }}
+              </h2>
             </router-link>
+            <h2 class="text-center">
+              {{ $t("home.homeTitle.row9") }}
+            </h2>
+            <h2 class="text-center padding-bottom20">
+              {{ $t("home.homeTitle.row10") }}
+            </h2>
           </div>
-          <h3 class="lineHeight">{{$t('home.homeTitle.row1')}}</h3>
-          <p>{{$t('home.homeTitle.row1-2')}}</p>
-          <p class="padding-top20">{{$t('home.homeTitle.row2')}}</p>
-          <p>{{$t('home.homeTitle.row3')}}</p>
-          <p>{{$t('home.homeTitle.row4')}}</p>
-          <p>{{$t('home.homeTitle.row5')}}</p>
+          <h3 class="lineHeight">{{ $t("home.homeTitle.row1") }}</h3>
+          <p>{{ $t("home.homeTitle.row1-2") }}</p>
+          <p class="padding-top20">{{ $t("home.homeTitle.row2") }}</p>
+          <p>{{ $t("home.homeTitle.row3") }}</p>
+          <p>{{ $t("home.homeTitle.row4") }}</p>
+          <p>{{ $t("home.homeTitle.row5") }}</p>
         </div>
       </div>
     </div>
@@ -52,16 +63,16 @@
               framespacing="0"
               allowfullscreen="true"
             ></iframe>
-            <p
-              class="text-center padding-top15 text-gray"
-            >The highlights of 2019 Conero Music Festival</p>
+            <p class="text-center padding-top15 text-gray">
+              The highlights of 2019 Conero Music Festival
+            </p>
           </div>
         </div>
         <div class="col-xs-12 padding-top20">
           <div class="homeSubject padding-bottom20">
-            <p class="lineHeight">{{$t('home.homeText.row1')}}</p>
-            <p class="lineHeight">{{$t('home.homeText.row2')}}</p>
-            <p class="lineHeight">{{$t('home.homeText.row3')}}</p>
+            <p class="lineHeight">{{ $t("home.homeText.row1") }}</p>
+            <p class="lineHeight">{{ $t("home.homeText.row2") }}</p>
+            <p class="lineHeight">{{ $t("home.homeText.row3") }}</p>
           </div>
         </div>
       </div>
@@ -75,7 +86,7 @@ export default {
   data() {
     return {};
   },
-  methods: {}
+  methods: {},
 };
 </script>
 

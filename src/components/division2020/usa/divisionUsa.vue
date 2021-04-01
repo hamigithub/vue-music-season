@@ -4,7 +4,7 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <div class="text-center">
-            <h1>2020 Conero International Piano Competition, US Division</h1>
+            <h1>2021 Conero International Piano Comeptition, US Division</h1>
           </div>
         </div>
       </div>
@@ -13,43 +13,34 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <p
-            class="font-bold"
-          >Due to the COVID-19 outbreak, the live competition located in Kansas City will be operated online. The first round deadline is Apirl 30th 2020.</p>
-        </div>
-      </div>
-      <div class="row padding-top50">
-        <div class="col-xs-12 col-md-6">
-          <p>
-            <span class="font-bold">Hosted by:</span> International Piano Professionals Association
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-md-6">
-          <p>
-            <span class="font-bold">Supported by:</span> Schmitt Music and the Kansas City Chinese Association
-          </p>
-        </div>
-      </div>
-      <div class="row padding-top50">
-        <div class="col-xs-12">
           <table>
             <tr>
-              <td>First Round：</td>
-              <td>Video submission due by April 30th.</td>
+              <td>Hosted By:</td>
+              <td>International Piano Professionals Association</td>
             </tr>
             <tr>
-              <td>Final Round:</td>
-              <td>Video submission due by August 10th.</td>
+              <td>Supported by:</td>
+              <td>Kansas City Chinese Assocaition</td>
             </tr>
             <tr>
               <td></td>
-              <td>(Every finalist must submit their final round application. Registration should completed within 30 days of the preliminary round result)</td>
+              <td>Kansas City Piano</td>
             </tr>
             <tr>
-              <td>Registration fee for final round:</td>
-              <td>Professional Groups/ Teachers’ Group: $100</td>
+              <td>Location:</td>
+              <td>Kansas City Piano, Music Hall.</td>
+            </tr>
+            <tr>
+              <td>Dates:</td>
+              <td>May 22nd – 23rd , 2021</td>
+            </tr>
+            <tr>
+              <td>Registration fee:</td>
+              <td>$30</td>
+            </tr>
+            <tr>
+              <td>Final round registration fee:</td>
+              <td>Professional Groups/ Teachers/ Group: $100</td>
             </tr>
             <tr>
               <td></td>
@@ -66,29 +57,47 @@
           <div class="row">
             <div class="col-xs-12 col-md-6 text-center padding-bottom20">
               <router-link to="/division/usa/apply">
-                <div class="btn btnBgm">Final  Round Application --></div>
+                <div class="btn btnBgm">Apply US Division --></div>
               </router-link>
               <div class="text-center padding-top20">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <form
+                  action="https://www.paypal.com/cgi-bin/webscr"
+                  method="post"
+                  target="_top"
+                >
                   <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="hidden" name="hosted_button_id" value="RZH4HAC9T4BRN" />
+                  <input
+                    type="hidden"
+                    name="hosted_button_id"
+                    value="RZH4HAC9T4BRN"
+                  />
                   <table class="payTable">
                     <tr>
                       <td>
-                        <input type="hidden" name="on0" value="Group Type" />Group Type
+                        <input
+                          type="hidden"
+                          name="on0"
+                          value="Group Type"
+                        />Group Type
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <select name="os0">
-                          <option value="Professionals/Teachers">Professionals/Teachers $100.00 USD</option>
+                          <option value="Professionals/Teachers">
+                            Professionals/Teachers $100.00 USD
+                          </option>
                           <option value="Amateurs">Amateurs $80.00 USD</option>
                         </select>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <input type="hidden" name="on1" value="Participant name(s):" />Participant name(s):
+                        <input
+                          type="hidden"
+                          name="on1"
+                          value="Participant name(s):"
+                        />Participant name(s):
                       </td>
                     </tr>
                     <tr>
@@ -114,17 +123,7 @@
                   />
                 </form>
               </div>
-              <p class="padding-20">{{$t('applyFee.ps')}}</p>
-              <div class="padding-top50">
-                <router-link to="/division/usa/finalists">
-                  <div class="listsWrap font-italic">Finalist</div>
-                </router-link>
-              </div>
-            </div>
-            <div class="col-xs-12 col-md-6">
-              <div class="imgWrap text-center">
-                <img src="../../../assets/img/posterUS.png" alt />
-              </div>
+              <p class="padding-20">{{ $t("applyFee.ps") }}</p>
             </div>
           </div>
         </div>
@@ -135,40 +134,70 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h2>Categories</h2>
-          <h3 class="padding-top20">Piano Teachers Group: Age above 22 years old.</h3>
+          <h3 class="padding-top20">
+            Piano Teachers Group: Age above 22 years old.
+          </h3>
           <p>One Baroque piece and one Romantic piece. No more than 15 mins</p>
           <h3>Amateur Adult Division: Age above 18 years old.</h3>
           <p>1-2 free choices not exceeding the max duration of 10mins.</p>
           <h3>Professional Adult Division: Ages 18-30</h3>
-          <p>Free choices from three different periods; one of them must be Classical period. No more than 25 mins</p>
+          <p>
+            Free choices from three different periods; one of them must be
+            Classical period. No more than 25 mins
+          </p>
           <h3>Senior Division 1 (Classical): Ages 15–17</h3>
           <p>1 or 2 free choice not exceeding the max duration of 10 mins.</p>
           <h3>Senior Division 1 (Jazz): Ages 15–17</h3>
-          <p>1 or 2 free choice of jazz style pieces not exceeding the max duration of 10 mins.</p>
+          <p>
+            1 or 2 free choice of jazz style pieces not exceeding the max
+            duration of 10 mins.
+          </p>
           <h3>Senior Division 2 (Classical): Ages 12–14</h3>
           <p>1 or 2 free choice not exceeding the max duration of 8 mins.</p>
           <h3>Senior Division 2 (Jazz): Age 12-14</h3>
-          <p>1 or 2 free choice of jazz style pieces not exceeding the max duration of 8 mins.</p>
+          <p>
+            1 or 2 free choice of jazz style pieces not exceeding the max
+            duration of 8 mins.
+          </p>
           <h3>Senior Division 2 (Pop): Age 12-14</h3>
-          <p>1 or 2 free choice of pop music style pieces not exceeding the max duration of 8 mins.</p>
+          <p>
+            1 or 2 free choice of pop music style pieces not exceeding the max
+            duration of 8 mins.
+          </p>
           <h3>Junior Division 1 (Classical): Age 9-11</h3>
           <p>1 or 2 free choice not exceeding the max duration of 6 mins.</p>
           <h3>Junior Division 1 (Jazz): Age 9-11</h3>
-          <p>1 or 2 free choice of jazz style pieces not exceeding the max duration of 6 mins.</p>
+          <p>
+            1 or 2 free choice of jazz style pieces not exceeding the max
+            duration of 6 mins.
+          </p>
           <h3>Junior Division 1 (Pop): Age 9-11</h3>
-          <p>1 or 2 free choice of pop music style pieces not exceeding the max duration of 6 mins.</p>
+          <p>
+            1 or 2 free choice of pop music style pieces not exceeding the max
+            duration of 6 mins.
+          </p>
           <h3>Junior Division 2 (Classical): Age 6-8</h3>
           <p>1 or 2 free choice not exceeding the max duration of 5 mins.</p>
           <h3>Junior Division 2 (Jazz): Age 6-8</h3>
-          <p>1 or 2 free choice of jazz style pieces not exceeding the max duration of 5 mins.</p>
+          <p>
+            1 or 2 free choice of jazz style pieces not exceeding the max
+            duration of 5 mins.
+          </p>
           <h3>Junior Division 2 (Pop): Age 6-8</h3>
-          <p>1 or 2 free choice of pop music style pieces not exceeding the max duration of 5 mins.</p>
-          <p
-            class="padding-top20"
-          >Participants will receive written feedback about their performance from judges (including where they can improve, best parts of the performance, etc).</p>
-          <p
-            class="padding-top20 font-bold"
-          >All contestants must meet the age requirements at the time of the competition. If their birthday will place them in another age category, that birthday must take place after April 30th, 2020.</p>
+          <p>
+            1 or 2 free choice of pop music style pieces not exceeding the max
+            duration of 5 mins.
+          </p>
+          <p class="padding-top20">
+            Participants will receive written feedback about their performance
+            from judges (including where they can improve, best parts of the
+            performance, etc).
+          </p>
+          <p class="padding-top20 font-bold">
+            All contestants must meet the age requirements at the time of the
+            competition. If their birthday will place them in another age
+            category, that birthday must take place after April 30th, 2020.
+          </p>
         </div>
       </div>
     </div>
@@ -177,15 +206,21 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h2>Awards</h2>
-          <p
-            class="padding-top20 textIndent"
-          >1 Each winner will be awarded a certificate of award，comment of the performance from the jury and a souvenir of Conero International Piano Festival.</p>
-          <p
-            class="padding-top20 textIndent"
-          >2 The first prize of each group will be awarded full scholarship in order to participate in the 2020 Conero International Festival(Online).</p>
-          <p
-            class="padding-top20 textIndent"
-          >3 The 1st prize of Piano Teachers’ Group will have the priority of attending the forum of pedagogy in the Conero International Festival.</p>
+          <p class="padding-top20 textIndent">
+            1 Each winner will be awarded a certificate of award，comment of the
+            performance from the jury and a souvenir of Conero International
+            Piano Festival.
+          </p>
+          <p class="padding-top20 textIndent">
+            2 The first prize of each group will be awarded full scholarship in
+            order to participate in the 2020 Conero International
+            Festival(Online).
+          </p>
+          <p class="padding-top20 textIndent">
+            3 The 1st prize of Piano Teachers’ Group will have the priority of
+            attending the forum of pedagogy in the Conero International
+            Festival.
+          </p>
         </div>
       </div>
     </div>
@@ -194,19 +229,47 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h2>Competition Regulations</h2>
-          <p
-            class="padding-top20"
-          >1) Because of the corona virus, the 2020 competition will be held online through video recording submission</p>
+          <p class="padding-top20">
+            1) Because of the corona virus, the 2020 competition will be held
+            online through video recording submission
+          </p>
           <p>2) All the pieces should be performed from memory.</p>
-          <p>3) Changes would not be allowed once the repertoires are submitted.</p>
-          <p>4) Piano concerto, own composition, or own transcriptions are not accepted.</p>
+          <p>
+            3) Changes would not be allowed once the repertoires are submitted.
+          </p>
+          <p>
+            4) Piano concerto, own composition, or own transcriptions are not
+            accepted.
+          </p>
           <p>5) Repeats are not required except the place marked with D.C..</p>
-          <p>6) Video recordings must be performed by applicants and may not be edited (the performance must be 'one take'), nor should any effects be added.（You will not be penalized for the recording quality of your video, although it is important that it is good enough for the jury to be able to see and hear you clearly.）</p>
-          <p>7) Final round videos would be prefered to be recorded in after May 10th, 2020.</p>
+          <p>
+            6) Video recordings must be performed by applicants and may not be
+            edited (the performance must be 'one take'), nor should any effects
+            be added.（You will not be penalized for the recording quality of
+            your video, although it is important that it is good enough for the
+            jury to be able to see and hear you clearly.）
+          </p>
+          <p>
+            7) Final round videos would be prefered to be recorded in after May
+            10th, 2020.
+          </p>
           <p>8) Judges reserve the right of final decision.</p>
-          <p>9) The organizing competition committee has the copyright of performance’s videos, audios and pictures of the competition and the award ceremony. The organizing competition committee has the legal right of using these materials.</p>
-          <p>10) The organizing competition committee reserves all the right for the final interpretation.</p>
-          <p>In order to express our love and care for the medical workers who fought against the epidemic of 2019-nCoV, their children who sigh up to participate in the preliminary will be exempt from the registration fee. Please contact us if you are eligible.</p>
+          <p>
+            9) The organizing competition committee has the copyright of
+            performance’s videos, audios and pictures of the competition and the
+            award ceremony. The organizing competition committee has the legal
+            right of using these materials.
+          </p>
+          <p>
+            10) The organizing competition committee reserves all the right for
+            the final interpretation.
+          </p>
+          <p>
+            In order to express our love and care for the medical workers who
+            fought against the epidemic of 2019-nCoV, their children who sigh up
+            to participate in the preliminary will be exempt from the
+            registration fee. Please contact us if you are eligible.
+          </p>
         </div>
       </div>
     </div>
@@ -215,7 +278,7 @@
 
 <script>
 export default {
-  name: "DivisionUsa"
+  name: "DivisionUsa",
 };
 </script>
 

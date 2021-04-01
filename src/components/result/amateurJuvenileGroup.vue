@@ -66,6 +66,7 @@
             <p class="padding-top5">Yiqiu Cao</p>
             <p class="padding-top5">Zhuoyuan Teng</p>
             <p class="padding-top5">Zhenyu Zhou</p>
+            <p class="padding-top5">Xiangyu Zhou</p>
           </div>
         </div>
         <div class="col-xs-12 padding-top50">

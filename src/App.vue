@@ -24,23 +24,23 @@
                 </div>
                 <ul class="page-nav__list" v-if="navActive" @click="navToggle">
                   <li class="page-nav__item">
-                    <router-link :to="{name:'home'}">
-                      <span>{{$t('appNavText.home')}}</span>
+                    <router-link :to="{ name: 'home' }">
+                      <span>{{ $t("appNavText.home") }}</span>
                     </router-link>
                   </li>
                   <li class="page-nav__item">
-                    <router-link :to="{name:'faculty'}">
-                      <span>{{$t('appNavText.committee')}}</span>
+                    <router-link :to="{ name: 'faculty' }">
+                      <span>{{ $t("appNavText.committee") }}</span>
                     </router-link>
                   </li>
                   <li class="page-nav__item">
-                    <router-link :to="{name:'competition'}">
-                      <span>{{$t('appNavText.competition')}}</span>
+                    <router-link :to="{ name: 'competition' }">
+                      <span>{{ $t("appNavText.competition") }}</span>
                     </router-link>
                   </li>
                   <li class="page-nav__item">
-                    <router-link :to="{name:'constitution'}">
-                      <span>{{$t('appNavText.constitution')}}</span>
+                    <router-link :to="{ name: 'constitution' }">
+                      <span>{{ $t("appNavText.constitution") }}</span>
                     </router-link>
                   </li>
                   <!-- <li class="page-nav__item">
@@ -49,23 +49,23 @@
                     </router-link>
                   </li>-->
                   <li class="page-nav__item">
-                    <router-link :to="{name:'application'}">
-                      <span>{{$t('appNavText.application')}}</span>
+                    <router-link :to="{ name: 'application' }">
+                      <span>{{ $t("appNavText.application") }}</span>
                     </router-link>
                   </li>
                   <li class="page-nav__item">
-                    <router-link :to="{name:'gallery'}">
-                      <span>{{$t('appNavText.gallery')}}</span>
+                    <router-link :to="{ name: 'gallery' }">
+                      <span>{{ $t("appNavText.gallery") }}</span>
                     </router-link>
                   </li>
                   <li class="page-nav__item">
-                    <router-link :to="{name:'tripInfo'}">
-                      <span>{{$t('appNavText.local')}}</span>
+                    <router-link :to="{ name: 'tripInfo' }">
+                      <span>{{ $t("appNavText.local") }}</span>
                     </router-link>
                   </li>
                   <li class="page-nav__item">
-                    <router-link :to="{name:'about'}">
-                      <span>{{$t('appNavText.about')}}</span>
+                    <router-link :to="{ name: 'about' }">
+                      <span>{{ $t("appNavText.about") }}</span>
                     </router-link>
                   </li>
                 </ul>
@@ -84,7 +84,7 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12">
-                <h1>{{$t('appContactText.contact')}}</h1>
+                <h1>{{ $t("appContactText.contact") }}</h1>
               </div>
             </div>
             <div class="padding-10">
@@ -93,8 +93,10 @@
                   <img src="./assets/img/logo.png" alt />
                 </div>
                 <div class="col-xs-12 col-md-4">
-                  <p class="padding-10">{{$t('appContactText.row1')}}</p>
-                  <p class="padding-10">E-mail : support@coneromusicfestival.com</p>
+                  <p class="padding-10">{{ $t("appContactText.row1") }}</p>
+                  <p class="padding-10">
+                    E-mail : support@coneromusicfestival.com
+                  </p>
                   <p class="padding-10">Tel : ＋1-785-551-0823</p>
                 </div>
                 <div class="col-xs-12 col-md-4">
@@ -109,7 +111,12 @@
                       <svg class="icon" aria-hidden="true">
                         <use xlink:href="#icon-WechartPay" />
                       </svg>
-                      <img v-show="feedsIsShow" class="feedsImg" src="./assets/img/WCFeeds.jpg" alt />
+                      <img
+                        v-show="feedsIsShow"
+                        class="feedsImg"
+                        src="./assets/img/WCFeeds.jpg"
+                        alt
+                      />
                     </a>
                     <a
                       href="https://www.facebook.com/Conero-International-Music-Festival-2291960267721314/"
@@ -119,7 +126,10 @@
                         <use xlink:href="#icon-facebook" />
                       </svg>
                     </a>
-                    <a href="https://www.instagram.com/coneromusic/" target="_blank">
+                    <a
+                      href="https://www.instagram.com/coneromusic/"
+                      target="_blank"
+                    >
                       <svg class="icon" aria-hidden="true">
                         <use xlink:href="#icon-instagram" />
                       </svg>
@@ -136,13 +146,17 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
-              This festival is being hosted with the cooperation of
-              Civica Scuola di Musica Beniamino Gigli，special thanks for their hospitality
+              This festival is being hosted with the cooperation of Civica
+              Scuola di Musica Beniamino Gigli，special thanks for their
+              hospitality
             </div>
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <span>Copyright © www.coneromusicfestival.com. All Rights Reserved.</span>
+              <span
+                >Copyright © www.coneromusicfestival.com. All Rights
+                Reserved.</span
+              >
             </div>
           </div>
         </div>
@@ -166,13 +180,13 @@ export default {
       navActive: true,
       dropdownActive: false,
       tabParams: ["Translations >"],
-      feedsIsShow: false
+      feedsIsShow: false,
     };
   },
   components: {
-    "v-goTop": goTop
+    "v-goTop": goTop,
   },
-  created: function() {
+  created: function () {
     if (this.screenWidth <= 996) {
       this.navActive = false;
     } else {
@@ -180,17 +194,17 @@ export default {
     }
   },
   methods: {
-    navToggle: function() {
+    navToggle: function () {
       if (this.screenWidth <= 996) {
         this.navActive = !this.navActive;
       }
     },
-    dropdown: function(event) {
+    dropdown: function (event) {
       if (event.target.getAttribute("class") === "dropdownBtn") {
         this.dropdownActive = !this.dropdownActive;
       }
     },
-    tabToggle: function(index) {
+    tabToggle: function (index) {
       this.nowIndex = index;
       if (index === 0) {
         return;
@@ -198,11 +212,11 @@ export default {
         this.dropdownActive = false;
       }
     },
-    changeLangToZh: function() {
+    changeLangToZh: function () {
       this.$i18n.locale = "zh";
       this.dropdownActive = false;
     },
-    changeLangToEn: function() {
+    changeLangToEn: function () {
       this.$i18n.locale = "en";
       this.dropdownActive = false;
     },
@@ -211,8 +225,8 @@ export default {
     },
     feedsLeave() {
       this.feedsIsShow = false;
-    }
-  }
+    },
+  },
 };
 </script>
 

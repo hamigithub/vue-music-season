@@ -1,7 +1,7 @@
 {
   "appPublic": {
     "row1": "Introduction",
-    "row2": "2020 Conero International Music Festival & Competition",
+    "row2": "2021 Conero International Music Festival & Competition",
     "row3": "< Back"
   },
   "appNavText": {
@@ -27,14 +27,16 @@
       "row3": "* Praised by internationally acclaimed pianists and professors",
       "row4": "* Subverts the traditional model and constantly innovates and breaks through with an in-depth, customized, interactive learning experience",
       "row5": "* The strongest academic atmosphere and the least commercial operation",
-      "row6": "Conero Online Festival： August 10th -18th",
-      "row7": "Final Round Competition: August 10th",
-      "row8": "Applications open !!!"
+      "row6": "2021 Conero Dates：",
+      "row7": "Preliminary Round Competition: May-June, 2021",
+      "row8": "(Check your division rules)",
+      "row9": "Final Round Competition: August 2nd -3rd，2021",
+      "row10": "Festival dates: August 4th -12th"
     },
     "homeText": {
-      "row1": "In 2019, the first Conero International Piano Festival was successfully held in Recanti, Italy. A pioneer in including piano pedagogy in the festival program, it breaks the performance-oriented mode of the traditional music festival, with students learning, and teachers learning by teaching, making piano performance and piano teaching complement each other in a self-reinforcing process, and bringing a full experience of the combination of performance practice and music theory to every participant.",
-      "row2": "This festival has always been striving to provide the best quality music resources to young pianists and piano teachers, and to support their passions towards performing and teaching. We invite world-renowned musicians to customize programs for performers and teachers at different skill levels, aiming to provide a quality educational experience for every participant.",
-      "row3": ""
+      "row1": "In 2019, the first Conero International Piano Festival was successfully held in Recanti, Italy. In 2020, when the pandemic came, the Conero team quickly moved everything online and hosted an online festival and competition, with more than 400 participants in the competition and 100 participants in the online Conero festival. 2021 is another challenging year. We are going to present a more revolutionary platform festival, which will combine in-person and online events, and connect Australia, China, Canada, and the United States.",
+      "row2": "A pioneer in including piano pedagogy in the festival program, it breaks the performance-oriented mode of the traditional music festival, with students learning, and teachers learning by teaching, making piano performance and piano teaching complement each other in a self-reinforcing process, and bringing a full experience of the combination of performance practice and music theory to every participant.",
+      "row3": "This festival has always been striving to provide the best quality music resources to young pianists and piano teachers, and to support their passions towards performing and teaching. We invite world-renowned musicians to customize programs for performers and teachers at different skill levels, aiming to provide a quality educational experience for every participant."
     }
   },
   "about": {
@@ -336,7 +338,7 @@
     "row6": "Ms. Aranovskaya received her education at the St. Petersburg State Conservatory and at the Rimsky-Korsakov Music College in St. Petersburg, Russia, where her primary teachers were Mark Komissarov, the Wieniawsky Competition winner, and Vladimir Ovcharek, the first violinist of the Taneyev String Quartet. She is a prize winner of the All-Russian Violin Competition."
   },
   "competitionTitle": {
-    "title2": "2020 Conero International Piano Competition",
+    "title2": "2021 Conero International Piano Competition",
     "title3": "First Round Competition Result"
   },
   "competitionText1": {
@@ -440,7 +442,7 @@
     "row2": "It has been accepted as a member of the Alink-Argerich Foundation."
   },
   "competition2020text2": {
-    "row1": "2020 Conero International Piano Festival Competition guide",
+    "row1": "2021 Conero International Piano Festival Competition guide",
     "row2": "First Round: Please check the rules and deadlines in your division.",
     "row3": "Final Round: Video submission due by August 10th. (Every finalist must submit their final round application. Registration should completed within 30 days of the preliminary round result) ",
     "row4": "Registration fee for final round:   Professional Groups/ Teachers’ Group: $100   All Amateur Groups: $80",

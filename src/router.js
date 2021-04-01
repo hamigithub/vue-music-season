@@ -257,6 +257,11 @@ export default new Router({
     },
     //比赛名单2020
     {
+      path: "/resultGuide",
+      name: "resultGuide",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./components/result/resultGuide.vue')
+    },
+    {
       path: "/youngArtistGroup",
       name: "youngArtistGroup",
       component: () => import(/* webpackChunkName: "group-concerts" */'./components/result/youngArtistGroup.vue')
