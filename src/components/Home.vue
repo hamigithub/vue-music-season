@@ -21,8 +21,8 @@
           </div>
         </div>
         <div class="col-xs-12 padding-bottom20">
-          <div class="padding-bottom20 font-grayBlue">
-            <h2 class="text-center">
+          <div class="padding-bottom20 font-italic font-grayBlue">
+            <h2 class="text-center font-italic">
               {{ $t("home.homeTitle.row6") }}
             </h2>
             <h2 class="text-center">
@@ -54,15 +54,28 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="text-center padding-top50">
-            <iframe
-              class="mainVideo"
-              src="//player.bilibili.com/player.html?aid=79452026&cid=135964771&page=1"
-              scrolling="no"
-              border="0"
-              frameborder="no"
-              framespacing="0"
-              allowfullscreen="true"
-            ></iframe>
+            <!-- <div>
+              <iframe
+                class="mainVideo"
+                src="//player.bilibili.com/player.html?aid=669442709&cid=231759097&page=1"
+                scrolling="no"
+                border="0"
+                frameborder="no"
+                framespacing="0"
+                allowfullscreen="true"
+              ></iframe>
+            </div> -->
+            <div>
+              <iframe
+                class="mainVideo"
+                src="https://www.youtube.com/embed/D3is2KXSvDs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+
             <p class="text-center padding-top15 text-gray">
               The highlights of 2019 Conero Music Festival
             </p>

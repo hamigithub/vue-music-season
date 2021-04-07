@@ -15,8 +15,6 @@ Vue.use(VueResource);
 Vue.use(VueI18n);
 Vue.use(VeeValidate);
 
-Vue.prototype.globalData = 1;
-
 const i18n = new VueI18n({
   locale: 'en',
   // this.$i18n.locale //通过切换locale的值来实现语言切换

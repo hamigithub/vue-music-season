@@ -15,38 +15,63 @@
         <div class="col-xs-12">
           <table>
             <tr>
-              <td>Hosted By:</td>
+              <td>Preliminary Round Date：</td>
+              <td>May 22nd -23rd, 2021</td>
+            </tr>
+            <tr>
+              <td>Preliminary Round Deadline:</td>
+              <td>May 15th</td>
+            </tr>
+
+            <tr>
+              <td>Registration fee for Preliminary Round:</td>
+              <td>
+                $30 for Young Artist Division; Rising Star Division and Amateur
+                Adult Division $35 for Professional Division, PianoTeacherss’
+                Division and Chamber Division
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <table>
+            <tr>
+              <th>Hosted by:</th>
               <td>International Piano Professionals Association</td>
             </tr>
             <tr>
-              <td>Supported by:</td>
-              <td>Kansas City Chinese Assocaition</td>
-            </tr>
-            <tr>
-              <td></td>
+              <th>Supported by:</th>
               <td>Kansas City Piano</td>
             </tr>
             <tr>
-              <td>Location:</td>
-              <td>Kansas City Piano, Music Hall.</td>
+              <th></th>
+              <td>Kansas City Chinese Association</td>
             </tr>
+
             <tr>
-              <td>Dates:</td>
-              <td>May 22nd – 23rd , 2021</td>
-            </tr>
-            <tr>
-              <td>Registration fee:</td>
-              <td>$30</td>
-            </tr>
-            <tr>
-              <td>Final round registration fee:</td>
-              <td>Professional Groups/ Teachers/ Group: $100</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>All Amateur Groups: $80</td>
+              <th>Preliminary round location:</th>
+              <td>
+                Kansas City Piano, 7316 W 119th St, Overland Park, KS 66213 And
+                Online live performance
+              </td>
             </tr>
           </table>
+        </div>
+        <div class="col-xs-12">
+          <p class="padding-50">
+            For the U.S. preliminary round, performances must be live. Those who
+            live nearby Kansas City are highly encouraged to play in-person at
+            the Conero competition venue, but we will also accept a remote
+            performance. If remote, recordings will not be accepted; a live
+            performance is required (i.e. over Zoom – technical details will be
+            provided later). For the final round, all U.S. finalists are
+            required to play at the in-person competition.
+          </p>
         </div>
       </div>
     </div>
@@ -69,7 +94,7 @@
                   <input
                     type="hidden"
                     name="hosted_button_id"
-                    value="RZH4HAC9T4BRN"
+                    value="CL448JFGF8SKJ"
                   />
                   <table class="payTable">
                     <tr>
@@ -77,32 +102,32 @@
                         <input
                           type="hidden"
                           name="on0"
-                          value="Group Type"
-                        />Group Type
+                          value="Divisions"
+                        />Divisions
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <select name="os0">
-                          <option value="Professionals/Teachers">
-                            Professionals/Teachers $100.00 USD
+                          <option value="Professional">
+                            Professional $35.00 USD
                           </option>
-                          <option value="Amateurs">Amateurs $80.00 USD</option>
+                          <option value="Chamber Music">
+                            Chamber Music $35.00 USD
+                          </option>
+                          <option value="Piano Teachers">
+                            Piano Teachers $35.00 USD
+                          </option>
+                          <option value="Young Artist">
+                            Young Artist $30.00 USD
+                          </option>
+                          <option value="Rising Star">
+                            Rising Star $30.00 USD
+                          </option>
+                          <option value="Adult Amateur">
+                            Adult Amateur $30.00 USD
+                          </option>
                         </select>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input
-                          type="hidden"
-                          name="on1"
-                          value="Participant name(s):"
-                        />Participant name(s):
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input type="text" name="os1" maxlength="200" />
                       </td>
                     </tr>
                   </table>
@@ -115,7 +140,7 @@
                     alt="PayPal - The safer, easier way to pay online!"
                   />
                   <img
-                    alt
+                    alt=""
                     border="0"
                     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                     width="1"
@@ -134,70 +159,99 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h2>Categories</h2>
-          <h3 class="padding-top20">
-            Piano Teachers Group: Age above 22 years old.
-          </h3>
-          <p>One Baroque piece and one Romantic piece. No more than 15 mins</p>
+          <h3 class="padding-top20">Young Artist Division</h3>
+          <h4>Age 15 to 17</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 10 mins.</p>
+          <h4>Age 12 to 14</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 8 mins.</p>
+          <h4>Age 9 to 11</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 6 mins.</p>
+          <h4>Age 6 to 8</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 5 mins.</p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>Rising Star Division</h3>
+          <p class="font-grayBlue">
+            Memorization not required in Rising Star Division.
+          </p>
+          <h4>Age 15 to 17</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 8 mins.</p>
+          <h4>Age 12 to 14</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 7 mins.</p>
+          <h4>Age 9 to 11</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 6 mins.</p>
+          <h4>Age 6 to 8</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 5 mins.</p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>Professional Division:</h3>
+          <p>
+            Free choices from two different periods; one of them must be from
+            the Classical period.
+          </p>
+          <h4>Age 18 to 32</h4>
+          <p>No more than 30 mins.</p>
+          <h4>Age 13 to 17</h4>
+          <p>No more than 20 mins.</p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>Piano Teachers Division: Age above 22 years old.</h3>
+          <p>One Baroque piece and one Romantic piece. No more than 15 mins.</p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
           <h3>Amateur Adult Division: Age above 18 years old.</h3>
           <p>1-2 free choices not exceeding the max duration of 10mins.</p>
-          <h3>Professional Adult Division: Ages 18-30</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <h2>Chamber Music Division:</h2>
+          <p class="font-grayBlue">Memorization not required.</p>
+          <h4 class="padding-top20">
+            Adult Piano Duet / Four Hands: Average age above 18 years old.
+          </h4>
           <p>
-            Free choices from three different periods; one of them must be
-            Classical period. No more than 25 mins
+            Free choice from three different periods; one of them must be the
+            Classical period. No more than 25 mins.
           </p>
-          <h3>Senior Division 1 (Classical): Ages 15–17</h3>
-          <p>1 or 2 free choice not exceeding the max duration of 10 mins.</p>
-          <h3>Senior Division 1 (Jazz): Ages 15–17</h3>
+          <h4 class="padding-top20">
+            Youth Piano Duet / Four Hands: Average age no more than 18 years
+            old.
+          </h4>
+          <p>1-2 free choices not exceeding the max duration of 12mins.</p>
+          <h4 class="padding-top20">
+            Adult Chamber Group: (Piano with string or woodwind) Average ages
+            above 18 years old.
+          </h4>
           <p>
-            1 or 2 free choice of jazz style pieces not exceeding the max
-            duration of 10 mins.
+            Free choices from three different periods. No more than 30 mins.
           </p>
-          <h3>Senior Division 2 (Classical): Ages 12–14</h3>
-          <p>1 or 2 free choice not exceeding the max duration of 8 mins.</p>
-          <h3>Senior Division 2 (Jazz): Age 12-14</h3>
-          <p>
-            1 or 2 free choice of jazz style pieces not exceeding the max
-            duration of 8 mins.
-          </p>
-          <h3>Senior Division 2 (Pop): Age 12-14</h3>
-          <p>
-            1 or 2 free choice of pop music style pieces not exceeding the max
-            duration of 8 mins.
-          </p>
-          <h3>Junior Division 1 (Classical): Age 9-11</h3>
-          <p>1 or 2 free choice not exceeding the max duration of 6 mins.</p>
-          <h3>Junior Division 1 (Jazz): Age 9-11</h3>
-          <p>
-            1 or 2 free choice of jazz style pieces not exceeding the max
-            duration of 6 mins.
-          </p>
-          <h3>Junior Division 1 (Pop): Age 9-11</h3>
-          <p>
-            1 or 2 free choice of pop music style pieces not exceeding the max
-            duration of 6 mins.
-          </p>
-          <h3>Junior Division 2 (Classical): Age 6-8</h3>
-          <p>1 or 2 free choice not exceeding the max duration of 5 mins.</p>
-          <h3>Junior Division 2 (Jazz): Age 6-8</h3>
-          <p>
-            1 or 2 free choice of jazz style pieces not exceeding the max
-            duration of 5 mins.
-          </p>
-          <h3>Junior Division 2 (Pop): Age 6-8</h3>
-          <p>
-            1 or 2 free choice of pop music style pieces not exceeding the max
-            duration of 5 mins.
-          </p>
-          <p class="padding-top20">
-            Participants will receive written feedback about their performance
-            from judges (including where they can improve, best parts of the
-            performance, etc).
-          </p>
-          <p class="padding-top20 font-bold">
+          <h4 class="padding-top20">
+            Youth Chamber Group: (Piano with string or woodwind) Average age no
+            more than 18 years old.
+          </h4>
+          <p>1-2 free choices not exceeding the max duration of 15mins.</p>
+        </div>
+      </div>
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <h4>
             All contestants must meet the age requirements at the time of the
-            competition. If their birthday will place them in another age
-            category, that birthday must take place after April 30th, 2020.
-          </p>
+            competition. Their current age before May 15th, 2021, will determine
+            the category they must compete in. For example, if the student turns
+            19 on May 15th or after, he will compete in the adult category.
+          </h4>
         </div>
       </div>
     </div>
@@ -206,20 +260,21 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h2>Awards</h2>
-          <p class="padding-top20 textIndent">
-            1 Each winner will be awarded a certificate of award，comment of the
-            performance from the jury and a souvenir of Conero International
-            Piano Festival.
+          <p class="padding-top20">
+            . Each participant will be given a certificate of award and will
+            include a comment on their performance from the jury.
           </p>
-          <p class="padding-top20 textIndent">
-            2 The first prize of each group will be awarded full scholarship in
-            order to participate in the 2020 Conero International
-            Festival(Online).
+          <p class="padding-top20">
+            . The first prize of the professional division and the young artist
+            division will be awarded a full scholarship to participate in the
+            2021 Conero International Piano Festival. The 1st prize of Piano
+            Teachers’ Group will have priority to attend the pedagogy forum in
+            the Conero International Piano Festival.
           </p>
-          <p class="padding-top20 textIndent">
-            3 The 1st prize of Piano Teachers’ Group will have the priority of
-            attending the forum of pedagogy in the Conero International
-            Festival.
+          <p class="padding-top20">
+            . Participants will receive written feedback about their performance
+            from judges (including where they can improve, best parts of the
+            performance, etc.).
           </p>
         </div>
       </div>
@@ -230,45 +285,97 @@
         <div class="col-xs-12">
           <h2>Competition Regulations</h2>
           <p class="padding-top20">
-            1) Because of the corona virus, the 2020 competition will be held
-            online through video recording submission
-          </p>
-          <p>2) All the pieces should be performed from memory.</p>
-          <p>
-            3) Changes would not be allowed once the repertoires are submitted.
+            1) The 2021 Conero International Piano Competition has two rounds:
+            Preliminary Round and Final Round.
           </p>
           <p>
-            4) Piano concerto, own composition, or own transcriptions are not
-            accepted.
-          </p>
-          <p>5) Repeats are not required except the place marked with D.C..</p>
-          <p>
-            6) Video recordings must be performed by applicants and may not be
-            edited (the performance must be 'one take'), nor should any effects
-            be added.（You will not be penalized for the recording quality of
-            your video, although it is important that it is good enough for the
-            jury to be able to see and hear you clearly.）
+            2) The Preliminary round of the 2021 Conero International Piano
+            Competition has China Division, United States Division, Canada
+            Division, Australia Division, and Online Division (For all other
+            countries). Please double-check the dates and rules in your
+            division.
           </p>
           <p>
-            7) Final round videos would be prefered to be recorded in after May
-            10th, 2020.
-          </p>
-          <p>8) Judges reserve the right of final decision.</p>
-          <p>
-            9) The organizing competition committee has the copyright of
-            performance’s videos, audios and pictures of the competition and the
-            award ceremony. The organizing competition committee has the legal
-            right of using these materials.
+            3) The final round will apply the common rules and regulations for
+            all finalists. Final round dates: August 2nd -3rd.
           </p>
           <p>
-            10) The organizing competition committee reserves all the right for
-            the final interpretation.
+            4) The final round is voluntary; eligible candidates should complete
+            the application and submit the fee before July 20th.
           </p>
           <p>
-            In order to express our love and care for the medical workers who
-            fought against the epidemic of 2019-nCoV, their children who sigh up
-            to participate in the preliminary will be exempt from the
-            registration fee. Please contact us if you are eligible.
+            5) If applying for more than one division in the competition,
+            applicants must complete separate applications and pay the required
+            fees for each division.
+          </p>
+          <p>
+            6) Young Artist Divisions, Piano Teachers Group, Amateur Adult
+            Division, Professional Adult Division should be performed from
+            memory.
+          </p>
+          <p>
+            7) Piano concertos, self-composed pieces, or transcriptions done by
+            the performer are not accepted.
+          </p>
+          <p>8) Repeats are not required except the place marked with D.C.</p>
+          <p>9) Judges’ decisions are final.</p>
+          <p>
+            10) The Conero International Piano Festival retains copyright of
+            performance video, audio, and pictures of the competition and the
+            award ceremony. The festival has the legal right to use these
+            materials.
+          </p>
+          <p>
+            11) The competition committee reserves all the right for the final
+            interpretation of the regulations.
+          </p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>Technical recommendations for online participants</h3>
+          <h4>(minimum requirements)</h4>
+          <p class="padding-top20">
+            . Performers should use the latest phone or tablet possible during
+            the Zoom meeting.
+          </p>
+          <p>
+            . The piano should be located close to the Wifi router to ensure an
+            optimal connection during the live performance.
+          </p>
+          <p>
+            . The location of the streaming device should be at an angle that
+            would allow for an optimal vision of the keyboard and hands, as well
+            as include the use of the pedal during the performance.
+          </p>
+          <p>
+            . The use of a phone or tablet stand or tripod is highly recommended
+            to assure the camera's stability and optimal focus during the
+            performance. An example of such can be found at:
+            <a
+              target="_blank"
+              href="https://www.amazon.com/Acuvar-Aluminum-Universal-Smartphone-Smartphones/dp/B00SHJPMEU/ref=sr_1_12_sspa?dchild=1&keywords=phone+tripod&qid=1617331500&sr=8-12-spons&psc=1&smid=A7H9LIHN2YW5O&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExTjBLQkJQVUpOVkVEJmVuY3J5cHRlZElkPUEwOTQ0NTc3UU5TS1c5R0VBTlJHJmVuY3J5cHRlZEFkSWQ9QTA2NTY1MTczUkdGMzNORkJDUkFBJndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+              >https://www.amazon.com/Acuvar-Aluminum-Universal-Smartphone-Smartphones</a
+            >
+          </p>
+          <p>
+            . If using a laptop for the performance, it is recommended to
+            acquire a USB microphone and position it close to the piano strings
+            to optimize the performance's sound quality. An example of such a
+            device can be found at:
+            <a
+              target="_blank"
+              href="https://www.amazon.com/Microphone-Condenser-Recording-Streaming-669B/dp/B06XCKGLTP/ref=sr_1_2_sspa?dchild=1&keywords=USB+microphone&qid=1617211973&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFGOUtNQzVYOTI1UFUmZW5jcnlwdGVkSWQ9QTAzMzgwOTIyN1k3U0pPVk9JTVkzJmVuY3J5cHRlZEFkSWQ9QTA3MDU1NzUyV0hYM0E0MlZCMTdVJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+              >https://www.amazon.com/Microphone-Condenser-Recording-Streaming-669B</a
+            >
+          </p>
+          <p>
+            . We highly encourage all participants to test their performance
+            quality through a Zoom video conference with family and/or friends
+            before the competition to ensure that all devices are working
+            correctly and that the sound quality is the highest possible. If the
+            sound quality is poor enough to affect judging, it can potentially
+            influence the score.
           </p>
         </div>
       </div>

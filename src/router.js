@@ -68,7 +68,7 @@ export default new Router({
       name: "faculty",
       component: () => import(/* webpackChunkName: "group-main" */'./components/Faculty')
     },
-    //2010 Faculty
+    //2019
     {
       path: "/faculty/2019",
       name: "faculty2019",
@@ -144,6 +144,11 @@ export default new Router({
       path: "/constitution/2019",
       name: "constitution2019",
       component: () => import(/* webpackChunkName: "group-main" */'./components/2019/Constitution')
+    },
+    {
+      path: "/constitution/2020",
+      name: "constitution2020",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/2020/Constitution')
     },
     {
       path: "/application",

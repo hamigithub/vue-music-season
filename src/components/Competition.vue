@@ -406,7 +406,7 @@
           <div class="passActivity padding-top50">
             <h3>Past Activity:</h3>
             <router-link to="/competition/2019">
-              <h5 class="padding-top20 padding-bottom10">2019</h5>
+              <span class="font-bold padding-top20 padding-bottom10">2019</span>
             </router-link>
           </div>
         </div>
