@@ -32,7 +32,7 @@
                 <router-link class="text-black" to="/bio/smith#smith">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Smith.jpg"
+                    src="../../assets/img/Smith.jpg"
                     alt
                   />
                 </router-link>
@@ -53,7 +53,7 @@
                 <router-link class="text-black" to="/bio/enrico#enrico">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Enrico.jpg"
+                    src="../../assets/img/Enrico.jpg"
                     alt
                   />
                 </router-link>
@@ -73,7 +73,7 @@
                 <router-link class="text-black" to="/bio/blaha#blaha">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Blaha.jpg"
+                    src="../../assets/img/Blaha.jpg"
                     alt
                   />
                 </router-link>
@@ -92,7 +92,7 @@
                 <router-link class="text-black" to="/bio/jianing#jianing">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Jianing.jpg"
+                    src="../../assets/img/Jianing.jpg"
                     alt
                   />
                 </router-link>
@@ -114,7 +114,7 @@
                 <router-link class="text-black" to="/bio/lorenzo#lorenzo">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Lorenzo.jpg"
+                    src="../../assets/img/Lorenzo.jpg"
                     alt
                   />
                 </router-link>
@@ -136,7 +136,7 @@
                 <router-link class="text-black" to="/bio/vladimir#vladimir">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Vladimir.jpg"
+                    src="../../assets/img/Vladimir.jpg"
                     alt
                   />
                 </router-link>
@@ -156,7 +156,7 @@
                 <router-link class="text-black" to="/bio/jack#jack">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Jack.jpg"
+                    src="../../assets/img/Jack.jpg"
                     alt
                   />
                 </router-link>
@@ -174,7 +174,7 @@
                 <router-link class="text-black" to="/bio/ferrati#ferrati">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Ferrati.jpg"
+                    src="../../assets/img/Ferrati.jpg"
                     alt
                   />
                 </router-link>
@@ -197,7 +197,7 @@
                 <div class="text-black">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Yangyandi.jpg"
+                    src="../../assets/img/Yangyandi.jpg"
                     alt
                   />
                 </div>
@@ -222,7 +222,7 @@
                 >
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Zhaoxiaohong.jpg"
+                    src="../../assets/img/Zhaoxiaohong.jpg"
                     alt
                   />
                 </router-link>
@@ -247,7 +247,7 @@
                 <router-link class="text-black" to="/bio/iannone#iannone">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Iannone.jpg"
+                    src="../../assets/img/Iannone.jpg"
                     alt
                   />
                 </router-link>
@@ -268,7 +268,7 @@
                 <router-link class="text-black" to="/bio/cong#cong">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Cong.jpg"
+                    src="../../assets/img/Cong.jpg"
                     alt
                   />
                 </router-link>
@@ -288,7 +288,7 @@
                 <router-link class="text-black" to="/bio/ivy#ivy">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Ivy.jpg"
+                    src="../../assets/img/Ivy.jpg"
                     alt
                   />
                 </router-link>
@@ -314,9 +314,6 @@
             <h3>Past Activity:</h3>
             <router-link to="/faculty/2019">
               <span class="font-bold padding-top20 padding-bottom10">2019</span>
-            </router-link>
-            <router-link to="/faculty/2020">
-              <span class="font-bold padding-top20 padding-bottom10">2020</span>
             </router-link>
           </div>
         </div>

@@ -5,10 +5,10 @@
         <div class="col-xs-12">
           <div class="componentTitle committeeTitle">
             <div class="titleBtn">
-              <span class="titleBtnInside">{{$t('applyTitle.title')}}</span>
+              <span class="titleBtnInside">{{ $t("applyTitle.title") }}</span>
             </div>
             <div>
-              <p class="title_p">{{$t('appPublic.row2')}}</p>
+              <p class="title_p">{{ $t("appPublic.row2") }}</p>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@
         <div class="col-xs-12 col-md-6 padding-top20">
           <div class="text-center">
             <router-link to="/application/applyForm#applyForm">
-              <div class="btn btnBgm">{{$t('applyTitle.title3')}}</div>
+              <div class="btn btnBgm">{{ $t("applyTitle.title3") }}</div>
             </router-link>
           </div>
         </div>
@@ -72,34 +72,58 @@
       <div class="row">
         <div class="col-xs-12 col-md-6">
           <div class="text-center padding-top20">
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr"
+              method="post"
+              target="_top"
+            >
               <input type="hidden" name="cmd" value="_s-xclick" />
-              <input type="hidden" name="hosted_button_id" value="VEXCA53QFVEEE" />
+              <input
+                type="hidden"
+                name="hosted_button_id"
+                value="VEXCA53QFVEEE"
+              />
               <table class="autoMargin">
                 <tr>
                   <td>
-                    <input type="hidden" name="on0" value="Festival Fees" />Festival Fees
+                    <input
+                      type="hidden"
+                      name="on0"
+                      value="Festival Fees"
+                    />Festival Fees
                   </td>
                 </tr>
                 <tr>
                   <td>
                     <select name="os0">
-                      <option value="Application Fee">Application Fee $80.00 USD</option>
-                      <option
-                        value="Performance Pianist Tuition"
-                      >Performance Pianist Tuition $399.00 USD</option>
-                      <option value="Amateur Pianist Tuition">Amateur Pianist Tuition $159.00 USD</option>
-                      <option value="Pedagogy Scholar Fee">Pedagogy Scholar Fee $299.00 USD</option>
-                      <option value="Observer Tuition">Observer Tuition $149.00 USD</option>
-                      <option
-                        value="Observer Tuition (three people)"
-                      >Observer Tuition (three people) $297.00 USD</option>
+                      <option value="Application Fee">
+                        Application Fee $80.00 USD
+                      </option>
+                      <option value="Performance Pianist Tuition">
+                        Performance Pianist Tuition $399.00 USD
+                      </option>
+                      <option value="Amateur Pianist Tuition">
+                        Amateur Pianist Tuition $159.00 USD
+                      </option>
+                      <option value="Pedagogy Scholar Fee">
+                        Pedagogy Scholar Fee $299.00 USD
+                      </option>
+                      <option value="Observer Tuition">
+                        Observer Tuition $149.00 USD
+                      </option>
+                      <option value="Observer Tuition (three people)">
+                        Observer Tuition (three people) $297.00 USD
+                      </option>
                     </select>
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <input type="hidden" name="on1" value="Participant name(s):" />Participant name(s):
+                    <input
+                      type="hidden"
+                      name="on1"
+                      value="Participant name(s):"
+                    />Participant name(s):
                   </td>
                 </tr>
                 <tr>
@@ -124,13 +148,18 @@
                 height="1"
               />
             </form>
-            <p class="padding-20">{{$t('application.fee.row8')}}</p>
+            <p class="padding-20">{{ $t("application.fee.row8") }}</p>
           </div>
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="text-center padding-top20">
-            <p class="font-14 padding-bottom20">{{$t('applyFee.customFee')}}</p>
-            <a href="https://www.paypal.me/payIPPA?locale.x=en_US" target="_blank">
+            <p class="font-14 padding-bottom20">
+              {{ $t("applyFee.customFee") }}
+            </p>
+            <a
+              href="https://www.paypal.me/payIPPA?locale.x=en_US"
+              target="_blank"
+            >
               <img src="../assets/img/paypalEn.png" alt />
             </a>
           </div>
@@ -141,91 +170,55 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <h1>{{$t('application.tuition.title')}}</h1>
-          <table class="text-center margin-top20" border="1">
-            <tr>
-              <td>{{$t('application.tuition.row1')}}</td>
-              <td>{{$t('application.tuition.row1-2')}}</td>
-              <td rowspan="3">
-                {{$t('application.tuition.row1-3')}}
-                <br />
-                {{$t('application.tuition.row1-4')}}
-              </td>
-            </tr>
-
-            <tr>
-              <td>{{$t('application.tuition.row2')}}</td>
-              <td>{{$t('application.tuition.row2-2')}}</td>
-            </tr>
-
-            <tr>
-              <td>{{$t('application.tuition.row3')}}</td>
-              <td>{{$t('application.tuition.row3-2')}}</td>
-            </tr>
-
-            <tr>
-              <td>{{$t('application.tuition.row4')}}</td>
-              <td>
-                {{$t('application.tuition.row4-2')}}
-                <br />
-                {{$t('application.tuition.row4-3')}}
-              </td>
-              <td>
-                {{$t('application.tuition.row4-4')}}
-                <br />
-                {{$t('application.tuition.row4-5')}}
-              </td>
-            </tr>
-          </table>
-          <h5 class="padding-top15">{{$t('application.tuition.row5')}}</h5>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row padding-top50">
-        <div class="col-xs-12">
-          <h1>{{$t('application.categories.title')}}</h1>
+          <h1>{{ $t("application.categories.title") }}</h1>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <h3 class="padding-top15">{{$t('application.categories.pianist')}}</h3>
-          <p>{{$t('application.categories.pianist2')}}</p>
-          <p>{{$t('application.categories.pianist3')}}</p>
-          <p>{{$t('application.categories.pianist4')}}</p>
-          <p>{{$t('application.categories.pianist5')}}</p>
-          <p>{{$t('application.categories.pianist6')}}</p>
-          <p>{{$t('application.categories.pianist7')}}</p>
-          <p>{{$t('application.categories.pianist8')}}</p>
+          <h3 class="padding-top15">
+            {{ $t("application.categories.pianist") }}
+          </h3>
+          <p>{{ $t("application.categories.pianist2") }}</p>
+          <p>{{ $t("application.categories.pianist3") }}</p>
+          <p>{{ $t("application.categories.pianist4") }}</p>
+          <p>{{ $t("application.categories.pianist5") }}</p>
+          <p>{{ $t("application.categories.pianist6") }}</p>
+          <p>{{ $t("application.categories.pianist7") }}</p>
+          <p>{{ $t("application.categories.pianist8") }}</p>
         </div>
       </div>
       <div class="row padding-top15">
         <div class="col-xs-12">
-          <h3 class="padding-top15">{{$t('application.categories.scholars')}}</h3>
-          <p>{{$t('application.categories.scholars2')}}</p>
-          <p>{{$t('application.categories.scholars3')}}</p>
-          <p>{{$t('application.categories.scholars4')}}</p>
-          <p>{{$t('application.categories.scholars5')}}</p>
-          <p>{{$t('application.categories.scholars6')}}</p>
+          <h3 class="padding-top15">
+            {{ $t("application.categories.scholars") }}
+          </h3>
+          <p>{{ $t("application.categories.scholars2") }}</p>
+          <p>{{ $t("application.categories.scholars3") }}</p>
+          <p>{{ $t("application.categories.scholars4") }}</p>
+          <p>{{ $t("application.categories.scholars5") }}</p>
+          <p>{{ $t("application.categories.scholars6") }}</p>
         </div>
       </div>
       <div class="row padding-top15">
         <div class="col-xs-12">
-          <h3 class="padding-top15">{{$t('application.categories.amateur')}}</h3>
-          <p>{{$t('application.categories.amateur2')}}</p>
-          <p>{{$t('application.categories.amateur3')}}</p>
-          <p>{{$t('application.categories.amateur4')}}</p>
-          <p>{{$t('application.categories.amateur5')}}</p>
+          <h3 class="padding-top15">
+            {{ $t("application.categories.amateur") }}
+          </h3>
+          <p>{{ $t("application.categories.amateur2") }}</p>
+          <p>{{ $t("application.categories.amateur3") }}</p>
+          <p>{{ $t("application.categories.amateur4") }}</p>
+          <p>{{ $t("application.categories.amateur5") }}</p>
         </div>
       </div>
 
       <div class="row padding-top15">
         <div class="col-xs-12">
-          <h3 class="padding-top15">{{$t('application.categories.observers')}}</h3>
-          <p>{{$t('application.categories.observers2')}}</p>
-          <p>{{$t('application.categories.observers3')}}</p>
-          <p>{{$t('application.categories.observers4')}}</p>
+          <h3 class="padding-top15">
+            {{ $t("application.categories.observers") }}
+          </h3>
+          <p>{{ $t("application.categories.observers2") }}</p>
+          <p>{{ $t("application.categories.observers3") }}</p>
+          <p>{{ $t("application.categories.observers4") }}</p>
         </div>
       </div>
     </div>
@@ -233,19 +226,25 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <h1 class="padding-top15">{{$t('application.applyInstructions.title')}}</h1>
+          <h1 class="padding-top15">
+            {{ $t("application.applyInstructions.title") }}
+          </h1>
           <table>
             <tr>
-              <td class="font-bold">{{$t('application.applyInstructions.title1')}}</td>
+              <td class="font-bold">
+                {{ $t("application.applyInstructions.title1") }}
+              </td>
             </tr>
             <tr>
-              <td>{{$t('application.applyInstructions.row1')}}</td>
+              <td>{{ $t("application.applyInstructions.row1") }}</td>
             </tr>
             <tr>
-              <td class="font-bold">{{$t('application.applyInstructions.title2')}}</td>
+              <td class="font-bold">
+                {{ $t("application.applyInstructions.title2") }}
+              </td>
             </tr>
             <tr>
-              <td>{{$t('application.applyInstructions.row2')}}</td>
+              <td>{{ $t("application.applyInstructions.row2") }}</td>
             </tr>
           </table>
         </div>
@@ -256,7 +255,7 @@
 
 <script>
 export default {
-  name: "Application"
+  name: "Application",
 };
 </script>
 

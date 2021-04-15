@@ -215,6 +215,7 @@ export default {
     changeLangToZh: function () {
       this.$i18n.locale = "zh";
       this.dropdownActive = false;
+      
     },
     changeLangToEn: function () {
       this.$i18n.locale = "en";

@@ -14,120 +14,6 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <p class="font-bold">{{ $t("competition2020text1.row1") }}</p>
-          <p class="font-bold">{{ $t("competition2020text1.row2") }}</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row padding-top50">
-        <div class="col-xs-12">
-          <h2 class="padding-bottom10 text-center">
-            {{ $t("competition2020text2.row1") }}
-          </h2>
-          <table>
-            <tr>
-              <td>Preliminary Round:</td>
-              <td>Please check the rules and deadlines in your division.</td>
-            </tr>
-            <tr>
-              <td>Final Round:</td>
-              <td>August 2nd -3rd</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                · Every finalist must play the final round in a live performance, if you are not from the listed country, please sign up “ The Other Countries” Division.”
-              </td>
-            </tr>
-            <tr>
-              <td>Registration fee:</td>
-              <td>
-                Preliminary round – Please check the fee in your division link.
-              </td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>Final round- Professional Groups/ Teachers’ Group: $100</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>All Amateur Groups: $80</td>
-            </tr>
-            <tr>
-              <td>Location:</td>
-              <td>United States- Kansas City</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>China- Hai Nan</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>Australia- Melbourne</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>Canada- Toronto</td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <div class="container padding-top50">
-      <div class="row">
-        <div class="col-xs-12">
-          <h2 class="text-center padding-top20">
-            2021 Preliminary Round Rules
-          </h2>
-          <div class="text-center">
-            <router-link :to="{ name: 'divisionUsa' }">
-              <div class="pointer-hand division-all division1">
-                {{ $t("division.row1") }}
-              </div>
-            </router-link>
-          </div>
-
-          <div class="text-center">
-            <router-link :to="{ name: 'divisionChina' }">
-              <div class="pointer-hand division-all division1">
-                {{ $t("division.row2") }}
-              </div>
-            </router-link>
-          </div>
-
-          <div class="text-center">
-            <router-link :to="{ name: 'divisionAustralia' }">
-              <div class="pointer-hand division-all division1">
-                {{ $t("division.row3") }}
-              </div>
-            </router-link>
-          </div>
-
-          <div class="text-center">
-            <router-link :to="{ name: 'divisionCanada' }">
-              <div class="pointer-hand division-all division1">
-                {{ $t("division.row4") }}
-              </div>
-            </router-link>
-          </div>
-
-          <div class="text-center">
-            <router-link :to="{ name: 'divisionOnline' }">
-              <div class="pointer-hand division-all division1">
-                {{ $t("division.row5") }}
-              </div>
-            </router-link>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="container padding-top20">
       <div class="row">
         <div class="col-xs-12">
@@ -367,7 +253,44 @@
       </div>
     </div>
 
-    
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12 padding-top50">
+          <h2 class="padding-bottom10">
+            {{ $t("competition2020text5.row34") }}
+          </h2>
+          <table>
+            <tr>
+              <td>{{ $t("competition2020text5.row35") }}</td>
+            </tr>
+            <tr>
+              <td>{{ $t("competition2020text5.row36") }}</td>
+            </tr>
+            <tr>
+              <td>{{ $t("competition2020text5.row37") }}</td>
+            </tr>
+            <tr>
+              <td>{{ $t("competition2020text5.row38") }}</td>
+            </tr>
+            <tr>
+              <td>{{ $t("competition2020text5.row39") }}</td>
+            </tr>
+            <tr>
+              <td>{{ $t("competition2020text5.row40") }}</td>
+            </tr>
+            <tr>
+              <td>{{ $t("competition2020text5.row41") }}</td>
+            </tr>
+            <tr>
+              <td>{{ $t("competition2020text5.row42") }}</td>
+            </tr>
+            <tr>
+              <td>{{ $t("competition2020text5.row43") }}</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
 
     <div class="container">
       <div class="row">
@@ -376,9 +299,6 @@
             <h3>Past Activity:</h3>
             <router-link to="/competition/2019">
               <span class="font-bold padding-top20 padding-bottom10">2019</span>
-            </router-link>
-            <router-link to="/competition/2020">
-              <span class="font-bold padding-top20 padding-bottom10">2020</span>
             </router-link>
           </div>
         </div>

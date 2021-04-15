@@ -4,15 +4,15 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h1>Competition Application，US</h1>
-          <p
-            v-show="key!==1"
-            class="padding-top15"
-          >Please complete the form below, and submit your application fee via Paypal on the main Application page.</p>
+          <p v-show="key !== 1" class="padding-top15">
+            Please complete the form below, and submit your application fee via
+            Paypal on the main Application page.
+          </p>
         </div>
       </div>
     </div>
 
-    <div v-show="key!==1" class="container">
+    <div v-show="key !== 1" class="container">
       <div class="row padding-top50">
         <div class="col-md-8 col-xs-12">
           <form>
@@ -28,10 +28,9 @@
                     placeholder="First Name"
                   />
                 </label>
-                <span
-                  v-show="errors.has('firstName')"
-                  class="is-danger"
-                >{{ errors.first('firstName')}}</span>
+                <span v-show="errors.has('firstName')" class="is-danger">{{
+                  errors.first("firstName")
+                }}</span>
               </div>
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
@@ -43,10 +42,9 @@
                     placeholder="Last Name"
                   />
                 </label>
-                <span
-                  v-show="errors.has('lastName')"
-                  class="is-danger"
-                >{{ errors.first('lastName')}}</span>
+                <span v-show="errors.has('lastName')" class="is-danger">{{
+                  errors.first("lastName")
+                }}</span>
               </div>
             </div>
 
@@ -66,7 +64,11 @@
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
                   <span>Country Of Birth:</span>
-                  <input class="inputBox" v-model="participant.countryOfBirth" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.countryOfBirth"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
@@ -102,7 +104,9 @@
                   />
                 </label>
               </div>
-              <span v-show="errors.has('myEmail')" class="is-danger">{{ errors.first('myEmail')}}</span>
+              <span v-show="errors.has('myEmail')" class="is-danger">{{
+                errors.first("myEmail")
+              }}</span>
             </div>
 
             <div class="padding-top15">
@@ -122,7 +126,11 @@
               <div>Address Line 1:</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="participant.addressLine1" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.addressLine1"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
@@ -131,7 +139,11 @@
               <div>Address Line 2:</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="participant.addressLine2" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.addressLine2"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
@@ -140,25 +152,41 @@
               <div class="inputWrap20 formWrap">
                 <label class="font12">
                   <span>City:</span>
-                  <input class="inputBox" v-model="participant.city" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.city"
+                    placeholder
+                  />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
                   <span>Province:</span>
-                  <input class="inputBox" v-model="participant.province" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.province"
+                    placeholder
+                  />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
                   <span>Postal Code:</span>
-                  <input class="inputBox" v-model="participant.postalCode" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.postalCode"
+                    placeholder
+                  />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
                   <span>Country Of Residence</span>
-                  <input class="inputBox" v-model="participant.countryOfResidence" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.countryOfResidence"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
@@ -169,7 +197,11 @@
               <div>Education:</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="participant.education" placeholder="Education" />
+                  <input
+                    class="inputBox"
+                    v-model="participant.education"
+                    placeholder="Education"
+                  />
                 </label>
               </div>
             </div>
@@ -178,7 +210,10 @@
               <div>Bio:</div>
               <div class="wrapMargin">
                 <label class="font12">
-                  <textarea class="textArea" v-model="participant.bio"></textarea>
+                  <textarea
+                    class="textArea"
+                    v-model="participant.bio"
+                  ></textarea>
                 </label>
               </div>
             </div>
@@ -217,7 +252,11 @@
               <div>Parent Phone Number:</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="participant.parentPhoneNumber" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.parentPhoneNumber"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
@@ -226,13 +265,21 @@
               <div class="inputWrap formWrap">
                 <label class="font12">
                   <span>Piano Teacher Name:</span>
-                  <input class="inputBox" v-model="participant.pianoTeacherName" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.pianoTeacherName"
+                    placeholder
+                  />
                 </label>
               </div>
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
                   <span>Piano Teacher Phone Number:</span>
-                  <input class="inputBox" v-model="participant.pianoTeacherPhoneNumber" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.pianoTeacherPhoneNumber"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
@@ -265,26 +312,15 @@
               </div>
             </div>
 
-            <div class="padding-top15">
-              <div>RecordingLink:</div>
-              <div>
-                <label class="font12">
-                  <input
-                    class="inputBox"
-                    v-model="participant.recordingLink"
-                    placeholder="Youtube or other video/audio link"
-                  />
-                </label>
-              </div>
-            </div>
-
             <div class="row padding-top20">
               <div class="col-xs-12 text-center">
                 <button
                   class="submitBtn"
                   @click.prevent="onSubmit"
-                  :disabled="submitDisabled!==0"
-                >Submit</button>
+                  :disabled="submitDisabled !== 0"
+                >
+                  Submit
+                </button>
               </div>
             </div>
           </form>
@@ -292,40 +328,58 @@
       </div>
     </div>
 
-    <div v-show="key===1" class="container">
+    <div v-show="key === 1" class="container">
       <div class="row padding-top15">
         <div class="col-xs-12">
-          <p>{{$t('applyMsg.row1')}}</p>
+          <p>{{ $t("applyMsg.row1") }}</p>
         </div>
       </div>
     </div>
 
-    <div v-show="key===1" class="container">
+    <div v-show="key === 1" class="container">
       <div class="row padding-top50">
         <div class="container">
           <div class="row">
             <div class="col-xs-12 text-center padding-bottom20">
               <div class="text-center padding-top20">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <form
+                  action="https://www.paypal.com/cgi-bin/webscr"
+                  method="post"
+                  target="_top"
+                >
                   <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="hidden" name="hosted_button_id" value="RZH4HAC9T4BRN" />
+                  <input
+                    type="hidden"
+                    name="hosted_button_id"
+                    value="RZH4HAC9T4BRN"
+                  />
                   <table class="payTable">
                     <tr>
                       <td>
-                        <input type="hidden" name="on0" value="Group Type" />Group Type
+                        <input
+                          type="hidden"
+                          name="on0"
+                          value="Group Type"
+                        />Group Type
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <select name="os0">
-                          <option value="Professionals/Teachers">Professionals/Teachers $100.00 USD</option>
+                          <option value="Professionals/Teachers">
+                            Professionals/Teachers $100.00 USD
+                          </option>
                           <option value="Amateurs">Amateurs $80.00 USD</option>
                         </select>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <input type="hidden" name="on1" value="Participant name(s):" />Participant name(s):
+                        <input
+                          type="hidden"
+                          name="on1"
+                          value="Participant name(s):"
+                        />Participant name(s):
                       </td>
                     </tr>
                     <tr>
@@ -351,25 +405,25 @@
                   />
                 </form>
               </div>
-              <p class="padding-20">{{$t('applyFee.ps')}}</p>
+              <p class="padding-20">{{ $t("applyFee.ps") }}</p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div v-show="key===2" class="container">
+    <div v-show="key === 2" class="container">
       <div class="row padding-top15">
         <div class="col-xs-12">
-          <p class="is-danger">{{$t('applyMsg.row2')}}</p>
+          <p class="is-danger">{{ $t("applyMsg.row2") }}</p>
         </div>
       </div>
     </div>
 
-    <div v-show="key===3" class="container">
+    <div v-show="key === 3" class="container">
       <div class="row padding-top15">
         <div class="col-xs-12">
-          <p class="is-danger">{{$t('applyMsg.row3')}}</p>
+          <p class="is-danger">{{ $t("applyMsg.row3") }}</p>
         </div>
       </div>
     </div>
@@ -406,16 +460,15 @@ export default {
         pianoTeacherPhoneNumber: "", //*
         pianoTeacherEmail: "", //*
         competitionCategory: "",
-        recordingLink: "",
-        location: "US"
-      }
+        location: "US",
+      },
     };
   },
   methods: {
     onSubmit() {
       this.key = 0;
       this.submitDisabled = 1;
-      this.$validator.validate().then(result => {
+      this.$validator.validate().then((result) => {
         if (!result) {
           this.key = 2;
           this.submitDisabled = 0;
@@ -429,18 +482,18 @@ export default {
               { emulateJSON: true }
             )
             .then(
-              function() {
+              function () {
                 this.key = 1;
               },
-              function() {
+              function () {
                 this.key = 3;
                 this.submitDisabled = 0;
               }
             );
         }
       });
-    }
-  }
+    },
+  },
 };
 </script>
 

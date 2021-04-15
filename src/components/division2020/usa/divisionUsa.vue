@@ -20,15 +20,21 @@
             </tr>
             <tr>
               <td>Preliminary Round Deadline:</td>
-              <td>May 15th</td>
+              <td>May 15th, 2021</td>
             </tr>
 
             <tr>
               <td>Registration fee for Preliminary Round:</td>
               <td>
                 $30 for Young Artist Division; Rising Star Division and Amateur
-                Adult Division $35 for Professional Division, PianoTeacherss’
-                Division and Chamber Division
+                Adult Division
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                $35 for Professional Division, PianoTeacherss’ Division and
+                Chamber Division
               </td>
             </tr>
           </table>
@@ -56,9 +62,12 @@
             <tr>
               <th>Preliminary round location:</th>
               <td>
-                Kansas City Piano, 7316 W 119th St, Overland Park, KS 66213 And
-                Online live performance
+                Kansas City Piano, 7316 W 119th St, Overland Park, KS 66213
               </td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>Remote live performance available</td>
             </tr>
           </table>
         </div>
@@ -261,20 +270,20 @@
         <div class="col-xs-12">
           <h2>Awards</h2>
           <p class="padding-top20">
-            . Each participant will be given a certificate of award and will
+            1. Each participant will be given a certificate of award and will
             include a comment on their performance from the jury.
           </p>
           <p class="padding-top20">
-            . The first prize of the professional division and the young artist
+            2. The first prize of the professional division and the young artist
             division will be awarded a full scholarship to participate in the
             2021 Conero International Piano Festival. The 1st prize of Piano
             Teachers’ Group will have priority to attend the pedagogy forum in
             the Conero International Piano Festival.
           </p>
           <p class="padding-top20">
-            . Participants will receive written feedback about their performance
-            from judges (including where they can improve, best parts of the
-            performance, etc.).
+            3. Participants will receive written feedback about their
+            performance from judges (including where they can improve, best
+            parts of the performance, etc.).
           </p>
         </div>
       </div>
@@ -333,50 +342,10 @@
       </div>
       <div class="row padding-top20">
         <div class="col-xs-12">
-          <h3>Technical recommendations for online participants</h3>
-          <h4>(minimum requirements)</h4>
-          <p class="padding-top20">
-            . Performers should use the latest phone or tablet possible during
-            the Zoom meeting.
-          </p>
-          <p>
-            . The piano should be located close to the Wifi router to ensure an
-            optimal connection during the live performance.
-          </p>
-          <p>
-            . The location of the streaming device should be at an angle that
-            would allow for an optimal vision of the keyboard and hands, as well
-            as include the use of the pedal during the performance.
-          </p>
-          <p>
-            . The use of a phone or tablet stand or tripod is highly recommended
-            to assure the camera's stability and optimal focus during the
-            performance. An example of such can be found at:
-            <a
-              target="_blank"
-              href="https://www.amazon.com/Acuvar-Aluminum-Universal-Smartphone-Smartphones/dp/B00SHJPMEU/ref=sr_1_12_sspa?dchild=1&keywords=phone+tripod&qid=1617331500&sr=8-12-spons&psc=1&smid=A7H9LIHN2YW5O&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExTjBLQkJQVUpOVkVEJmVuY3J5cHRlZElkPUEwOTQ0NTc3UU5TS1c5R0VBTlJHJmVuY3J5cHRlZEFkSWQ9QTA2NTY1MTczUkdGMzNORkJDUkFBJndpZGdldE5hbWU9c3BfbXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
-              >https://www.amazon.com/Acuvar-Aluminum-Universal-Smartphone-Smartphones</a
-            >
-          </p>
-          <p>
-            . If using a laptop for the performance, it is recommended to
-            acquire a USB microphone and position it close to the piano strings
-            to optimize the performance's sound quality. An example of such a
-            device can be found at:
-            <a
-              target="_blank"
-              href="https://www.amazon.com/Microphone-Condenser-Recording-Streaming-669B/dp/B06XCKGLTP/ref=sr_1_2_sspa?dchild=1&keywords=USB+microphone&qid=1617211973&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFGOUtNQzVYOTI1UFUmZW5jcnlwdGVkSWQ9QTAzMzgwOTIyN1k3U0pPVk9JTVkzJmVuY3J5cHRlZEFkSWQ9QTA3MDU1NzUyV0hYM0E0MlZCMTdVJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
-              >https://www.amazon.com/Microphone-Condenser-Recording-Streaming-669B</a
-            >
-          </p>
-          <p>
-            . We highly encourage all participants to test their performance
-            quality through a Zoom video conference with family and/or friends
-            before the competition to ensure that all devices are working
-            correctly and that the sound quality is the highest possible. If the
-            sound quality is poor enough to affect judging, it can potentially
-            influence the score.
-          </p>
+          <router-link to="/division/usa/additional">
+            <h3>Technical recommendations for online participants</h3>
+            <h4>(minimum requirements)</h4>
+          </router-link>
         </div>
       </div>
     </div>

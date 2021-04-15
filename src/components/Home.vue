@@ -12,8 +12,8 @@
           <div class="homeMain">
             <div class="componentTitle">
               <div class="homeTitleWrap">
-                <p class="title_p">
-                  <img class="homeLogo" src="../assets/img/logo.png" alt />
+                <img class="homeLogo" src="../assets/img/logo.png" alt />
+                <p class="homeTitleP font-bold">
                   {{ $t("appPublic.row2") }}
                 </p>
               </div>
@@ -21,17 +21,14 @@
           </div>
         </div>
         <div class="col-xs-12 padding-bottom20">
-          <div class="padding-bottom20 font-italic font-grayBlue">
-            <h2 class="text-center font-italic">
-              {{ $t("home.homeTitle.row6") }}
-            </h2>
+          <div class="padding-bottom20 font-grayBlue">
             <h2 class="text-center">
               {{ $t("home.homeTitle.row7") }}
             </h2>
             <router-link :to="{ name: 'constitution' }">
-              <h2 class="text-center font-grayBlue">
+              <h3 class="text-center font-grayBlue">
                 {{ $t("home.homeTitle.row8") }}
-              </h2>
+              </h3>
             </router-link>
             <h2 class="text-center">
               {{ $t("home.homeTitle.row9") }}
@@ -77,7 +74,7 @@
             </div>
 
             <p class="text-center padding-top15 text-gray">
-              The highlights of 2019 Conero Music Festival
+              2020年科雷诺钢琴教学法高峰论坛回顾
             </p>
           </div>
         </div>
@@ -173,7 +170,13 @@ export default {
 }
 
 .homeTitleWrap {
-  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.homeTitleP {
+  text-align: center;
+  padding: 0 5px;
 }
 
 .spanCity {

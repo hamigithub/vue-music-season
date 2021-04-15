@@ -1,7 +1,7 @@
 {
   "appPublic": {
     "row1": "Introduction",
-    "row2": "2021 Conero International Music Festival & Competition",
+    "row2": "2021 Conero International Piano Festival & Competition",
     "row3": "< Back"
   },
   "appNavText": {
@@ -27,11 +27,10 @@
       "row3": "* Praised by internationally acclaimed pianists and professors",
       "row4": "* Subverts the traditional model and constantly innovates and breaks through with an in-depth, customized, interactive learning experience",
       "row5": "* The strongest academic atmosphere and the least commercial operation",
-      "row6": "2021 Conero Dates：",
       "row7": "Preliminary Round Competition: May-June, 2021",
       "row8": "(Check your division rules)",
       "row9": "Final Round Competition: August 2nd -3rd，2021",
-      "row10": "Festival dates: August 4th -12th"
+      "row10": "Festival dates: August 4th -10th"
     },
     "homeText": {
       "row1": "In 2019, the first Conero International Piano Festival was successfully held in Recanti, Italy. In 2020, when the pandemic came, the Conero team quickly moved everything online and hosted an online festival and competition, with more than 400 participants in the competition and 100 participants in the online Conero festival. 2021 is another challenging year. We are going to present a more revolutionary platform festival, which will combine in-person and online events, and connect Australia, China, Canada, and the United States.",
@@ -47,7 +46,8 @@
     }
   },
   "committeeTitle": {
-    "title": "Committee Faculty"
+    "title": "Committee Faculty",
+    "title2": "2021 Conero Piano Festival Faculty"
   },
   "committeeBioSmith": {
     "row1": "Artistic Director: Scott McBride Smith",
@@ -187,7 +187,8 @@
   "committeeBioYangyandi": {
     "row1": "Faculty: Yandi Yang",
     "row2": "Musicologist, Music Critic And Translator",
-    "row3": "Former vice-president of Shanghai Conservatory of Music"
+    "row3": "Former vice-president of Shanghai Conservatory of Music",
+    "row4": "President，Harbin Conservatory of Music"
   },
   "yangyandiInfo": {},
   "committeeBioZhaoxiaohong": {
@@ -290,9 +291,9 @@
   },
   "committeeBioIvy": {
     "row1": "Founder and Executive Director: Ivy Lu Wang",
-    "row2": "Doctor of Musical Arts, University of Kansas",
-    "row3": "Phi Beta Delta international Scholar",
-    "row4": "Member of Music Teachers National Association-US",
+    "row2": "Lecturer of Piano Pedagogy，University of Kansas",
+    "row3": "Phi Bete Delta International Scholar",
+    "row4": "Artistic Director, International Piano Professionals Association",
     "row5": "",
     "row6": ""
   },
@@ -442,7 +443,7 @@
     "row2": "It has been accepted as a member of the Alink-Argerich Foundation."
   },
   "competition2020text2": {
-    "row1": "2021 Conero International Piano Festival Competition guide",
+    "row1": "2021 Conero International Piano Festival Competition Guide",
     "row2": "First Round: Please check the rules and deadlines in your division.",
     "row3": "Final Round: Video submission due by August 10th. (Every finalist must submit their final round application. Registration should completed within 30 days of the preliminary round result) ",
     "row4": "Registration fee for final round:   Professional Groups/ Teachers’ Group: $100   All Amateur Groups: $80",
@@ -520,7 +521,8 @@
     "row1": "United States",
     "row2": "China",
     "row3": "Australia",
-    "row4": "Other Countries"
+    "row4": "Canada",
+    "row5": "Other Countries"
   },
   "divisionChina": {
     "title-1": "2020 Conero International Piano Competition, China Division",
@@ -941,23 +943,6 @@
       "row1": "Please complete the application form and submit payment through PayPal. Accepted payment methods are PayPal account balance or credit card (UnionPay, Visa, MasterCard, as well as other major credit cards are accepted). Note that signing up for a PayPal account is not required to send credit card payment.",
       "title2": "Application Recording",
       "row2": "In addition to the application form, Piano Professionals and Amateur Pianists are required to upload their choice of performance videos, no more than 20 minutes total. If your recording is not ready, you may submit the application first and email us your link as soon as possible (scholarships will not be considered without a recording). It is required to use a video sharing website such as YouTube or YouKu. Please do not try to send video files through email - we will not receive any email with an attachment larger than 5MB."
-    },
-    "tuition": {
-      "title": "Festival Tuition",
-      "row1": "Professional Pianist Group",
-      "row1-2": "$399",
-      "row1-3": "Application Fee: $80",
-      "row1-4": "Deadline :July 20th",
-      "row2": "Piano Pedagogy Scholars Group",
-      "row2-2": "$299",
-      "row3": "Amateur Pianist Group",
-      "row3-2": "$159",
-      "row4": "Observers",
-      "row4-2": "$149",
-      "row4-3": "(Three for $297)",
-      "row4-4": "No Application Fee",
-      "row4-5": "Application deadline: August 10th",
-      "row5": "* Early Bird discount: $50 off Deadline: July 10th"
     },
     "categories": {
       "title": "Festival Categories",

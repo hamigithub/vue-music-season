@@ -75,6 +75,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "group-main" */'./components/2019/Faculty')
     },
     {
+      path: "/faculty/2020",
+      name: "faculty2020",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/2020/Faculty')
+    },
+    {
       path: "/competition",
       name: "competition",
       component: () => import(/* webpackChunkName: "group-main" */'./components/Competition')
@@ -84,7 +89,12 @@ export default new Router({
       name: "competition2019",
       component: () => import(/* webpackChunkName: "group-main" */'./components/2019/Competition')
     },
-    //四大赛区
+    {
+      path: "/competition/2020",
+      name: "competition2020",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/2020/Competition')
+    },
+    //各大赛区
     {
       path: "/division/usa",
       name: "divisionUsa",
@@ -99,6 +109,11 @@ export default new Router({
       path: "/division/usa/finalists",
       name: "applyUsaFinalists",
       component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/usa/finalists.vue')
+    },
+    {
+      path: "/division/usa/additional",
+      name: "applyUsaAdditional",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/usa/additional.vue')
     },
     {
       path: "/division/china",
@@ -134,6 +149,11 @@ export default new Router({
       path: "/division/online/finalists",
       name: "applyOnlineFinalists",
       component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/online/finalists.vue')
+    },
+    {
+      path: "/division/canada",
+      name: "divisionCanada",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/canada/divisionCanada.vue')
     },
     {
       path: "/constitution",

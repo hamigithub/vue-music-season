@@ -35,7 +35,7 @@
                   <br />
                   * {{$t('committeeBioSmith.row3')}}
                   <br />
-                  &nbsp&nbsp{{$t('committeeBioSmith.row4')}}
+                  {{$t('committeeBioSmith.row4')}}
                   <br />
                   * {{$t('committeeBioSmith.row5')}}
                   <br />
