@@ -142,7 +142,7 @@
       </div>
     </div>
 
-    <div class="container padding-top50">
+    <!-- <div class="container padding-top50">
       <div class="row">
         <div class="col-xs-12">
           <h2 class="text-center">Final Round Category</h2>
@@ -153,7 +153,7 @@
           <h3 class="text-center">· Professional Artist Division</h3>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="container">
       <div class="row">

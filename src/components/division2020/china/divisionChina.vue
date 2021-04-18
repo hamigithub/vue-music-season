@@ -149,16 +149,9 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">
-                    {{ $t("divisionChina.cnJudge.ycg.name") }}
-                  </p>
-                  <p class="padding-top5">
-                    {{ $t("divisionChina.cnJudge.ycg.title1") }}
-                  </p>
-                  <p>{{ $t("divisionChina.cnJudge.ycg.title2") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.ycg.title3") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.ycg.title4") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.ycg.title5") }}</p>
+                  <p class="font-bold">林晓燕</p>
+                  <p class="padding-top5">钢琴家、教育家</p>
+                  <p>厦门市音乐学校钢琴学科主任</p>
                 </div>
               </div>
             </div>
@@ -170,15 +163,11 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">
-                    {{ $t("divisionChina.cnJudge.xjx.name") }}
-                  </p>
-                  <p class="padding-top5">
-                    {{ $t("divisionChina.cnJudge.xjx.title1") }}
-                  </p>
-                  <p>{{ $t("divisionChina.cnJudge.xjx.title2") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.xjx.title3") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.xjx.title4") }}</p>
+                  <p class="font-bold">刘云天</p>
+                  <p class="padding-top5">著名旅美青年钢琴家</p>
+                  <p>华夏琴英全球华人钢琴家</p>
+                  <p>星海音乐学院钢琴系教师</p>
+                  <p>广东省音乐家协会会员</p>
                 </div>
               </div>
             </div>
@@ -190,15 +179,10 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">
-                    {{ $t("divisionChina.cnJudge.lyt.name") }}
-                  </p>
-                  <p class="padding-top5">
-                    {{ $t("divisionChina.cnJudge.lyt.title1") }}
-                  </p>
-                  <p>{{ $t("divisionChina.cnJudge.lyt.title2") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.lyt.title3") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.lyt.title4") }}</p>
+                  <p class="font-bold">沈璐</p>
+                  <p class="padding-top5">著名旅美青年钢琴家</p>
+                  <p>华夏琴英全球华人钢琴家</p>
+                  <p>星海音乐学院钢琴系教师</p>
                 </div>
               </div>
             </div>
@@ -210,15 +194,11 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">
-                    {{ $t("divisionChina.cnJudge.zy.name") }}
-                  </p>
-                  <p class="padding-top5">
-                    {{ $t("divisionChina.cnJudge.zy.title1") }}
-                  </p>
-                  <p>{{ $t("divisionChina.cnJudge.zy.title2") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.zy.title3") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.zy.title4") }}</p>
+                  <p class="font-bold">王海波</p>
+                  <p class="padding-top5">北京师范大学音乐系钢琴教授</p>
+                  <p>博士生导师</p>
+                  <p>中国音乐家钢琴协会理事</p>
+                  <p>国家艺术基金评审专家</p>
                 </div>
               </div>
             </div>
@@ -230,15 +210,12 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">
-                    {{ $t("divisionChina.cnJudge.wyq.name") }}
-                  </p>
-                  <p class="padding-top5">
-                    {{ $t("divisionChina.cnJudge.wyq.title1") }}
-                  </p>
-                  <p>{{ $t("divisionChina.cnJudge.wyq.title2") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.wyq.title3") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.wyq.title4") }}</p>
+                  <p class="font-bold">王健</p>
+                  <p class="padding-top5">武汉音乐学院钢琴系教授</p>
+                  <p>武汉音乐学院学术委员、硕士生导师</p>
+                  <p>中国音协钢琴学会理事</p>
+                  <p>湖北省音乐家协会理事</p>
+                  <p>湖北省音乐家协会钢琴学会会长</p>
                 </div>
               </div>
             </div>
@@ -250,15 +227,9 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">
-                    {{ $t("divisionChina.cnJudge.dy.name") }}
-                  </p>
-                  <p class="padding-top5">
-                    {{ $t("divisionChina.cnJudge.dy.title1") }}
-                  </p>
-                  <p>{{ $t("divisionChina.cnJudge.dy.title2") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.dy.title3") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.dy.title4") }}</p>
+                  <p class="font-bold">王遒</p>
+                  <p class="padding-top5">中国音乐学院钢琴系副教授</p>
+                  <p>硕士研究生导师</p>
                 </div>
               </div>
             </div>
@@ -270,16 +241,11 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">
-                    {{ $t("divisionChina.cnJudge.lj.name") }}
-                  </p>
-                  <p class="padding-top5">
-                    {{ $t("divisionChina.cnJudge.lj.title1") }}
-                  </p>
-                  <p>{{ $t("divisionChina.cnJudge.lj.title2") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.lj.title3") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.lj.title4") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.lj.title5") }}</p>
+                  <p class="font-bold">解静娴</p>
+                  <p class="padding-top5">旅德钢琴家 钢琴博士</p>
+                  <p>上海音乐学院钢琴系副教授 硕士生导师</p>
+                  <p>上海市“晨光学者”</p>
+                  <p>上海市“文化新人”</p>
                 </div>
               </div>
             </div>
@@ -291,17 +257,79 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">
-                    {{ $t("divisionChina.cnJudge.ccc.name") }}
-                  </p>
-                  <p class="padding-top5">
-                    {{ $t("divisionChina.cnJudge.ccc.title1") }}
-                  </p>
-                  <p>{{ $t("divisionChina.cnJudge.ccc.title2") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.ccc.title3") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.ccc.title4") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.ccc.title5") }}</p>
-                  <p>{{ $t("divisionChina.cnJudge.ccc.title6") }}</p>
+                  <p class="font-bold">杨成刚</p>
+                  <p class="padding-top5">四川音乐学院钢琴系副系主任</p>
+                  <p>四川音乐学院钢琴系教授</p>
+                  <p>硕士生导师</p>
+                  <p>四川省学术带头人后备人选</p>
+                  <p>四川钢琴学会副会长</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_9.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">尤洋</p>
+                  <p class="padding-top5">留法硕士</p>
+                  <p>中央音乐学院钢琴专业讲师</p>
+                  <p>中央音乐学院校外音乐水平考级评委</p>
+                  <p>中央音乐学院全国青少年艺术展演专家委员会委员</p>
+                  <p>福建省音协钢琴艺术专业委员会副会长</p>
+                  <p>厦门市音协副主席</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_10.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">郑晓峰</p>
+                  <p class="padding-top5">钢琴家 教育家</p>
+                  <p>武汉音乐学院资深专业导师</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_11.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">周笑扬</p>
+                  <p class="padding-top5">旅美钢琴演奏家，博士</p>
+                  <p>“橄榄古典音乐 钢琴课堂”特约撰稿人</p>
+                  <p>上海人民广播电台“经典947”频道特约撰稿人</p>
+                  <p>著名乐评人</p>
+                  <p>音乐家推荐人</p>
+                  <p>音乐艺术活动策划人</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-child text-center">
+              <div class="imgWrap">
+                <img
+                  class="judgeImg pointer-hand"
+                  src="../../../assets/img/cnJudge/cnJudge_12.jpg"
+                  alt
+                />
+                <div class="titleWrap">
+                  <p class="font-bold">柴聪聪</p>
+                  <p class="padding-top5">旅美钢琴家、音乐艺术博士（D.M.A)</p>
+                  <p>IBLA国际音乐比赛中国区执行人</p>
+                  <p>海南大学客座教授</p>
+                  <p>武汉音乐学院钢琴系讲师</p>
+                  <p>科雷诺艺术节暨比赛创办人</p>
                 </div>
               </div>
             </div>
