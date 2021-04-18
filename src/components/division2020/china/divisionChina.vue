@@ -4,8 +4,44 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <div class="text-center">
-            <h1>{{$t('divisionChina.title-1')}}</h1>
+            <h1>科雷诺国际钢琴比赛中国赛区</h1>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <h2>赛事简介丨Competition Information</h2>
+          <p>
+            科雷诺国际钢琴比赛是由国际钢琴专业协会IPPA（
+            美国），与意大利B.Gigli音乐学院，Recanati城市文化局联合主办的高规格专业赛事。
+          </p>
+          <p>
+            科雷诺国际钢琴比赛（Conero International Piano
+            Competition）因其专业性、国际性，已被AAF国际赛事基金会（Alink-Argerich
+            Foundation)准予，正式成为AAF国际赛事基金会成员之一。
+          </p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12 font-red">
+          <p>
+            中国国内不设分赛区，线上线下同步进行面试。晋级者将与来自澳洲、加拿大、美国、欧洲各国的选手在线上角逐全球决赛。
+          </p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12 font-red">
+          <p>日期：2021年6月</p>
+          <p>
+            地点：面试点将设于北京、上海、广州、武汉及厦门；无法前往现场面试的参赛者也可通过指定连线方式，参与线上面试。
+          </p>
+          <p>报名费用：</p>
+          <p>各专业组别及高师组880人民币</p>
+          <p>业余组别680人民币</p>
+          <p>四手联弹与室内乐组别 每位选手380人民币</p>
         </div>
       </div>
     </div>
@@ -16,36 +52,49 @@
           <div class="row">
             <div class="col-xs-12 col-md-4 text-center padding-bottom20">
               <router-link to="/division/china/apply">
-                <div class="btn btnBgm">{{$t('applyTitle.title4')}}</div>
+                <div class="btn btnBgm">{{ $t("applyTitle.title4") }}</div>
               </router-link>
-              <div class="margin-top20">
-                <router-link to="/division/china/finalists">
-                  <div class="listsWrap font-italic text-center">Finalist</div>
-                </router-link>
-              </div>
             </div>
             <div class="col-xs-12 col-md-4">
               <div class="text-center">
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <form
+                  action="https://www.paypal.com/cgi-bin/webscr"
+                  method="post"
+                  target="_top"
+                >
                   <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="hidden" name="hosted_button_id" value="RZH4HAC9T4BRN" />
+                  <input
+                    type="hidden"
+                    name="hosted_button_id"
+                    value="RZH4HAC9T4BRN"
+                  />
                   <table class="payTable">
                     <tr>
                       <td>
-                        <input type="hidden" name="on0" value="Group Type" />Group Type
+                        <input
+                          type="hidden"
+                          name="on0"
+                          value="Group Type"
+                        />Group Type
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <select name="os0">
-                          <option value="Professionals/Teachers">Professionals/Teachers $100.00 USD</option>
+                          <option value="Professionals/Teachers">
+                            Professionals/Teachers $100.00 USD
+                          </option>
                           <option value="Amateurs">Amateurs $80.00 USD</option>
                         </select>
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        <input type="hidden" name="on1" value="Participant name(s):" />Participant name(s):
+                        <input
+                          type="hidden"
+                          name="on1"
+                          value="Participant name(s):"
+                        />Participant name(s):
                       </td>
                     </tr>
                     <tr>
@@ -71,7 +120,7 @@
                   />
                 </form>
               </div>
-              <p class="padding-20 text-center">{{$t('applyFee.ps')}}</p>
+              <p class="padding-20 text-center">{{ $t("applyFee.ps") }}</p>
             </div>
             <div class="col-xs-12 col-md-4 text-center padding-bottom20">
               <div class="payImg">
@@ -86,57 +135,7 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <h2>{{$t('divisionChina.category-title')}}</h2>
-          <p class="padding-top20">{{$t('divisionChina.category1')}}</p>
-          <p>{{$t('divisionChina.category2')}}</p>
-        </div>
-
-        <div class="col-xs-12">
-          <p class="padding-top20">{{$t('divisionChina.category3')}}</p>
-          <p>{{$t('divisionChina.category4')}}</p>
-        </div>
-
-        <div class="col-xs-12">
-          <p class="padding-top20">{{$t('divisionChina.category5')}}</p>
-          <p>{{$t('divisionChina.category6')}}</p>
-        </div>
-
-        <div class="col-xs-12">
-          <p class="padding-top20">{{$t('divisionChina.category7')}}</p>
-          <p>{{$t('divisionChina.category8')}}</p>
-        </div>
-
-        <div class="col-xs-12">
-          <p class="padding-top20">{{$t('divisionChina.category9')}}</p>
-          <p>{{$t('divisionChina.category10')}}</p>
-        </div>
-
-        <div class="col-xs-12">
-          <p class="padding-top20">{{$t('divisionChina.category11')}}</p>
-          <p>{{$t('divisionChina.category12')}}</p>
-        </div>
-
-        <div class="col-xs-12">
-          <p class="padding-top20">{{$t('divisionChina.category13')}}</p>
-          <p>{{$t('divisionChina.category14')}}</p>
-        </div>
-
-        <div class="col-xs-12">
-          <p class="padding-top20">{{$t('divisionChina.category15')}}</p>
-          <p>{{$t('divisionChina.category16')}}</p>
-        </div>
-
-        <div class="col-xs-12">
-          <p class="padding-top20">{{$t('divisionChina.category17')}}</p>
-          <p>{{$t('divisionChina.category18')}}</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="row padding-top50">
-        <div class="col-xs-12">
-          <h2>2020科雷诺国际钢琴比赛 中国赛区评审团</h2>
+          <h2>中国赛区评审团 | Jury Of China Division</h2>
         </div>
       </div>
       <div class="row padding-top20">
@@ -150,12 +149,16 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">{{$t('divisionChina.cnJudge.ycg.name')}}</p>
-                  <p class="padding-top5">{{$t('divisionChina.cnJudge.ycg.title1')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.ycg.title2')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.ycg.title3')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.ycg.title4')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.ycg.title5')}}</p>
+                  <p class="font-bold">
+                    {{ $t("divisionChina.cnJudge.ycg.name") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("divisionChina.cnJudge.ycg.title1") }}
+                  </p>
+                  <p>{{ $t("divisionChina.cnJudge.ycg.title2") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.ycg.title3") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.ycg.title4") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.ycg.title5") }}</p>
                 </div>
               </div>
             </div>
@@ -167,11 +170,15 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">{{$t('divisionChina.cnJudge.xjx.name')}}</p>
-                  <p class="padding-top5">{{$t('divisionChina.cnJudge.xjx.title1')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.xjx.title2')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.xjx.title3')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.xjx.title4')}}</p>
+                  <p class="font-bold">
+                    {{ $t("divisionChina.cnJudge.xjx.name") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("divisionChina.cnJudge.xjx.title1") }}
+                  </p>
+                  <p>{{ $t("divisionChina.cnJudge.xjx.title2") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.xjx.title3") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.xjx.title4") }}</p>
                 </div>
               </div>
             </div>
@@ -183,11 +190,15 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">{{$t('divisionChina.cnJudge.lyt.name')}}</p>
-                  <p class="padding-top5">{{$t('divisionChina.cnJudge.lyt.title1')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.lyt.title2')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.lyt.title3')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.lyt.title4')}}</p>
+                  <p class="font-bold">
+                    {{ $t("divisionChina.cnJudge.lyt.name") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("divisionChina.cnJudge.lyt.title1") }}
+                  </p>
+                  <p>{{ $t("divisionChina.cnJudge.lyt.title2") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.lyt.title3") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.lyt.title4") }}</p>
                 </div>
               </div>
             </div>
@@ -199,11 +210,15 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">{{$t('divisionChina.cnJudge.zy.name')}}</p>
-                  <p class="padding-top5">{{$t('divisionChina.cnJudge.zy.title1')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.zy.title2')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.zy.title3')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.zy.title4')}}</p>
+                  <p class="font-bold">
+                    {{ $t("divisionChina.cnJudge.zy.name") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("divisionChina.cnJudge.zy.title1") }}
+                  </p>
+                  <p>{{ $t("divisionChina.cnJudge.zy.title2") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.zy.title3") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.zy.title4") }}</p>
                 </div>
               </div>
             </div>
@@ -215,11 +230,15 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">{{$t('divisionChina.cnJudge.wyq.name')}}</p>
-                  <p class="padding-top5">{{$t('divisionChina.cnJudge.wyq.title1')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.wyq.title2')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.wyq.title3')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.wyq.title4')}}</p>
+                  <p class="font-bold">
+                    {{ $t("divisionChina.cnJudge.wyq.name") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("divisionChina.cnJudge.wyq.title1") }}
+                  </p>
+                  <p>{{ $t("divisionChina.cnJudge.wyq.title2") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.wyq.title3") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.wyq.title4") }}</p>
                 </div>
               </div>
             </div>
@@ -231,11 +250,15 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">{{$t('divisionChina.cnJudge.dy.name')}}</p>
-                  <p class="padding-top5">{{$t('divisionChina.cnJudge.dy.title1')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.dy.title2')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.dy.title3')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.dy.title4')}}</p>
+                  <p class="font-bold">
+                    {{ $t("divisionChina.cnJudge.dy.name") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("divisionChina.cnJudge.dy.title1") }}
+                  </p>
+                  <p>{{ $t("divisionChina.cnJudge.dy.title2") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.dy.title3") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.dy.title4") }}</p>
                 </div>
               </div>
             </div>
@@ -247,12 +270,16 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">{{$t('divisionChina.cnJudge.lj.name')}}</p>
-                  <p class="padding-top5">{{$t('divisionChina.cnJudge.lj.title1')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.lj.title2')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.lj.title3')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.lj.title4')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.lj.title5')}}</p>
+                  <p class="font-bold">
+                    {{ $t("divisionChina.cnJudge.lj.name") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("divisionChina.cnJudge.lj.title1") }}
+                  </p>
+                  <p>{{ $t("divisionChina.cnJudge.lj.title2") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.lj.title3") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.lj.title4") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.lj.title5") }}</p>
                 </div>
               </div>
             </div>
@@ -264,13 +291,17 @@
                   alt
                 />
                 <div class="titleWrap">
-                  <p class="font-bold">{{$t('divisionChina.cnJudge.ccc.name')}}</p>
-                  <p class="padding-top5">{{$t('divisionChina.cnJudge.ccc.title1')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.ccc.title2')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.ccc.title3')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.ccc.title4')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.ccc.title5')}}</p>
-                  <p>{{$t('divisionChina.cnJudge.ccc.title6')}}</p>
+                  <p class="font-bold">
+                    {{ $t("divisionChina.cnJudge.ccc.name") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("divisionChina.cnJudge.ccc.title1") }}
+                  </p>
+                  <p>{{ $t("divisionChina.cnJudge.ccc.title2") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.ccc.title3") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.ccc.title4") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.ccc.title5") }}</p>
+                  <p>{{ $t("divisionChina.cnJudge.ccc.title6") }}</p>
                 </div>
               </div>
             </div>
@@ -282,11 +313,137 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <h2>{{$t('divisionChina.awards-title')}}</h2>
-          <p class="padding-top20">{{$t('divisionChina.awards1')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.awards2')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.awards3')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.awards4')}}</p>
+          <h2 class="">参赛组别丨Groups</h2>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p>
+            <span class="font-red">高师组</span> Piano Teachers Group： ages
+            above 22
+          </p>
+          <P>一首巴洛克或古典时期作品</P>
+          <P>一首自选作品</P>
+          <P>总时长不超过15分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p>
+            <span class="font-red">专业青年组</span> Professional Adult
+            Division: Ages 18-32
+          </p>
+          <P>三首或以上有风格对比的自选曲目</P>
+          <P>总时长不超过30分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p>
+            <span class="font-red">专业高校组</span> (限师范或音教专业在读学生)
+            无年龄限制
+          </p>
+          <P>三首或以上有风格对比的自选曲目</P>
+          <P>总时长不超过20分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p>
+            <span class="font-red">专业少年一组</span> Professional Young Artist
+            1 : Ages 15–17 (must not have attended college yet)
+          </p>
+          <P>自选两首或以上不同风格作品</P>
+          <P>总时长不超过20分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p>
+            <span class="font-red">专业少年2组</span> Professional Young Artist
+            2: Ages 11–14
+          </p>
+          <P>自选两首不同风格作品</P>
+          <P>总时长不超过15分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p>
+            <span class="font-red">业余青年组</span> Amateur Adult Division:
+            Ages 18-35
+          </p>
+          <P>自选 1-2 首曲目</P>
+          <P>总时长不超过15分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p>
+            <span class="font-red">业余少年一组</span> Senior Amateur Division 1
+            : Ages 15–17 (must not have attended college yet)
+          </p>
+          <P>自选 1-2 首曲目</P>
+          <P>总时长不超过10分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p>
+            <span class="font-red">业余少年二组</span> Senior Amateur Division
+            2: Ages 11–14
+          </p>
+          <P>自选 1-2 首曲目</P>
+          <P>总时长不超过8分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p><span class="font-red">儿童1组</span> Junior Division 1: 9-11岁</p>
+          <P>自选 1-2 首曲目</P>
+          <P>总时长不超过6分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p><span class="font-red">儿童2组</span> Junior Division 2: 6-8岁</p>
+          <P>自选 1-2 首曲目</P>
+          <P>总时长不超过5分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p><span class="font-red">四手联弹初级组</span> 平均年龄12岁以下</p>
+          <P>自选曲目</P>
+          <P>总时长不能超过10分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p><span class="font-red">四手联弹中级组</span> 平均年龄12至18岁</p>
+          <P>自选曲目</P>
+          <P>总时长不能超过10分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p><span class="font-red">四手联弹高级组</span> 平均年龄18岁以上</p>
+          <P>自选曲目</P>
+          <P>总时长不能超过15分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p><span class="font-red">室内乐组A组</span> 平均年龄18岁以上</p>
+          <P>自选钢琴与弦乐或木管室内乐作品一或多首</P>
+          <P>总时长不超过15分钟</P>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p><span class="font-red">室内乐组B组</span> 平均年龄18岁以下</p>
+          <P>自选钢琴与弦乐或木管室内乐作品一或多首</P>
+          <P>总时长不超过15分钟</P>
         </div>
       </div>
     </div>
@@ -294,19 +451,131 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <h2>{{$t('divisionChina.regulations-title')}}</h2>
-          <p class="padding-top20">{{$t('divisionChina.regulations1')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.regulations2')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.regulations3')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.regulations4')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.regulations5')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.regulations6')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.regulations7')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.regulations8')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.regulations9')}}</p>
-          <p class="padding-top20">{{$t('divisionChina.regulations10')}}</p>
-          <p class="padding-top50 font-bold">{{$t('divisionChina.regulations-end1')}}</p>
-          <p class="padding-top20 font-bold">{{$t('divisionChina.regulations-end2')}}</p>
+          <h2>规则丨Regulations</h2>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p>1 独奏组别所有阶段的比赛必须全程背谱演奏</p>
+          <p>2一旦报名提交参赛曲目，原则上不可再更改。</p>
+          <p>
+            3
+            除四手联弹及室内乐组别外，不接受钢琴协奏曲，个人原创作品以及改编版的作品。
+          </p>
+          <p>4 除结构性反复(标有D.C记号)外，不要求反复。</p>
+          <p>
+            5
+            现场面试中，评委有权利打断选手的演奏，或要求选手演奏指定段落，但不影响选手成绩。
+          </p>
+          <p>6 评委的评审为不可更改的最终决定。</p>
+          <p>7 选手的演奏对公众开放。</p>
+          <p>
+            8组委会拥有比赛期间及获奖后演奏会的演奏之所有视频、音讯、图片的版权以及在合法范围内使用该视频、音讯、图片的权利。
+          </p>
+          <p>
+            9
+            在参加本大赛期间，参赛者自身健康、伤害、事故，以及所带行李发生盗难、遗失、损坏等事故，需参赛者本人自行承担责任。
+          </p>
+          <p>10 比赛组委会有权利对此章程作最终解释。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <h2>中国区奖项丨Awards</h2>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p>
+            1.
+            所有组别各面试点设一二三等奖及优秀奖，面试评委有权利决定是否出现并列或空缺的情况。
+          </p>
+          <p>2. 原则上，所有组别前三名将晋级国际总决赛。</p>
+          <p>
+            3.
+            各面试点专业青年组、少年组，各组第一名将获得全额奖学金，以前往参加科雷诺国际音乐节暨比赛
+          </p>
+          <p>
+            4.
+            高师组第一名将获得高额奖学金并直接获得在科雷诺国际音乐节教学法论坛演讲资格
+          </p>
+          <p>5. 业余各组奖项获得者将获得奖学金以参加科雷诺国际音乐节暨比赛</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <h2>全球总决赛奖项丨Awards for Final</h2>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p class="font-red">1.奖金</p>
+          <p class="font-red">专业青年组</p>
+          <p>第一名获得奖金 2000美金，以及获奖证书</p>
+          <p>第二名获得奖金 500 美金，以及获奖证书</p>
+          <p>第三名获得奖金 300 美金，以及获奖证书</p>
+          <p class="font-red">专业少年组</p>
+          <p>第一名获得奖金 600 美金，以及获奖证书</p>
+          <p>第二名获得奖金 400 美金，以及获奖证书</p>
+          <p>第三名获得奖金 200 美金，以及获奖证书</p>
+          <p class="font-red">高师组</p>
+          <p>第一名获得奖金 600 美金，以及获奖证书</p>
+          <p>第二名获得奖金 400 美金，以及获奖证书</p>
+          <p>第三名获得奖金 200 美金，以及获奖证书</p>
+          <p class="font-red">室内乐组</p>
+          <p>第一名获得奖金 300 美金，以及获奖证书</p>
+          <p class="font-red">业余青年组</p>
+          <p>第一名获得奖金 300 美金，以及获奖证书</p>
+          <p class="font-red">业余少年组</p>
+          <p>第一名获得奖金 300 美金，以及获奖证书</p>
+          <p class="font-red">业余儿童组</p>
+          <p>第一名获得奖金 200 美金，以及获奖证书</p>
+          <p class="font-red">四手联弹组</p>
+          <p>第一名获得奖金 200 美金，以及获奖证书</p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p class="font-red">2.音乐会合约</p>
+          <p>
+            专业少年组或专业青年组的第一名，经评委会讨论，将获得与艺术节组委会及中国区合作公司签约3-5场中国独奏音乐会，1-2场意大利独奏音乐会，1场亚太国家地区独奏音乐会。共计约5-8场独奏音乐会。评委会保留最终决定权及解释权。
+          </p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p class="font-red">3.其他国际比赛直接晋级</p>
+          <p>专业少年组和青年组第一名获奖者将直接晋级以下比赛的决赛：</p>
+          <p>第29届IBLA国际音乐比赛（西西里岛，意大利，2022）</p>
+          <p>第三届MTNA－CHINA钢琴比赛（广州，中国，2022）</p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p class="font-red">4. 高额奖学金</p>
+          <p>意大利第四届科雷诺国际音乐节 （Recanati, 意大利，2022）</p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p class="font-red">5. 推荐信</p>
+          <p>
+            获奖学生将得到由评委会教授出具的未来参加国际钢琴比赛或申请国内外大学的推荐信
+          </p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <p class="font-red">6. 职业规划会议</p>
+          <p>
+            获奖学生将安排与一场与评委会主席及教授成员对未来职业规划的会议。
+          </p>
         </div>
       </div>
     </div>
@@ -315,7 +584,7 @@
 
 <script>
 export default {
-  name: "DivisionChina"
+  name: "DivisionChina",
 };
 </script>
 

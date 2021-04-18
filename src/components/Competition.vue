@@ -41,7 +41,9 @@
             <tr>
               <td></td>
               <td>
-                · Every finalist must play the final round in a live performance, if you are not from the listed country, please sign up “ The Other Countries” Division.”
+                · Every finalist must play the final round in a live
+                performance, if you are not from the listed country, please sign
+                up “ The Other Countries” Division.”
               </td>
             </tr>
             <tr>
@@ -140,234 +142,18 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container padding-top50">
       <div class="row">
-        <div class="col-xs-12 padding-top50">
-          <div class="padding-bottom10 text-center">
-            <h2>{{ $t("competition2020text4.row1") }}</h2>
-          </div>
-
-          <table>
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text4.row2") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text4.row3") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text4.row4") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text4.row5") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text4.row6") }}</td>
-            </tr>
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text4.row7") }}</td>
-            </tr>
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text4.row8") }}</td>
-              <td class="font-bold">{{ $t("competition2020text4.row13") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text4.row9") }}</td>
-              <td>{{ $t("competition2020text4.row14") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text4.row10") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text4.row11") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text4.row12") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text4.row15") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text4.row16") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text4.row17") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text4.row18") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text4.row19") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text4.row20") }}</td>
-            </tr>
-          </table>
+        <div class="col-xs-12">
+          <h2 class="text-center">Final Round Category</h2>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3 class="text-center">· Professional Artist Division</h3>
         </div>
       </div>
     </div>
-
-    <div class="container">
-      <div class="row padding-top50">
-        <div class="col-xs-12 padding-top50">
-          <h2 class="padding-bottom10">
-            {{ $t("competition2020text5.row1") }}
-          </h2>
-          <table>
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row2") }}</td>
-            </tr>
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row3") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row4") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row5") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row6") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row7") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row8") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row9") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row10") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row11") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row12") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row13") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row14") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row15") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row16") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row17") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row18") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row19") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row20") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">
-                <h3>{{ $t("competition2020text5.row20-2") }}</h3>
-              </td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row21") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row22") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row23") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row24") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row25") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row26") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row27") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row28") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row29") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row30") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row31") }}</td>
-            </tr>
-          </table>
-
-          <table class="padding-top15">
-            <tr>
-              <td class="font-bold">{{ $t("competition2020text5.row32") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2020text5.row33") }}</td>
-            </tr>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    
 
     <div class="container">
       <div class="row">

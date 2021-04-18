@@ -106,7 +106,6 @@
                       @mouseleave="feedsLeave"
                       class="feedsWrap"
                       href="javascript:;"
-                      target="_blank"
                     >
                       <svg class="icon" aria-hidden="true">
                         <use xlink:href="#icon-WechartPay" />
@@ -215,7 +214,6 @@ export default {
     changeLangToZh: function () {
       this.$i18n.locale = "zh";
       this.dropdownActive = false;
-      
     },
     changeLangToEn: function () {
       this.$i18n.locale = "en";
