@@ -403,7 +403,7 @@ export default {
           let jsonData = JSON.stringify(data);
           this.$http
             .post(
-              "http://crm.coneromusicfestival.com/application/create",
+              "https://formspree.io/f/xayanjnl",
               jsonData,
               { emulateJSON: true }
             )
