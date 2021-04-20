@@ -351,7 +351,7 @@
                   <input
                     type="hidden"
                     name="hosted_button_id"
-                    value="RZH4HAC9T4BRN"
+                    value="CL448JFGF8SKJ"
                   />
                   <table class="payTable">
                     <tr>
@@ -359,32 +359,32 @@
                         <input
                           type="hidden"
                           name="on0"
-                          value="Group Type"
-                        />Group Type
+                          value="Divisions"
+                        />Divisions
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <select name="os0">
-                          <option value="Professionals/Teachers">
-                            Professionals/Teachers $100.00 USD
+                          <option value="Professional">
+                            Professional $35.00 USD
                           </option>
-                          <option value="Amateurs">Amateurs $80.00 USD</option>
+                          <option value="Chamber Music">
+                            Chamber Music $35.00 USD
+                          </option>
+                          <option value="Piano Teachers">
+                            Piano Teachers $35.00 USD
+                          </option>
+                          <option value="Young Artist">
+                            Young Artist $30.00 USD
+                          </option>
+                          <option value="Rising Star">
+                            Rising Star $30.00 USD
+                          </option>
+                          <option value="Adult Amateur">
+                            Adult Amateur $30.00 USD
+                          </option>
                         </select>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input
-                          type="hidden"
-                          name="on1"
-                          value="Participant name(s):"
-                        />Participant name(s):
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input type="text" name="os1" maxlength="200" />
                       </td>
                     </tr>
                   </table>
@@ -397,7 +397,7 @@
                     alt="PayPal - The safer, easier way to pay online!"
                   />
                   <img
-                    alt
+                    alt=""
                     border="0"
                     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                     width="1"

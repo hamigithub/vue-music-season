@@ -52,7 +52,7 @@
           <div class="row">
             <div class="col-xs-12 col-md-4 text-center padding-bottom20">
               <router-link to="/division/china/apply">
-                <div class="btn btnBgm">{{ $t("applyTitle.title4") }}</div>
+                <div class="btn btnBgm">申请通道 --></div>
               </router-link>
             </div>
             <div class="col-xs-12 col-md-4">
@@ -66,7 +66,7 @@
                   <input
                     type="hidden"
                     name="hosted_button_id"
-                    value="RZH4HAC9T4BRN"
+                    value="QHDQEDN2MTKPG"
                   />
                   <table class="payTable">
                     <tr>
@@ -74,45 +74,42 @@
                         <input
                           type="hidden"
                           name="on0"
-                          value="Group Type"
-                        />Group Type
+                          value="&#32452;&#21035;"
+                        />&#32452;&#21035;
                       </td>
                     </tr>
                     <tr>
                       <td>
                         <select name="os0">
-                          <option value="Professionals/Teachers">
-                            Professionals/Teachers $100.00 USD
+                          <option
+                            value="&#19987;&#19994;&#32452;/&#39640;&#24072;&#32452;"
+                          >
+                            &#19987;&#19994;&#32452;/&#39640;&#24072;&#32452;
+                            $135.00 USD
                           </option>
-                          <option value="Amateurs">Amateurs $80.00 USD</option>
+                          <option value="&#19994;&#20313;&#32452;">
+                            &#19994;&#20313;&#32452; $105.00 USD
+                          </option>
+                          <option
+                            value="&#22235;&#25163;&#32852;&#24377;/&#23460;&#20869;&#20048;(1&#20154;)"
+                          >
+                            &#22235;&#25163;&#32852;&#24377;/&#23460;&#20869;&#20048;(1&#20154;)
+                            $60.00 USD
+                          </option>
                         </select>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input
-                          type="hidden"
-                          name="on1"
-                          value="Participant name(s):"
-                        />Participant name(s):
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input type="text" name="os1" maxlength="200" />
                       </td>
                     </tr>
                   </table>
                   <input type="hidden" name="currency_code" value="USD" />
                   <input
                     type="image"
-                    src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+                    src="https://www.paypalobjects.com/zh_XC/C2/i/btn/btn_buynowCC_LG.gif"
                     border="0"
                     name="submit"
-                    alt="PayPal - The safer, easier way to pay online!"
+                    alt="PayPal——最安全便捷的在线支付方式！"
                   />
                   <img
-                    alt
+                    alt=""
                     border="0"
                     src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
                     width="1"
@@ -120,7 +117,7 @@
                   />
                 </form>
               </div>
-              <p class="padding-20 text-center">{{ $t("applyFee.ps") }}</p>
+              <p class="padding-20 text-center">请在支付的时候备注好姓名和付款项目。</p>
             </div>
             <div class="col-xs-12 col-md-4 text-center padding-bottom20">
               <div class="payImg">

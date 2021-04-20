@@ -287,20 +287,7 @@
                   </label>
                 </div>
               </div>
-
-              <div class="padding-top15">
-                <div>{{$t('divisionChina.apply29')}}</div>
-                <div>
-                  <label class="font12">
-                    <input
-                      class="inputBox"
-                      v-model="participant.recordingLink"
-                      placeholder="Youtube or other video/audio link"
-                    />
-                  </label>
-                </div>
-              </div>
-
+              
               <div class="row padding-top20">
                 <div class="col-xs-12 text-center">
                   <button
@@ -376,7 +363,6 @@ export default {
         referenceName: "",
         referenceNumber: "",
         competitionCategory: "",
-        recordingLink: "",
         location: "China"
       }
     };
