@@ -20,7 +20,7 @@
             </tr>
             <tr>
               <td>Preliminary Round Deadline:</td>
-              <td>May 15th, 2021</td>
+              <td>May 20th, 2021</td>
             </tr>
 
             <tr>
@@ -33,7 +33,7 @@
             <tr>
               <td></td>
               <td>
-                $35 for Professional Division, PianoTeacherss’ Division and
+                $35 for Professional Division, PianoTeachers’ Division and
                 Chamber Division
               </td>
             </tr>

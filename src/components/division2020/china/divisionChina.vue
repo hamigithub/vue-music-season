@@ -532,7 +532,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h2>全球总决赛奖项丨Awards for Final</h2>
@@ -603,7 +603,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
