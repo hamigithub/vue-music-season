@@ -87,78 +87,79 @@
 
     <div class="container">
       <div class="row padding-top50">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-6 text-center padding-bottom20">
-              <router-link to="/division/usa/apply">
-                <div class="btn btnBgm">Apply US Division --></div>
-              </router-link>
-              <div class="text-center padding-top20">
-                <form
-                  action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post"
-                  target="_top"
-                >
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input
-                    type="hidden"
-                    name="hosted_button_id"
-                    value="CL448JFGF8SKJ"
-                  />
-                  <table class="payTable">
-                    <tr>
-                      <td>
-                        <input
-                          type="hidden"
-                          name="on0"
-                          value="Divisions"
-                        />Divisions
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <select name="os0">
-                          <option value="Professional">
-                            Professional $35.00 USD
-                          </option>
-                          <option value="Chamber Music">
-                            Chamber Music $35.00 USD
-                          </option>
-                          <option value="Piano Teachers">
-                            Piano Teachers $35.00 USD
-                          </option>
-                          <option value="Young Artist">
-                            Young Artist $30.00 USD
-                          </option>
-                          <option value="Rising Star">
-                            Rising Star $30.00 USD
-                          </option>
-                          <option value="Adult Amateur">
-                            Adult Amateur $30.00 USD
-                          </option>
-                        </select>
-                      </td>
-                    </tr>
-                  </table>
-                  <input type="hidden" name="currency_code" value="USD" />
-                  <input
-                    type="image"
-                    src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
-                    border="0"
-                    name="submit"
-                    alt="PayPal - The safer, easier way to pay online!"
-                  />
-                  <img
-                    alt=""
-                    border="0"
-                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                    width="1"
-                    height="1"
-                  />
-                </form>
-              </div>
-              <p class="padding-20">{{ $t("applyFee.ps") }}</p>
-            </div>
+        <div class="col-xs-12 col-md-6 text-center">
+          <router-link to="/division/usa/apply">
+            <div class="btn btnBgm">Apply US Division --></div>
+          </router-link>
+          <div class="text-center padding-top20">
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr"
+              method="post"
+              target="_top"
+            >
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input
+                type="hidden"
+                name="hosted_button_id"
+                value="CL448JFGF8SKJ"
+              />
+              <table class="payTable">
+                <tr>
+                  <td>
+                    <input
+                      type="hidden"
+                      name="on0"
+                      value="Divisions"
+                    />Divisions
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <select name="os0">
+                      <option value="Professional">
+                        Professional $35.00 USD
+                      </option>
+                      <option value="Chamber Music">
+                        Chamber Music $35.00 USD
+                      </option>
+                      <option value="Piano Teachers">
+                        Piano Teachers $35.00 USD
+                      </option>
+                      <option value="Young Artist">
+                        Young Artist $30.00 USD
+                      </option>
+                      <option value="Rising Star">
+                        Rising Star $30.00 USD
+                      </option>
+                      <option value="Adult Amateur">
+                        Adult Amateur $30.00 USD
+                      </option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="USD" />
+              <input
+                type="image"
+                src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+                border="0"
+                name="submit"
+                alt="PayPal - The safer, easier way to pay online!"
+              />
+              <img
+                alt=""
+                border="0"
+                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                width="1"
+                height="1"
+              />
+            </form>
+          </div>
+          <p class="padding-20">{{ $t("applyFee.ps") }}</p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="imgWrap text-center">
+            <img src="../../../assets/img/divisionUS_bg_1.png" alt="cd_bg_2" />
           </div>
         </div>
       </div>
@@ -274,10 +275,10 @@
           </p>
           <p class="padding-top20">
             2. The first prize of the professional division and the young artist
-            division (except age 6-8 group) will be awarded a full scholarship to participate in the
-            2021 Conero International Piano Festival. The 1st prize of Piano
-            Teachers’ Group will have priority to attend the pedagogy forum in
-            the Conero International Piano Festival.
+            division (except age 6-8 group) will be awarded a full scholarship
+            to participate in the 2021 Conero International Piano Festival. The
+            1st prize of Piano Teachers’ Group will have priority to attend the
+            pedagogy forum in the Conero International Piano Festival.
           </p>
           <p class="padding-top20">
             3. Participants will receive written feedback about their
@@ -401,7 +402,7 @@ export default {
 }
 
 .imgWrap img {
-  width: 80%;
+  width: 70%;
 }
 
 .listsWrap {
