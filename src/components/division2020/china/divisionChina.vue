@@ -13,6 +13,22 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
+          <div class="homeBanner">
+            <div id="bannerWrap" class="bannerWrap">
+              <img
+                class="homeBannerImg"
+                src="../../../assets/img/cd_bg_1.jpg"
+                alt
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-md-6 col-xs-12">
           <h2>赛事简介丨Competition Information</h2>
           <p>
             科雷诺国际钢琴比赛是由国际钢琴专业协会IPPA（
@@ -23,25 +39,24 @@
             Competition）因其专业性、国际性，已被AAF国际赛事基金会（Alink-Argerich
             Foundation)准予，正式成为AAF国际赛事基金会成员之一。
           </p>
+          <div class="font-red">
+            <p class="padding-top20">
+              中国国内不设分赛区，线上线下同步进行面试。晋级者将与来自澳洲、加拿大、美国、欧洲各国的选手在线上角逐全球决赛。
+            </p>
+            <p class="padding-top20">日期：2021年6月</p>
+            <p>
+              地点：面试点将设于北京、上海、广州、武汉及厦门；无法前往现场面试的参赛者也可通过指定连线方式，参与线上面试。
+            </p>
+            <p>报名费用：</p>
+            <p>各专业组别及高师组880人民币</p>
+            <p>业余组别680人民币</p>
+            <p>四手联弹与室内乐组别 每位选手380人民币</p>
+          </div>
         </div>
-      </div>
-      <div class="row padding-top20">
-        <div class="col-xs-12 font-red">
-          <p>
-            中国国内不设分赛区，线上线下同步进行面试。晋级者将与来自澳洲、加拿大、美国、欧洲各国的选手在线上角逐全球决赛。
-          </p>
-        </div>
-      </div>
-      <div class="row padding-top20">
-        <div class="col-xs-12 font-red">
-          <p>日期：2021年6月</p>
-          <p>
-            地点：面试点将设于北京、上海、广州、武汉及厦门；无法前往现场面试的参赛者也可通过指定连线方式，参与线上面试。
-          </p>
-          <p>报名费用：</p>
-          <p>各专业组别及高师组880人民币</p>
-          <p>业余组别680人民币</p>
-          <p>四手联弹与室内乐组别 每位选手380人民币</p>
+        <div class="col-md-6 col-xs-12">
+          <div class="imgWrap text-center">
+            <img src="../../../assets/img/cd_bg_2.jpg" alt="cd_bg_2" />
+          </div>
         </div>
       </div>
     </div>
@@ -117,7 +132,9 @@
                   />
                 </form>
               </div>
-              <p class="padding-20 text-center">请在支付的时候备注好姓名和付款项目。</p>
+              <p class="padding-20 text-center">
+                请在支付的时候备注好姓名和付款项目。
+              </p>
             </div>
             <div class="col-xs-12 col-md-4 text-center padding-bottom20">
               <div class="payImg">
@@ -614,8 +631,25 @@ export default {
 </script>
 
 <style scoped>
+/*banner图*/
+.bannerWrap {
+  position: relative;
+}
+
+.homeBanner {
+  text-align: center;
+}
+
+.homeBannerImg {
+  width: 100%;
+}
+
 .applyFeeTitle {
   padding: 5px 10px;
+}
+
+.imgWrap img {
+  width: 70%;
 }
 
 .btn {

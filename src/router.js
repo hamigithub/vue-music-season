@@ -136,6 +136,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/australia/divisionAustralia.vue')
     },
     {
+      path: "/division/australia/finalists",
+      name: "applyAustraliaFinalists",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/australia/finalists.vue')
+    },
+    {
       path: "/division/online",
       name: "divisionOnline",
       component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/online/divisionOnline.vue')

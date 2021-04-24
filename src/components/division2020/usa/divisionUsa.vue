@@ -270,12 +270,11 @@
         <div class="col-xs-12">
           <h2>Awards</h2>
           <p class="padding-top20">
-            1. Each participant will be given a certificate of award and will
-            include a comment on their performance from the jury.
+            1. Each participant will be given a certificate of award.
           </p>
           <p class="padding-top20">
             2. The first prize of the professional division and the young artist
-            division will be awarded a full scholarship to participate in the
+            division (except age 6-8 group) will be awarded a full scholarship to participate in the
             2021 Conero International Piano Festival. The 1st prize of Piano
             Teachers’ Group will have priority to attend the pedagogy forum in
             the Conero International Piano Festival.

@@ -4,9 +4,9 @@
       <div class="container">
         <div class="row padding-top50">
           <div class="col-xs-12">
-            <h1>{{ $t("divisionChina.apply-title") }}</h1>
+            <h1>比赛申请，中国赛区</h1>
             <p v-show="key !== 1" class="padding-top15">
-              {{ $t("divisionChina.apply-title2") }}
+              请填写以下表格，并通过 Paypal 在主申请页面提交您的申请费用。
             </p>
           </div>
         </div>
@@ -17,33 +17,19 @@
           <div class="col-md-8 col-xs-12">
             <form>
               <div class="padding-top15">
-                <div>{{ $t("divisionChina.apply1") }}</div>
-                <div class="inputWrap formWrap">
+                <div>姓名：</div>
+                <div>
                   <label class="font12">
                     <input
                       class="inputBox"
                       v-model="participant.firstName"
                       name="firstName"
                       v-validate="'required'"
-                      placeholder="First Name"
+                      placeholder="你的名字"
                     />
                   </label>
                   <span v-show="errors.has('firstName')" class="is-danger">{{
                     errors.first("firstName")
-                  }}</span>
-                </div>
-                <div class="inputWrap formWrap marginLeft2">
-                  <label class="font12">
-                    <input
-                      class="inputBox"
-                      v-model="participant.lastName"
-                      name="lastName"
-                      v-validate="'required'"
-                      placeholder="Last Name"
-                    />
-                  </label>
-                  <span v-show="errors.has('lastName')" class="is-danger">{{
-                    errors.first("lastName")
                   }}</span>
                 </div>
               </div>
@@ -53,21 +39,21 @@
               <div class="padding-top15">
                 <div class="inputWrap formWrap">
                   <label class="font12">
-                    <span>{{ $t("divisionChina.apply2") }}</span>
+                    <span>出生日期：</span>
                     <input
                       class="inputBox"
                       v-model="participant.dateOfBirth"
-                      placeholder="MM/DD/YYYY"
+                      placeholder="月/日/年"
                     />
                   </label>
                 </div>
                 <div class="inputWrap formWrap marginLeft2">
                   <label class="font12">
-                    <span>{{ $t("divisionChina.apply3") }}</span>
+                    <span>出生地：</span>
                     <input
                       class="inputBox"
                       v-model="participant.countryOfBirth"
-                      placeholder
+                      placeholder="城市"
                     />
                   </label>
                 </div>
@@ -77,14 +63,12 @@
 
               <div class="padding-top15">
                 <div class="wrapMargin">
-                  <span>{{ $t("divisionChina.apply4") }}</span>
+                  <span>性别：</span>
                   <label>
                     <select v-model="participant.gender">
-                      <option disabled value>
-                        {{ $t("divisionChina.apply5") }}
-                      </option>
-                      <option>{{ $t("divisionChina.apply6") }}</option>
-                      <option>{{ $t("divisionChina.apply7") }}</option>
+                      <option disabled value>请选择</option>
+                      <option>男</option>
+                      <option>女</option>
                     </select>
                   </label>
                 </div>
@@ -93,7 +77,7 @@
               <div class="clearfix"></div>
 
               <div class="padding-top15">
-                <div>{{ $t("divisionChina.apply8") }}</div>
+                <div>电子邮箱：</div>
                 <div>
                   <label class="font12">
                     <input
@@ -112,20 +96,20 @@
               </div>
 
               <div class="padding-top15">
-                <div>{{ $t("divisionChina.apply9") }}</div>
+                <div>手机号码：</div>
                 <div>
                   <label class="font12">
                     <input
                       class="inputBox"
                       v-model="participant.phoneNumber"
-                      placeholder="+1-888-888-8888 Include Country Extension"
+                      placeholder="+86-888-888-8888"
                     />
                   </label>
                 </div>
               </div>
 
               <div class="padding-top15">
-                <div>{{ $t("divisionChina.apply10") }}</div>
+                <div>地址一：</div>
                 <div>
                   <label class="font12">
                     <input
@@ -138,7 +122,7 @@
               </div>
 
               <div class="padding-top15">
-                <div>{{ $t("divisionChina.apply11") }}</div>
+                <div>地址二：</div>
                 <div>
                   <label class="font12">
                     <input
@@ -153,7 +137,7 @@
               <div class="padding-top15">
                 <div class="inputWrap20 formWrap">
                   <label class="font12">
-                    <span>{{ $t("divisionChina.apply12") }}</span>
+                    <span>市：</span>
                     <input
                       class="inputBox"
                       v-model="participant.city"
@@ -163,7 +147,7 @@
                 </div>
                 <div class="inputWrap20 formWrap marginLeft2">
                   <label class="font12">
-                    <span>{{ $t("divisionChina.apply13") }}</span>
+                    <span>省：</span>
                     <input
                       class="inputBox"
                       v-model="participant.province"
@@ -173,7 +157,7 @@
                 </div>
                 <div class="inputWrap20 formWrap marginLeft2">
                   <label class="font12">
-                    <span>{{ $t("divisionChina.apply14") }}</span>
+                    <span>邮政编码：</span>
                     <input
                       class="inputBox"
                       v-model="participant.postalCode"
@@ -183,7 +167,7 @@
                 </div>
                 <div class="inputWrap20 formWrap marginLeft2">
                   <label class="font12">
-                    <span>{{ $t("divisionChina.apply15") }}</span>
+                    <span>居住国家：</span>
                     <input
                       class="inputBox"
                       v-model="participant.countryOfResidence"
@@ -196,20 +180,16 @@
               <div class="clearfix"></div>
 
               <div class="padding-top15">
-                <div>{{ $t("divisionChina.apply16") }}</div>
+                <div>教育经历：</div>
                 <div>
                   <label class="font12">
-                    <input
-                      class="inputBox"
-                      v-model="participant.education"
-                      placeholder="Education"
-                    />
+                    <input class="inputBox" v-model="participant.education" />
                   </label>
                 </div>
               </div>
 
               <div class="padding-top15">
-                <div>{{ $t("divisionChina.apply17") }}</div>
+                <div>个人简历：</div>
                 <div class="wrapMargin">
                   <label class="font12">
                     <textarea
@@ -222,16 +202,16 @@
 
               <div class="padding-top15">
                 <div class="wraoMargin">
-                  <span>{{ $t("divisionChina.apply18") }}</span>
+                  <span>你如何找到科雷诺比赛：</span>
                   <label>
                     <select v-model="participant.howYouFound">
                       <option disabled value>
-                        {{ $t("divisionChina.apply5") }}
+                        请选择：
                       </option>
-                      <option>{{ $t("divisionChina.apply19") }}</option>
-                      <option>{{ $t("divisionChina.apply20") }}</option>
-                      <option>{{ $t("divisionChina.apply21") }}</option>
-                      <option>{{ $t("divisionChina.apply22") }}</option>
+                      <option>社会媒体</option>
+                      <option>教授/老师</option>
+                      <option>朋友/同事</option>
+                      <option>其它</option>
                     </select>
                   </label>
                 </div>
@@ -240,20 +220,20 @@
               <div class="clearfix"></div>
 
               <div class="padding-top15">
-                <div>{{ $t("divisionChina.apply23") }}</div>
+                <div>家长/监护人 邮箱:</div>
                 <div>
                   <label class="font12">
                     <input
                       class="inputBox"
                       v-model="participant.PGEmail"
-                      placeholder="Parents/Guardian Email@xxx.com"
+                      placeholder="Email@xxx.com"
                     />
                   </label>
                 </div>
               </div>
 
               <div class="padding-top15">
-                <div>{{ $t("divisionChina.apply24") }}</div>
+                <div>家长电话：</div>
                 <div>
                   <label class="font12">
                     <input
@@ -268,7 +248,7 @@
               <div class="padding-top15">
                 <div class="inputWrap formWrap">
                   <label class="font12">
-                    <span>{{ $t("divisionChina.apply25") }}</span>
+                    <span>教师姓名：</span>
                     <input
                       class="inputBox"
                       v-model="participant.pianoTeacherName"
@@ -278,7 +258,7 @@
                 </div>
                 <div class="inputWrap formWrap marginLeft2">
                   <label class="font12">
-                    <span>{{ $t("divisionChina.apply26") }}</span>
+                    <span>教师手机号码：</span>
                     <input
                       class="inputBox"
                       v-model="participant.pianoTeacherPhoneNumber"
@@ -291,13 +271,13 @@
               <div class="clearfix"></div>
 
               <div class="padding-top15">
-                <div>{{ $t("divisionChina.apply27") }}</div>
+                <div>教师邮箱：</div>
                 <div>
                   <label class="font12">
                     <input
                       class="inputBox"
                       v-model="participant.pianoTeacherEmail"
-                      placeholder="Teacher Email@xx.com"
+                      placeholder="Email@xx.com"
                     />
                   </label>
                 </div>
@@ -306,7 +286,7 @@
               <div class="padding-top15">
                 <div class="inputWrap formWrap">
                   <label class="font12">
-                    <span>{{ $t("divisionChina.apply27-2") }}</span>
+                    <span>推荐人/机构</span>
                     <input
                       class="inputBox"
                       v-model="participant.referenceName"
@@ -316,7 +296,7 @@
                 </div>
                 <div class="inputWrap formWrap marginLeft2">
                   <label class="font12">
-                    <span>{{ $t("divisionChina.apply27-3") }}</span>
+                    <span>联系电话</span>
                     <input
                       class="inputBox"
                       v-model="participant.referenceNumber"
@@ -329,20 +309,14 @@
               <div class="clearfix"></div>
 
               <div class="padding-top15">
+                <div>比赛类别：</div>
                 <div>
-                  <span>{{ $t("divisionChina.apply28") }}</span>
-                  <label>
-                    <select v-model="participant.competitionCategory">
-                      <option disabled value>
-                        {{ $t("divisionChina.apply5") }}
-                      </option>
-                      <option>{{ $t("divisionChina.apply28-2") }}</option>
-                      <option>{{ $t("divisionChina.apply28-3") }}</option>
-                      <option>{{ $t("divisionChina.apply28-4") }}</option>
-                      <option>{{ $t("divisionChina.apply28-5") }}</option>
-                      <option>{{ $t("divisionChina.apply28-6") }}</option>
-                      <option>{{ $t("divisionChina.apply28-7") }}</option>
-                    </select>
+                  <label class="font12">
+                    <input
+                      class="inputBox"
+                      v-model="participant.competitionCategory"
+                      placeholder="请填写您对应的类别"
+                    />
                   </label>
                 </div>
               </div>
@@ -371,7 +345,7 @@
                     @click.prevent="onSubmit"
                     :disabled="submitDisabled !== 0"
                   >
-                    {{ $t("divisionChina.apply30") }}
+                    提交
                   </button>
                 </div>
               </div>
@@ -383,7 +357,7 @@
       <div v-show="key === 1" class="container">
         <div class="row padding-top15">
           <div class="col-xs-12">
-            <p>{{ $t("applyMsg.row1") }}</p>
+            <p>谢谢,您的申请已经递交，若还没有提交申请费用请尽快完成。</p>
           </div>
         </div>
       </div>
@@ -391,7 +365,7 @@
       <div v-show="key === 2" class="container">
         <div class="row padding-top15">
           <div class="col-xs-12">
-            <p class="is-danger">{{ $t("applyMsg.row2") }}</p>
+            <p class="is-danger">请填写缺失的信息，然后再试一次。</p>
           </div>
         </div>
       </div>
@@ -399,7 +373,7 @@
       <div v-show="key === 3" class="container">
         <div class="row padding-top15">
           <div class="col-xs-12">
-            <p class="is-danger">{{ $t("applyMsg.row3") }}</p>
+            <p class="is-danger">提交表格时出现错误，请联系: support@coneromusicfestival.com.</p>
           </div>
         </div>
       </div>

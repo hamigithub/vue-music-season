@@ -49,26 +49,6 @@
             </div>
 
             <div class="box-child text-center">
-              <div id="bioEnrico" class="imgWrap">
-                <router-link class="text-black" to="/bio/enrico#enrico">
-                  <img
-                    class="judgeImg pointer-hand"
-                    src="../assets/img/Enrico.jpg"
-                    alt
-                  />
-                </router-link>
-                <div class="titleWrap">
-                  <p class="font-bold">{{ $t("committeeBioEnrico.row1") }}</p>
-                  <p class="padding-top5">
-                    {{ $t("committeeBioEnrico.row2") }}
-                  </p>
-                  <p>{{ $t("committeeBioEnrico.row3") }}</p>
-                  <p>{{ $t("committeeBioEnrico.row4") }}</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="box-child text-center">
               <div id="bioBlaha" class="imgWrap">
                 <router-link class="text-black" to="/bio/blaha#blaha">
                   <img

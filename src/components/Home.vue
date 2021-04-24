@@ -74,7 +74,7 @@
             </div>
 
             <p class="text-center padding-top15 text-gray">
-              2020年科雷诺钢琴教学法高峰论坛回顾
+              2020 Online International Piano Pedagogy Symposium
             </p>
           </div>
         </div>

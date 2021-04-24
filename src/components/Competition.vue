@@ -17,8 +17,8 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <p class="font-bold">{{ $t("competition2020text1.row1") }}</p>
-          <p class="font-bold">{{ $t("competition2020text1.row2") }}</p>
+          <p class="font-bold">{{ $t("competition2021.titles.row1") }}</p>
+          <p class="font-bold">{{ $t("competition2021.titles.row2") }}</p>
         </div>
       </div>
     </div>
@@ -27,54 +27,48 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h2 class="padding-bottom10 text-center">
-            {{ $t("competition2020text2.row1") }}
+            {{ $t("competition2021.guide.row1") }}
           </h2>
           <table>
             <tr>
-              <td>Preliminary Round:</td>
-              <td>Please check the rules and deadlines in your division.</td>
+              <td>{{ $t("competition2021.guide.row2") }}</td>
+              <td>{{ $t("competition2021.guide.row3") }}</td>
             </tr>
             <tr>
-              <td>Final Round:</td>
-              <td>August 2nd -3rd</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                · Every finalist must play the final round in a live
-                performance, if you are not from the listed country, please sign
-                up “ The Other Countries” Division.”
-              </td>
-            </tr>
-            <tr>
-              <td>Registration fee:</td>
-              <td>
-                Preliminary round – Please check the fee in your division link.
-              </td>
+              <td>{{ $t("competition2021.guide.row4") }}</td>
+              <td>{{ $t("competition2021.guide.row5") }}</td>
             </tr>
             <tr>
               <td></td>
-              <td>Final round- Professional Groups/ Teachers’ Group: $100</td>
+              <td>{{ $t("competition2021.guide.row6") }}</td>
+            </tr>
+            <tr>
+              <td>{{ $t("competition2021.guide.row7") }}</td>
+              <td>{{ $t("competition2021.guide.row8") }}</td>
             </tr>
             <tr>
               <td></td>
-              <td>All Amateur Groups: $80</td>
-            </tr>
-            <tr>
-              <td>Location:</td>
-              <td>United States- Kansas City</td>
+              <td>{{ $t("competition2021.guide.row9") }}</td>
             </tr>
             <tr>
               <td></td>
-              <td>China- Hai Nan</td>
+              <td>{{ $t("competition2021.guide.row10") }}</td>
+            </tr>
+            <tr>
+              <td>{{ $t("competition2021.guide.row11") }}</td>
+              <td>{{ $t("competition2021.guide.row12") }}</td>
             </tr>
             <tr>
               <td></td>
-              <td>Australia- Melbourne</td>
+              <td>{{ $t("competition2021.guide.row13") }}</td>
             </tr>
             <tr>
               <td></td>
-              <td>Canada- Toronto</td>
+              <td>{{ $t("competition2021.guide.row14") }}</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>{{ $t("competition2021.guide.row15") }}</td>
             </tr>
           </table>
         </div>
@@ -85,12 +79,12 @@
       <div class="row">
         <div class="col-xs-12">
           <h2 class="text-center padding-top20">
-            2021 Preliminary Round Rules
+            {{ $t("competition2021.divisions.row1") }}
           </h2>
           <div class="text-center">
             <router-link :to="{ name: 'divisionUsa' }">
               <div class="pointer-hand division-all division1">
-                {{ $t("division.row1") }}
+                {{ $t("competition2021.divisions.row2") }}
               </div>
             </router-link>
           </div>
@@ -98,7 +92,7 @@
           <div class="text-center">
             <router-link :to="{ name: 'divisionChina' }">
               <div class="pointer-hand division-all division1">
-                {{ $t("division.row2") }}
+                {{ $t("competition2021.divisions.row3") }}
               </div>
             </router-link>
           </div>
@@ -106,7 +100,7 @@
           <div class="text-center">
             <router-link :to="{ name: 'divisionAustralia' }">
               <div class="pointer-hand division-all division1">
-                {{ $t("division.row3") }}
+                {{ $t("competition2021.divisions.row4") }}
               </div>
             </router-link>
           </div>
@@ -114,7 +108,7 @@
           <div class="text-center">
             <router-link :to="{ name: 'divisionCanada' }">
               <div class="pointer-hand division-all division1">
-                {{ $t("division.row4") }}
+                {{ $t("competition2021.divisions.row5") }}
               </div>
             </router-link>
           </div>
@@ -122,7 +116,7 @@
           <div class="text-center">
             <router-link :to="{ name: 'divisionOnline' }">
               <div class="pointer-hand division-all division1">
-                {{ $t("division.row5") }}
+                {{ $t("competition2021.divisions.row6") }}
               </div>
             </router-link>
           </div>
@@ -135,7 +129,7 @@
         <div class="col-xs-12">
           <router-link :to="{ name: 'resultGuide' }">
             <div class="text-center pointer-hand division-all division1">
-              2020 Competition Result
+              {{ $t("competition2021.result") }}
             </div>
           </router-link>
         </div>
@@ -145,28 +139,20 @@
     <div class="container padding-top50">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="text-center">Final Round Category</h2>
+          <h2 class="text-center">{{ $t("competition2021.category.row1") }}</h2>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-12">
-          <h3 class="text-center">· Professional Artist Division</h3>
+          <h2 class="text-center">{{ $t("competition2021.category.row2") }}</h2>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-12">
-          <h3>Youth Group (age under 18)</h3>
-          <P
-            >A recital of 15 to 20 minutes which includes at least 2 works of
-            different styles. Only one piece is allowed to be the same as
-            previous round.</P
-          >
-          <h3>Adult Group (age 18 – 32)</h3>
-          <p>
-            A recital of 23-30 minutes which includes at least 3 works of
-            different styles. Only one piece is allowed to be the same as
-            previous round.
-          </p>
+          <h3>{{ $t("competition2021.category.row3") }}</h3>
+          <p>{{ $t("competition2021.category.row4") }}</p>
+          <h3>{{ $t("competition2021.category.row5") }}</h3>
+          <p>{{ $t("competition2021.category.row6") }}</p>
         </div>
       </div>
     </div>
@@ -174,35 +160,19 @@
     <div class="container padding-top50">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="text-center">Chamber Music Division</h2>
+          <h2 class="text-center">{{ $t("competition2021.category.row7") }}</h2>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-12">
-          <h3>
-            Adult Piano Duet / Four Hands: Average age above 18 years old.
-          </h3>
-          <p>
-            Free choice from three different periods; one of them must be the
-            Classical period. No more than 25 mins.
-          </p>
-          <h3>
-            Youth Piano Duet / Four Hands: Average age no more than 18 years
-            old.
-          </h3>
-          <p>1-2 free choices not exceeding the max duration of 12 mins.</p>
-          <h3>
-            Adult Chamber Group: (Piano with string or woodwind) Average ages
-            above 18 years old.
-          </h3>
-          <p>
-            Free choices from three different periods. No more than 30 mins.
-          </p>
-          <h3>
-            Youth Chamber Group: (Piano with string or woodwind) Average age no
-            more than 18 years old.
-          </h3>
-          <p>1-2 free choices not exceeding the max duration of 15mins.</p>
+          <h3>{{ $t("competition2021.category.row8") }}</h3>
+          <p>{{ $t("competition2021.category.row9") }}</p>
+          <h3>{{ $t("competition2021.category.row10") }}</h3>
+          <p>{{ $t("competition2021.category.row11") }}</p>
+          <h3>{{ $t("competition2021.category.row12") }}</h3>
+          <p>{{ $t("competition2021.category.row13") }}</p>
+          <h3>{{ $t("competition2021.category.row14") }}</h3>
+          <p>{{ $t("competition2021.category.row15") }}</p>
         </div>
       </div>
     </div>
@@ -210,52 +180,51 @@
     <div class="container padding-top50">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="text-center">Piano Teachers’ Division (age above 22)</h2>
+          <h2 class="text-center">
+            {{ $t("competition2021.category.row16") }}
+          </h2>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-6">
           <p class="font-bold">
-            Competition of the Piano Teachers’ Group will have two parts：
+            {{ $t("competition2021.category.row17") }}
           </p>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-6">
-          <p class="font-bold">70% Performance</p>
+          <p class="font-bold">{{ $t("competition2021.category.row18") }}</p>
         </div>
         <div class="col-xs-6">
-          <p class="font-bold">30% Pedagogy</p>
+          <p class="font-bold">{{ $t("competition2021.category.row23") }}</p>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-6">
           <p>
-            Choose 2 of the following three (works for the final round can be
-            the same as previous rounds). 12-18 minutes in total.
+            {{ $t("competition2021.category.row19") }}
           </p>
         </div>
         <div class="col-xs-6">
           <p>
-            Competitors will be given one piece of work and will need to explain
-            its style, technique, musical expression and how we can apply this
-            knowledge in teaching the piece.
+            {{ $t("competition2021.category.row24") }}
           </p>
         </div>
       </div>
       <div class="row padding-top5">
         <div class="col-xs-6">
-          <p>1 A Baroque work.</p>
+          <p>{{ $t("competition2021.category.row20") }}</p>
         </div>
       </div>
       <div class="row padding-top5">
         <div class="col-xs-6">
-          <p>2 A movement of a Classical period sonata.</p>
+          <p>{{ $t("competition2021.category.row21") }}</p>
         </div>
       </div>
       <div class="row padding-top5">
         <div class="col-xs-6">
-          <p>3 A substantial Romantic work.</p>
+          <p>{{ $t("competition2021.category.row22") }}</p>
         </div>
       </div>
     </div>
@@ -263,33 +232,18 @@
     <div class="container padding-top50">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="text-center">Amateur Division</h2>
+          <h2 class="text-center">{{ $t("competition2021.category.row25") }}</h2>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-12">
-          <h3>Adult Group: Aged 18-32</h3>
-          <p>
-            Two or three works selected by contestants themselves. No more than
-            12 minutes.
-          </p>
-          <h3>Juvenile Group: Aged 12-17</h3>
-          <p>
-            Two works selected by contestants themselves. No more than 10
-            minutes.
-          </p>
-          <h3>Children Group: Aged 6-11</h3>
-          <p>
-            One or two works selected by contestants themselves. No more than 8
-            minutes.
-          </p>
-          <p class="padding-top20">
-            All contestants must meet the age requirements at the final round
-            time of the competition. Their current age before August 1st, 2021,
-            will determine the category they must compete in. For example, if
-            the student turns 19 on August 1st or after, he will compete in the
-            adult category.
-          </p>
+          <h3>{{ $t("competition2021.category.row26") }}</h3>
+          <p>{{ $t("competition2021.category.row27") }}</p>
+          <h3>{{ $t("competition2021.category.row28") }}</h3>
+          <p>{{ $t("competition2021.category.row29") }}</p>
+          <h3>{{ $t("competition2021.category.row30") }}</h3>
+          <p>{{ $t("competition2021.category.row31") }}</p>
+          <p class="padding-top20">{{ $t("competition2021.category.row32") }}</p>
         </div>
       </div>
     </div>
@@ -297,77 +251,69 @@
     <div class="container padding-top50">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="text-center">FINALS AWARDS</h2>
+          <h2 class="text-center">{{ $t("competition2021.awards.row1") }}</h2>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-12">
-          <p class="font-bold">1. Cash Prizes</p>
-          <p class="font-bold">Professional Division-Adult Group</p>
+          <p class="font-bold">{{ $t("competition2021.awards.row1-1") }}</p>
+          <p class="font-bold">{{ $t("competition2021.awards.row2") }}</p>
           <p>
-            The First Place Winner will get 1000 dollars and certificate of
-            award.
+            {{ $t("competition2021.awards.row3") }}
           </p>
           <p>
-            The Second Place Winner will get 500 dollars and certificate of
-            award.
+            {{ $t("competition2021.awards.row4") }}
           </p>
           <p>
-            The Third Place Winner will get 200 dollars and certificates of
-            award.
+            {{ $t("competition2021.awards.row5") }}
           </p>
           <p class="font-bold padding-top5">
-            Professional Division -Youth Group
+            {{ $t("competition2021.awards.row6") }}
           </p>
           <p>
-            The First Place Winner will get 800 dollars and certificates of
-            award.
+            {{ $t("competition2021.awards.row7") }}
           </p>
           <p>
-            The Second Place Winner will get 300 dollars and certificates of
-            award.
+            {{ $t("competition2021.awards.row8") }}
           </p>
           <p>
-            The Third Place Winner will get 200 dollars and certificates of
-            award.
+            {{ $t("competition2021.awards.row9") }}
           </p>
-          <p class="font-bold padding-top5">Piano Teachers’ Division</p>
-          <p>
-            The First Place Winner will get 500 dollars and certificates of
-            award.
+          <p class="font-bold padding-top5">
+            {{ $t("competition2021.awards.row10") }}
           </p>
           <p>
-            The Second Place Winner will get 200 dollars and certificates of
-            award.
+            {{ $t("competition2021.awards.row11") }}
           </p>
           <p>
-            The Third Place Winner will get 100 dollars and certificates of
-            award.
-          </p>
-          <p class="font-bold padding-top5">Amateur Division</p>
-          <p>
-            The First Place Winner of each group will get 200 dollars and
-            certificates of award.
+            {{ $t("competition2021.awards.row12") }}
           </p>
           <p>
-            The Second Place Winner of each group will get 100 dollars and
-            certificates of award.
+            {{ $t("competition2021.awards.row13") }}
+          </p>
+          <p class="font-bold padding-top5">
+            {{ $t("competition2021.awards.row14") }}
           </p>
           <p>
-            The Third Place Winner of each group will get 50 dollars and
-            certificates of award.
+            {{ $t("competition2021.awards.row15") }}
           </p>
-          <p class="font-bold padding-top5">Chamber Music Division</p>
           <p>
-            The First Place Winner of each group will get 300 dollars and
-            certificate of award.
+            {{ $t("competition2021.awards.row16") }}
+          </p>
+          <p>
+            {{ $t("competition2021.awards.row17") }}
+          </p>
+          <p class="font-bold padding-top5">
+            {{ $t("competition2021.awards.row18") }}
+          </p>
+          <p>
+            {{ $t("competition2021.awards.row19") }}
           </p>
           <h3 class="padding-top5">
-            All the finalist candidate will receive a detailed performance
-            comments from the jury committee.
+            {{ $t("competition2021.awards.row20") }}
           </h3>
           <p class="text-center">
-            Example from 2020 Conero Competition final round
+            {{ $t("competition2021.awards.row21") }}
           </p>
         </div>
       </div>
@@ -393,71 +339,51 @@
       </div>
       <div class="row padding-top20">
         <div class="col-xs-12">
-          <p class="font-bold">2. Concert Contract</p>
-          <p>
-            After discussing with the competition committee, the winners of the
-            Professional Division (youth group and adult group) will be eligible
-            to sign a contract as a Conero Artist, and engaged to perform
-            recital tours in Italy, China, Australia, or the U.S. In addition,
-            the engaged concert artist will have the opportunity to play a
-            chamber concert with Conero String faculty Dr. Boris Vayner and Alla
-            Aranovskaya in 2022. The Conero Music Festival Committee and the
-            International Piano Professionals Association will be responsible
-            for the advertisement and promotion of the Conero Engagement Artist.
-          </p>
-          <p class="padding-top20">
-            2019 Conero Engagement Artist Concert: Malcolm Liu
-          </p>
-          <p>
-            <a
-              target="_blank"
-              href="https://www.youtube.com/watch?v=X_OQZOfW5nY"
-              >https://www.youtube.com/watch?v=X_OQZOfW5nY</a
-            >
-          </p>
-          <p></p>
+          <p class="font-bold">{{ $t("competition2021.awards.row22") }}</p>
+          <p>{{ $t("competition2021.awards.row23") }}</p>
+          <div class="text-center padding-top50">
+            <div>
+              <iframe
+                src="https://www.youtube.com/embed/D3is2KXSvDs"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <p class="text-center padding-top15 text-gray">
+              {{ $t("competition2021.awards.row24") }}
+            </p>
+          </div>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-12">
           <p class="font-bold">
-            3. Promotion to the final round of other significant international
-            competitions
+            {{ $t("competition2021.awards.row25") }}
           </p>
-          <p>
-            The First Place Winner of Professional Division will be promoted to
-            the final round of following competitions directly:
-          </p>
-          <p>
-            The 31st IBLA International Music Competition (Sicily, Italy,2022)
-          </p>
-          <p>The 4th MTNA-CHINA piano competition (Guangzhou, China,2022)</p>
+          <p>{{ $t("competition2021.awards.row26") }}</p>
+          <p>{{ $t("competition2021.awards.row27") }}</p>
+          <p>{{ $t("competition2021.awards.row28") }}</p>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-12">
-          <p class="font-bold">4. Scholarship:</p>
-          <p>The 3rd Conero International Festival (Recanati, Italy, 2022)</p>
+          <p class="font-bold">{{ $t("competition2021.awards.row29") }}</p>
+          <p>{{ $t("competition2021.awards.row30") }}</p>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-12">
-          <p class="font-bold">5. Recommendation letters</p>
-          <p>
-            The member of Jury Panel would provide recommendation letters for
-            winners, for the purpose of competition application or graduate
-            school application.
-          </p>
+          <p class="font-bold">{{ $t("competition2021.awards.row31") }}</p>
+          <p>{{ $t("competition2021.awards.row32") }}</p>
         </div>
       </div>
       <div class="row padding-top20">
         <div class="col-xs-12">
-          <p class="font-bold">6. Career Development Meeting</p>
-          <p>
-            A video conference between the chairman of Jury Panel and First
-            Prize Winner will be available with the goal of providing customized
-            career development advice.
-          </p>
+          <p class="font-bold">{{ $t("competition2021.awards.row33") }}</p>
+          <p>{{ $t("competition2021.awards.row34") }}</p>
         </div>
       </div>
     </div>
@@ -465,58 +391,25 @@
     <div class="container padding-50">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="text-center">Competition Regulations</h2>
+          <h2 class="text-center">
+            {{ $t("competition2021.regulations.row1") }}
+          </h2>
         </div>
       </div>
       <div class="row padding-20">
         <div class="col-xs-12">
-          <p>
-            1) The 2021 Conero International Piano Competition has two rounds:
-            Preliminary Round and Final Round.
-          </p>
-          <p>
-            2) The Preliminary round of the 2021 Conero International Piano
-            Competition has China Division, United States Division, Canada
-            Division, Australia Division, and Online Division (For all other
-            countries). Please double-check the dates and rules in your
-            division.
-          </p>
-          <p>
-            3) The final round will apply the common rules and regulations for
-            all finalists. Final round dates: August 2nd -3rd.
-          </p>
-          <p>
-            4) The final round is voluntary; eligible candidates should complete
-            the application and submit the fee before July 20th.
-          </p>
-          <p>
-            5) If applying for more than one division in the competition,
-            applicants must complete separate applications and pay the required
-            fees for each division.
-          </p>
-          <p>
-            6) All divisions in the final round should be performed from memory
-            except Chamber Division.
-          </p>
-          <p>
-            7) Piano concertos, self-composed pieces, or transcriptions done by
-            the performer are not accepted.
-          </p>
-          <p>8) Repeats are not required except the place marked with D.C.</p>
-          <p>9) Judges’ decisions are final.</p>
-          <p>
-            10) Changes would not be allowed once the repertoires are submitted.
-          </p>
-          <p>
-            11) The Conero International Piano Festival retains copyright of
-            performance video, audio, and pictures of the competition and the
-            award ceremony. The festival has the legal right to use these
-            materials.
-          </p>
-          <p>
-            12) The competition committee reserves all the right for the final
-            interpretation of the regulations.
-          </p>
+          <p>{{ $t("competition2021.regulations.row2") }}</p>
+          <p>{{ $t("competition2021.regulations.row3") }}</p>
+          <p>{{ $t("competition2021.regulations.row4") }}</p>
+          <p>{{ $t("competition2021.regulations.row5") }}</p>
+          <p>{{ $t("competition2021.regulations.row6") }}</p>
+          <p>{{ $t("competition2021.regulations.row7") }}</p>
+          <p>{{ $t("competition2021.regulations.row8") }}</p>
+          <p>{{ $t("competition2021.regulations.row9") }}</p>
+          <p>{{ $t("competition2021.regulations.row10") }}</p>
+          <p>{{ $t("competition2021.regulations.row11") }}</p>
+          <p>{{ $t("competition2021.regulations.row12") }}</p>
+          <p>{{ $t("competition2021.regulations.row13") }}</p>
         </div>
       </div>
     </div>
