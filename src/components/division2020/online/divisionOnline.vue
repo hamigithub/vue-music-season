@@ -29,8 +29,7 @@
             <tr>
               <td>Registration fee for preliminary round:</td>
               <td>
-                $30 for Young Artist Division; Rising Star Division and Amateur
-                Adult Division
+                $30 for Young Artist Division, Amateur Adult Division
               </td>
             </tr>
             <tr>
@@ -50,12 +49,9 @@
             </tr>
           </table>
           <p>
-            For the U.S. preliminary round, performances must be live. Those who
-            live nearby the listed in-person final round venue are highly
-            encouraged to play in-person lication. If remote, recordings will
-            not be accepted; a live performance is required (i.e. over Zoom –
-            technical details will be provided later). The Conero committee will
-            contact each finalist candidates
+            For the final round on August 2-3, a live remote performance is
+            required. The committee will contact each finalist to schedule a
+            time.
           </p>
         </div>
       </div>
@@ -105,9 +101,6 @@
                           </option>
                           <option value="Young Artist">
                             Young Artist $30.00 USD
-                          </option>
-                          <option value="Rising Star">
-                            Rising Star $30.00 USD
                           </option>
                           <option value="Adult Amateur">
                             Adult Amateur $30.00 USD
@@ -309,7 +302,7 @@
               href="http://www.coneromusicfestival.com/division/usa/additional"
               >Technical recommendations for online participants (minimum
               requirements)
-              </a>
+            </a>
           </p>
         </div>
       </div>

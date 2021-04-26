@@ -312,6 +312,19 @@
               </div>
             </div>
 
+            <div class="padding-top15">
+              <div>Recording Link:</div>
+              <div>
+                <label class="font12">
+                  <input
+                    class="inputBox"
+                    v-model="participant.recordingLink"
+                    placeholder=""
+                  />
+                </label>
+              </div>
+            </div>
+
             <div class="row padding-top20">
               <div class="col-xs-12 text-center">
                 <button
