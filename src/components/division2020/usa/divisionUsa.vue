@@ -43,6 +43,16 @@
     </div>
 
     <div class="container">
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <div class="bg-wrap text-center">
+            <img src="../../../assets/img/us_bg_01.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
           <table>
@@ -403,6 +413,10 @@ export default {
 
 .imgWrap img {
   width: 70%;
+}
+
+.bg-wrap img{
+  width: 100%;
 }
 
 .listsWrap {
