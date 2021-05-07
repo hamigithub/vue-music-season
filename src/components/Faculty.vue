@@ -259,6 +259,7 @@
                   <p>{{ $t("committeeBioCong.row4") }}</p>
                   <p>{{ $t("committeeBioCong.row5") }}</p>
                   <p>{{ $t("committeeBioCong.row6") }}</p>
+                  <p>{{ $t("committeeBioCong.row7") }}</p>
                 </div>
               </div>
             </div>

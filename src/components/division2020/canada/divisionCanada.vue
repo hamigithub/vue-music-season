@@ -4,7 +4,9 @@
       <div class="row padding-top50">
         <div class="col-xs-12">
           <div class="text-center">
-            <h1>{{ $t("divisionAustralia.row1") }}</h1>
+            <h1>
+              2021 Conero International Piano Comeptition, Canada Division
+            </h1>
           </div>
         </div>
       </div>
@@ -13,67 +15,376 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <div class="textWrap">
-            <h1>Coming Soon!</h1>
+          <table>
+            <tr>
+              <td>Preliminary Round Deadline: </td>
+              <td>July 3rd, 2021</td>
+            </tr>
+            <tr>
+              <td>Registration fee for Preliminary Round:</td>
+              <td>$60 for Amateur/Young Artist Division</td>
+            </tr>
+
+            <tr>
+              <td></td>
+              <td>$80 for Professional /Chamber/ Piano Teachers’ Division</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <table>
+            <tr>
+              <th>Hosted by:</th>
+              <td>International Piano Professionals Association</td>
+            </tr>
+            <tr>
+              <th>Supported by:</th>
+              <td>Tom Lee Music</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-xs-12">
+          <p class="padding-50">
+            Preliminary round rules:  Video link submissions due with
+            application. Video must be recorded within the past 6 months. No
+            editing allowed. Each repertoire must be presented in one continuous
+            take. (For more details please refer to Video Recording Requirements
+            and Guidelines) 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12 col-md-6 text-center">
+          <router-link to="/division/canada/apply">
+            <div class="btn btnBgm">Apply Canada Division --></div>
+          </router-link>
+          <div class="text-center padding-top20">
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr"
+              method="post"
+              target="_top"
+            >
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input
+                type="hidden"
+                name="hosted_button_id"
+                value="9A9A9XP7UFWPN"
+              />
+              <table class="payTable">
+                <tr>
+                  <td>
+                    <input
+                      type="hidden"
+                      name="on0"
+                      value="Divisions"
+                    />Divisions
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <select name="os0">
+                      <option value="Professional">
+                        Professional $80.00 CAD
+                      </option>
+                      <option value="Chamber Music">
+                        Chamber Music $80.00 CAD
+                      </option>
+                      <option value="Piano Teachers">
+                        Piano Teachers $80.00 CAD
+                      </option>
+                      <option value="Young Artist">
+                        Young Artist $60.00 CAD
+                      </option>
+                      <option value="Adult Amateur">
+                        Adult Amateur $60.00 CAD
+                      </option>
+                    </select>
+                  </td>
+                </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="CAD" />
+              <input
+                type="image"
+                src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+                border="0"
+                name="submit"
+                alt="PayPal - The safer, easier way to pay online!"
+              />
+              <img
+                alt=""
+                border="0"
+                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                width="1"
+                height="1"
+              />
+            </form>
+          </div>
+          <p class="padding-20">{{ $t("applyFee.ps") }}</p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="imgWrap text-center">
+            <img
+              src="../../../assets/img/division_canada_bg_01.jpg"
+              alt="cd_bg_2"
+            />
           </div>
         </div>
       </div>
     </div>
 
-    <!-- <div class="container">
-      <div class="row">
+    <div class="container">
+      <div class="row padding-top50">
         <div class="col-xs-12">
-          <input
-            @change="fileChange($event)"
-            type="file"
-            id="upload_file"
-            multiple
-            style="display: none"
-          />
-          <div class="add" @click="chooseType">
-            <div class="add-image" align="center">
-              <svg
-                t="1618966527346"
-                class="icon"
-                viewBox="0 0 1024 1024"
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                p-id="1917"
-                width="200"
-                height="200"
-              >
-                <path
-                  d="M864 248H728l-32.4-90.8C691 144.5 679 136 665.4 136H358.6c-13.5 0-25.6 8.5-30.1 21.2L296 248H160c-44.2 0-80 35.8-80 80v456c0 44.2 35.8 80 80 80h704c44.2 0 80-35.8 80-80V328c0-44.2-35.8-80-80-80z m8 536c0 4.4-3.6 8-8 8H160c-4.4 0-8-3.6-8-8V328c0-4.4 3.6-8 8-8h186.7l17.1-47.8 22.9-64.2h250.5l22.9 64.2 17.1 47.8H864c4.4 0 8 3.6 8 8v456z"
-                  fill=""
-                  p-id="1918"
-                ></path>
-                <path
-                  d="M512 384c-88.4 0-160 71.6-160 160s71.6 160 160 160 160-71.6 160-160-71.6-160-160-160z m0 256c-53 0-96-43-96-96s43-96 96-96 96 43 96 96-43 96-96 96z"
-                  fill=""
-                  p-id="1919"
-                ></path>
-              </svg>
-              <p class="font13">添加图片</p>
-            </div>
-          </div>
-          <div class="add-img" v-show="imgList.length">
-            <p class="font14">
-              图片(最多6张，还可上传<span v-text="6 - imgList.length"></span>张)
-            </p>
-            <ul class="img-list">
-              <li v-for="(url, index) in imgList" :key="index">
-                <img
-                  class="del"
-                  src="../../../assets/img/wcPay.jpg"
-                  @click.stop="delImg(index)"
-                />
-                <img :src="url.file.src" />
-              </li>
-            </ul>
-          </div>
+          <h2>Categories</h2>
+          <h3 class="padding-top20">Young Artist Division</h3>
+          <h4>Age 6 to 8</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 5 mins.</p>
+          <h4>Age 9 to 11</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 6 mins.</p>
+          <h4>Age 12 to 14</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 8 mins.</p>
+          <h4>Age 15 to 17</h4>
+          <p>1 or 2 free choices not exceeding the max duration of 10 mins.</p>
+          <p class="padding-top20">
+            *Repertoire selections can be repeated in the final round.
+          </p>
         </div>
       </div>
-    </div> -->
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>Professional Adult Division: Age 18 to 32</h3>
+          <p>
+            Free choices from three different periods; one of them must be from
+            the Classical period. A single movement from a Sonata is acceptable.
+            No more than 30 mins. Only one (1) repertoire selection from the
+            Preliminary Round can be repeated in the Final Round.
+          </p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>Professional Young Artist Division:  Age 13-17</h3>
+          <p>
+            Free choices from two different periods; one of them must be from
+            the Classical period. No more than 20 mins. A single movement from a
+            Sonata is acceptable. Only one (1) repertoire selection from the
+            Preliminary Round can be repeated in the Final Round.
+          </p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>Piano Teachers Division:  Age 22 & above</h3>
+          <p>
+            One Baroque piece and one Romantic piece. No more than 15 mins. Only
+            one (1) repertoire selection from the Preliminary Round can be
+            repeated in the Final Round.
+          </p>
+        </div>
+      </div>
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>Amateur Adult Division:  Age 18 years & above</h3>
+          <p>1-2 free choices not exceeding the max duration of 10mins.</p>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>Chamber Music Division:</h3>
+          <h4>Adult Piano Duet / Four Hands: Age 18 & above</h4>
+          <p>
+            Free choice from three different periods; one of them must be from
+            the Classical period. No more than 25 mins. Memorization not
+            required. 
+          </p>
+          <h4>Youth Piano Duet / Four Hands:</h4>
+          <h4>8-10 years old</h4>
+          <p>
+            1-2 free choices not exceeding the max duration of 8 mins.
+            Memorization not required. 
+          </p>
+          <h4>11-14 years old</h4>
+          <p>
+            1-2 free choices not exceeding the max duration of 10 mins.
+            Memorization not required. 
+          </p>
+          <h4>15-18 years old</h4>
+          <p>
+            1-2 free choices not exceeding the max duration of 12 mins.
+            Memorization not required. 
+          </p>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>
+            Adult Chamber Group: (Piano with string or woodwind)  Age 18 & above
+          </h3>
+          <p>
+            Free choices from three different periods. No more than 30 mins.
+            Memorization not required. 
+          </p>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>
+            Youth Chamber Group: (Piano with string or woodwind) Age 18 & under
+          </h3>
+          <p>
+            1-2 free choices not exceeding the max duration of 15mins.
+            Memorization not required. 
+          </p>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3>
+            All contestants must meet the age requirements at the time of the
+            competition. If their birthday will place them in another age
+            category, that birthday must take place after May 15th, 2021.
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <h2>Awards</h2>
+          <p class="padding-top20">
+            1. Each participant will be given a certificate of award
+          </p>
+          <p class="padding-top20">
+            2. Participants will receive written feedback about their
+            performance from judges (including where they can improve, best
+            parts of the performance, etc).
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <h2>Competition Regulations</h2>
+          <p class="padding-top20">
+            1. The 2021 Conero International Piano Competition has two rounds:
+            Preliminary Round and Final Round.
+          </p>
+          <p>
+            2. The Preliminary round of 2021 Conero International Piano
+            Competition has China Division, United States Division, Canada
+            Division, Australia Division and Online Division (For all other
+            countries). Please double-check the dates and rules in your
+            division. 
+          </p>
+          <p>
+            3. The final round will apply the common rules and regulations for
+            all finalists. Final round dates: August 2nd -3rd, 2021
+          </p>
+          <p>
+            4. The final round is voluntarily; eligible candidates should
+            complete the application and submit the fee before July 20th. 
+          </p>
+          <p>
+            5. If applying for more than one division in the competition,
+            applicants must complete separate applications and pay the required
+            fees for each individual division.
+          </p>
+          <p>
+            6. Young Artist Divisions, Piano Teachers Group, Amateur Adult
+            Division, Professional Adult Division should be performed from
+            memory.
+          </p>
+          <p>
+            7. Piano concertos, self-composed pieces, or transcriptions done by
+            the performer are not accepted.
+          </p>
+          <p>8. Repeats are not required except the place marked with D.C.</p>
+          <p>9. Judges’ decisions are final.</p>
+          <p>
+            10. The Conero International Piano Festival retains copyright of
+            performance video, audio and pictures of the competition and the
+            award ceremony. The festival has the legal right to use these
+            materials.
+          </p>
+          <p>
+            11. The organizing competition committee reserves all the right for
+            the final interpretation of the regulations.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row padding-top50">
+        <div class="col-xs-12">
+          <h2>Video Recording Requirements and Guidelines</h2>
+          <p class="padding-top20">
+            Performers should use the latest phone or tablet possible for
+            recording.
+          </p>
+          <p>
+            Please submit your video link in your application form. Do NOT send
+            the video directly to us.
+          </p>
+          <p>
+            The recording device should be placed at an angle that would allow
+            for an optimal vision of the keyboard and hands, as well as the
+            pedal. (See pictures below) 
+          </p>
+          <div class="imgWrap text-center">
+            <img src="../../../assets/img/division_canada_bg_02.jpg" alt="" />
+          </div>
+
+          <p>
+            The use of a phone or tablet stand or tripod is highly recommended
+            to assure stability and optimal focus of the camera during the
+            performance. An example of such can be found at: 
+          </p>
+          <p>
+            <a
+              href="https://www.amazon.ca/dp/B073RKRS3M/ref=cm_sw_r_cp_apa_glt_i_80V7SJ3SVRT3TVMCAC4V"
+              target="_blank"
+              >https://www.amazon.ca/dp/B073RKRS3M/ref=cm_sw_r_cp_apa_glt_i_80V7SJ3SVRT3TVMCAC4V</a
+            >
+          </p>
+          <p>
+            If using a laptop for the performance, it is recommended to acquire
+            an USB microphone to be located close to the piano strings to
+            optimize the sound quality during the performance. A sample of such
+            devices can be found at: 
+          </p>
+          <p>
+            <a
+              href="https://www.amazon.ca/dp/B08TW12C9V/ref=cm_sw_r_cp_apa_glt_i_JFZATEP7Z3M8N18ATAY5?_encoding=UTF8&psc=1"
+              target="_blank"
+              >https://www.amazon.ca/dp/B08TW12C9V/ref=cm_sw_r_cp_apa_glt_i_JFZATEP7Z3M8N18ATAY5?_encoding=UTF8&psc=1</a
+            >
+          </p>
+          <p>
+            We highly encourage all participants to test their performance
+            quality with family and/or friends prior to the competition, to
+            assure that all devices are working properly, and that the sound
+            quality is the highest possible. If the sound quality is poor enough
+            to affect judging, it can potentially influence the score.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -81,238 +392,74 @@
 export default {
   name: "DivisionCanada",
   data() {
-    return {
-      showFace: false,
-      imgList: [],
-      size: 0,
-      limit: 6, //限制图片上传的数量
-      tempImgs: [],
-    };
-  },
-  methods: {
-    chooseType() {
-      document.getElementById("upload_file").click();
-    },
-    fileChange(el) {
-      if (!el.target.files[0].size) return;
-      this.fileList(el.target);
-      el.target.value = "";
-    },
-    fileList(fileList) {
-      let files = fileList.files;
-      for (let i = 0; i < files.length; i++) {
-        //判断是否为文件夹
-        if (files[i].type != "") {
-          this.fileAdd(files[i]);
-        } else {
-          //文件夹处理
-          this.folders(fileList.items[i]);
-        }
-      }
-    },
-    //文件夹处理
-    folders(files) {
-      let _this = this;
-      //判断是否为原生file
-      if (files.kind) {
-        files = files.webkitGetAsEntry();
-      }
-      files.createReader().readEntries(function (file) {
-        for (let i = 0; i < file.length; i++) {
-          if (file[i].isFile) {
-            _this.foldersAdd(file[i]);
-          } else {
-            _this.folders(file[i]);
-          }
-        }
-      });
-    },
-    foldersAdd(entry) {
-      let _this = this;
-      entry.file(function (file) {
-        _this.fileAdd(file);
-      });
-    },
-    fileAdd(file) {
-      if (this.limit !== undefined) this.limit--;
-      if (this.limit !== undefined && this.limit < 0) return;
-      //总大小
-      this.size = this.size + file.size;
-      //判断是否为图片文件
-      if (file.type.indexOf("image") == -1) {
-        this.$dialog.toast({ mes: "请选择图片文件" });
-      } else {
-        let reader = new FileReader();
-        let image = new Image();
-        let _this = this;
-        reader.readAsDataURL(file);
-        reader.onload = function () {
-          file.src = this.result;
-          image.onload = function () {
-            let width = image.width;
-            let height = image.height;
-            file.width = width;
-            file.height = height;
-            _this.imgList.push({
-              file,
-            });
-            console.log(_this.imgList);
-          };
-          image.src = file.src;
-        };
-      }
-    },
-    delImg(index) {
-      this.size = this.size - this.imgList[index].file.size; //总大小
-      this.imgList.splice(index, 1);
-      if (this.limit !== undefined) this.limit = 6 - this.imgList.length;
-    },
-    displayImg() {},
+    return {};
   },
 };
 </script>
 
 <style scoped>
-.app-bg >>> img {
-  width: 100%;
-  height: 100%;
-  -webkit-transform: scale(1.03);
-  -moz-transform: scale(1.03);
-  -ms-transform: scale(1.03);
-  -o-transform: scale(1.03);
-  transform: scale(1.03);
+/* 主页 */
+.titleBtn {
+  background-image: linear-gradient(90deg, #b219b6, #b6a60b);
 }
-textarea {
-  padding: 10px;
+
+.applyFeeTitle {
+  padding: 5px 10px;
 }
-.text-length {
-  font-size: 14px;
-  z-index: 999;
-  width: 100%;
-  text-align: right;
-  margin-bottom: 10px;
-  color: #e4e4e4;
-}
-.warning {
-  color: #fe9900;
-}
-.add-img {
-  width: 100%;
-  padding: 10px;
-}
-.add-img p {
-  color: #999;
-}
-.mui-content {
-  padding-bottom: 60px;
-}
-.mui-content .idea {
-  margin-top: 8px;
-  background-color: #ffffff;
-}
-.good-item {
-  text-align: center;
-  width: 33%;
-  max-width: 100%;
-  overflow: hidden;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  float: left;
-}
-.good-item span {
-  font-size: 15px;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 50px;
-  display: block;
-  width: 100%;
-  color: #333;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  border: 1px solid #cccccc;
-}
-.mui-table {
-  padding-top: 10px;
-  color: #333;
-  padding-left: calc(0.5% + 10px);
-}
-.h-line-behind {
-  line-height: 40px;
-  padding-left: 10px;
-}
-.question {
-  border: 0;
-  margin-bottom: 10px;
-}
-.add {
+
+.btn {
   display: inline-block;
-  margin-bottom: 20px;
-}
-.add-image {
-  padding-top: 15px;
-  margin-left: 10px;
-  width: 80px;
-  top: 20px;
-  height: 80px;
-  border: 1px dashed rgba(0, 0, 0, 0.2);
-}
-.add-image .icon-camera {
+  padding: 20px;
   font-size: 24px;
-}
-.good-item .choose {
   color: #fff;
-  background-color: #87582e;
-  color: #fff;
-  border: 0;
+  border-radius: 3px;
 }
-.mui-btn-block {
-  border: 0;
-  border-radius: 0;
-  background-color: #87582e;
-  color: #fff;
-  margin-bottom: 0;
-  bottom: 0;
+
+.btnBgm {
+  background: linear-gradient(90deg, #7939aa, #a8306e, #a8431d, #7939aa);
+  background-size: 1400% 300%;
+  animation: mymove 3.5s ease infinite;
+  -webkit-animation: mymove 3.5s ease infinite;
+  -moz-animation: mymove 3.5s ease infinite;
 }
-.mui-buttom {
-  position: fixed;
+
+@keyframes mymove {
+  0% {
+    background-position: 0 25%;
+  }
+  25% {
+    background-position: 25% 50%;
+  }
+  50% {
+    background-position: 50% 75%;
+  }
+  75% {
+    background-position: 75% 100%;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.imgWrap img {
+  width: 70%;
+}
+
+.bg-wrap img {
   width: 100%;
-  bottom: 0;
-  z-index: 999;
 }
-/*九宫格*/
-.img-list {
-  overflow: hidden;
+
+.listsWrap {
+  background: rgb(255, 39, 39);
+  width: 320px;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 30px;
+  color: #ffed4f;
 }
-.img-list > li {
-  float: left;
-  width: 32%;
-  text-align: center;
-  padding-top: 31%;
-  margin-left: 1%;
-  margin-top: 1%;
-  position: relative;
-}
-.img-list > li > div {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.img-list > li > div .app-bg {
-  width: 100%;
-  height: 100%;
-}
-.mui-fullscreen {
-  z-index: 9999;
-}
-.del {
-  position: absolute;
-  width: 18px;
-  top: 0;
-  right: 0;
-  z-index: 999;
+
+.payTable {
+  margin: 0 auto;
 }
 </style>

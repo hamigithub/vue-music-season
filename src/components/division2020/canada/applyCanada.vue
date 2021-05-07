@@ -1,9 +1,9 @@
 <template>
-  <div id="applyOnline">
+  <div id="applyCanada">
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <h1>Competition Application</h1>
+          <h1>Competition Application，Canada</h1>
           <p v-show="key !== 1" class="padding-top15">
             Please complete the form below, and submit your application fee via
             Paypal on the main Application page.
@@ -349,82 +349,6 @@
       </div>
     </div>
 
-    <div v-show="key === 1" class="container">
-      <div class="row padding-top50">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 text-center padding-bottom20">
-              <div class="text-center padding-top20">
-                <form
-                  action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post"
-                  target="_top"
-                >
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input
-                    type="hidden"
-                    name="hosted_button_id"
-                    value="CL448JFGF8SKJ"
-                  />
-                  <table class="payTable">
-                    <tr>
-                      <td>
-                        <input
-                          type="hidden"
-                          name="on0"
-                          value="Divisions"
-                        />Divisions
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <select name="os0">
-                          <option value="Professional">
-                            Professional $35.00 USD
-                          </option>
-                          <option value="Chamber Music">
-                            Chamber Music $35.00 USD
-                          </option>
-                          <option value="Piano Teachers">
-                            Piano Teachers $35.00 USD
-                          </option>
-                          <option value="Young Artist">
-                            Young Artist $30.00 USD
-                          </option>
-                          <option value="Rising Star">
-                            Rising Star $30.00 USD
-                          </option>
-                          <option value="Adult Amateur">
-                            Adult Amateur $30.00 USD
-                          </option>
-                        </select>
-                      </td>
-                    </tr>
-                  </table>
-                  <input type="hidden" name="currency_code" value="USD" />
-                  <input
-                    type="image"
-                    src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
-                    border="0"
-                    name="submit"
-                    alt="PayPal - The safer, easier way to pay online!"
-                  />
-                  <img
-                    alt=""
-                    border="0"
-                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                    width="1"
-                    height="1"
-                  />
-                </form>
-              </div>
-              <p class="padding-20">{{ $t("applyFee.ps") }}</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div v-show="key === 2" class="container">
       <div class="row padding-top15">
         <div class="col-xs-12">
@@ -445,7 +369,7 @@
 
 <script>
 export default {
-  name: "applyOnline",
+  name: "applyCanada",
   data() {
     return {
       key: 0,
@@ -473,8 +397,7 @@ export default {
         pianoTeacherPhoneNumber: "", //*
         pianoTeacherEmail: "", //*
         competitionCategory: "",
-        recordingLink: "",
-        location: "Online",
+        location: "Canada",
       },
     };
   },
@@ -490,7 +413,7 @@ export default {
           let data = this.participant;
           let jsonData = JSON.stringify(data);
           this.$http
-            .post("https://formspree.io/f/xnqljwqg", jsonData, {
+            .post("https://formspree.io/f/mbjqdwja", jsonData, {
               emulateJSON: true,
             })
             .then(

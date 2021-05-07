@@ -37,6 +37,12 @@
                 Chamber Division
               </td>
             </tr>
+            <tr>
+              <td></td>
+              <td>
+                (All the preliminary round fees are nonrefundable)
+              </td>
+            </tr>
           </table>
         </div>
       </div>
