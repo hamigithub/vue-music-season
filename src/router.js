@@ -210,6 +210,11 @@ export default new Router({
       path: "/competition/result",
       component: Result
     },
+    {
+      path: "/submitted",
+      name: "submitted",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/public/Submitted.vue')
+    },
     // 简历路由
     {
       path: "/bio/enrico",

@@ -232,7 +232,9 @@
     <div class="container padding-top50">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="text-center">{{ $t("competition2021.category.row25") }}</h2>
+          <h2 class="text-center">
+            {{ $t("competition2021.category.row25") }}
+          </h2>
         </div>
       </div>
       <div class="row padding-top20">
@@ -243,7 +245,9 @@
           <p>{{ $t("competition2021.category.row29") }}</p>
           <h3>{{ $t("competition2021.category.row30") }}</h3>
           <p>{{ $t("competition2021.category.row31") }}</p>
-          <p class="padding-top20">{{ $t("competition2021.category.row32") }}</p>
+          <p class="padding-top20">
+            {{ $t("competition2021.category.row32") }}
+          </p>
         </div>
       </div>
     </div>
