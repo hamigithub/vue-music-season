@@ -900,7 +900,10 @@
   "applyMsg": {
     "row1": "谢谢,您的申请已经递交，若还没有提交申请费用请尽快完成。",
     "row2": "请填写缺少的信息，然后重试。",
-    "row3": "提交表格时出现错误，请联系: support@coneromusicfestival.com."
+    "row3": "提交表格时出现错误，请联系: support@coneromusicfestival.com.",
+    "submitted1":"谢谢！",
+    "submitted2":"申请表已经提交成功。",
+    "submitted3":"返回"
   },
   "applyFee": {
     "title": "申请说明",

@@ -496,6 +496,7 @@ export default {
             .then(
               function () {
                 this.key = 1;
+                this.$router.push({ path: "/submitted" });
               },
               function () {
                 this.key = 3;

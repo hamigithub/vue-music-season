@@ -14,13 +14,13 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="msbox">
-            <h1>Thanks!</h1>
-            <p class="padding-top20">The form was submitted successfully.</p>
+            <h1>{{ $t("applyMsg.submitted1") }}</h1>
+            <p class="padding-top20">{{ $t("applyMsg.submitted2") }}</p>
             <div
               class="pointer-hand font-blue font-24 font-bold padding-top20"
               @click="testB"
             >
-              Go back
+              {{ $t("applyMsg.submitted3") }}
             </div>
             <div class="padding-top20">
               <img src="../../assets/img/logo.png" alt="" />

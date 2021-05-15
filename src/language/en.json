@@ -894,7 +894,10 @@
   "applyMsg": {
     "row1": "Congratulations，your application has been received. Please send the application payment if you haven’t already.",
     "row2": "Please complete the missing information and try again.",
-    "row3": "There was an error with submission of your form, please contact: support@coneromusicfestival.com."
+    "row3": "There was an error with submission of your form, please contact: support@coneromusicfestival.com.",
+    "submitted1": "Thanks!",
+    "submitted2": "The form was submitted successfully.",
+    "submitted3": "Go back"
   },
   "applyFee": {
     "title": "Application Instructions",
