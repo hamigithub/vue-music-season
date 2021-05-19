@@ -283,6 +283,90 @@
                 </div>
               </div>
             </div>
+
+            <div class="box-child text-center">
+              <div id="bioAlon" class="imgWrap">
+                <router-link class="text-black" to="/bio/alon#alon">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Alon.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">Alon Goldstein</p>
+                  <p class="padding-top5">
+                    University of Missouri-Kansas City, US
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioBaruch" class="imgWrap">
+                <router-link class="text-black" to="/bio/baruch#baruch">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Baruch.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">Baruch Meir</p>
+                  <p class="padding-top5">Arizona State University, US</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioEleanor" class="imgWrap">
+                <router-link class="text-black" to="/bio/eleanor#eleanor">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Eleanor.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">Eleanor Wong</p>
+                  <p class="padding-top5">
+                    Hong Kong Academy for Performing Arts, China
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioElisi" class="imgWrap">
+                <router-link class="text-black" to="/bio/elisi#elisi">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Elisi.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">Elisi Enrico</p>
+                  <p class="padding-top5">University of Toronto, Canada</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioIgor" class="imgWrap">
+                <router-link class="text-black" to="/bio/igor#igor">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Igor.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">Igor Machlak</p>
+                  <p class="padding-top5">University of Melbourne, Australia</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

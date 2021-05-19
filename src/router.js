@@ -289,6 +289,32 @@ export default new Router({
       path: "/bio/iannone",
       component: Iannone
     },
+    //2020新增简历
+    {
+      path: "/bio/alon",
+      name: "concerts",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./bio/2021/Alon.vue')
+    },
+    {
+      path: "/bio/baruch",
+      name: "concerts",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./bio/2021/Baruch.vue')
+    },
+    {
+      path: "/bio/eleanor",
+      name: "concerts",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./bio/2021/Eleanor.vue')
+    },
+    {
+      path: "/bio/elisi",
+      name: "concerts",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./bio/2021/Elisi.vue')
+    },
+    {
+      path: "/bio/igor",
+      name: "concerts",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./bio/2021/Igor.vue')
+    },
     //音乐会路由
     {
       path: "/concerts",
