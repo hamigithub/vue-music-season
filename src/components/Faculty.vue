@@ -28,22 +28,44 @@
         <div class="col-xs-12">
           <div class="flexBox">
             <div class="box-child text-center">
-              <div id="bioSmith" class="imgWrap">
-                <router-link class="text-black" to="/bio/smith#smith">
+              <div id="bioAlon" class="imgWrap">
+                <router-link class="text-black" to="/bio/alon#alon">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Smith.jpg"
+                    src="../assets/img/Alon.jpg"
                     alt
                   />
                 </router-link>
                 <div class="titleWrap">
-                  <p class="font-bold">{{ $t("committeeBioSmith.row1") }}</p>
-                  <p class="padding-top5">{{ $t("committeeBioSmith.row2") }}</p>
-                  <p>{{ $t("committeeBioSmith.row3") }}</p>
-                  <p>{{ $t("committeeBioSmith.row4") }}</p>
-                  <p>{{ $t("committeeBioSmith.row5") }}</p>
-                  <p>{{ $t("committeeBioSmith.row6") }}</p>
-                  <p>{{ $t("committeeBioSmith.row7") }}</p>
+                  <p class="font-bold">
+                    {{ $t("committee2021.alon.bio.row1") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("committee2021.alon.bio.row2") }}
+                  </p>
+                  <p>
+                    {{ $t("committee2021.alon.bio.row3") }}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioBaruch" class="imgWrap">
+                <router-link class="text-black" to="/bio/baruch#baruch">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Baruch.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.baruch.bio.row1") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("committee2021.baruch.bio.row2") }}
+                  </p>
                 </div>
               </div>
             </div>
@@ -63,6 +85,113 @@
                   <p>{{ $t("committeeBioBlaha.row3") }}</p>
                   <p>{{ $t("committeeBioBlaha.row4") }}</p>
                   <p>{{ $t("committeeBioBlaha.row5") }}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioCong" class="imgWrap">
+                <router-link class="text-black" to="/bio/cong#cong">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Cong.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{ $t("committeeBioCong.row1") }}</p>
+                  <p class="padding-top5">{{ $t("committeeBioCong.row2") }}</p>
+                  <p>{{ $t("committeeBioCong.row3") }}</p>
+                  <p>{{ $t("committeeBioCong.row4") }}</p>
+                  <p>{{ $t("committeeBioCong.row5") }}</p>
+                  <p>{{ $t("committeeBioCong.row6") }}</p>
+                  <p>{{ $t("committeeBioCong.row7") }}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioEleanor" class="imgWrap">
+                <router-link class="text-black" to="/bio/eleanor#eleanor">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Eleanor.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.eleanor.bio.row1") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("committee2021.eleanor.bio.row2") }}
+                  </p>
+                  <p>{{ $t("committee2021.eleanor.bio.row3") }}</p>
+                  <p>{{ $t("committee2021.eleanor.bio.row4") }}</p>
+                  <p>{{ $t("committee2021.eleanor.bio.row5") }}</p>
+                  <p>{{ $t("committee2021.eleanor.bio.row6") }}</p>
+                  <p>{{ $t("committee2021.eleanor.bio.row7") }}</p>
+                  <p>{{ $t("committee2021.eleanor.bio.row8") }}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioElisi" class="imgWrap">
+                <router-link class="text-black" to="/bio/elisi#elisi">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Elisi.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.elisi.bio.row1") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("committee2021.elisi.bio.row2") }}
+                  </p>
+                  <p>{{ $t("committee2021.elisi.bio.row3") }}</p>
+                  <p>{{ $t("committee2021.elisi.bio.row4") }}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioIgor" class="imgWrap">
+                <router-link class="text-black" to="/bio/igor#igor">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Igor.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.igor.bio.row1") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("committee2021.igor.bio.row2") }}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioJack" class="imgWrap">
+                <router-link class="text-black" to="/bio/jack#jack">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Jack.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{ $t("committeeBioJack.row1") }}</p>
+                  <p class="padding-top5">{{ $t("committeeBioJack.row2") }}</p>
+                  <p>{{ $t("committeeBioJack.row3") }}</p>
+                  <p>{{ $t("committeeBioJack.row4") }}</p>
                 </div>
               </div>
             </div>
@@ -112,44 +241,6 @@
             </div>
 
             <div class="box-child text-center">
-              <div id="bioVladimir" class="imgWrap">
-                <router-link class="text-black" to="/bio/vladimir#vladimir">
-                  <img
-                    class="judgeImg pointer-hand"
-                    src="../assets/img/Vladimir.jpg"
-                    alt
-                  />
-                </router-link>
-                <div class="titleWrap">
-                  <p class="font-bold">{{ $t("committeeBioVladimir.row1") }}</p>
-                  <p class="padding-top5">
-                    {{ $t("committeeBioVladimir.row2") }}
-                  </p>
-                  <p>{{ $t("committeeBioVladimir.row3") }}</p>
-                  <p>{{ $t("committeeBioVladimir.row4") }}</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="box-child text-center">
-              <div id="bioJack" class="imgWrap">
-                <router-link class="text-black" to="/bio/jack#jack">
-                  <img
-                    class="judgeImg pointer-hand"
-                    src="../assets/img/Jack.jpg"
-                    alt
-                  />
-                </router-link>
-                <div class="titleWrap">
-                  <p class="font-bold">{{ $t("committeeBioJack.row1") }}</p>
-                  <p class="padding-top5">{{ $t("committeeBioJack.row2") }}</p>
-                  <p>{{ $t("committeeBioJack.row3") }}</p>
-                  <p>{{ $t("committeeBioJack.row4") }}</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="box-child text-center">
               <div id="bioFerrati" class="imgWrap">
                 <router-link class="text-black" to="/bio/ferrati#ferrati">
                   <img
@@ -168,56 +259,6 @@
                   <p>{{ $t("committeeBioFerrati.row5") }}</p>
                   <p>{{ $t("committeeBioFerrati.row6") }}</p>
                   <p>{{ $t("committeeBioFerrati.row7") }}</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="box-child text-center">
-              <div id="bioYangyandi" class="imgWrap">
-                <div class="text-black">
-                  <img
-                    class="judgeImg pointer-hand"
-                    src="../assets/img/Yangyandi.jpg"
-                    alt
-                  />
-                </div>
-                <div class="titleWrap">
-                  <p class="font-bold">
-                    {{ $t("committeeBioYangyandi.row1") }}
-                  </p>
-                  <p class="padding-top5">
-                    {{ $t("committeeBioYangyandi.row2") }}
-                  </p>
-                  <p>{{ $t("committeeBioYangyandi.row3") }}</p>
-                  <p>{{ $t("committeeBioYangyandi.row4") }}</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="box-child text-center">
-              <div id="bioZhaoxiaohong" class="imgWrap">
-                <router-link
-                  class="text-black"
-                  to="/bio/zhaoxiaohong#zhaoxiaohong"
-                >
-                  <img
-                    class="judgeImg pointer-hand"
-                    src="../assets/img/Zhaoxiaohong.jpg"
-                    alt
-                  />
-                </router-link>
-                <div class="titleWrap">
-                  <p class="font-bold">
-                    {{ $t("committeeBioZhaoxiaohong.row1") }}
-                  </p>
-                  <p class="padding-top5">
-                    {{ $t("committeeBioZhaoxiaohong.row2") }}
-                  </p>
-                  <p>{{ $t("committeeBioZhaoxiaohong.row3") }}</p>
-                  <p>{{ $t("committeeBioZhaoxiaohong.row4") }}</p>
-                  <p>{{ $t("committeeBioZhaoxiaohong.row5") }}</p>
-                  <p>{{ $t("committeeBioZhaoxiaohong.row6") }}</p>
-                  <p>{{ $t("committeeBioZhaoxiaohong.row7") }}</p>
                 </div>
               </div>
             </div>
@@ -244,22 +285,42 @@
             </div>
 
             <div class="box-child text-center">
-              <div id="bioCong" class="imgWrap">
-                <router-link class="text-black" to="/bio/cong#cong">
+              <div id="bioSmith" class="imgWrap">
+                <router-link class="text-black" to="/bio/smith#smith">
                   <img
                     class="judgeImg pointer-hand"
-                    src="../assets/img/Cong.jpg"
+                    src="../assets/img/Smith.jpg"
                     alt
                   />
                 </router-link>
                 <div class="titleWrap">
-                  <p class="font-bold">{{ $t("committeeBioCong.row1") }}</p>
-                  <p class="padding-top5">{{ $t("committeeBioCong.row2") }}</p>
-                  <p>{{ $t("committeeBioCong.row3") }}</p>
-                  <p>{{ $t("committeeBioCong.row4") }}</p>
-                  <p>{{ $t("committeeBioCong.row5") }}</p>
-                  <p>{{ $t("committeeBioCong.row6") }}</p>
-                  <p>{{ $t("committeeBioCong.row7") }}</p>
+                  <p class="font-bold">{{ $t("committeeBioSmith.row1") }}</p>
+                  <p class="padding-top5">{{ $t("committeeBioSmith.row2") }}</p>
+                  <p>{{ $t("committeeBioSmith.row3") }}</p>
+                  <p>{{ $t("committeeBioSmith.row4") }}</p>
+                  <p>{{ $t("committeeBioSmith.row5") }}</p>
+                  <p>{{ $t("committeeBioSmith.row6") }}</p>
+                  <p>{{ $t("committeeBioSmith.row7") }}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioVladimir" class="imgWrap">
+                <router-link class="text-black" to="/bio/vladimir#vladimir">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Vladimir.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{ $t("committeeBioVladimir.row1") }}</p>
+                  <p class="padding-top5">
+                    {{ $t("committeeBioVladimir.row2") }}
+                  </p>
+                  <p>{{ $t("committeeBioVladimir.row3") }}</p>
+                  <p>{{ $t("committeeBioVladimir.row4") }}</p>
                 </div>
               </div>
             </div>
@@ -280,90 +341,6 @@
                   <p>{{ $t("committeeBioIvy.row4") }}</p>
                   <p>{{ $t("committeeBioIvy.row5") }}</p>
                   <p>{{ $t("committeeBioIvy.row6") }}</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="box-child text-center">
-              <div id="bioAlon" class="imgWrap">
-                <router-link class="text-black" to="/bio/alon#alon">
-                  <img
-                    class="judgeImg pointer-hand"
-                    src="../assets/img/Alon.jpg"
-                    alt
-                  />
-                </router-link>
-                <div class="titleWrap">
-                  <p class="font-bold">Alon Goldstein</p>
-                  <p class="padding-top5">
-                    University of Missouri-Kansas City, US
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="box-child text-center">
-              <div id="bioBaruch" class="imgWrap">
-                <router-link class="text-black" to="/bio/baruch#baruch">
-                  <img
-                    class="judgeImg pointer-hand"
-                    src="../assets/img/Baruch.jpg"
-                    alt
-                  />
-                </router-link>
-                <div class="titleWrap">
-                  <p class="font-bold">Baruch Meir</p>
-                  <p class="padding-top5">Arizona State University, US</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="box-child text-center">
-              <div id="bioEleanor" class="imgWrap">
-                <router-link class="text-black" to="/bio/eleanor#eleanor">
-                  <img
-                    class="judgeImg pointer-hand"
-                    src="../assets/img/Eleanor.jpg"
-                    alt
-                  />
-                </router-link>
-                <div class="titleWrap">
-                  <p class="font-bold">Eleanor Wong</p>
-                  <p class="padding-top5">
-                    Hong Kong Academy for Performing Arts, China
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="box-child text-center">
-              <div id="bioElisi" class="imgWrap">
-                <router-link class="text-black" to="/bio/elisi#elisi">
-                  <img
-                    class="judgeImg pointer-hand"
-                    src="../assets/img/Elisi.jpg"
-                    alt
-                  />
-                </router-link>
-                <div class="titleWrap">
-                  <p class="font-bold">Elisi Enrico</p>
-                  <p class="padding-top5">University of Toronto, Canada</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="box-child text-center">
-              <div id="bioIgor" class="imgWrap">
-                <router-link class="text-black" to="/bio/igor#igor">
-                  <img
-                    class="judgeImg pointer-hand"
-                    src="../assets/img/Igor.jpg"
-                    alt
-                  />
-                </router-link>
-                <div class="titleWrap">
-                  <p class="font-bold">Igor Machlak</p>
-                  <p class="padding-top5">University of Melbourne, Australia</p>
                 </div>
               </div>
             </div>

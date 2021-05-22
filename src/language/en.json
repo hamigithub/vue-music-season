@@ -342,7 +342,9 @@
   "committee2021": {
     "alon": {
       "bio": {
-        "row1": ""
+        "row1": "Alon Goldstein",
+        "row2": "Distinguished Visiting Professor, University of Missouri - Kansas City",
+        "row3": "Israeli Classical Pianist"
       },
       "info": {
         "row1": "Alon Goldstein",
@@ -356,7 +358,8 @@
     },
     "baruch": {
       "bio": {
-        "row1": ""
+        "row1": "Baruch Meir",
+        "row2": "Arizona State University, US"
       },
       "info": {
         "row1": "Pianist Baruch Meir",
@@ -369,7 +372,14 @@
     },
     "eleanor": {
       "bio": {
-        "row1": ""
+        "row1": "Eleanor Wong",
+        "row2": "Chairperson of the Piano Teachers’ Association in HongKong",
+        "row3": "Steinway Artist",
+        "row4": "Professor of Music(Keyboard) at the HongKong Academy for Performing Arts",
+        "row5": "Visiting professor at the Shenzhen School of Arts",
+        "row6": "Wuhan Conservatory of Music,and Tianjin Conservatory of Music",
+        "row7": "Medal of Honour from the HongKong SAR Government",
+        "row8": "Life Time Achievement Award in music education by HongKong International Music Festiva"
       },
       "info": {
         "row1": "Professor Eleanor Wong",
@@ -386,7 +396,10 @@
     },
     "elisi": {
       "bio": {
-        "row1": ""
+        "row1": "Faculty - Enrico Elisi",
+        "row2": "Concert pianist and Steinway Artist",
+        "row3": "Prizewinner: Porto, Premio Venezia",
+        "row4": "Associate Professor of Piano at the University of Toronto"
       },
       "info": {
         "row1": "Enrico Elisi",
@@ -410,7 +423,8 @@
     },
     "igor": {
       "bio": {
-        "row1": ""
+        "row1": "Igor Machlak",
+        "row2": "University of Melbourne, Australia"
       },
       "info": {
         "row1": "Igor Machlak",
@@ -716,7 +730,7 @@
   },
   "divisionOnline": {},
   "constitutionTitle": {
-    "title": "Constitution"
+    "title": "Festival"
   },
   "constitutionForm1": {
     "title": "Schedule",
@@ -901,54 +915,87 @@
       "row9": "Opportunity to be featured in student honor recital"
     },
     "form1": {
-      "title1": "",
-      "row1": "",
-      "row2": "",
-      "row3": "",
-      "row4": "",
-      "row5": ""
+      "title1": "Tentative schedule",
+      "row1": "Morning meeting",
+      "row2": "Practice with duet partner/Duo Coach",
+      "row3": "Group Activity",
+      "row4": "Snack time/Rest",
+      "row5": "Duo Coach/Group Activity",
+      "row6": "Performance Class",
+      "row7": "Group Activity",
+      "row8": "Masterclass",
+      "row9": "Conero Winner Gala Concert",
+      "row10": "Piano Faculty Concert",
+      "row11": "Student Honor Recital",
+      "row12": "Faculty Chamber Concert",
+      "row13": "Duo Concert",
+      "row14": "Closing Ceremony",
+      "row15": "For morning activities (from 9AM to 12PM), young musicians will be in class with faculty members.",
+      "row16": "Afternoon activities (after 12PM) are optional. Young musicians are welcome to observe masterclasses and concerts, but they must be accompanied by a parent after 12PM"
     },
     "group2": {
-      "row1": "钢琴演奏专业组别",
-      "row2": "项目总监：王璐博士",
-      "row3": "两节50分钟的一对一钢琴专业课（可于艺术节期间申请额外的在线一对一课程）。",
-      "row4": "将有机会参与世界知名钢琴家的大师课/一对一授课 （上课资格将由组委会审核申请者的演奏视频后决定）",
-      "row5": "室内乐工坊：将有机会与科雷诺艺术节弦乐导师Boris Vayner博士以及Alla Aranovskaya同台演奏。课程将包含2-3节室内乐排练指导课，学员将于8月9日在艺术节室内乐音乐会上演奏。（最多接受8名申请者，请在申请时注明参与室内乐课程。演奏曲目需在7月20日之前上报）",
-      "row6": "将全程参与科雷诺艺术节钢琴教学法研讨会",
-      "row7": "将有机会在荣誉学员音乐会上演奏",
-      "row8": "将全程参与科雷诺艺术节所有工作坊",
-      "row9": "艺术节导师: Baruch Meir, Enrico Elisi, Lorenzo Di Bella, Jack Winerock, Scott McBride Smith, Massimillano Ferrati, Vladimir Valjarevic, and CongCong Chai."
+      "row1": "Professional Musician Program",
+      "row2": "Director: Dr. Ivy Lu Wang",
+      "row3": "Piano lessons: Two in-person 50 mins private lessons with in-person Conero faculty (Dr. Smith, Dr. Winerock, and more to be announced soon). Extra online lessons with Conero faculty are also available.",
+      "row4": "Eligible for masterclass with Conero in-person faculty (please let us know you’re interested - must submit a video audition with the application). Welcome to observe all masterclasses.",
+      "row5": "Chamber workshop: an excellent opportunity to play with Conero String Faculty Dr. Boris Vayner and Alla Aranovskaya. 2-3 chamber coaching sessions included and will perform in a chamber concert on August 9th. (Note: 8 candidate limit – please request in your festival application. Repertoire needs to be finalized before July 20th.)",
+      "row6": "Full access to the Conero Piano Pedagogy Conference.",
+      "row7": "If selected, can perform in student honor recital.",
+      "row8": "Access to workshops with Conero Faculty to be announced soon",
+      "row9": "Conero Piano Faculty: Baruch Meir, Enrico Elisi, Lorenzo Di Bella, Jack Winerock, Scott McBride Smith, Massimillano Ferrati, Vladimir Valjarevic, and CongCong Chai.",
+      "row10": "Conero String Faculty： Dr. Boris Vayner and Alla Aranovskaya"
     },
     "form2": {
-      "title": "暂定日程表",
-      "row1": "",
-      "row2": "",
-      "row3": "",
-      "row4": "",
-      "row5": ""
+      "title1": "Tentative schedule",
+      "row1": "Morning meeting",
+      "row2": "Workshop",
+      "row3": "Private lesson/Practicing",
+      "row4": "Rest",
+      "row5": "Practicing/Lesson",
+      "row6": "Performance Class",
+      "row7": "Chamber Rehearsal",
+      "row8": "Chamber Coach",
+      "row9": "Masterclass",
+      "row10": "Chamber Masterclass",
+      "row11": "Chamber Concert",
+      "row12": "Conero Winner Gala Concert",
+      "row13": "Piano Faculty Concert",
+      "row14": "Student Honor Recital",
+      "row15": "Faculty Chamber Concert",
+      "row16": "Duo Concert",
+      "row17": "Closing Ceremony"
     },
     "group3": {
-      "row1": "科雷诺钢琴教学法研讨会",
-      "row2": "教学法研讨会主席：史密斯博士",
-      "row3": "教学法研究员/助教：TBA",
-      "row4": "五场中高级程度大师课以及五场专业演奏级大师课",
-      "row5": "参与2021年科雷诺钢琴教学法高峰论坛",
-      "row6": "钢琴教师的职业规划讲座-史密斯博士",
-      "row7": "全程参与所有教学法讲座",
-      "row8": "全程旁听所有大师课、讲座等",
-      "row9": "获得所有音乐会演出活动入场劵",
-      "row10": "将有机会旁听所有一对一钢琴专业课",
-      "row11": "参与讲座的成员将有机会于研讨会上陈述发言、展示个人学术讲座以及主持研讨活动。如被组委会审核通过，申请者的讲座视频将被上传至艺术节官方网络平台进行播放、宣传。组委会将在所有参与者中选择六位杰出的教师代表并授予艺术节荣誉教师学者称号。",
-      "row12": "获得个人讲座展示资格的申请者将有机会成为艺术节教师模范/教学法研究员/助教，并免除以艺术节所有费用。艺术节教师模范需要协助组织艺术节青少年组的各项活动。",
-      "row13": "申请线上个人讲座展示的截止日期是：六月30日，需提供200-300字左右的讲座摘要，包括讲座的内容、研究的方向等；100字的个人简介；联系方式等。",
-      "row14": "请将以上信息发送至科雷诺艺术节官方邮箱："
+      "row1": "Conero Piano Pedagogy Conference",
+      "row2": "Conference Committee Chair: Dr. Scott McBride Smith",
+      "row3": "Pedagogy Fellows: To be announced",
+      "row4": "Access to five intermediate and five professional level masterclasses",
+      "row5": "Participate in the 2021 Conero International Piano Pedagogy Symposium (in-person and online) ",
+      "row6": "Teaching career planning workshop - featuring Dr. Smith",
+      "row7": "Access to all pedagogy presentations and workshops",
+      "row8": "Access to all masterclasses, lectures, workshops, including the chamber workshop",
+      "row9": "Access to all concerts",
+      "row10": "Access to all piano lessons (after student agreement)",
+      "row11": "Attendees can optionally participate as presenters, or as Pedagogy Fellows. If an applicant is passionate about teaching and wants to share their ideas, they can apply to be a presenter. If selected, their lectures will be broadcast online to all festival attendees worldwide. Presenters will be promoted (posters, social media, etc.). Six outstanding pedagogy scholars will be selected for honors by the conference committee after all the presentations.",
+      "row12": "Presenters can be selected as Pedagogy Fellows and have their registration fee waived. Pedagogy Fellows will also be responsible for assisting with the Young Musicians Program.",
+      "row13": "Deadline for Pedagogy presenters: June 30th: 200-300-word abstract. Include the title of the proposed paper, the state of the research field;100-word biography; institutional affiliation or independent scholar status and your contact information.",
+      "row14": "Email to:"
     },
     "form3": {
       "row1": "",
-      "row2": "",
-      "row3": "",
-      "row4": "",
-      "row5": ""
+      "row2": "Application fee",
+      "row3": "Tuition",
+      "row4": "Young Musician Program",
+      "row5": "$40",
+      "row6": "$399In-person Only",
+      "row7": "Professional Pianist Program",
+      "row8": "$80",
+      "row9": "$899 In-Person Only Chamber workshop $300",
+      "row10": "Conero Piano Pedagogy Conference",
+      "row11": "$80 Presenters only",
+      "row12": "$199 Online/In-Person single masterclass/workshop $29",
+      "row13": "All in-person activities will be divided into small group sessions. All adult participants are required to provide vaccine card and sign the waive. ",
+      "row14": "Please note that the in-person Conero Festival housing and meals will not be available due to COVID restrictions."
     }
   },
   "application": {

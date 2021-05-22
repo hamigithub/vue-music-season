@@ -65,7 +65,7 @@
               <input
                 type="hidden"
                 name="hosted_button_id"
-                value="CL448JFGF8SKJ"
+                value="WBXT4Q5WXYDA8"
               />
               <table class="payTable">
                 <tr>
@@ -73,33 +73,62 @@
                     <input
                       type="hidden"
                       name="on0"
-                      value="Divisions"
-                    />Divisions
+                      value="Festival Fees"
+                    />Festival Fees
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <select name="os0">
-                      <option value="Professional">
-                        Professional $35.00 USD
+                    <select class="sWidth" name="os0">
+                      <option value="Application Fee: Young Musician Program">
+                        Application Fee: Young Musician Program $40.00 USD
                       </option>
-                      <option value="Chamber Music">
-                        Chamber Music $35.00 USD
+                      <option
+                        value="Application Fee: Professional Pianist Program"
+                      >
+                        Application Fee: Professional Pianist Program $60.00 USD
                       </option>
-                      <option value="Piano Teachers">
-                        Piano Teachers $35.00 USD
+                      <option
+                        value="Application Fee: Pedagogy Conference Presenter"
+                      >
+                        Application Fee: Pedagogy Conference Presenter $80.00
+                        USD
                       </option>
-                      <option value="Young Artist">
-                        Young Artist $30.00 USD
+                      <option value="Young Musician Program">
+                        Young Musician Program $399.00 USD
                       </option>
-                      <option value="Rising Star">
-                        Rising Star $30.00 USD
+                      <option value="Professional Pianist Program">
+                        Professional Pianist Program $899.00 USD
                       </option>
-                      <option value="Adult Amateur">
-                        Adult Amateur $30.00 USD
+                      <option
+                        value="Professional Pianist Program with Chamber Workshop"
+                      >
+                        Professional Pianist Program with Chamber Workshop
+                        $1,299.00 USD
+                      </option>
+                      <option value="Piano Pedagogy Conference">
+                        Piano Pedagogy Conference $199.00 USD
+                      </option>
+                      <option value="Festival Concert Pass">
+                        Festival Concert Pass $69.00 USD
+                      </option>
+                      <option value="Single Masterclass/Workshop Observation">
+                        Single Masterclass/Workshop Observation $39.00 USD
                       </option>
                     </select>
                   </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="hidden"
+                      name="on1"
+                      value="Participant name(s):"
+                    />Participant name(s):
+                  </td>
+                </tr>
+                <tr>
+                  <td><input type="text" name="os1" maxlength="200" /></td>
                 </tr>
               </table>
               <input type="hidden" name="currency_code" value="USD" />
@@ -158,8 +187,10 @@
           </div>
 
           <div class="padding-top20">
-            <h5 class="text-center padding-bottom20">{{ $t("constitution2021.form1.title") }}</h5>
-            <div class="text-center">
+            <h5 class="text-center padding-bottom20">
+              {{ $t("constitution2021.form1.title1") }}
+            </h5>
+            <div class="tableWrap text-center">
               <table class="gridtable">
                 <tr>
                   <th>Time</th>
@@ -180,80 +211,77 @@
                   <td>{{ $t("constitution2021.form1.row1") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1C</td>
+                  <td>9:15-10:00</td>
+                  <td>{{ $t("constitution2021.form1.row2") }}</td>
+                  <td>{{ $t("constitution2021.form1.row2") }}</td>
+                  <td>{{ $t("constitution2021.form1.row2") }}</td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form1.row2") }}</td>
+                  <td>{{ $t("constitution2021.form1.row2") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1C</td>
+                  <td>10:10-10:50</td>
+                  <td>{{ $t("constitution2021.form1.row3") }}</td>
+                  <td>{{ $t("constitution2021.form1.row3") }}</td>
+                  <td>{{ $t("constitution2021.form1.row3") }}</td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form1.row3") }}</td>
+                  <td>{{ $t("constitution2021.form1.row3") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1C</td>
+                  <td>10:50-11:10</td>
+                  <td>{{ $t("constitution2021.form1.row4") }}</td>
+                  <td>{{ $t("constitution2021.form1.row4") }}</td>
+                  <td>{{ $t("constitution2021.form1.row4") }}</td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form1.row4") }}</td>
+                  <td>{{ $t("constitution2021.form1.row4") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1C</td>
+                  <td>11:10-11:55</td>
+                  <td>{{ $t("constitution2021.form1.row5") }}</td>
+                  <td>{{ $t("constitution2021.form1.row6") }}</td>
+                  <td>{{ $t("constitution2021.form1.row5") }}</td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form1.row6") }}</td>
+                  <td>{{ $t("constitution2021.form1.row7") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1C</td>
+                  <td>Noon</td>
+                  <td>Pick up</td>
+                  <td>Pick up</td>
+                  <td>Pick up</td>
+                  <td></td>
+                  <td>Pick up</td>
+                  <td>Pick up</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1C</td>
+                  <td>3:30-5:00pm</td>
+                  <td>{{ $t("constitution2021.form1.row8") }}</td>
+                  <td>{{ $t("constitution2021.form1.row8") }}</td>
+                  <td>{{ $t("constitution2021.form1.row8") }}</td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form1.row8") }}</td>
+                  <td>{{ $t("constitution2021.form1.row8") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 1C</td>
+                  <td>7:30pm</td>
+                  <td>{{ $t("constitution2021.form1.row9") }}</td>
+                  <td>{{ $t("constitution2021.form1.row10") }}</td>
+                  <td>{{ $t("constitution2021.form1.row11") }}</td>
+                  <td>{{ $t("constitution2021.form1.row12") }}</td>
+                  <td>{{ $t("constitution2021.form1.row13") }}</td>
+                  <td>{{ $t("constitution2021.form1.row14") }}</td>
                 </tr>
               </table>
             </div>
           </div>
           <div class="padding-top20">
             <p>
-              For morning activities (from 9AM to 12PM), young musicians will be
-              in class with faculty members.
+              {{ $t("constitution2021.form1.row15") }}
             </p>
             <p class="padding-top5">
-              Afternoon activities (after 12PM) are optional. Young musicians
-              are welcome to observe masterclasses and concerts, but they must
-              be accompanied by a parent after 12PM
+              {{ $t("constitution2021.form1.row16") }}
             </p>
           </div>
         </div>
@@ -265,158 +293,155 @@
         <div class="col-xs-12">
           <div class="text-center">
             <h3>
-              <span class="color-red">Professional Musician Program</span>
+              <span class="color-red">{{
+                $t("constitution2021.group2.row1")
+              }}</span>
             </h3>
-            <p>Director: Dr. Ivy Lu Wang</p>
+            <p>{{ $t("constitution2021.group2.row2") }}</p>
           </div>
           <div class="padding-top20">
             <p>
-              Group activities every day with their age group:
-              Theory/Improvisation/Ear training/Composition/Sight-reading
+              {{ $t("constitution2021.group2.row3") }}
             </p>
             <p class="padding-top5">
-              Three piano duo coaches with a faculty member, one rehearsal and a
-              performance in the Conero Duo Concert
+              {{ $t("constitution2021.group2.row4") }}
             </p>
             <p class="padding-top5">
-              Two Performance classes – Gain stage experience and confidence
+              {{ $t("constitution2021.group2.row5") }}
             </p>
             <p class="padding-top5">
-              Be immersed for a full week with great musicians – free to observe
-              all the professional level masterclasses and concerts happening in
-              the festival
+              {{ $t("constitution2021.group2.row6") }}
             </p>
             <p class="padding-top5">
-              Masterclass/private lesson opportunities with world famous
-              pianists/professors (will be selected based on video audition)
+              {{ $t("constitution2021.group2.row7") }}
             </p>
             <p class="padding-top5">
-              Opportunity to be featured in student honor recital
+              {{ $t("constitution2021.group2.row8") }}
             </p>
           </div>
           <div class="padding-top20">
             <p>
-              Conero Piano Faculty: Baruch Meir, Enrico Elisi, Lorenzo Di Bella,
-              Jack Winerock, Scott McBride Smith, Massimillano Ferrati, Vladimir
-              Valjarevic, and CongCong Chai.
+              {{ $t("constitution2021.group2.row9") }}
             </p>
             <p class="padding-top5">
-              Conero String Faculty： Dr. Boris Vayner and Alla Aranovskaya
+              {{ $t("constitution2021.group2.row10") }}
             </p>
           </div>
           <div class="padding-top20">
-            <h5 class="text-center padding-bottom20">Tentative schedule</h5>
-            <div class="text-center">
+            <h5 class="text-center padding-bottom20">
+              {{ $t("constitution2021.form2.title1") }}
+            </h5>
+            <div class="tableWrap text-center">
               <table class="gridtable">
                 <tr>
-                  <th>信息标题 1</th>
-                  <th>信息标题 2</th>
-                  <th>信息标题 3</th>
-                  <th>信息标题 1</th>
-                  <th>信息标题 2</th>
-                  <th>信息标题 3</th>
-                  <th>信息标题 1</th>
-                  <th>信息标题 2</th>
+                  <th>Time</th>
+                  <th>August 4th</th>
+                  <th>5th</th>
+                  <th>6th</th>
+                  <th>7th</th>
+                  <th>8th</th>
+                  <th>9th</th>
+                  <th>10th</th>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>9:00-9:15</td>
+                  <td>{{ $t("constitution2021.form2.row1") }}</td>
+                  <td>{{ $t("constitution2021.form2.row1") }}</td>
+                  <td>{{ $t("constitution2021.form2.row1") }}</td>
+                  <td></td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form2.row1") }}</td>
+                  <td>{{ $t("constitution2021.form2.row1") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>9:15-10:00</td>
+                  <td>{{ $t("constitution2021.form2.row2") }}1</td>
+                  <td>{{ $t("constitution2021.form2.row2") }}2</td>
+                  <td>{{ $t("constitution2021.form2.row2") }}3</td>
+                  <td></td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form2.row2") }}4</td>
+                  <td>{{ $t("constitution2021.form2.row2") }}5</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>10:10-11:00</td>
+                  <td>{{ $t("constitution2021.form2.row3") }}</td>
+                  <td>{{ $t("constitution2021.form2.row3") }}</td>
+                  <td>{{ $t("constitution2021.form2.row3") }}</td>
+                  <td></td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form2.row3") }}</td>
+                  <td>{{ $t("constitution2021.form2.row3") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>11:00-11:10</td>
+                  <td>{{ $t("constitution2021.form2.row4") }}</td>
+                  <td>{{ $t("constitution2021.form2.row4") }}</td>
+                  <td>{{ $t("constitution2021.form2.row4") }}</td>
+                  <td></td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form2.row4") }}</td>
+                  <td>{{ $t("constitution2021.form2.row4") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>11:10-12:00</td>
+                  <td>{{ $t("constitution2021.form2.row5") }}</td>
+                  <td>{{ $t("constitution2021.form2.row6") }}</td>
+                  <td>{{ $t("constitution2021.form2.row5") }}</td>
+                  <td></td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form2.row6") }}</td>
+                  <td>{{ $t("constitution2021.form2.row7") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>Noon</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>2:30-3:15</td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form2.row8") }}</td>
+                  <td>{{ $t("constitution2021.form2.row8") }}</td>
+                  <td></td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form2.row8") }}</td>
+                  <td>{{ $t("constitution2021.form2.row8") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>3:30-5:00</td>
+                  <td>{{ $t("constitution2021.form2.row9") }}</td>
+                  <td>{{ $t("constitution2021.form2.row9") }}</td>
+                  <td>{{ $t("constitution2021.form2.row9") }}</td>
+                  <td>{{ $t("constitution2021.form2.row10") }}</td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form2.row9") }}</td>
+                  <td>{{ $t("constitution2021.form2.row9") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>5:00pm</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form2.row11") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>7:30pm</td>
+                  <td>{{ $t("constitution2021.form2.row12") }}</td>
+                  <td>{{ $t("constitution2021.form2.row13") }}</td>
+                  <td>{{ $t("constitution2021.form2.row14") }}</td>
+                  <td>{{ $t("constitution2021.form2.row15") }}</td>
+                  <td></td>
+                  <td>{{ $t("constitution2021.form2.row16") }}</td>
+                  <td>{{ $t("constitution2021.form2.row17") }}</td>
                 </tr>
               </table>
             </div>
@@ -430,87 +455,81 @@
         <div class="col-xs-12">
           <div class="text-center">
             <h3>
-              <span class="color-red">Conero Piano Pedagogy Conference</span>
+              <span class="color-red">{{
+                $t("constitution2021.group3.row1")
+              }}</span>
             </h3>
-            <p>Conference Committee Chair: Dr. Scott McBride Smith</p>
-            <p>Pedagogy Fellows: To be announced</p>
+            <p>{{ $t("constitution2021.group3.row2") }}</p>
+            <p>{{ $t("constitution2021.group3.row3") }}</p>
           </div>
           <div class="padding-top20">
             <p>
-              Group activities every day with their age group:
-              Theory/Improvisation/Ear training/Composition/Sight-reading
+              {{ $t("constitution2021.group3.row4") }}
             </p>
             <p class="padding-top5">
-              Three piano duo coaches with a faculty member, one rehearsal and a
-              performance in the Conero Duo Concert
+              {{ $t("constitution2021.group3.row5") }}
             </p>
             <p class="padding-top5">
-              Two Performance classes – Gain stage experience and confidence
+              {{ $t("constitution2021.group3.row6") }}
             </p>
             <p class="padding-top5">
-              Be immersed for a full week with great musicians – free to observe
-              all the professional level masterclasses and concerts happening in
-              the festival
+              {{ $t("constitution2021.group3.row7") }}
             </p>
             <p class="padding-top5">
-              Masterclass/private lesson opportunities with world famous
-              pianists/professors (will be selected based on video audition)
+              {{ $t("constitution2021.group3.row8") }}
             </p>
             <p class="padding-top5">
-              Opportunity to be featured in student honor recital
+              {{ $t("constitution2021.group3.row9") }}
             </p>
             <p class="padding-top5">
-              Opportunity to be featured in student honor recital
+              {{ $t("constitution2021.group3.row10") }}
             </p>
           </div>
           <div class="padding-top20">
             <p>
-              Conero Piano Faculty: Baruch Meir, Enrico Elisi, Lorenzo Di Bella,
-              Jack Winerock, Scott McBride Smith, Massimillano Ferrati, Vladimir
-              Valjarevic, and CongCong Chai.
+              {{ $t("constitution2021.group3.row11") }}
             </p>
             <p class="padding-top5">
-              Conero String Faculty： Dr. Boris Vayner and Alla Aranovskaya
+              {{ $t("constitution2021.group3.row12") }}
             </p>
             <p class="padding-top5">
-              Conero String Faculty： Dr. Boris Vayner and Alla Aranovskaya
+              {{ $t("constitution2021.group3.row13") }}
+            </p>
+            <p class="padding-top5">
+              {{ $t("constitution2021.group3.row14") }}
+              <span class="font-blue">support@coneromusicfestival.com</span>
             </p>
           </div>
           <div class="padding-top20">
             <div class="text-center">
               <table class="gridtable">
                 <tr>
-                  <th>信息标题 1</th>
-                  <th>信息标题 2</th>
-                  <th>信息标题 3</th>
+                  <th>{{ $t("constitution2021.form3.row1") }}</th>
+                  <th>{{ $t("constitution2021.form3.row2") }}</th>
+                  <th>{{ $t("constitution2021.form3.row3") }}</th>
                 </tr>
                 <tr>
-                  <td>文本 1A</td>
-                  <td>文本 1B</td>
-                  <td>文本 1C</td>
+                  <td>{{ $t("constitution2021.form3.row4") }}</td>
+                  <td>{{ $t("constitution2021.form3.row5") }}</td>
+                  <td>{{ $t("constitution2021.form3.row6") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>{{ $t("constitution2021.form3.row7") }}</td>
+                  <td>{{ $t("constitution2021.form3.row8") }}</td>
+                  <td>{{ $t("constitution2021.form3.row9") }}</td>
                 </tr>
                 <tr>
-                  <td>文本 2A</td>
-                  <td>文本 2B</td>
-                  <td>文本 2C</td>
+                  <td>{{ $t("constitution2021.form3.row10") }}</td>
+                  <td>{{ $t("constitution2021.form3.row11") }}</td>
+                  <td>{{ $t("constitution2021.form3.row12") }}</td>
                 </tr>
               </table>
             </div>
           </div>
           <div class="padding-top20">
-            <p>
-              * All in-person activities will be divided into small group
-              sessions. All adult participants are required to provide vaccine
-              card and sign the waive.
-            </p>
+            <p>* {{ $t("constitution2021.form3.row13") }}</p>
             <p class="padding-top5">
-              Please note that the in-person Conero Festival housing and meals
-              will not be available due to COVID restrictions.
+              {{ $t("constitution2021.form3.row14") }}
             </p>
           </div>
         </div>
@@ -667,6 +686,14 @@ table {
   margin: 0 auto;
 }
 
+.sWidth {
+  width: 300px;
+}
+
+.tableWrap {
+  overflow: auto;
+}
+
 table.gridtable {
   margin: 0 auto;
   font-family: verdana, arial, sans-serif;
@@ -678,14 +705,14 @@ table.gridtable {
 }
 table.gridtable th {
   border-width: 1px;
-  padding: 1px;
+  padding: 4px;
   border-style: solid;
   border-color: #666666;
   background-color: #dedede;
 }
 table.gridtable td {
   border-width: 1px;
-  padding: 1px;
+  padding: 4px;
   border-style: solid;
   border-color: #666666;
   background-color: #ffffff;
