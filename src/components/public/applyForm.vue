@@ -3,18 +3,20 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <h2>{{$t('applyForm.title')}}</h2>
-          <p v-show="key!==1" class="padding-top15">{{$t('applyForm.title2')}}</p>
+          <h2>{{ $t("applyForm.title") }}</h2>
+          <p v-show="key !== 1" class="padding-top15">
+            {{ $t("applyForm.title2") }}
+          </p>
         </div>
       </div>
     </div>
 
-    <div v-show="key!==1" class="container">
+    <div v-show="key !== 1" class="container">
       <div class="row padding-top50">
         <div class="col-md-8 col-xs-12">
           <form>
             <div class="padding-top15">
-              <div>{{$t('applyForm.name')}}</div>
+              <div>{{ $t("applyForm.name") }}</div>
               <div class="inputWrap formWrap">
                 <label class="font12">
                   <input
@@ -25,10 +27,9 @@
                     placeholder="First Name"
                   />
                 </label>
-                <span
-                  v-show="errors.has('firstName')"
-                  class="is-danger"
-                >{{ errors.first('firstName')}}</span>
+                <span v-show="errors.has('firstName')" class="is-danger">{{
+                  errors.first("firstName")
+                }}</span>
               </div>
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
@@ -40,24 +41,25 @@
                     placeholder="Last Name"
                   />
                 </label>
-                <span
-                  v-show="errors.has('lastName')"
-                  class="is-danger"
-                >{{ errors.first('lastName')}}</span>
+                <span v-show="errors.has('lastName')" class="is-danger">{{
+                  errors.first("lastName")
+                }}</span>
               </div>
             </div>
 
             <div class="clearfix"></div>
             <div class="padding-top15">
               <div class="wrapMargin">
-                <span>{{$t('applyForm.participantType')}}</span>
+                <span>{{ $t("applyForm.participantType") }}</span>
                 <label>
                   <select v-model="participant.participantType">
-                    <option disabled value>{{$t('applyForm.disabled')}}</option>
-                    <option>{{$t('applyForm.pt1')}}</option>
-                    <option>{{$t('applyForm.pt2')}}</option>
-                    <option>{{$t('applyForm.pt3')}}</option>
-                    <option>{{$t('applyForm.pt4')}}</option>
+                    <option disabled value>
+                      {{ $t("applyForm.disabled") }}
+                    </option>
+                    <option>{{ $t("applyForm.pt1") }}</option>
+                    <option>{{ $t("applyForm.pt2") }}</option>
+                    <option>{{ $t("applyForm.pt3") }}</option>
+                    <option>{{ $t("applyForm.pt4") }}</option>
                   </select>
                 </label>
               </div>
@@ -66,7 +68,7 @@
             <div class="padding-top15">
               <div class="inputWrap formWrap">
                 <label class="font12">
-                  <span>{{$t('applyForm.dateOfBirth')}}</span>
+                  <span>{{ $t("applyForm.dateOfBirth") }}</span>
                   <input
                     class="inputBox"
                     v-model="participant.dateOfBirth"
@@ -76,15 +78,19 @@
               </div>
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
-                  <span>{{$t('applyForm.countryOfBirth')}}</span>
-                  <input class="inputBox" v-model="participant.countryOfBirth" placeholder />
+                  <span>{{ $t("applyForm.countryOfBirth") }}</span>
+                  <input
+                    class="inputBox"
+                    v-model="participant.countryOfBirth"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
 
             <div class="clearfix"></div>
             <div class="padding-top15">
-              <div>{{$t('applyForm.preferredLanguage')}}</div>
+              <div>{{ $t("applyForm.preferredLanguage") }}</div>
               <div>
                 <label class="font12">
                   <input
@@ -98,10 +104,12 @@
 
             <div class="padding-top15">
               <div class="wrapMargin">
-                <span>{{$t('applyForm.englishSkill')}}Level：</span>
+                <span>{{ $t("applyForm.englishSkill") }}Level：</span>
                 <label>
                   <select v-model="participant.englishSkill">
-                    <option disabled value>{{$t('applyForm.disabled')}}</option>
+                    <option disabled value>
+                      {{ $t("applyForm.disabled") }}
+                    </option>
                     <option>1</option>
                     <option>2</option>
                     <option>3</option>
@@ -119,10 +127,12 @@
 
             <div class="padding-top15">
               <div class="wrapMargin">
-                <span>{{$t('applyForm.gender')}}</span>
+                <span>{{ $t("applyForm.gender") }}</span>
                 <label>
                   <select v-model="participant.gender">
-                    <option disabled value>{{$t('applyForm.disabled')}}</option>
+                    <option disabled value>
+                      {{ $t("applyForm.disabled") }}
+                    </option>
                     <option>Male</option>
                     <option>Female</option>
                   </select>
@@ -144,11 +154,13 @@
                   />
                 </label>
               </div>
-              <span v-show="errors.has('myEmail')" class="is-danger">{{ errors.first('myEmail')}}</span>
+              <span v-show="errors.has('myEmail')" class="is-danger">{{
+                errors.first("myEmail")
+              }}</span>
             </div>
 
             <div class="padding-top15">
-              <div>{{$t('applyForm.phoneNumber')}}</div>
+              <div>{{ $t("applyForm.phoneNumber") }}</div>
               <div>
                 <label class="font12">
                   <input
@@ -161,19 +173,27 @@
             </div>
 
             <div class="padding-top15">
-              <div>{{$t('applyForm.addressLine1')}}</div>
+              <div>{{ $t("applyForm.addressLine1") }}</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="participant.addressLine1" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.addressLine1"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
 
             <div class="padding-top15">
-              <div>{{$t('applyForm.addressLine2')}}</div>
+              <div>{{ $t("applyForm.addressLine2") }}</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="participant.addressLine2" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="participant.addressLine2"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
@@ -181,59 +201,84 @@
             <div class="padding-top15">
               <div class="inputWrap20 formWrap">
                 <label class="font12">
-                  <span>{{$t('applyForm.city')}}</span>
-                  <input class="inputBox" v-model="participant.city" placeholder />
+                  <span>{{ $t("applyForm.city") }}</span>
+                  <input
+                    class="inputBox"
+                    v-model="participant.city"
+                    placeholder
+                  />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
-                  <span>{{$t('applyForm.province')}}</span>
-                  <input class="inputBox" v-model="participant.province" placeholder />
+                  <span>{{ $t("applyForm.province") }}</span>
+                  <input
+                    class="inputBox"
+                    v-model="participant.province"
+                    placeholder
+                  />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
-                  <span>{{$t('applyForm.postalCode')}}</span>
-                  <input class="inputBox" v-model="participant.postalCode" placeholder />
+                  <span>{{ $t("applyForm.postalCode") }}</span>
+                  <input
+                    class="inputBox"
+                    v-model="participant.postalCode"
+                    placeholder
+                  />
                 </label>
               </div>
               <div class="inputWrap20 formWrap marginLeft2">
                 <label class="font12">
-                  <span>{{$t('applyForm.countryOfResidence')}}</span>
-                  <input class="inputBox" v-model="participant.countryOfResidence" placeholder />
+                  <span>{{ $t("applyForm.countryOfResidence") }}</span>
+                  <input
+                    class="inputBox"
+                    v-model="participant.countryOfResidence"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
 
             <div class="clearfix"></div>
             <div class="padding-top15">
-              <div>{{$t('applyForm.education')}}</div>
+              <div>{{ $t("applyForm.education") }}</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="application.education" placeholder="Education" />
+                  <input
+                    class="inputBox"
+                    v-model="application.education"
+                    placeholder="Education"
+                  />
                 </label>
               </div>
             </div>
 
             <div class="padding-top15">
-              <div>{{$t('applyForm.essay')}}</div>
+              <div>{{ $t("applyForm.essay") }}</div>
               <div class="wrapMargin">
                 <label class="font12">
-                  <textarea class="textArea" v-model="application.essay"></textarea>
+                  <textarea
+                    class="textArea"
+                    v-model="application.essay"
+                  ></textarea>
                 </label>
               </div>
             </div>
 
             <div class="padding-top15">
               <div class="wraoMargin">
-                <span>{{$t('applyForm.howYouFound')}}</span>
+                <span>{{ $t("applyForm.howYouFound") }}</span>
                 <label>
                   <select v-model="application.howYouFound">
-                    <option disabled value>{{$t('applyForm.disabled')}}</option>
-                    <option>{{$t('applyForm.hyf1')}}</option>
-                    <option>{{$t('applyForm.hyf2')}}</option>
-                    <option>{{$t('applyForm.hyf3')}}</option>
-                    <option>{{$t('applyForm.hyf4')}}</option>
+                    <option disabled value>
+                      {{ $t("applyForm.disabled") }}
+                    </option>
+                    <option>{{ $t("applyForm.hyf1") }}</option>
+                    <option>{{ $t("applyForm.hyf2") }}</option>
+                    <option>{{ $t("applyForm.hyf3") }}</option>
+                    <option>{{ $t("applyForm.hyf4") }}</option>
                   </select>
                 </label>
               </div>
@@ -242,14 +287,22 @@
             <div class="padding-top15">
               <div class="inputWrap formWrap">
                 <label class="font12">
-                  <span>{{$t('applyForm.referringPersonName')}}</span>
-                  <input class="inputBox" v-model="application.referringPersonName" placeholder />
+                  <span>{{ $t("applyForm.referringPersonName") }}</span>
+                  <input
+                    class="inputBox"
+                    v-model="application.referringPersonName"
+                    placeholder
+                  />
                 </label>
               </div>
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
-                  <span>{{$t('applyForm.parentEmail')}}</span>
-                  <input class="inputBox" v-model="application.parentEmail" placeholder />
+                  <span>{{ $t("applyForm.parentEmail") }}</span>
+                  <input
+                    class="inputBox"
+                    v-model="application.parentEmail"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
@@ -258,8 +311,12 @@
             <div class="padding-top15">
               <div class="inputWrap formWrap">
                 <label class="font12">
-                  <span>{{$t('applyForm.parentPhoneNumber')}}</span>
-                  <input class="inputBox" v-model="application.parentPhoneNumber" placeholder />
+                  <span>{{ $t("applyForm.parentPhoneNumber") }}</span>
+                  <input
+                    class="inputBox"
+                    v-model="application.parentPhoneNumber"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
@@ -268,21 +325,29 @@
             <div class="padding-top15">
               <div class="inputWrap formWrap">
                 <label class="font12">
-                  <span>{{$t('applyForm.pianoTeacherName')}}</span>
-                  <input class="inputBox" v-model="application.pianoTeacherName" placeholder />
+                  <span>{{ $t("applyForm.pianoTeacherName") }}</span>
+                  <input
+                    class="inputBox"
+                    v-model="application.pianoTeacherName"
+                    placeholder
+                  />
                 </label>
               </div>
               <div class="inputWrap formWrap marginLeft2">
                 <label class="font12">
-                  <span>{{$t('applyForm.pianoTeacherPhoneNumber')}}</span>
-                  <input class="inputBox" v-model="application.pianoTeacherPhoneNumber" placeholder />
+                  <span>{{ $t("applyForm.pianoTeacherPhoneNumber") }}</span>
+                  <input
+                    class="inputBox"
+                    v-model="application.pianoTeacherPhoneNumber"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
 
             <div class="clearfix"></div>
             <div class="padding-top15">
-              <div>{{$t('applyForm.pianoTeacherEmail')}}</div>
+              <div>{{ $t("applyForm.pianoTeacherEmail") }}</div>
               <div>
                 <label class="font12">
                   <input
@@ -295,16 +360,20 @@
             </div>
 
             <div class="padding-top15">
-              <div>{{$t('applyForm.preferredTeachers')}}</div>
+              <div>{{ $t("applyForm.preferredTeachers") }}</div>
               <div>
                 <label class="font12">
-                  <input class="inputBox" v-model="application.preferredTeachers" placeholder />
+                  <input
+                    class="inputBox"
+                    v-model="application.preferredTeachers"
+                    placeholder
+                  />
                 </label>
               </div>
             </div>
 
             <div class="padding-top15">
-              <div>{{$t('applyForm.recordingLink')}}</div>
+              <div>{{ $t("applyForm.recordingLink") }}</div>
               <div>
                 <label class="font12">
                   <input
@@ -321,8 +390,10 @@
                 <button
                   class="submitBtn"
                   @click.prevent="onSubmit"
-                  :disabled="submitDisabled!==0"
-                >{{$t('applyForm.submit')}}</button>
+                  :disabled="submitDisabled !== 0"
+                >
+                  {{ $t("applyForm.submit") }}
+                </button>
               </div>
             </div>
           </form>
@@ -330,26 +401,26 @@
       </div>
     </div>
 
-    <div v-show="key===1" class="container">
+    <div v-show="key === 1" class="container">
       <div class="row padding-top15">
         <div class="col-xs-12">
-          <p>{{$t('applyMsg.row1')}}</p>
+          <p>{{ $t("applyMsg.row1") }}</p>
         </div>
       </div>
     </div>
 
-    <div v-show="key===2" class="container">
+    <div v-show="key === 2" class="container">
       <div class="row padding-top15">
         <div class="col-xs-12">
-          <p class="is-danger">{{$t('applyMsg.row2')}}</p>
+          <p class="is-danger">{{ $t("applyMsg.row2") }}</p>
         </div>
       </div>
     </div>
 
-    <div v-show="key===3" class="container">
+    <div v-show="key === 3" class="container">
       <div class="row padding-top15">
         <div class="col-xs-12">
-          <p class="is-danger">{{$t('applyMsg.row3')}}</p>
+          <p class="is-danger">{{ $t("applyMsg.row3") }}</p>
         </div>
       </div>
     </div>
@@ -379,7 +450,7 @@ export default {
         city: "",
         province: "", //or state
         postalCode: "", //or zip code
-        countryOfResidence: "" //Country List?
+        countryOfResidence: "", //Country List?
       },
       application: {
         education: "",
@@ -392,43 +463,41 @@ export default {
         pianoTeacherPhoneNumber: "", //*
         pianoTeacherEmail: "", //*
         preferredTeachers: "", //*In order of preference (three)
-        recordingLink: "" //*Youtube or other video/audio link
-      }
+        recordingLink: "", //*Youtube or other video/audio link
+      },
     };
   },
   methods: {
     onSubmit() {
       this.key = 0;
       this.submitDisabled = 1;
-      this.$validator.validate().then(result => {
+      this.$validator.validate().then((result) => {
         if (!result) {
           this.key = 2;
           this.submitDisabled = 0;
         } else {
           let data = {
             participant: this.participant,
-            application: this.application
+            application: this.application,
           };
           let jsonData = JSON.stringify(data);
           this.$http
-            .post(
-              "http://crm.coneromusicfestival.com/application/create",
-              jsonData,
-              { emulateJSON: true }
-            )
+            .post("https://formspree.io/f/mknkjpgo", jsonData, {
+              emulateJSON: true,
+            })
             .then(
-              function() {
+              function () {
                 this.key = 1;
               },
-              function() {
+              function () {
                 this.key = 3;
                 this.submitDisabled = 0;
               }
             );
         }
       });
-    }
-  }
+    },
+  },
 };
 </script>
 

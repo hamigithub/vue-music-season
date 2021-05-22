@@ -8,10 +8,16 @@
           </div>
         </div>
         <div class="col-md-8 col-xs-12">
-          <h3 class="padding-10">{{ $t("jackInfo.row1") }}</h3>
-          <p class="text-gray padding-top15">{{ $t("jackInfo.row2") }}</p>
-          <p class="text-gray padding-top15">{{ $t("jackInfo.row3") }}</p>
-          <p class="text-gray padding-top15">{{ $t("jackInfo.row4") }}</p>
+          <h3 class="padding-10">{{ $t("committee2021.eleanor.info.row1") }}</h3>
+          <p class="text-gray padding-top15">{{ $t("committee2021.eleanor.info.row2") }}</p>
+          <p class="text-gray padding-top15">{{ $t("committee2021.eleanor.info.row3") }}</p>
+          <p class="text-gray padding-top15">{{ $t("committee2021.eleanor.info.row4") }}</p>
+          <p class="text-gray padding-top15">{{ $t("committee2021.eleanor.info.row5") }}</p>
+          <p class="text-gray padding-top15">{{ $t("committee2021.eleanor.info.row6") }}</p>
+          <p class="text-gray padding-top15">{{ $t("committee2021.eleanor.info.row7") }}</p>
+          <p class="text-gray padding-top15">{{ $t("committee2021.eleanor.info.row8") }}</p>
+          <p class="text-gray padding-top15">{{ $t("committee2021.eleanor.info.row9") }}</p>
+          <p class="text-gray padding-top15">{{ $t("committee2021.eleanor.info.row10") }}</p>
         </div>
       </div>
       <div class="row">

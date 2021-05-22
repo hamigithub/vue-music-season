@@ -339,9 +339,84 @@
     "row5": "Ms. Aranovskaya’s more than 30 years of teaching experience include professorships in St. Petersburg State Conservatory, Russia; Oberlin Conservatory, and Wichita State University, USA. Her students have won numerous prizes at national and international competitions. In addition, she regularly gives master classes and workshops around the world.",
     "row6": "Ms. Aranovskaya received her education at the St. Petersburg State Conservatory and at the Rimsky-Korsakov Music College in St. Petersburg, Russia, where her primary teachers were Mark Komissarov, the Wieniawsky Competition winner, and Vladimir Ovcharek, the first violinist of the Taneyev String Quartet. She is a prize winner of the All-Russian Violin Competition."
   },
-  "committee2021":{
-    "bioAlon":{},
-    "alonInfo":{}
+  "committee2021": {
+    "alon": {
+      "bio": {
+        "row1": ""
+      },
+      "info": {
+        "row1": "Alon Goldstein",
+        "row2": "is one of the most original and sensitive pianists of his generation, admired for his musical intelligence, dynamic personality, artistic vision and innovative programming. He has played with the Philadelphia orchestra, the Chicago Symphony, the San Francisco, Baltimore, St. Louis, Dallas, Houston, Toronto and Vancouver symphonies as well as the Israel Philharmonic, London Philharmonic , Los Angeles and Radio France Orchestra. He played under the baton of such conductors as Zubin Mehta, Herbert Blomstedt, Vladimir Jurowski, Rafael Frübeck de Burgos, Peter Oundjian, Yoel Levi, Yoav Talmi, Leon Fleisher and others.",
+        "row3": "This upcoming season Mr. Goldstein will be performing in cities across the world including New York (Merkin Hall, Rockefeller university and Baruch College), Vienna (Musikverein), Ravinia Festival, Washington DC (Cosmos Club), Berlin (Salon Christophori), and Beijing (Forbidden City Concert Hall), including return engagements with the Jerusalem Symphony, Filarmonica George Enescu in Bucharest, Beijing Symphony, and Mercury Period Instruments Orchestra in Houston.  This season will also see the release of two CDs on the Naxos label: Mozart Piano Concerti Nos. 9 and 17 with the Fine Arts Quartet (a follow-up to their two critically acclaimed recordings of Nos. 20 & 21 and Nos. 23 & 24) and Scarlatti Piano Sonatas.",
+        "row4": "Last season Mr. Goldstein performed with the Kansas City, Ann Arbor, Illinois, Spokane, Bangor, Augusta, and Pensacola Symphony Orchestras, as well as a performance of Beethoven’s Emperor Concerto on fortepiano with Mercury Houston. He played Bernstein's 'Age of Anxiety' with the Jerusalem symphony as well with the Xalapa Symphony in Mexico to celebrate the composer’s centennial, and performed the New Year’s concert with the Beijing symphony in China. He gave recitals and chamber music, including tours with the Goldstein-Peled-Fiterstein Trio, the Tempest Trio, and the Fine Arts Quartet at the Mendelssohn International festival in Hamburg Germany, as well as in Cleveland, Washington DC, New York, Burlington, Key West, Sarasota, Melbourne, Duluth, and other cities. ",
+        "row5": "Other recent highlights include appearances with the Indianapolis Symphony as part of a Prokofiev Festival performing the composer's Piano concerti nos.1&4, as well as a 17-concert Latin American tour with the Israel Chamber Orchestra including concerts at Teatro Colón in Buenos Aires, Teatro de Bellas Arts in Mexico city, Teatro Nacional in San Jose, Teatro Solis in Montevideo etc. He also played with the Chicago Symphony at Ravinia, and at the prestigious Ruhr Piano Festival in Germany performing Mozart, Britten and Poulenc in one evening with Leon Fleisher, his former teacher, conducting.  He gave the premiere of Lost Souls with the Kansas City Symphony and Michael Stern written for him by the noted Israeli composer Avner Dorman and debuted with the London Philharmonic Orchestra and Vladimir Jurowski.",
+        "row6": "A passionate advocate for music education, his recent teaching engagements have included the Steans Institute of the Ravinia Festival, International Keyboard Festival and Institute in New York, Music@Menlo, The Gilmore Festival, Piano Texas, PYPA in Curtis, International Piano Festival in Gijon Spain, and 'Tel Hai' masterclasses in Israel.",
+        "row7": "Mr. Goldstein was recently honored with the 'Society of Scholars' award given to him by his alma mater - the Johns Hopkins University. This was given in recognition of his accomplishments and contributions over the years. He serves as the Artistic Director for The Distinguished Artists Concert & Lecture Series in Santa Cruz, CA and was recently named the Artistic Director of the Mt. Angel Abbey Bach Festival in Oregon. He created the Emerald Coast Music Alliance, whose annual festival in Florida is devoted to sharing the beauty of classical music to under-served communities, free of charge.  He graduated from the Peabody Conservatory of Music studying with Leon Fleisher and received scholarships from the America Israel Cultural Foundation. Following his graduation he became a 'Performer Fellow' at the Guildhall School of Music and Drama in London where he initiated chamber music concerts involving staff and students, as well as an annual festival dedicated to the piano duet repertoire. He was an artist in residence at the 'Theo Lieven' piano academy in Como Italy.  He currently holds the position of 'Distinguished Visiting Professor' at the University of Missouri - Kansas City."
+      }
+    },
+    "baruch": {
+      "bio": {
+        "row1": ""
+      },
+      "info": {
+        "row1": "Pianist Baruch Meir",
+        "row2": "is one of only 65 artists worldwide named Bösendorfer Concert Artist since the founding of the company in 1828. Meir has performed extensively in Austria, Canada, China, England, France, Germany, Israel, Italy, Portugal, Serbia and the United States. Meir has presented recitals at the Bösendorfer Saal, Vienna; Bauman Auditorium, Oregon; Murphy Hall, Popper Theater and Nixon Library in Los Angeles; Dixon Hall, New Orleans; Wise Auditorium, Jerusalem; Bates Recital Hall, Austin; Katzin Hall and the Scottsdale Center for the Arts in Arizona, and at the Toujours Mozart Festival in Salzburg, Austria.",
+        "row3": "An associate professor of piano at the Arizona State University School of Music in the Herberger Institute, Meir maintains a busy teaching schedule in addition to his international concert career. Meir toured China’s main music schools a number of times, including the Shanghai Conservatory, the Sichuan Conservatory, and Wenzhou University where he was awarded a guest professorship. He have also taught at Seoul National University, Yonsei, Kookmin, Hanyang, Sunhwa, Kyoungbook and Seoul Arts High School in South Korea. Meir has given master classes at the Music Academy in Vienna, the Rubin Academy of Music in Jerusalem, The Buchman-Mehta Music Academy at Tel Aviv University, the Manhattan School of Music, and various conservatories and universities and music festivals in the United States, Asia and Europe.",
+        "row4": "A native of Israel, Meir is a summa cum laude graduate of the Rubin Academy of Music at Tel Aviv University, where he earned his master’s degree in piano performance. He holds the Artist Diploma from the Royal College of Music in London and the Doctor of Musical Arts degree from ASU. His teachers include Walter Aufhauser, Michael Boguslavsky, Rachel Popilski Gordon, Robert Hamilton, Pnina Salzman, and Irina Zaritskaya. Meir’s distinctions include the American-Israel Cultural Foundation Awards, the British Council Fellowship, the ASU concerto competition, and the first place at the Klatzkin Competition for Contemporary Piano Music.",
+        "row5": "At Arizona State University, Meir maintains a class of outstanding pianists from all over the world. His students were awarded top prizes in various competitions, including prizes at MTNA Competition, the Schmindbauer International Competition, the North International Music Competition, Yamaha USASU International Competition, Carmel Clavier International Competition, New York Young Concert Artist International Competition, Washington International Piano Artists Competition, Putra International Competition, Radda Rise International Competition, winners at the ASU Concert of Soloists Concerto Competition, and many others. Meir also frequently adjudicates in many international competitions including the Isidor Bajic Piano Memorial in Serbia, Los Angeles Young Musicians International Competition, the Russian Music Competition in Vancouver, Psanter Letamid National Piano Competition in Israel, Shanghai and others. Meir previously taught at Music Fest Perugia summer festival, and he is currently on the piano faculty of the Semper Music (Schlern) International Festival in the Italian Alps and the White Nights International Piano Festival in Saint Petersburg, Russia.",
+        "row6": "Baruch Meir is the Founder, President, Artistic Director and Chairman of the Jury of the Bösendorfer and Yamaha USASU International Piano Competition."
+      }
+    },
+    "eleanor": {
+      "bio": {
+        "row1": ""
+      },
+      "info": {
+        "row1": "Professor Eleanor Wong",
+        "row2": "began her musical studies in Hong Kong and later as an Associated Board Scholar at the Royal Academy of Music, London.She was one of the few students graduated with both the Graduate Diploma (G.R.S.M),and the Recital Diploma as well as top honours: the Walter Macfarren Gold medal and Majorie Whyte Memorial Award for the most outstanding students. After winning the coveted Boise Scholarship, Eleanor studied in Paris with Vlado Perlemuter and later in New York with Artur Balsam.",
+        "row3": "Winner of silver medal at the Viotti International Competition Italy, Professor Wong broadcasted on RTHK (Hong Kong), WNYC (New York), BBC (UK), and overseas services. As a soloist she has given recitals extensively in the United Kingdom (including the Wigmore Hall and Purcell Room in London) in Hong Kong and the United States, as a Piano Duo with her sister they have performed together in Hong Kong, in cities of China and in the States.",
+        "row4": "Professor Wong is recognised as one of the foremost piano pedagogues with many of her pupils winning top prizes in international piano competitions including the Chopin International Piano Competition, the Van Cliburn, the Leeds, Gina Bachauer and the Casagrande. Being one of the most sought-after teachers, Professor Wong frequently hosted lectures and workshops on Piano Pedagogy and has given master-classes in China, Korea, Poland, Singapore, Taiwan, Thailand, Uruguay, South Africa, England and USA. She is also a frequent member of jury in various international piano competitions and festivals.",
+        "row5": "Presently, Eleanor Wong is Professor of Music(Keyboard)at the Hong Kong Academy for Performing Arts. She is also a visiting professor at the Shenzhen School of Arts and Wuhan Music Conservatory, and an honorary professor of the Tianjin Music Conservatory. She is a Steinway Artist, Co- Director of the Hong Kong Summer Music.",
+        "row6": "Professor Wong is the Chairperson of the Piano Teachers’ Association in Hong Kong and Artistic Advisor of The Dalcroze Society of Hong Kong. She has served as Advisors for the Hong Kong Arts Development Council (ADC), Trinity Guildhall music exam (Hong Kong).",
+        "row7": "In 2008, Professor Wong was elected one of 2007 Outstanding Leaders by Singtao Daily in Hong Kong for her contributions to the musical world.",
+        "row8": "In 2013 Professor Wong was awarded the Hong Kong Women of Excellence in the Six Arts for her work in field of Music by the Hong Kong Federation of Women.",
+        "row9": "In 2014, Professor Wong received the Medal of Honour from the Hong Kong SAR Government, recognising her dedication and contribution to piano education and grooming of local young pianists.",
+        "row10": "In 2018, Professor Wong was honoured with a Life Time Achievement Award in music education by the 5th Hong Kong International Music Festival."
+      }
+    },
+    "elisi": {
+      "bio": {
+        "row1": ""
+      },
+      "info": {
+        "row1": "Enrico Elisi",
+        "row2": "has established himself as one of the most passionate Italian pianists on the concert scene today and has been hailed for his mastery of elegance, refinement, and fantasy (La Nueva España). He regularly performs to acclaim throughout the Americas, Europe, and Asia and his interpretations reveal “remarkable sensitivity, imagination, and polish,” (Baltimore Sun). ",
+        "row3": "He has appeared in historical settings such as La Fenice Theatre, Venice; Palazzo Vecchio, Florence; Bibiena Theatre, Mantua; and Pavarotti Opera House, Modena. Recent engagements include the Banff Centre for the Arts, Weill Hall at Carnegie Hall, New York Public Library, New York’s Morgan Library, Washington’s National Gallery of Art and the Italian Embassy, as well as the Centro Cultural de España in Lima, Peru. ",
+        "row4": "He performed with several orchestras in the US, Italy, Portugal, and as a chamber musician, at the Taos and Ravinia Festivals. Elisi’s recitals have been broadcast on radio and TV programs in the US and Europe. Among his awards are top prizes in the Premio Venezia (Italy) and the Oporto International Competition (Portugal). A champion of new music, Elisi has commissioned works from many composers and premiered Paul Chihara’s Two Images, at Weill Hall (subsequently recorded for Albany Records). ",
+        "row5": "He recently released an album of Mozart Sonatas and shorter compositions. A new recording of Bach's selected Partitas and Preludes is forthcoming. Elisi is an Associate Professor at the University of Toronto and was on the faculty of the Eastman School among other institutions.",
+        "row6": "He conducted a myriad of master classes around the world and is sought-after at many music festivals and as an adjudicator. The rich tradition of his musical roots can be traced to the Conservatories of Bologna and Florence, the renown Imola International Academy, in Italy, and the Peabody Institute, in the US. ",
+        "row7": "His teachers included mentors such as Leon Fleisher, Lazar Berman, Alexander Lonquich, Boris Petrushansky, Franco Scala, and Giuseppe Fricelli.",
+        "row8": "Enrico Elisi is a Steinway Artist.",
+        "row9": "",
+        "row10": "",
+        "row11": "",
+        "row12": "",
+        "row13": "",
+        "row14": "",
+        "row15": "",
+        "row16": "",
+        "row17": ""
+      }
+    },
+    "igor": {
+      "bio": {
+        "row1": ""
+      },
+      "info": {
+        "row1": "Igor Machlak",
+        "row2": "Hailed as ‘an artist of unique vision and sensitivity’, Igor Machlak graduated from the Moscow Tchaikovsky conservatory with first class honours in 1990 and did his post – graduate studies two year after. A winner of various awards and prizes, Igor’s biggest accomplishments came as a member of the Igor and Olga Piano Duo, together with his wife Olga Kharitonova. The team was a winner of international competitions in Russia (1990), Italy (1991 and 1993) and Japan (1994). These victories paved the way for extensive concert activity in Europe and Russia. Since 1995 they settled in Melbourne, Australia and became an integral part of Australian musical scene. Igor enjoys collaboration with many Australian and international performers as well as continuing active concertizing with Olga.  For more than 20 years he is a member of piano staff at the University of Melbourne where he lectures piano and chamber music as well as directs the Piano Duet Ensemble. Igor is a long serving Examiner for the Australian Music Examination Board and frequently conducts Masterclasses and adjudicates various Eisteddfods and Competitions."
+      }
+    }
   },
   "competitionTitle": {
     "title2": "2021 Conero International Piano Competition",
@@ -803,6 +878,77 @@
       "row17": "Professor Massimiliano Ferrati will give a lecture on “Mozart Fantasy K475, Beethoven Op.111,Chopin op.35:The Sense of Life and Death” Three composers with their different styles and poetics meet a common human theme, life and death. This lecture will drive us to discover how to choose the right technical approach to achieve the appropriate sound to reach the required musical idea and express as closest as possible the language of the composer concerning the deep significant of the musical work. 50 years, or little bit more, for a great miraculous changing in the aesthetics of the sonority and in the technical improvement of the instruments, will drive us to the philological itinerary. He will share his performance of the three pieces after this lecture.",
       "row18": "In the Injury Prevention workshop, we invited Professor Zhou Xiang,a surgeon specializing in the hand and wrist, who completed his post-doctorate program at Harvard School of Medicine. Through sharing his clinical experience with musicians, we will get to know the major causes of injury and how to avoid getting injured. Based on the scientific analysis of our hand structure, Dr. Jack Winerock will explain healthy piano techniques, as well as the most common traps that pianists usually fall into. Dr. Ivy Lu Wang will share how kinesiology benefits healthy piano technique.",
       "row19": "* Students who need to participate in the Injury Prevention workshop, need to contact us ASAP to receive individualized guidance."
+    }
+  },
+  "constitution2021": {
+    "content": {
+      "row1": "2021 Conero International Piano Festival",
+      "row2": "August 4th-10th, 2021 Registration is now open!",
+      "row3": "Application deadline:  July 10th , 2021",
+      "row4": "Location： Bell Culture Event Center, 2030 E College Way, Olathe, KS，66062，United States",
+      "row5": "Interested participants must submit a performance video link in your application form, in order to be accepted into the festival. Application videos will also be used to determine Scholarship opportunities, master class/lectures/honor recital and closing recital performers. ",
+      "row6": "Questions? Contact us!"
+    },
+    "group1": {
+      "row1": "Young Musician Program",
+      "row2": "Age 8-14 years old",
+      "row3": "Director: Dr. Janet Fetterman",
+      "row4": "Group activities every day with their age group: Theory/Improvisation/Ear training/Composition/Sight-reading ",
+      "row5": "Three piano duo coaches with a faculty member, one rehearsal and a performance in the Conero Duo Concert ",
+      "row6": "Two Performance classes – Gain stage experience and confidence ",
+      "row7": "Be immersed for a full week with great musicians – free to observe all the professional level masterclasses and concerts happening in the festival",
+      "row8": "Masterclass/private lesson opportunities with world famous pianists/professors (will be selected based on video audition) ",
+      "row9": "Opportunity to be featured in student honor recital"
+    },
+    "form1": {
+      "title1": "",
+      "row1": "",
+      "row2": "",
+      "row3": "",
+      "row4": "",
+      "row5": ""
+    },
+    "group2": {
+      "row1": "钢琴演奏专业组别",
+      "row2": "项目总监：王璐博士",
+      "row3": "两节50分钟的一对一钢琴专业课（可于艺术节期间申请额外的在线一对一课程）。",
+      "row4": "将有机会参与世界知名钢琴家的大师课/一对一授课 （上课资格将由组委会审核申请者的演奏视频后决定）",
+      "row5": "室内乐工坊：将有机会与科雷诺艺术节弦乐导师Boris Vayner博士以及Alla Aranovskaya同台演奏。课程将包含2-3节室内乐排练指导课，学员将于8月9日在艺术节室内乐音乐会上演奏。（最多接受8名申请者，请在申请时注明参与室内乐课程。演奏曲目需在7月20日之前上报）",
+      "row6": "将全程参与科雷诺艺术节钢琴教学法研讨会",
+      "row7": "将有机会在荣誉学员音乐会上演奏",
+      "row8": "将全程参与科雷诺艺术节所有工作坊",
+      "row9": "艺术节导师: Baruch Meir, Enrico Elisi, Lorenzo Di Bella, Jack Winerock, Scott McBride Smith, Massimillano Ferrati, Vladimir Valjarevic, and CongCong Chai."
+    },
+    "form2": {
+      "title": "暂定日程表",
+      "row1": "",
+      "row2": "",
+      "row3": "",
+      "row4": "",
+      "row5": ""
+    },
+    "group3": {
+      "row1": "科雷诺钢琴教学法研讨会",
+      "row2": "教学法研讨会主席：史密斯博士",
+      "row3": "教学法研究员/助教：TBA",
+      "row4": "五场中高级程度大师课以及五场专业演奏级大师课",
+      "row5": "参与2021年科雷诺钢琴教学法高峰论坛",
+      "row6": "钢琴教师的职业规划讲座-史密斯博士",
+      "row7": "全程参与所有教学法讲座",
+      "row8": "全程旁听所有大师课、讲座等",
+      "row9": "获得所有音乐会演出活动入场劵",
+      "row10": "将有机会旁听所有一对一钢琴专业课",
+      "row11": "参与讲座的成员将有机会于研讨会上陈述发言、展示个人学术讲座以及主持研讨活动。如被组委会审核通过，申请者的讲座视频将被上传至艺术节官方网络平台进行播放、宣传。组委会将在所有参与者中选择六位杰出的教师代表并授予艺术节荣誉教师学者称号。",
+      "row12": "获得个人讲座展示资格的申请者将有机会成为艺术节教师模范/教学法研究员/助教，并免除以艺术节所有费用。艺术节教师模范需要协助组织艺术节青少年组的各项活动。",
+      "row13": "申请线上个人讲座展示的截止日期是：六月30日，需提供200-300字左右的讲座摘要，包括讲座的内容、研究的方向等；100字的个人简介；联系方式等。",
+      "row14": "请将以上信息发送至科雷诺艺术节官方邮箱："
+    },
+    "form3": {
+      "row1": "",
+      "row2": "",
+      "row3": "",
+      "row4": "",
+      "row5": ""
     }
   },
   "application": {

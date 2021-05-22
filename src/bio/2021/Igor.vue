@@ -8,10 +8,8 @@
           </div>
         </div>
         <div class="col-md-8 col-xs-12">
-          <h3 class="padding-10">{{ $t("jackInfo.row1") }}</h3>
-          <p class="text-gray padding-top15">{{ $t("jackInfo.row2") }}</p>
-          <p class="text-gray padding-top15">{{ $t("jackInfo.row3") }}</p>
-          <p class="text-gray padding-top15">{{ $t("jackInfo.row4") }}</p>
+          <h3 class="padding-10">{{ $t("committee2021.igor.info.row1") }}</h3>
+          <p class="text-gray padding-top15">{{ $t("committee2021.igor.info.row2") }}</p>
         </div>
       </div>
       <div class="row">

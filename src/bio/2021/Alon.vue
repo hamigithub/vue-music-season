@@ -8,10 +8,25 @@
           </div>
         </div>
         <div class="col-md-8 col-xs-12">
-          <h3 class="padding-10">{{ $t("jackInfo.row1") }}</h3>
-          <p class="text-gray padding-top15">{{ $t("jackInfo.row2") }}</p>
-          <p class="text-gray padding-top15">{{ $t("jackInfo.row3") }}</p>
-          <p class="text-gray padding-top15">{{ $t("jackInfo.row4") }}</p>
+          <h3 class="padding-10">{{ $t("committee2021.alon.info.row1") }}</h3>
+          <p class="text-gray padding-top15">
+            {{ $t("committee2021.alon.info.row2") }}
+          </p>
+          <p class="text-gray padding-top15">
+            {{ $t("committee2021.alon.info.row3") }}
+          </p>
+          <p class="text-gray padding-top15">
+            {{ $t("committee2021.alon.info.row4") }}
+          </p>
+          <p class="text-gray padding-top15">
+            {{ $t("committee2021.alon.info.row5") }}
+          </p>
+          <p class="text-gray padding-top15">
+            {{ $t("committee2021.alon.info.row6") }}
+          </p>
+          <p class="text-gray padding-top15">
+            {{ $t("committee2021.alon.info.row7") }}
+          </p>
         </div>
       </div>
       <div class="row">

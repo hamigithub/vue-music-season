@@ -256,6 +256,10 @@ td {
   color: #688faf;
 }
 
+.color-red {
+  background-color: red;
+}
+
 .pointer-hand {
   cursor: pointer;
 }
