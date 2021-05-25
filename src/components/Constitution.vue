@@ -297,7 +297,6 @@
                 $t("constitution2021.group2.row1")
               }}</span>
             </h3>
-            <p>{{ $t("constitution2021.group2.row2") }}</p>
           </div>
           <div class="padding-top20">
             <p>
@@ -510,18 +509,33 @@
                 </tr>
                 <tr>
                   <td>{{ $t("constitution2021.form3.row4") }}</td>
-                  <td>{{ $t("constitution2021.form3.row5") }}</td>
-                  <td>{{ $t("constitution2021.form3.row6") }}</td>
+                  <td>$40</td>
+                  <td>$399</td>
                 </tr>
                 <tr>
+                  <td>{{ $t("constitution2021.form3.row5") }}</td>
+                  <td>$80</td>
+                  <td>$899</td>
+                </tr>
+                <tr>
+                  <td>{{ $t("constitution2021.form3.row6") }}</td>
                   <td>{{ $t("constitution2021.form3.row7") }}</td>
                   <td>{{ $t("constitution2021.form3.row8") }}</td>
-                  <td>{{ $t("constitution2021.form3.row9") }}</td>
                 </tr>
                 <tr>
+                  <td>{{ $t("constitution2021.form3.row9") }}</td>
                   <td>{{ $t("constitution2021.form3.row10") }}</td>
+                  <td>$300</td>
+                </tr>
+                <tr>
                   <td>{{ $t("constitution2021.form3.row11") }}</td>
+                  <td>$0</td>
+                  <td>$39</td>
+                </tr>
+                <tr>
                   <td>{{ $t("constitution2021.form3.row12") }}</td>
+                  <td>$0</td>
+                  <td>$69</td>
                 </tr>
               </table>
             </div>

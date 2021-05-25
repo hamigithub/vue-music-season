@@ -20,6 +20,10 @@
             </div>
           </div>
         </div>
+        <div class="col-xs-12 padding-bottom20 text-center">
+          <h2>{{ $t("home.homeTitle.row11") }}</h2>
+          <h2>{{ $t("home.homeTitle.row12") }}</h2>
+        </div>
         <div class="col-xs-12 padding-bottom20">
           <div class="padding-bottom20 font-grayBlue">
             <h2 class="text-center">

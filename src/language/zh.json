@@ -30,7 +30,9 @@
       "row7": "初赛时间： 2021年5月-6月期间",
       "row8": "（请查看你的赛区规则）",
       "row9": "决赛时期： 2021年8月2日-3日",
-      "row10": "科雷诺艺术节时间： 2021 年8月4-10日"
+      "row10": "科雷诺艺术节时间： 2021 年8月4-10日",
+      "row11": "艺术节申请正式开放！ 八月4-10日， 美国堪萨斯城",
+      "row12": ""
     },
     "homeText": {
       "row1": "2019年，第一届科雷诺国际钢琴艺术节在意大利 Recanati 成功举办。作为第一个将钢琴教学法编入课程的艺术节，科雷诺打破了传统艺术节以钢琴演奏为主的运行模式，寓教于学，寓学于用，使得钢琴演奏与钢琴教学相辅相成，为每一位参与艺术节的学员带来全方位的演奏实践与教育理论相结合的充实体验。",
@@ -341,6 +343,10 @@
     "row6": "Aranovskaya女士在俄罗斯圣彼得堡国立音乐学院及俄罗斯林姆斯基-高沙可夫彼得堡音乐学院完成学业，师从于Wieniawsky Competition的获奖者Mark Komissarov和 Taneyev弦乐四重奏的第一小提琴手Vladimir Ovcharek. 她也是俄罗斯小提琴比赛的得奖者。"
   },
   "committee2021": {
+    "title": {
+      "row1": "科雷诺艺术节导师/决赛评审 ",
+      "row2": "科雷诺决赛评审"
+    },
     "alon": {
       "bio": {
         "row1": "阿龙·戈德斯坦",
@@ -357,6 +363,38 @@
         "row7": ""
       }
     },
+    "alvin": {
+      "bio": {
+        "row1": "朱傲文",
+        "row2": "天津茱莉亚学院钢琴系常驻教师",
+        "row3": "施坦威艺术家",
+        "row4": "纽约茱莉亚学院博士、硕士、大学毕业者",
+        "row5": "富布赖特获得者"
+      },
+      "info": {
+        "row1": "朱傲文",
+        "row2": "曾以独奏家的身份与世界各地的交响乐团合作演奏包括莫扎特，贝多芬、柴可夫斯基、普罗科菲耶夫、格什温和拉赫玛尼诺夫等作曲家的协奏曲，演奏足迹遍及爱丽斯杜莉音乐厅、施坦威音乐厅、悉尼歌剧院、北京音乐厅、中山音乐堂、天津大剧院、加拿大蒙特利尔国会宫、意大利罗马奥林匹克体育场、匹兹堡戴维·劳伦斯会展中心、纽约茱莉亚学院莫尔斯演奏厅及保罗演奏厅、肖托夸圆型剧场、耶鲁大学斯普雷格礼堂及阿斯本哈里斯音乐厅等。他曾作为杰克肯库青年艺术家，为美国国家公共电台“顶级之选”WQED电台和史坦威SPIRIO™钢琴目录录制节目。最近，朱傲文曾参加了北京青年广播电台主办的音乐会现场直播。他曾经获得多项国内外大奖并受邀担任2020年VIVACE法国国际钢琴大赛、2020年新加坡国际钢琴大赛、2019年李斯特国际青少年钢琴大赛、2019年全球杰出华人艺术家协会钢琴大赛、2018年施坦威国际钢琴大赛的评委。除此之外，朱傲文还曾受聘担任全球杰出华人艺术家协会海外顾问及苏州侨界艺术团海外顾问。",
+        "row3": "朱傲文在指挥家大师杰佛里·米拉斯基的指导下，指挥茱莉亚学院实验交响乐团，现担任匹兹堡海华青少年交响乐团的客座指挥。他在美国耶鲁大学，德克萨斯州立大学、杨百翰大学、犹他洲韦伯洲立大学、中国广东开放大学、刘诗昆艺术学校、李德伦基金会、多伦多施坦威音乐厅及北京、上海的施坦威音乐厅和西宾夕法尼亚施坦威学会青年艺术家计划中心等地举办过大师班。朱傲文曾经担任耶鲁大学音乐学院和纽约茱莉亚学院的助教，负责研究生音乐史和本科音乐理论教学。作为富布莱特奖学金获得者，他就其祖父朱工一先生的音乐贡献展开研究，这位钢琴大师兼教育学者至今仍在中国拥有广泛的影响力。朱傲文还曾作为客座讲师，受邀至美国驻北京大使馆、纽约茱莉亚学院以及中央音乐学院及台湾东吴大学举办过讲座。",
+        "row4": "2020年，在全球疫情的蔓延下，朱傲文亲自制作视频并率领他天津茱莉亚学院预科班的学生们一起演奏西班牙作曲家蒙普的作品“《亲密印象》，向全球为抗疫贡献生命和力量的医护人员致敬。朱傲文已获得茱莉亚音乐音乐学士、硕士及博士学位，师从卡普林斯基博士和朱利安·马丁教授。",
+        "row5": ""
+      }
+    },
+    "alla": {
+      "bio": {
+        "row1": "阿拉·阿拉诺夫斯卡娅",
+        "row2": "圣彼得堡弦乐四重奏创始人",
+        "row3": "格莱美提名奖艺术家",
+        "row4": "前任圣彼得堡音乐学院教授，奥伯林音乐学院教授"
+      },
+      "info": {
+        "row1": "Alla Aranovskaya",
+        "row2": "Ms. Alla Aranovskaya is a founding first violinist of the Grammy-nominated St. Petersburg String Quartet, and has been intensively touring throughout North America, South America, Europe and Asia. Her many honors include a Grammy nomination, 'Best Record' in both Stereo Review and Gramophone magazines, and top prizes at several international chamber music competitions including Melbourne, Australia; Tokyo, Japan; and Florence, Italy. ",
+        "row3": "The highlights of her career include performances at Lincoln Center, Library of Congress, Amsterdam Concertgebouw, Tokyo Suntory Hall, London Wigmore Hall, Manchester Bridgewater Hall, Dublin National Concert Hall, Munich Hercules Hall, Frankfurt Alte Oper, Moscow Conservatory Great Hall, St. Petersburg Philharmonic Great Hall and appearance at such festivals as Luzern (Switzerland), Schleswig-Holstein (Germany), MIMO (Brazil), Buxton (England), Fishguard (Wales), Music Mountain, Rockport, Mainly Mozart in San Diego, and many more. She has collaborated with such internationally renowned artists as Leon Fleisher, Michael Tree, Peter Donohoe, Misha Dichter, Ruth Laredo, and David Shifrin. Alla Aranovskaya is also a member of the St. Petersburg Piano Quartet that debuted in New York in May 2014.",
+        "row4": "In 2014, Ms. Aranovskaya initiated a revival of one of the first violin competitions in the world; the Leopold Auer International Violin Competition in St. Petersburg, Russia. She’s been serving as a jury member of the competition since then.",
+        "row5": "Ms. Aranovskaya’s more than 30 years of teaching experience include professorships in St. Petersburg State Conservatory, Russia; Oberlin Conservatory, and Wichita State University, USA. Her students have won numerous prizes at national and international competitions. In addition, she regularly gives master classes and workshops around the world.",
+        "row6": "Ms. Aranovskaya received her education at the St. Petersburg State Conservatory and at the Rimsky-Korsakov Music College in St. Petersburg, Russia, where her primary teachers were Mark Komissarov, the Wieniawsky Competition winner, and Vladimir Ovcharek, the first violinist of the Taneyev String Quartet. She is a prize winner of the All-Russian Violin Competition. "
+      }
+    },
     "baruch": {
       "bio": {
         "row1": "巴鲁克·梅尔",
@@ -369,6 +407,21 @@
         "row4": "迈尔是以色列人，以优异成绩毕业于特拉维夫大学鲁宾音乐学院，获得钢琴演奏硕士学位。他拥有伦敦皇家音乐学院的艺术家文凭和ASU的音乐艺术博士学位。他的老师包括沃尔特·奥夫豪瑟、迈克尔·博古斯拉夫斯基、雷切尔·波皮尔斯基·戈登、罗伯特·汉密尔顿、帕尼娜·萨尔兹曼和伊琳娜·扎里茨卡娅。梅尔的荣誉包括美国以色列文化基金会奖，英国文化协会奖学金，华硕协奏曲比赛，并在克拉茨金当代钢琴音乐比赛第一名。",
         "row5": "在亚利桑那州立大学，梅尔拥有一批来自世界各地的杰出钢琴家。他的学生在各种比赛中获得最高奖，包括MTNA比赛、施明鲍尔国际比赛、北方国际音乐比赛、雅马哈USASU国际比赛、Carmel Clavier国际比赛、纽约青年音乐会艺术家国际比赛，华盛顿国际钢琴艺术家大赛、普特拉国际大赛、拉达瑞斯国际大赛、华硕独奏音乐会协奏曲大赛获奖者等众多。迈尔还经常在许多国际比赛中担任裁判，包括塞尔维亚的伊西多尔·巴吉奇钢琴纪念馆、洛杉矶青年音乐家国际比赛、温哥华的俄罗斯音乐比赛、以色列、上海的Psanter Letamid全国钢琴比赛等。迈尔曾在佩鲁贾音乐节（Music Fest Perugia summer festival）任教，目前在意大利阿尔卑斯山的森珀音乐（Schlern）国际音乐节（Semper Music）和俄罗斯圣彼得堡的白夜国际钢琴节（White Nights International piano festival）担任钢琴教师。",
         "row6": "Baruch Meir是贝森多夫和雅马哈国际钢琴比赛。"
+      }
+    },
+    "boris": {
+      "bio": {
+        "row1": "鲍里斯·韦纳尔",
+        "row2": "圣彼得堡弦乐四重奏成员",
+        "row3": "中提琴教授，堪萨斯大学"
+      },
+      "info": {
+        "row1": "Boris Vayner",
+        "row2": "Originally from Novosibirsk, Russia, Boris Vayner has been enjoying a diverse career in music as a violist, educator and conductor. As a member of the Grammy nominated St. Petersburg String Quartet since 2005, he has been intensively touring throughout North America, South America, Europe and Asia. The highlights of his career include performances at Lincoln Center, Library of Congress, Amsterdam Concertgebouw, Manchester Bridgewater Hall, Dublin National Concert Hall, London King’s Place, St. Petersburg Philharmonic Great Hall, and appearances at such festivals as Schleswig-Holstein (Germany), MIMO (Brazil), Buxton (England), Fishguard (Wales), Music Mountain, Rockport, and Mainly Mozart in San Diego, among others. Boris Vayner has collaborated with such internationally renowned artists as Leon Fleisher, Michael Tree, Peter Donohoe, David Shifrin, Misha Dichter, and Stephanie Chase. He is also a member of the St. Petersburg Piano Quartet that debuted in New York in May 2014. ",
+        "row3": "Boris Vayner has joined the faculty of the University of Kansas in August 2017. Prior to this, he served as an adjunct faculty and a member of the quartet-in-residence at the Wichita State University. He also served as a sabbatical replacement for the viola professor and the director of the Luther College Philharmonia at the Luther College, Decorah, for the spring semester 2013. Boris Vayner gave master classes at many educational institutions in the US and around the world, including San Francisco Conservatory, University of Toronto (Canada), Groton School, Stephen F. Austin State University, and Colima University (Mexico). He has been on faculty at many international summer festivals, including St. Petersburg International Summer Academy, Montecito Music Festival, Musica Mundi Festival, and Alion Baltic International Music Festival. ",
+        "row4": "Boris Vayner was a founder and a director of the Suprima Chamber Orchestra comprised of students of the Wichita State University. He successfully led the orchestra to performances in Russia, in 2012, and at the Barge Music in New York, in November 2014. For the performance in New York the Suprima Chamber Orchestra collaborated with the conducting and violin prodigy, Jonathan Okseniuk. As a conductor, Boris Vayner has appeared with the University of Missouri Kansas City student orchestra, Luther College Philharmonia, Hays Symphony Orchestra, and Uspensky School of Music student orchestra (Uzbekistan).",
+        "row5": "Besides performing music, Boris Vayner is an avid arranger; his arrangement of Bach Chaconne for string quartet was performed live on BBC 3 radio station in London, in July 2012. In 2018, he was commissioned an arrangement of Florence Price Piano Concerto for piano and string quartet that was premiered the same year.",
+        "row6": "Boris Vayner holds Bachelor degrees from Novosibirsk Music College and Novosibirsk State University (majoring in mathematics), and Master degrees in viola performance from the St. Petersburg Conservatory and the New England Conservatory. He received his Doctor of Musical Arts degree in orchestral conducting from the University of Missouri-Kansas City Conservatory of Music and Dance."
       }
     },
     "eleanor": {
@@ -988,18 +1041,18 @@
       "row14": "请将以上信息发送至科雷诺艺术节官方邮箱："
     },
     "form3": {
-      "row1": "组别",
+      "row1": "",
       "row2": "申请费",
-      "row3": "费用",
-      "row4": "少年音乐之星组",
-      "row5": "40美元",
-      "row6": "399美元（仅限线下参与）",
-      "row7": "钢琴演奏专业组",
-      "row8": "80美元",
-      "row9": "学费899美元，室内乐工坊300美元（仅限线下参与）",
-      "row10": "科雷诺教学法研讨会",
-      "row11": "80美元",
-      "row12": "199美元（线上/线下）29美元（单节大师课/工坊）",
+      "row3": "各组别费用",
+      "row4": "少年业余组（线下）",
+      "row5": "钢琴专业演奏组（线下）",
+      "row6": "科雷诺钢琴教学法周",
+      "row7": "$80（演讲申请者）",
+      "row8": "$199",
+      "row9": "室内乐工作坊",
+      "row10": "$40（若已申请以上任意项目， 该费用免除）",
+      "row11": "单场大师课/工作坊旁观",
+      "row12": "艺术节音乐会通票",
       "row13": "注：所有艺术节线下活动将被分成若干小组进行。所有成年参与者将需提供疫苗接种记录以及签署免责声明。",
       "row14": "介于新冠疫情，本次科雷诺艺术节的线下活动将不提供住宿以及餐饮服务。"
     }

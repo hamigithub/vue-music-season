@@ -38,6 +38,9 @@
                 </router-link>
                 <div class="titleWrap">
                   <p class="font-bold">
+                    {{ $t("committee2021.title.row1") }}
+                  </p>
+                  <p class="font-bold">
                     {{ $t("committee2021.alon.bio.row1") }}
                   </p>
                   <p class="padding-top5">
@@ -45,6 +48,38 @@
                   </p>
                   <p>
                     {{ $t("committee2021.alon.bio.row3") }}
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioAlvin" class="imgWrap">
+                <router-link class="text-black" to="/bio/alvin#alvin">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Alvin.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.title.row2") }}
+                  </p>
+                  <p class="font-bold">
+                    {{ $t("committee2021.alvin.bio.row1") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("committee2021.alvin.bio.row2") }}
+                  </p>
+                  <p>
+                    {{ $t("committee2021.alvin.bio.row3") }}
+                  </p>
+                  <p>
+                    {{ $t("committee2021.alvin.bio.row4") }}
+                  </p>
+                  <p>
+                    {{ $t("committee2021.alvin.bio.row5") }}
                   </p>
                 </div>
               </div>
@@ -60,6 +95,9 @@
                   />
                 </router-link>
                 <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.title.row1") }}
+                  </p>
                   <p class="font-bold">
                     {{ $t("committee2021.baruch.bio.row1") }}
                   </p>
@@ -80,32 +118,14 @@
                   />
                 </router-link>
                 <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.title.row2") }}
+                  </p>
                   <p class="font-bold">{{ $t("committeeBioBlaha.row1") }}</p>
                   <p class="padding-top5">{{ $t("committeeBioBlaha.row2") }}</p>
                   <p>{{ $t("committeeBioBlaha.row3") }}</p>
                   <p>{{ $t("committeeBioBlaha.row4") }}</p>
                   <p>{{ $t("committeeBioBlaha.row5") }}</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="box-child text-center">
-              <div id="bioCong" class="imgWrap">
-                <router-link class="text-black" to="/bio/cong#cong">
-                  <img
-                    class="judgeImg pointer-hand"
-                    src="../assets/img/Cong.jpg"
-                    alt
-                  />
-                </router-link>
-                <div class="titleWrap">
-                  <p class="font-bold">{{ $t("committeeBioCong.row1") }}</p>
-                  <p class="padding-top5">{{ $t("committeeBioCong.row2") }}</p>
-                  <p>{{ $t("committeeBioCong.row3") }}</p>
-                  <p>{{ $t("committeeBioCong.row4") }}</p>
-                  <p>{{ $t("committeeBioCong.row5") }}</p>
-                  <p>{{ $t("committeeBioCong.row6") }}</p>
-                  <p>{{ $t("committeeBioCong.row7") }}</p>
                 </div>
               </div>
             </div>
@@ -120,6 +140,9 @@
                   />
                 </router-link>
                 <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.title.row2") }}
+                  </p>
                   <p class="font-bold">
                     {{ $t("committee2021.eleanor.bio.row1") }}
                   </p>
@@ -147,6 +170,9 @@
                 </router-link>
                 <div class="titleWrap">
                   <p class="font-bold">
+                    {{ $t("committee2021.title.row1") }}
+                  </p>
+                  <p class="font-bold">
                     {{ $t("committee2021.elisi.bio.row1") }}
                   </p>
                   <p class="padding-top5">
@@ -169,6 +195,9 @@
                 </router-link>
                 <div class="titleWrap">
                   <p class="font-bold">
+                    {{ $t("committee2021.title.row2") }}
+                  </p>
+                  <p class="font-bold">
                     {{ $t("committee2021.igor.bio.row1") }}
                   </p>
                   <p class="padding-top5">
@@ -188,6 +217,9 @@
                   />
                 </router-link>
                 <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.title.row1") }}
+                  </p>
                   <p class="font-bold">{{ $t("committeeBioJack.row1") }}</p>
                   <p class="padding-top5">{{ $t("committeeBioJack.row2") }}</p>
                   <p>{{ $t("committeeBioJack.row3") }}</p>
@@ -206,6 +238,9 @@
                   />
                 </router-link>
                 <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.title.row2") }}
+                  </p>
                   <p class="font-bold">{{ $t("committeeBioJianing.row1") }}</p>
                   <p class="padding-top5">
                     {{ $t("committeeBioJianing.row2") }}
@@ -228,6 +263,9 @@
                   />
                 </router-link>
                 <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.title.row1") }}
+                  </p>
                   <p class="font-bold">{{ $t("committeeBioLorenzo.row1") }}</p>
                   <p class="padding-top5">
                     {{ $t("committeeBioLorenzo.row2") }}
@@ -250,6 +288,9 @@
                   />
                 </router-link>
                 <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.title.row2") }}
+                  </p>
                   <p class="font-bold">{{ $t("committeeBioFerrati.row1") }}</p>
                   <p class="padding-top5">
                     {{ $t("committeeBioFerrati.row2") }}
@@ -273,6 +314,9 @@
                   />
                 </router-link>
                 <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.title.row2") }}
+                  </p>
                   <p class="font-bold">{{ $t("committeeBioIannone.row1") }}</p>
                   <p class="padding-top5">
                     {{ $t("committeeBioIannone.row2") }}
@@ -294,6 +338,9 @@
                   />
                 </router-link>
                 <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.title.row1") }}
+                  </p>
                   <p class="font-bold">{{ $t("committeeBioSmith.row1") }}</p>
                   <p class="padding-top5">{{ $t("committeeBioSmith.row2") }}</p>
                   <p>{{ $t("committeeBioSmith.row3") }}</p>
@@ -315,12 +362,79 @@
                   />
                 </router-link>
                 <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.title.row1") }}
+                  </p>
                   <p class="font-bold">{{ $t("committeeBioVladimir.row1") }}</p>
                   <p class="padding-top5">
                     {{ $t("committeeBioVladimir.row2") }}
                   </p>
                   <p>{{ $t("committeeBioVladimir.row3") }}</p>
                   <p>{{ $t("committeeBioVladimir.row4") }}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioBoris" class="imgWrap">
+                <router-link class="text-black" to="/bio/boris2021#boris">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Boris.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.boris.bio.row1") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("committee2021.boris.bio.row2") }}
+                  </p>
+                  <p>{{ $t("committee2021.boris.bio.row3") }}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioAlla" class="imgWrap">
+                <router-link class="text-black" to="/bio/alla2021#alla">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Alla.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">
+                    {{ $t("committee2021.alla.bio.row1") }}
+                  </p>
+                  <p class="padding-top5">
+                    {{ $t("committee2021.alla.bio.row2") }}
+                  </p>
+                  <p>{{ $t("committee2021.alla.bio.row3") }}</p>
+                  <p>{{ $t("committee2021.alla.bio.row4") }}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="box-child text-center">
+              <div id="bioCong" class="imgWrap">
+                <router-link class="text-black" to="/bio/cong#cong">
+                  <img
+                    class="judgeImg pointer-hand"
+                    src="../assets/img/Cong.jpg"
+                    alt
+                  />
+                </router-link>
+                <div class="titleWrap">
+                  <p class="font-bold">{{ $t("committeeBioCong.row1") }}</p>
+                  <p class="padding-top5">{{ $t("committeeBioCong.row2") }}</p>
+                  <p>{{ $t("committeeBioCong.row3") }}</p>
+                  <p>{{ $t("committeeBioCong.row4") }}</p>
+                  <p>{{ $t("committeeBioCong.row5") }}</p>
+                  <p>{{ $t("committeeBioCong.row6") }}</p>
+                  <p>{{ $t("committeeBioCong.row7") }}</p>
                 </div>
               </div>
             </div>

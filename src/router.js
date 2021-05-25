@@ -296,9 +296,24 @@ export default new Router({
       component: () => import(/* webpackChunkName: "group-concerts" */'./bio/2021/Alon.vue')
     },
     {
+      path: "/bio/alvin",
+      name: "concerts",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./bio/2021/Alvin.vue')
+    },
+    {
+      path: "/bio/alla2021",
+      name: "concerts",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./bio/2021/Alla.vue')
+    },
+    {
       path: "/bio/baruch",
       name: "concerts",
       component: () => import(/* webpackChunkName: "group-concerts" */'./bio/2021/Baruch.vue')
+    },
+    {
+      path: "/bio/boris2021",
+      name: "concerts",
+      component: () => import(/* webpackChunkName: "group-concerts" */'./bio/2021/Boris.vue')
     },
     {
       path: "/bio/eleanor",
