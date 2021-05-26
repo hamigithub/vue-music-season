@@ -397,7 +397,14 @@
     "baruch": {
       "bio": {
         "row1": "Baruch Meir",
-        "row2": "Arizona State University, US"
+        "row2": "Concert Pianist and Pedagogue",
+        "row3": "Bösendorfer Artist",
+        "row4": "Associate Professor of Piano, Arizona State University",
+        "row5": "Founder, President and Artistic Director:",
+        "row6": "Bösendorfer and Yamaha USASU International Piano Competition",
+        "row7": "Faculty, Semper Music International Music Festival, Schlern, Italy",
+        "row8": "Faculty, White Nights International Piano Festival, Saint Petersburg, Russia",
+        "row9": "Jury member in International Competitions"
       },
       "info": {
         "row1": "Pianist Baruch Meir",
@@ -477,7 +484,11 @@
     "igor": {
       "bio": {
         "row1": "Igor Machlak",
-        "row2": "University of Melbourne, Australia"
+        "row2": "Concert Pianist and Pedagogue",
+        "row3": "Prize Winner: Rome,Tokyo,Moscow",
+        "row4": "Lecture in Piano at University of Melbourne",
+        "row5": "Senior Examiner at the Australian music Education Board",
+        "row6": "Member at International Piano Duo Assocaiation"
       },
       "info": {
         "row1": "Igor Machlak",
@@ -1042,13 +1053,13 @@
       "row5": "Professional Pianist Program (In-person)",
       "row6": "Conero Piano Pedagogy Conference",
       "row7": "$80 Presenters only",
-      "row8": "$199 Online/In-Person single masterclass/workshop $29",
+      "row8": "$199",
       "row9": "Chamber Workshop",
       "row10": "$40 (If you are already applied previous program, the fee will be waived)",
       "row11": "Single Masterclass/ Workshop Observation",
       "row12": "Concert Pass",
-      "row14": "All in-person activities will be divided into small group sessions. All adult participants are required to provide vaccine card and sign the waive.",
-      "row15": "Please note that the in-person Conero Festival housing and meals will not be available due to COVID restrictions."
+      "row13": "All in-person activities will be divided into small group sessions. All adult participants are required to provide vaccine card and sign the waive.",
+      "row14": "Please note that the in-person Conero Festival housing and meals will not be available due to COVID restrictions."
     }
   },
   "application": {
@@ -1103,7 +1114,7 @@
     "title4": "Final Round Application -->"
   },
   "applyForm": {
-    "title": "Festival and Competition Application",
+    "title": "Festival Application",
     "title2": "Please complete the form below, and submit your application fee via Paypal on the main Application page.",
     "disabled": "Please Select",
     "name": "Name：",

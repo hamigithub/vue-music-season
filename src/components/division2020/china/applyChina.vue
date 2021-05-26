@@ -17,22 +17,36 @@
           <div class="col-md-8 col-xs-12">
             <form>
               <div class="padding-top15">
-                <div>姓名：</div>
-                <div>
-                  <label class="font12">
-                    <input
-                      class="inputBox"
-                      v-model="participant.firstName"
-                      name="firstName"
-                      v-validate="'required'"
-                      placeholder="你的名字"
-                    />
-                  </label>
-                  <span v-show="errors.has('firstName')" class="is-danger">{{
-                    errors.first("firstName")
-                  }}</span>
-                </div>
+              <div>姓名:</div>
+              <div class="inputWrap formWrap">
+                <label class="font12">
+                  <input
+                    class="inputBox"
+                    v-model="participant.firstName"
+                    name="firstName"
+                    v-validate="'required'"
+                    placeholder="First Name"
+                  />
+                </label>
+                <span v-show="errors.has('firstName')" class="is-danger">{{
+                  errors.first("firstName")
+                }}</span>
               </div>
+              <div class="inputWrap formWrap marginLeft2">
+                <label class="font12">
+                  <input
+                    class="inputBox"
+                    v-model="participant.lastName"
+                    name="lastName"
+                    v-validate="'required'"
+                    placeholder="Last Name"
+                  />
+                </label>
+                <span v-show="errors.has('lastName')" class="is-danger">{{
+                  errors.first("lastName")
+                }}</span>
+              </div>
+            </div>
 
               <div class="clearfix"></div>
 

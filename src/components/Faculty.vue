@@ -104,6 +104,27 @@
                   <p class="padding-top5">
                     {{ $t("committee2021.baruch.bio.row2") }}
                   </p>
+                  <p>
+                    {{ $t("committee2021.baruch.bio.row3") }}
+                  </p>
+                  <p>
+                    {{ $t("committee2021.baruch.bio.row4") }}
+                  </p>
+                  <p>
+                    {{ $t("committee2021.baruch.bio.row5") }}
+                  </p>
+                  <p>
+                    {{ $t("committee2021.baruch.bio.row6") }}
+                  </p>
+                  <p>
+                    {{ $t("committee2021.baruch.bio.row7") }}
+                  </p>
+                  <p>
+                    {{ $t("committee2021.baruch.bio.row8") }}
+                  </p>
+                  <p>
+                    {{ $t("committee2021.baruch.bio.row9") }}
+                  </p>
                 </div>
               </div>
             </div>
@@ -203,6 +224,10 @@
                   <p class="padding-top5">
                     {{ $t("committee2021.igor.bio.row2") }}
                   </p>
+                  <p>{{ $t("committee2021.igor.bio.row3") }}</p>
+                  <p>{{ $t("committee2021.igor.bio.row4") }}</p>
+                  <p>{{ $t("committee2021.igor.bio.row5") }}</p>
+                  <p>{{ $t("committee2021.igor.bio.row6") }}</p>
                 </div>
               </div>
             </div>

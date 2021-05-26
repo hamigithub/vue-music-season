@@ -397,8 +397,15 @@
     },
     "baruch": {
       "bio": {
-        "row1": "巴鲁克·梅尔",
-        "row2": "美国亚利桑那州立大学"
+        "row1": "Baruch Meir",
+        "row2": "Concert Pianist and Pedagogue",
+        "row3": "Bösendorfer Artist",
+        "row4": "Associate Professor of Piano, Arizona State University",
+        "row5": "Founder, President and Artistic Director:",
+        "row6": "Bösendorfer and Yamaha USASU International Piano Competition",
+        "row7": "Faculty, Semper Music International Music Festival, Schlern, Italy",
+        "row8": "Faculty, White Nights International Piano Festival, Saint Petersburg, Russia",
+        "row9": "Jury member in International Competitions"
       },
       "info": {
         "row1": "钢琴家巴鲁克·迈尔",
@@ -477,8 +484,12 @@
     },
     "igor": {
       "bio": {
-        "row1": "伊戈尔·马克拉克",
-        "row2": "澳大利亚墨尔本大学"
+        "row1": "Igor Machlak",
+        "row2": "Concert Pianist and Pedagogue",
+        "row3": "Prize Winner: Rome,Tokyo,Moscow",
+        "row4": "Lecture in Piano at University of Melbourne",
+        "row5": "Senior Examiner at the Australian music Education Board",
+        "row6": "Member at International Piano Duo Assocaiation"
       },
       "info": {
         "row1": "伊戈尔·马克拉克",
