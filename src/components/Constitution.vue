@@ -55,7 +55,7 @@
           </router-link>
         </div>
         <div class="col-xs-12 col-md-6">
-          <div class="text-center">
+          <div id="festivalPay" class="text-center">
             <form
               action="https://www.paypal.com/cgi-bin/webscr"
               method="post"

@@ -29,6 +29,10 @@
           <h2 class="padding-bottom10 text-center">
             {{ $t("competition2021.guide.row1") }}
           </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
           <table>
             <tr>
               <td>{{ $t("competition2021.guide.row2") }}</td>
@@ -71,6 +75,14 @@
               <td>{{ $t("competition2021.guide.row15") }}</td>
             </tr>
           </table>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div class="competitionImgWrap">
+            <img
+              src="../assets/img/competition_bg_1.jpg"
+              alt="competition_bg"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -514,6 +526,14 @@ export default {
   text-align: center;
 }
 
+.competitionImgWrap {
+  text-align: center;
+}
+
+.competitionImgWrap img {
+  width: 80%;
+}
+
 .feedbackImg {
   width: 80%;
 }
@@ -521,6 +541,14 @@ export default {
 @media (max-width: 992px) {
   .imgWrap img {
     width: 80%;
+  }
+
+  .competitionImgWrap img {
+    width: 90%;
+  }
+
+  .competitionImgWrap {
+    padding: 20px 0;
   }
 }
 </style>

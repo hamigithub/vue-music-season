@@ -66,108 +66,29 @@
             <router-link to="/application/applyForm#applyForm">
               <div class="btn btnBgm">{{ $t("applyTitle.title3") }}</div>
             </router-link>
+            <div class=" padding-top50">
+              <router-link to="/constitution#festivalPay">
+              <div class="btn btnBgm">Get Started1</div>
+            </router-link>
+            </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-6">
           <div class="text-center padding-top20">
-            <form
-              action="https://www.paypal.com/cgi-bin/webscr"
-              method="post"
-              target="_top"
-            >
-              <input type="hidden" name="cmd" value="_s-xclick" />
-              <input
-                type="hidden"
-                name="hosted_button_id"
-                value="VEXCA53QFVEEE"
-              />
-              <table class="autoMargin">
-                <tr>
-                  <td>
-                    <input
-                      type="hidden"
-                      name="on0"
-                      value="Festival Fees"
-                    />Festival Fees
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <select name="os0">
-                      <option value="Application Fee">
-                        Application Fee $80.00 USD
-                      </option>
-                      <option value="Performance Pianist Tuition">
-                        Performance Pianist Tuition $399.00 USD
-                      </option>
-                      <option value="Amateur Pianist Tuition">
-                        Amateur Pianist Tuition $159.00 USD
-                      </option>
-                      <option value="Pedagogy Scholar Fee">
-                        Pedagogy Scholar Fee $299.00 USD
-                      </option>
-                      <option value="Observer Tuition">
-                        Observer Tuition $149.00 USD
-                      </option>
-                      <option value="Observer Tuition (three people)">
-                        Observer Tuition (three people) $297.00 USD
-                      </option>
-                    </select>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <input
-                      type="hidden"
-                      name="on1"
-                      value="Participant name(s):"
-                    />Participant name(s):
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <input type="text" name="os1" maxlength="200" />
-                  </td>
-                </tr>
-              </table>
-              <input type="hidden" name="currency_code" value="USD" />
-              <input
-                type="image"
-                src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
-                border="0"
-                name="submit"
-                alt="PayPal - The safer, easier way to pay online!"
-              />
-              <img
-                alt
-                border="0"
-                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                width="1"
-                height="1"
-              />
-            </form>
-            <p class="padding-20">{{ $t("application.fee.row8") }}</p>
+
           </div>
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="text-center padding-top20">
-            <p class="font-14 padding-bottom20">
-              {{ $t("applyFee.customFee") }}
-            </p>
-            <a
-              href="https://www.paypal.me/payIPPA?locale.x=en_US"
-              target="_blank"
-            >
-              <img src="../assets/img/paypalEn.png" alt />
-            </a>
+
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h1>{{ $t("application.categories.title") }}</h1>
@@ -221,7 +142,7 @@
           <p>{{ $t("application.categories.observers4") }}</p>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="container">
       <div class="row padding-top50">
