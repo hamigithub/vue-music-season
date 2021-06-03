@@ -166,6 +166,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/canada/applyCanada.vue')
     },
     {
+      path: "/applyFinal",
+      name: "applyCanada",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/division2020/applyFinal.vue')
+    },
+    {
       path: "/constitution",
       name: "constitution",
       component: () => import(/* webpackChunkName: "group-main" */'./components/Constitution')

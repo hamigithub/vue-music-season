@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h2 class="text-center padding-top20">2021 Result Announcement</h2>
+          <h2 class="text-center padding-top20">2020 Result Announcement</h2>
           <div class="text-center">
             <router-link :to="{ name: 'youngArtistGroup' }">
               <div class="pointer-hand division-all division1">

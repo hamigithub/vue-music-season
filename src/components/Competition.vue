@@ -33,7 +33,8 @@
       </div>
       <div class="row">
         <div class="col-md-6 col-xs-12">
-          <table>
+          <div>
+            <table>
             <tr>
               <td>{{ $t("competition2021.guide.row2") }}</td>
               <td>{{ $t("competition2021.guide.row3") }}</td>
@@ -75,6 +76,12 @@
               <td>{{ $t("competition2021.guide.row15") }}</td>
             </tr>
           </table>
+          </div>
+          <div class=" padding-top50 text-center">
+            <router-link to="/applyFinal">
+              <div class="btn btnBgm">Final Round Application</div>
+            </router-link>
+          </div>
         </div>
         <div class="col-md-6 col-xs-12">
           <div class="competitionImgWrap">

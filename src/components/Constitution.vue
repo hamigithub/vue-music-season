@@ -104,7 +104,7 @@
                         value="Professional Pianist Program with Chamber Workshop"
                       >
                         Professional Pianist Program with Chamber Workshop
-                        $1,299.00 USD
+                        $1,199.00 USD
                       </option>
                       <option value="Piano Pedagogy Conference">
                         Piano Pedagogy Conference $199.00 USD
@@ -114,6 +114,9 @@
                       </option>
                       <option value="Single Masterclass/Workshop Observation">
                         Single Masterclass/Workshop Observation $39.00 USD
+                      </option>
+                      <option value="Chamber Workshop">
+                        Chamber Workshop $300.00 USD
                       </option>
                     </select>
                   </td>
@@ -158,9 +161,7 @@
         <div class="col-xs-12">
           <div class="text-center">
             <h3>
-              <span class="color-red">{{
-                $t("constitution2021.group1.row1")
-              }}</span>
+              <span>{{ $t("constitution2021.group1.row1") }}</span>
             </h3>
             <p>{{ $t("constitution2021.group1.row2") }}</p>
             <p>{{ $t("constitution2021.group1.row3") }}</p>
@@ -293,9 +294,7 @@
         <div class="col-xs-12">
           <div class="text-center">
             <h3>
-              <span class="color-red">{{
-                $t("constitution2021.group2.row1")
-              }}</span>
+              <span>{{ $t("constitution2021.group2.row1") }}</span>
             </h3>
           </div>
           <div class="padding-top20">
@@ -454,9 +453,7 @@
         <div class="col-xs-12">
           <div class="text-center">
             <h3>
-              <span class="color-red">{{
-                $t("constitution2021.group3.row1")
-              }}</span>
+              <span>{{ $t("constitution2021.group3.row1") }}</span>
             </h3>
             <p>{{ $t("constitution2021.group3.row2") }}</p>
             <p>{{ $t("constitution2021.group3.row3") }}</p>

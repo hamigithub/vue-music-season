@@ -94,6 +94,7 @@
                 </div>
                 <div class="col-xs-12 col-md-4">
                   <p class="padding-10">{{ $t("appContactText.row1") }}</p>
+                  <p><a href="https://ippa.cc/">www.ippa.cc</a></p>
                   <p class="padding-10">
                     E-mail : support@coneromusicfestival.com
                   </p>

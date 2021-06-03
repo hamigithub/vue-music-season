@@ -39,9 +39,7 @@
             </tr>
             <tr>
               <td></td>
-              <td>
-                (All the preliminary round fees are nonrefundable)
-              </td>
+              <td>(All the preliminary round fees are nonrefundable)</td>
             </tr>
           </table>
         </div>
@@ -102,76 +100,15 @@
     </div>
 
     <div class="container">
-      <div class="row padding-top50">
+      <div class="row">
         <div class="col-xs-12 col-md-6 text-center">
-          <router-link to="/division/usa/apply">
-            <div class="btn btnBgm">Apply US Division --></div>
-          </router-link>
-          <div class="text-center padding-top20">
-            <form
-              action="https://www.paypal.com/cgi-bin/webscr"
-              method="post"
-              target="_top"
-            >
-              <input type="hidden" name="cmd" value="_s-xclick" />
-              <input
-                type="hidden"
-                name="hosted_button_id"
-                value="CL448JFGF8SKJ"
-              />
-              <table class="payTable">
-                <tr>
-                  <td>
-                    <input
-                      type="hidden"
-                      name="on0"
-                      value="Divisions"
-                    />Divisions
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <select name="os0">
-                      <option value="Professional">
-                        Professional $35.00 USD
-                      </option>
-                      <option value="Chamber Music">
-                        Chamber Music $35.00 USD
-                      </option>
-                      <option value="Piano Teachers">
-                        Piano Teachers $35.00 USD
-                      </option>
-                      <option value="Young Artist">
-                        Young Artist $30.00 USD
-                      </option>
-                      <option value="Rising Star">
-                        Rising Star $30.00 USD
-                      </option>
-                      <option value="Adult Amateur">
-                        Adult Amateur $30.00 USD
-                      </option>
-                    </select>
-                  </td>
-                </tr>
-              </table>
-              <input type="hidden" name="currency_code" value="USD" />
-              <input
-                type="image"
-                src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
-                border="0"
-                name="submit"
-                alt="PayPal - The safer, easier way to pay online!"
-              />
-              <img
-                alt=""
-                border="0"
-                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                width="1"
-                height="1"
-              />
-            </form>
+          <div class="padding-bottom20">
+            <router-link to="/division/usa/finalists">
+              <div class="btn btnBgm">
+                2021 U.S.Division Preliminary Round Result
+              </div>
+            </router-link>
           </div>
-          <p class="padding-20">{{ $t("applyFee.ps") }}</p>
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="imgWrap text-center">
@@ -421,7 +358,7 @@ export default {
   width: 70%;
 }
 
-.bg-wrap img{
+.bg-wrap img {
   width: 100%;
 }
 

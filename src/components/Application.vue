@@ -68,7 +68,7 @@
             </router-link>
             <div class=" padding-top50">
               <router-link to="/constitution#festivalPay">
-              <div class="btn btnBgm">Get Started1</div>
+              <div class="btn btnBgm">Get Started</div>
             </router-link>
             </div>
           </div>
