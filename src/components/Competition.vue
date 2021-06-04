@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-xs-12">
+        <div class="col-md-3 col-xs-12">
           <div>
             <table>
             <tr>
@@ -83,7 +83,7 @@
             </router-link>
           </div>
         </div>
-        <div class="col-md-6 col-xs-12">
+        <div class="col-md-8 col-xs-12">
           <div class="competitionImgWrap">
             <img
               src="../assets/img/competition_bg_1.jpg"
@@ -411,7 +411,7 @@
       </div>
     </div>
 
-    <div class="container padding-50">
+    <div class="container padding-top50">
       <div class="row">
         <div class="col-xs-12">
           <h2 class="text-center">
@@ -419,7 +419,7 @@
           </h2>
         </div>
       </div>
-      <div class="row padding-20">
+      <div class="row padding-top20">
         <div class="col-xs-12">
           <p>{{ $t("competition2021.regulations.row2") }}</p>
           <p>{{ $t("competition2021.regulations.row3") }}</p>
@@ -436,6 +436,7 @@
         </div>
       </div>
     </div>
+
 
     <div class="container">
       <div class="row">
@@ -538,7 +539,7 @@ export default {
 }
 
 .competitionImgWrap img {
-  width: 80%;
+  width: 60%;
 }
 
 .feedbackImg {

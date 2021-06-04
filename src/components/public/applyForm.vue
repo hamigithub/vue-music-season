@@ -51,17 +51,11 @@
             <div class="padding-top15">
               <div class="wrapMargin">
                 <span>{{ $t("applyForm.participantType") }}</span>
-                <label>
-                  <select v-model="participant.participantType">
-                    <option disabled value>
-                      {{ $t("applyForm.disabled") }}
-                    </option>
-                    <option>{{ $t("applyForm.pt1") }}</option>
-                    <option>{{ $t("applyForm.pt2") }}</option>
-                    <option>{{ $t("applyForm.pt3") }}</option>
-                    <option>{{ $t("applyForm.pt4") }}</option>
-                  </select>
-                </label>
+                <input
+                    class="inputBox"
+                    v-model="participant.participantType"
+                    placeholder=""
+                  />
               </div>
             </div>
 
