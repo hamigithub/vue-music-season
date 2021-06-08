@@ -28,21 +28,34 @@
               {{ $t("constitution2021.content.row3") }}
             </p>
           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 col-md-6 padding-top20">
           <div class="text-center imgWrap2 padding-top20">
             <img src="../assets/img/constitution_bg_1.png" alt="" />
           </div>
-          <div class="padding-top20">
-            <p>
-              {{ $t("constitution2021.content.row4") }}
-            </p>
-            <p class="padding-top20">
-              {{ $t("constitution2021.content.row5") }}
-            </p>
-            <h5 class="text-center padding-top20">
-              {{ $t("constitution2021.content.row6") }}
-              <span class="font-blue">support@coneromusicfestival.com</span>
-            </h5>
+        </div>
+        <div class="col-xs-12 col-md-6 padding-top20">
+          <div class="text-center imgWrap2 padding-top20">
+            <img src="../assets/img/constitution_bg_2.png" alt="" />
           </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 padding-top20">
+          <p>
+            {{ $t("constitution2021.content.row4") }}
+          </p>
+          <p class="padding-top20">
+            {{ $t("constitution2021.content.row5") }}
+          </p>
+          <h5 class="text-center padding-top20">
+            {{ $t("constitution2021.content.row6") }}
+            <span class="font-blue">support@coneromusicfestival.com</span>
+          </h5>
         </div>
       </div>
     </div>
@@ -160,12 +173,13 @@
       <div class="row padding-top50 font12">
         <div class="col-xs-12">
           <div class="text-center">
-            <h3>
+            <h2>
               <span>{{ $t("constitution2021.group1.row1") }}</span>
-            </h3>
+            </h2>
             <p>{{ $t("constitution2021.group1.row2") }}</p>
             <p>{{ $t("constitution2021.group1.row3") }}</p>
           </div>
+
           <div class="padding-top20">
             <p>
               {{ $t("constitution2021.group1.row4") }}
@@ -290,13 +304,29 @@
     </div>
 
     <div class="container">
-      <div class="row padding-top50 font12">
+      <div class="row">
         <div class="col-xs-12">
-          <div class="text-center">
-            <h3>
+          <div class="padding-top20 text-center">
+            <h2>
               <span>{{ $t("constitution2021.group2.row1") }}</span>
-            </h3>
+            </h2>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6 padding-top20">
+          <div class="text-center imgWrap2 padding-top20">
+            <img src="../assets/img/constitution_bg_3.png" alt="" />
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 padding-top20">
+          <div class="text-center imgWrap2 padding-top20">
+            <img src="../assets/img/constitution_bg_4.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
           <div class="padding-top20">
             <p>
               {{ $t("constitution2021.group2.row3") }}
@@ -452,11 +482,16 @@
       <div class="row padding-top50 font12">
         <div class="col-xs-12">
           <div class="text-center">
-            <h3>
+            <h2>
               <span>{{ $t("constitution2021.group3.row1") }}</span>
-            </h3>
+            </h2>
             <p>{{ $t("constitution2021.group3.row2") }}</p>
             <p>{{ $t("constitution2021.group3.row3") }}</p>
+          </div>
+          <div class="padding-top20">
+            <div class="text-center imgWrap2">
+              <img src="../assets/img/constitution_bg_6.png" alt="" />
+            </div>
           </div>
           <div class="padding-top20">
             <p>
@@ -480,6 +515,11 @@
             <p class="padding-top5">
               {{ $t("constitution2021.group3.row10") }}
             </p>
+          </div>
+          <div class="padding-top20">
+            <div class="text-center imgWrap2">
+              <img src="../assets/img/constitution_bg_5.png" alt="" />
+            </div>
           </div>
           <div class="padding-top20">
             <p>

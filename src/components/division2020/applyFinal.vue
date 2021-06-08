@@ -368,8 +368,6 @@ export default {
         participantType: "", //[Piano Professional,Amateur Pianist,Pedagogy Scholar,Local Auditor,Accompanying Person]
         dateOfBirth: "", //MM/DD/YYYY
         countryOfBirth: "",
-        preferredLanguage: "",
-        englishSkill: "", //Self rated skill, from 1-10
         gender: "", //[Male,Female]
         email: "",
         phoneNumber: "", //include country extension
@@ -379,6 +377,8 @@ export default {
         province: "", //or state
         postalCode: "", //or zip code
         countryOfResidence: "", //Country List?
+      },
+      application: {
         education: "",
         essay: "",
         howYouFound: "", //[Social Media,Professor/Teacher,Friend/Colleague,Other]
@@ -387,7 +387,7 @@ export default {
         pianoTeacherName: "", //*
         pianoTeacherPhoneNumber: "", //*
         pianoTeacherEmail: "", //*
-      }
+      },
     };
   },
   methods: {

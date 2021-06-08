@@ -35,52 +35,125 @@
         <div class="col-md-3 col-xs-12">
           <div>
             <table>
-            <tr>
-              <td>{{ $t("competition2021.guide.row2") }}</td>
-              <td>{{ $t("competition2021.guide.row3") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2021.guide.row4") }}</td>
-              <td>{{ $t("competition2021.guide.row5") }}</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>{{ $t("competition2021.guide.row6") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2021.guide.row7") }}</td>
-              <td>{{ $t("competition2021.guide.row8") }}</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>{{ $t("competition2021.guide.row9") }}</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>{{ $t("competition2021.guide.row10") }}</td>
-            </tr>
-            <tr>
-              <td>{{ $t("competition2021.guide.row11") }}</td>
-              <td>{{ $t("competition2021.guide.row12") }}</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>{{ $t("competition2021.guide.row13") }}</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>{{ $t("competition2021.guide.row14") }}</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>{{ $t("competition2021.guide.row15") }}</td>
-            </tr>
-          </table>
+              <tr>
+                <td>{{ $t("competition2021.guide.row2") }}</td>
+                <td>{{ $t("competition2021.guide.row3") }}</td>
+              </tr>
+              <tr>
+                <td>{{ $t("competition2021.guide.row4") }}</td>
+                <td>{{ $t("competition2021.guide.row5") }}</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>{{ $t("competition2021.guide.row6") }}</td>
+              </tr>
+              <tr>
+                <td>{{ $t("competition2021.guide.row7") }}</td>
+                <td>{{ $t("competition2021.guide.row8") }}</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>{{ $t("competition2021.guide.row9") }}</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>{{ $t("competition2021.guide.row10") }}</td>
+              </tr>
+              <tr>
+                <td>{{ $t("competition2021.guide.row11") }}</td>
+                <td>{{ $t("competition2021.guide.row12") }}</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>{{ $t("competition2021.guide.row13") }}</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>{{ $t("competition2021.guide.row14") }}</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>{{ $t("competition2021.guide.row15") }}</td>
+              </tr>
+            </table>
           </div>
-          <div class=" padding-top50 text-center">
+          <div class="padding-top50 text-center">
             <router-link to="/applyFinal">
               <div class="btn btnBgm">Final Round Application</div>
             </router-link>
+          </div>
+          <div class="padding-top20">
+            <div>
+              <div class="text-center">
+                <form
+                  action="https://www.paypal.com/cgi-bin/webscr"
+                  method="post"
+                  target="_top"
+                >
+                  <input type="hidden" name="cmd" value="_s-xclick" />
+                  <input
+                    type="hidden"
+                    name="hosted_button_id"
+                    value="M88EHHEDE2VTA"
+                  />
+                  <table class="payTable">
+                    <tr>
+                      <td>
+                        <input
+                          type="hidden"
+                          name="on0"
+                          value="Division"
+                        />Division
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <select name="os0">
+                          <option value="Professional Artist">
+                            Professional Artist $100.00 USD
+                          </option>
+                          <option value="Chamber Music">
+                            Chamber Music $100.00 USD
+                          </option>
+                          <option value="Piano Teacher">
+                            Piano Teacher $100.00 USD
+                          </option>
+                          <option value="Amateur">Amateur $80.00 USD</option>
+                        </select>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="hidden"
+                          name="on1"
+                          value="Participant name(s):"
+                        />Participant name(s):
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="os1" maxlength="200" /></td>
+                    </tr>
+                  </table>
+                  <input type="hidden" name="currency_code" value="USD" />
+                  <input
+                    type="image"
+                    src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+                    border="0"
+                    name="submit"
+                    alt="PayPal - The safer, easier way to pay online!"
+                  />
+                  <img
+                    alt=""
+                    border="0"
+                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                    width="1"
+                    height="1"
+                  />
+                </form>
+              </div>
+              <p class="padding-20 text-center">{{ $t("applyFee.ps") }}</p>
+            </div>
           </div>
         </div>
         <div class="col-md-8 col-xs-12">
@@ -437,7 +510,6 @@
       </div>
     </div>
 
-
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -465,6 +537,10 @@ export default {
 <style scoped>
 .titleBtn {
   background-image: linear-gradient(90deg, #b6a314, #b61d92);
+}
+
+.payTable {
+  margin: 0 auto;
 }
 
 .btn {
