@@ -31,18 +31,7 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-xs-12 col-md-6 padding-top20">
-          <div class="text-center imgWrap2 padding-top20">
-            <img src="../assets/img/constitution_bg_1.png" alt="" />
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-6 padding-top20">
-          <div class="text-center imgWrap2 padding-top20">
-            <img src="../assets/img/constitution_bg_2.png" alt="" />
-          </div>
-        </div>
-      </div>
+
 
       <div class="row">
         <div class="col-xs-12 padding-top20">
@@ -313,18 +302,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xs-12 col-md-6 padding-top20">
-          <div class="text-center imgWrap2 padding-top20">
-            <img src="../assets/img/constitution_bg_3.png" alt="" />
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-6 padding-top20">
-          <div class="text-center imgWrap2 padding-top20">
-            <img src="../assets/img/constitution_bg_4.png" alt="" />
-          </div>
-        </div>
-      </div>
+
       <div class="row">
         <div class="col-xs-12">
           <div class="padding-top20">
@@ -489,11 +467,6 @@
             <p>{{ $t("constitution2021.group3.row3") }}</p>
           </div>
           <div class="padding-top20">
-            <div class="text-center imgWrap2">
-              <img src="../assets/img/constitution_bg_6.png" alt="" />
-            </div>
-          </div>
-          <div class="padding-top20">
             <p>
               {{ $t("constitution2021.group3.row4") }}
             </p>
@@ -515,11 +488,6 @@
             <p class="padding-top5">
               {{ $t("constitution2021.group3.row10") }}
             </p>
-          </div>
-          <div class="padding-top20">
-            <div class="text-center imgWrap2">
-              <img src="../assets/img/constitution_bg_5.png" alt="" />
-            </div>
           </div>
           <div class="padding-top20">
             <p>

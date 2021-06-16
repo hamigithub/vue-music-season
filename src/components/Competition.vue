@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 col-xs-12">
+        <div class="col-md-6 col-xs-12">
           <div>
             <table>
               <tr>
@@ -156,7 +156,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-8 col-xs-12">
+        <div class="col-md-6 col-xs-12">
           <div class="competitionImgWrap">
             <img
               src="../assets/img/competition_bg_1.jpg"

@@ -109,6 +109,18 @@
                     </select>
                   </td>
                 </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="hidden"
+                      name="on1"
+                      value="Participant name:"
+                    />Participant name:
+                  </td>
+                </tr>
+                <tr>
+                  <td><input type="text" name="os1" maxlength="200" /></td>
+                </tr>
               </table>
               <input type="hidden" name="currency_code" value="CAD" />
               <input
