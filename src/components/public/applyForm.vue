@@ -242,7 +242,7 @@
                 <label class="font12">
                   <input
                     class="inputBox"
-                    v-model="application.education"
+                    v-model="participant.education"
                     placeholder="Education"
                   />
                 </label>
@@ -255,7 +255,7 @@
                 <label class="font12">
                   <textarea
                     class="textArea"
-                    v-model="application.essay"
+                    v-model="participant.essay"
                   ></textarea>
                 </label>
               </div>
@@ -265,7 +265,7 @@
               <div class="wraoMargin">
                 <span>{{ $t("applyForm.howYouFound") }}</span>
                 <label>
-                  <select v-model="application.howYouFound">
+                  <select v-model="participant.howYouFound">
                     <option disabled value>
                       {{ $t("applyForm.disabled") }}
                     </option>
@@ -284,7 +284,7 @@
                   <span>{{ $t("applyForm.referringPersonName") }}</span>
                   <input
                     class="inputBox"
-                    v-model="application.referringPersonName"
+                    v-model="participant.referringPersonName"
                     placeholder
                   />
                 </label>
@@ -294,7 +294,7 @@
                   <span>{{ $t("applyForm.parentEmail") }}</span>
                   <input
                     class="inputBox"
-                    v-model="application.parentEmail"
+                    v-model="participant.parentEmail"
                     placeholder
                   />
                 </label>
@@ -308,7 +308,7 @@
                   <span>{{ $t("applyForm.parentPhoneNumber") }}</span>
                   <input
                     class="inputBox"
-                    v-model="application.parentPhoneNumber"
+                    v-model="participant.parentPhoneNumber"
                     placeholder
                   />
                 </label>
@@ -322,7 +322,7 @@
                   <span>{{ $t("applyForm.pianoTeacherName") }}</span>
                   <input
                     class="inputBox"
-                    v-model="application.pianoTeacherName"
+                    v-model="participant.pianoTeacherName"
                     placeholder
                   />
                 </label>
@@ -332,7 +332,7 @@
                   <span>{{ $t("applyForm.pianoTeacherPhoneNumber") }}</span>
                   <input
                     class="inputBox"
-                    v-model="application.pianoTeacherPhoneNumber"
+                    v-model="participant.pianoTeacherPhoneNumber"
                     placeholder
                   />
                 </label>
@@ -346,7 +346,7 @@
                 <label class="font12">
                   <input
                     class="inputBox"
-                    v-model="application.pianoTeacherEmail"
+                    v-model="participant.pianoTeacherEmail"
                     placeholder="teacherEmail@xx.com"
                   />
                 </label>
@@ -359,7 +359,7 @@
                 <label class="font12">
                   <input
                     class="inputBox"
-                    v-model="application.preferredTeachers"
+                    v-model="participant.preferredTeachers"
                     placeholder
                   />
                 </label>
@@ -372,7 +372,7 @@
                 <label class="font12">
                   <input
                     class="inputBox"
-                    v-model="application.recordingLink"
+                    v-model="participant.recordingLink"
                     placeholder="Youtube or other video/audio link"
                   />
                 </label>
@@ -445,8 +445,6 @@ export default {
         province: "", //or state
         postalCode: "", //or zip code
         countryOfResidence: "", //Country List?
-      },
-      application: {
         education: "",
         essay: "",
         howYouFound: "", //[Social Media,Professor/Teacher,Friend/Colleague,Other]
@@ -471,8 +469,7 @@ export default {
           this.submitDisabled = 0;
         } else {
           let data = {
-            participant: this.participant,
-            application: this.application,
+            participant: this.participant
           };
           let jsonData = JSON.stringify(data);
           this.$http
