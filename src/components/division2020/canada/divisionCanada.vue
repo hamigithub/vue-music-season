@@ -266,7 +266,7 @@
           <h3>
             All contestants must meet the age requirements at the time of the
             competition. If their birthday will place them in another age
-            category, that birthday must take place after May 15th, 2021.
+            category, that birthday must take place after July 3th, 2021.
           </h3>
         </div>
       </div>

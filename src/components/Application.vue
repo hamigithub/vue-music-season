@@ -15,43 +15,6 @@
       </div>
     </div>
 
-    <!-- <div class="container">
-      <div class="row padding-bottom100">
-        <div class="col-xs-12">
-          <div class="btn btnBgm">{{$t('applyTitle.title2')}}</div>
-        </div>
-
-        <div class="col-xs-6 col-md-3 padding-top50">
-          <div class="text-center">
-            <router-link :to="{name:'divisionUsa'}">
-              <div class="pointer-hand division-all division1">{{$t('division.row1')}}</div>
-            </router-link>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 padding-top50">
-          <div class="text-center">
-            <router-link :to="{name:'divisionChina'}">
-              <div class="pointer-hand division-all division2">{{$t('division.row2')}}</div>
-            </router-link>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 padding-top50">
-          <div class="text-center">
-            <router-link :to="{name:'divisionAustralia'}">
-              <div class="pointer-hand division-all division3">{{$t('division.row3')}}</div>
-            </router-link>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3 padding-top50">
-          <div class="text-center">
-            <router-link :to="{name:'divisionOnline'}">
-              <div class="pointer-hand division-all division4">{{$t('division.row4')}}</div>
-            </router-link>
-          </div>
-        </div>
-      </div>
-    </div>-->
-
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12 col-md-6">
@@ -66,24 +29,71 @@
             <router-link to="/application/applyForm#applyForm">
               <div class="btn btnBgm">{{ $t("applyTitle.title3") }}</div>
             </router-link>
-            <div class=" padding-top50">
-              <router-link to="/constitution#festivalPay">
-              <div class="btn btnBgm">Get Started</div>
-            </router-link>
+            <div class="padding-top50">
+              <div>
+                <form
+                  action="https://www.paypal.com/cgi-bin/webscr"
+                  method="post"
+                  target="_top"
+                >
+                  <input type="hidden" name="cmd" value="_s-xclick" />
+                  <input
+                    type="hidden"
+                    name="hosted_button_id"
+                    value="DTN3N9KF8WNN6"
+                  />
+                  <table class="autoMargin">
+                    <tr>
+                      <td>
+                        <input
+                          type="hidden"
+                          name="on0"
+                          value="Participant name:"
+                        />Participant name:
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="os0" maxlength="200" /></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input
+                          type="hidden"
+                          name="on1"
+                          value="What the payment is for:"
+                        />What the payment is for:
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="os1" maxlength="200" /></td>
+                    </tr>
+                  </table>
+                  <input
+                    type="image"
+                    src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif"
+                    border="0"
+                    name="submit"
+                    alt="PayPal - The safer, easier way to pay online!"
+                  />
+                  <img
+                    alt=""
+                    border="0"
+                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                    width="1"
+                    height="1"
+                  />
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-6">
-          <div class="text-center padding-top20">
-
-          </div>
+          <div class="text-center padding-top20"></div>
         </div>
         <div class="col-xs-12 col-md-6">
-          <div class="text-center padding-top20">
-
-          </div>
+          <div class="text-center padding-top20"></div>
         </div>
       </div>
     </div>
