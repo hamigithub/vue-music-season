@@ -29,62 +29,165 @@
             <router-link to="/application/applyForm#applyForm">
               <div class="btn btnBgm">{{ $t("applyTitle.title3") }}</div>
             </router-link>
-            <div class="padding-top50">
-              <div>
-                <form
-                  action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post"
-                  target="_top"
-                >
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input
-                    type="hidden"
-                    name="hosted_button_id"
-                    value="DTN3N9KF8WNN6"
-                  />
-                  <table class="autoMargin">
-                    <tr>
-                      <td>
-                        <input
-                          type="hidden"
-                          name="on0"
-                          value="Participant name:"
-                        />Participant name:
-                      </td>
-                    </tr>
-                    <tr>
-                      <td><input type="text" name="os0" maxlength="200" /></td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <input
-                          type="hidden"
-                          name="on1"
-                          value="What the payment is for:"
-                        />What the payment is for:
-                      </td>
-                    </tr>
-                    <tr>
-                      <td><input type="text" name="os1" maxlength="200" /></td>
-                    </tr>
-                  </table>
-                  <input
-                    type="image"
-                    src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif"
-                    border="0"
-                    name="submit"
-                    alt="PayPal - The safer, easier way to pay online!"
-                  />
-                  <img
-                    alt=""
-                    border="0"
-                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                    width="1"
-                    height="1"
-                  />
-                </form>
-              </div>
-            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-md-6 padding-top20">
+          <div class="text-center">
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr"
+              method="post"
+              target="_top"
+            >
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input
+                type="hidden"
+                name="hosted_button_id"
+                value="WBXT4Q5WXYDA8"
+              />
+              <table class="payTable">
+                <tr>
+                  <td>
+                    <input
+                      type="hidden"
+                      name="on0"
+                      value="Festival Fees"
+                    />Festival Fees
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <select class="sWidth" name="os0">
+                      <option value="Application Fee: Young Musician Program">
+                        Application Fee: Young Musician Program $40.00 USD
+                      </option>
+                      <option
+                        value="Application Fee: Professional Pianist Program"
+                      >
+                        Application Fee: Professional Pianist Program $60.00 USD
+                      </option>
+                      <option
+                        value="Application Fee: Pedagogy Conference Presenter"
+                      >
+                        Application Fee: Pedagogy Conference Presenter $80.00
+                        USD
+                      </option>
+                      <option value="Young Musician Program">
+                        Young Musician Program $399.00 USD
+                      </option>
+                      <option value="Professional Pianist Program">
+                        Professional Pianist Program $899.00 USD
+                      </option>
+                      <option
+                        value="Professional Pianist Program with Chamber Workshop"
+                      >
+                        Professional Pianist Program with Chamber Workshop
+                        $1,199.00 USD
+                      </option>
+                      <option value="Piano Pedagogy Conference">
+                        Piano Pedagogy Conference $199.00 USD
+                      </option>
+                      <option value="Festival Concert Pass">
+                        Festival Concert Pass $69.00 USD
+                      </option>
+                      <option value="Single Masterclass/Workshop Observation">
+                        Single Masterclass/Workshop Observation $39.00 USD
+                      </option>
+                      <option value="Chamber Workshop">
+                        Chamber Workshop $300.00 USD
+                      </option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="hidden"
+                      name="on1"
+                      value="Participant name(s):"
+                    />Participant name(s):
+                  </td>
+                </tr>
+                <tr>
+                  <td><input type="text" name="os1" maxlength="200" /></td>
+                </tr>
+              </table>
+              <input type="hidden" name="currency_code" value="USD" />
+              <input
+                type="image"
+                src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+                border="0"
+                name="submit"
+                alt="PayPal - The safer, easier way to pay online!"
+              />
+              <img
+                alt=""
+                border="0"
+                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                width="1"
+                height="1"
+              />
+            </form>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 padding-top20">
+          <div class="text-center">
+            <form
+              action="https://www.paypal.com/cgi-bin/webscr"
+              method="post"
+              target="_top"
+            >
+              <input type="hidden" name="cmd" value="_s-xclick" />
+              <input
+                type="hidden"
+                name="hosted_button_id"
+                value="DTN3N9KF8WNN6"
+              />
+              <table class="autoMargin">
+                <tr>
+                  <td>Custom payment</td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="hidden"
+                      name="on0"
+                      value="Participant name:"
+                    />Participant name:
+                  </td>
+                </tr>
+                <tr>
+                  <td><input type="text" name="os0" maxlength="200" /></td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="hidden"
+                      name="on1"
+                      value="What the payment is for:"
+                    />What the payment is for:
+                  </td>
+                </tr>
+                <tr>
+                  <td><input type="text" name="os1" maxlength="200" /></td>
+                </tr>
+              </table>
+              <input
+                type="image"
+                src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif"
+                border="0"
+                name="submit"
+                alt="PayPal - The safer, easier way to pay online!"
+              />
+              <img
+                alt=""
+                border="0"
+                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                width="1"
+                height="1"
+              />
+            </form>
           </div>
         </div>
       </div>
@@ -155,6 +258,96 @@
     </div> -->
 
     <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="padding-top20">
+            <p>
+              Interested participants must submit a performance video link in
+              your application form, in order to be accepted into the festival.
+              Application videos will also be used to determine Scholarship
+              opportunities, master class/lectures/honor recital and closing
+              recital performers.
+            </p>
+            <p class="text-center padding-top20">
+              Questions? Contact us! <span class="font-blue"
+                >support@coneromusicfestival.com</span
+              >
+            </p>
+            <p class="padding-top20">In-person Location：</p>
+            <p>Bell Culture Event Center</p>
+            <p>2030 E College Way</p>
+            <p>Olathe, KS 66062, United States</p>
+          </div>
+          <div class="padding-top20">
+            <div class="tableWrap">
+              <table class="fesTable" border="0">
+                <tr>
+                  <th></th>
+                  <th>Application fee</th>
+                  <th>Fees</th>
+                </tr>
+                <tr>
+                  <td>Young Musician Program (In-person)</td>
+                  <td>$40</td>
+                  <td>$399</td>
+                </tr>
+                <tr>
+                  <td>Professional Pianist Program (In-person)</td>
+                  <td>$80</td>
+                  <td>$899</td>
+                </tr>
+                <tr>
+                  <td>Conero Piano Pedagogy Conference</td>
+                  <td>$80 Presenters only</td>
+                  <td>$199</td>
+                </tr>
+                <tr>
+                  <td>Chamber Workshop</td>
+                  <td>
+                    $40 (If you are already applied previous program, the fee
+                    will be waived)
+                  </td>
+                  <td>$300</td>
+                </tr>
+                <tr>
+                  <td>Single Masterclass/ Workshop Observation</td>
+                  <td>$0</td>
+                  <td>$39</td>
+                </tr>
+                <tr>
+                  <td>Concert Pass</td>
+                  <td>$0</td>
+                  <td>$69</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="padding-top20">
+            <p>
+              * All in-person activities will be divided into small group
+              sessions. All adult participants are required to provide vaccine
+              card and sign the waiver. Please note that on-site Conero Festival
+              housing and meals will not be available due to COVID restrictions.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="text-center padding-top50">
+            <h4>2021 Conero Winner Gala Concert</h4>
+          </div>
+          <div class="text-center imgWrap padding-top20">
+            <img src="../assets/img/constitution_bg_2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
           <h1 class="padding-top15">
@@ -191,6 +384,35 @@ export default {
 </script>
 
 <style scoped>
+.payTable {
+  margin: 0 auto;
+}
+
+.sWidth {
+  width: 300px;
+}
+
+.tableWrap {
+  overflow: auto;
+}
+
+.fesTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.fesTable td,
+.fesTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.fesTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #c4c4c4;
+}
+
 table {
   font-size: 14px;
 }
@@ -280,7 +502,7 @@ table {
 }
 
 .imgWrap img {
-  width: 80%;
+  width: 70%;
 }
 
 .payImg img {
