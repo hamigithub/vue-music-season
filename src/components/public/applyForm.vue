@@ -468,9 +468,7 @@ export default {
           this.key = 2;
           this.submitDisabled = 0;
         } else {
-          let data = {
-            participant: this.participant
-          };
+          let data = this.participant;
           let jsonData = JSON.stringify(data);
           this.$http
             .post("https://formspree.io/f/mknkjpgo", jsonData, {
