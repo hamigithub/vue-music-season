@@ -3,73 +3,33 @@
     <div class="container">
       <div class="row padding-top50 text-center">
         <div class="col-xs-12">
-          <h3 class="font-red">Full scholarship lists</h3>
-          <h3 class="font-red">for participating the 2020 Conero International Piano Festival</h3>
+          <h3>Professional Division</h3>
           <div class="text-center">
-            <p class="padding-top5">Wenting Yu</p>
-            <p class="padding-top5">Aristotelis Papadimitriou</p>
-            <p class="padding-top5">Roberto Di Napoli</p>
-            <p class="padding-top5">Onodera Takuma</p>
-            <p class="padding-top5">Jacky Zhang</p>
+            <p class="padding-top5">Pinn Mahasaranond</p>
+            <p class="padding-top5">Modesto Picci</p>
+            <p class="padding-top5">Yining Sun</p>
+            <p class="padding-top5">Hyeongji Choi</p>
+            <p class="padding-top5">Maximiliano Rosas</p>
+            <p class="padding-top5">Kristian Cvetkovic</p>
+            <p class="padding-top5">John Solari</p>
           </div>
         </div>
 
         <div class="col-xs-12 padding-top50">
-          <h3 class="font-red">Finalists for 2020 Conero International Piano Competition</h3>
+          <h3>Young Artist Division</h3>
           <div class="text-center">
-            <h4 class="padding-top20">Piano Teachers’ Group</h4>
-            <p class="padding-top5">Jingci Liu</p>
-            <p class="padding-top5">Aristotelis Papadimitriou</p>
-            <p class="padding-top5">Wenting Yu</p>
+            <p class="padding-top5">Hannah Yap Qian Yi</p>
+            <p class="padding-top5">Matthew Chua</p>
+            <p class="padding-top5">Chiara Bleve</p>
+            <p class="padding-top5">Tejit Boriboonpoka</p>
           </div>
-          <div class="text-center">
-            <h4 class="padding-top20">Professional Adult Group</h4>
-            <p class="padding-top5">Jeanne Hourez</p>
-            <p class="padding-top5">Jingci Liu</p>
-            <p class="padding-top5">Mutong Mai</p>
-            <p class="padding-top5">Roberto Di Napoli</p>
-            <p class="padding-top5">Giusy Ines Tuttolomondo</p>
-            <p class="padding-top5">Wenting Yu</p>
-            <p class="padding-top5">Sixuan Zhang</p>
-            <p class="padding-top5">Luowen Huang</p>
-          </div>
+        </div>
 
+        <div class="col-xs-12 padding-top50">
+          <h3>Chamber Division</h3>
           <div class="text-center">
-            <h4 class="padding-top20">Professional Young Artist Group 1&2</h4>
-            <p class="padding-top5">Pinn Mahasaranond</p>
-            <p class="padding-top5">Angelina Natal</p>
-            <p class="padding-top5">Matteo Perlin</p>
-            <p class="padding-top5">Weetiwat Siriwattanakorn</p>
-            <p class="padding-top5">Onodera Takuma</p>
-            <p class="padding-top5">Jacky Zhang</p>
-          </div>
-
-          <div class="text-center">
-            <h4 class="padding-top20">Youth Class 1&2</h4>
-            <p class="padding-top5">Ethan Liu</p>
-            <p class="padding-top5">Pinn Mahasaranond</p>
-            <p class="padding-top5">Weetiwat Siriwattanakorn</p>
-            <p class="padding-top5">Daniel Stang</p>
-            <p class="padding-top5">Yining Sun</p>
-          </div>
-
-          <div class="text-center">
-            <h4 class="padding-top20">Children Group 1&2</h4>
-            <p class="padding-top5">Somboonvechakarn Chanya Bayla</p>
-            <p class="padding-top5">Arianna Castellani</p>
-            <p class="padding-top5">Davin Ghazavi</p>
-            <p class="padding-top5">Arianna Salvalaggio</p>
-            <p class="padding-top5">Eli Sun</p>
-            <p class="padding-top5">Yikai Sun</p>
-            <p class="padding-top5">Sterling Tran</p>
-            <p class="padding-top5">Ng Sapphire Yuka</p>
-            <p class="padding-top5">Alexandra Natal</p>
-          </div>
-
-          <div class="text-center">
-            <h5
-              class="padding-top20"
-            >Please be aware that the final round group is different, please double check the rules in the competition main page before you sign up the final round.</h5>
+            <p class="padding-top5">Bella Dang & Jennifer Vu</p>
+            <p class="padding-top5">Hazel Vuu & Rachael Vu</p>
           </div>
         </div>
       </div>
@@ -79,7 +39,7 @@
 
 <script>
 export default {
-  name: "Finalists"
+  name: "Finalists",
 };
 </script>
 

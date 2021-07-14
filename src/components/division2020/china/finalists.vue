@@ -3,93 +3,191 @@
     <div class="container">
       <div class="row padding-top50">
         <div class="col-xs-12">
-          <h3 class="text-center">科雷诺艺术节全额奖学金获得者名单</h3>
-          <h3 class="text-center font-red">
-            Full scholarship lists
-            for participating the 2020 Conero International Piano Festival
-          </h3>
+          <h2 class="text-center">中国赛区决赛决赛 2021</h2>
+          <h3 class="text-center padding-top20">专业青年组</h3>
           <div class="text-center">
-            <p class="padding-top5">张心瑜</p>
-            <p class="padding-top5">罗愫</p>
-            <p class="padding-top5">郝若兰</p>
-            <p class="padding-top5">Megan Cao</p>
-            <p class="padding-top5">倪楠</p>
-            <p class="padding-top5">冯时</p>
-            <p class="padding-top5">江起帆</p>
+            <p class="padding-top5">梅宇鹏</p>
+            <p class="padding-top5">徐小忆</p>
+            <p class="padding-top5">张馨日</p>
+            <p class="padding-top5">张凌菲</p>
+            <p class="padding-top5">杨克莱</p>
+            <p class="padding-top5">龙湘鲁</p>
+            <p class="padding-top5">姜懿珊</p>
+            <p class="padding-top5">颜子明</p>
+            <p class="padding-top5">吴浩颖</p>
+            <p class="padding-top5">毛乐迪</p>
+            <p class="padding-top5">胡雅妮</p>
+            <p class="padding-top5">张涵煜</p>
           </div>
         </div>
+      </div>
 
-        <div class="col-xs-12 padding-top50">
-          <h3 class="text-center">中国区-决赛入围名单</h3>
-          <h3 class="text-center font-red">Finalists for 2020 Conero International Piano Competition</h3>
-          <div>
-            <h4 class="text-center padding-top20">专业青年组</h4>
-            <h4 class="text-center">Adult Professional Group</h4>
-            <p
-              class="padding-top5"
-            >林也力 曾钰琳 赵子元 朱格溦 程希璘 靖珮琳 韦雨希 宋听雨 王麒越 从林 倪楠 杨建鹏 吕勃言 刘康 陈誉心 陈逸臻 狄奥承 何乐维 葛舒凡 张铭鹏 王玥 梁梦雪 冯继彤 康艺璇 Cheng-Yu Hsiao</p>
-          </div>
-
-          <div>
-            <h4 class="text-center padding-top20">高师组</h4>
-            <h4 class="text-center">Piano Teacher's Group</h4>
-            <p class="padding-top5">苏荷荷 王蕊婵 郑雯雯 罗愫 刘钦 肖晓宁 余晗晔 王琛瑜</p>
-          </div>
-
-          <div>
-            <h4 class="text-center padding-top20">专业少年一组</h4>
-            <h4 class="text-center">Professional Young Artist Group 1</h4>
-            <p class="padding-top5">朱靖祎 张亦格 冯时 路畅 涂婧楠 宋佳霖</p>
-          </div>
-
-          <div>
-            <h4 class="text-center padding-top20">专业少年二组</h4>
-            <h4 class="text-center">Professional Young Artist Group 2</h4>
-            <p class="padding-top5">董晓雨 贺致嘉 杨相盈 江起帆 赵怡琴 赵婉悦 王楚灵 李相怡 岳松阳 陈星迪</p>
-          </div>
-
-          <div>
-            <h4 class="text-center padding-top20">业余青年组</h4>
-            <h4 class="text-center">Amateur Adult Group</h4>
-            <p class="padding-top5">颜子明 陈明慧 李烨 李奕辰 Tsz Ching Chow 刘鸣 杨之光 毛会凌 郑雯婕 乔昱 杜鹃</p>
-          </div>
-
-          <div>
-            <h4 class="text-center padding-top20">业余少年一组</h4>
-            <h4 class="text-center">Amateur Youth Group 1</h4>
-            <p
-              class="padding-top5"
-            >叶双嘉 谢宛颖 白铃 Harry Wang 于杨尤嘉 肖嘉仪 Charles Huang 黄愚钦 曹奕秋 林雨薇 李垭铃 Megan Cao 张滢煦</p>
-          </div>
-
-          <div>
-            <h4 class="text-center padding-top20">业余少年二组</h4>
-            <h4 class="text-center">Amateur Youth Group 2</h4>
-            <p
-              class="padding-top5"
-            >张子豪 欧阳海蓉 杨振浩 熊秉怡 罗月嘉 陈序恒 楼雨嘉 刘若旻 王音奇 张嘉宜 左森文 刘家仪 周翔宇 滕茁原 周理骞 杨珍黎 季宇萱 何宇焜 周朕宇 李奕萱</p>
-          </div>
-
-          <div>
-            <h4 class="text-center padding-top20">儿童一组</h4>
-            <h4 class="text-center">Children Group 1</h4>
-            <p class="padding-top5">
-              叶霙 陈如菲 朱晨希 植楦雨 郝若兰 Skyler Tran 叶雨阳 陈之放 卫昌博 王紫芩 郑咏臻 陈琬雯 徐子欣 徐愫阳 秦维蔚 徐小童 陈睿涵 柯紫伊 史珞晴 贺千萌 盛谭懿轩 吴有有 黄诗琪 习含妍 刘芊妤 容婧琪 徐睿阳 侯越恒 袁嘉琪 冯霈琳 谢逸然 张晶莹
-              周欣仪 杨易 王宣懿 李佳宁 徐莜涵 李甲禾
-            </p>
-          </div>
-
-          <div>
-            <h4 class="text-center padding-top20">儿童二组</h4>
-            <h4 class="text-center">Children Group 2</h4>
-            <p
-              class="padding-top5"
-            >宋赫然 钟瑾 周子涵 陈君欣格 曹一然 洪晔 李彦霓 阎玟熹 朱依涵 张谦益 张译文 张心瑜 康凯鑫 文思远 谢有颐 吴含章 魏铭希 苏琪烨 王沛琪 李姝含 刘鑫悦 庄咏衡 覃卓文 张妙菡 吴泽涵 吴啟铭 李致遥 张艺珂 朱静萱 吴周予 张瑾沐 郑槟瀚 王雅滢 谢雨谣 何丹雁 胡逸航 王弈涵 刘子墨 何文迪 徐纬妮 姚珮霖 华昕蕊</p>
-          </div>
-
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3 class="text-center padding-top20">专业少年组</h3>
           <div class="text-center">
-            <h5 class="padding-top20">请注意决赛的组别与初赛不同，请仔细查阅总决赛章程。</h5>
-            <h5>Please be aware that the final round group is different, please double check the rules in the competition main page before you sign up the final round.</h5>
+            <p class="padding-top5">叶双嘉</p>
+            <p class="padding-top5">张语汐</p>
+            <p class="padding-top5">钟旭耕</p>
+            <p class="padding-top5">李蕊杉</p>
+            <p class="padding-top5">赵婉悦</p>
+            <p class="padding-top5">杨延浩</p>
+            <p class="padding-top5">王栋</p>
+            <p class="padding-top5">岳松阳</p>
+            <p class="padding-top5">吴振墀</p>
+            <p class="padding-top5">聂丽坤</p>
+            <p class="padding-top5">邓子橙</p>
+            <p class="padding-top5">祝宝怡</p>
+            <p class="padding-top5">孟辛原</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3 class="text-center padding-top20">专业高校组</h3>
+          <div class="text-center">
+            <p class="padding-top5">陈童心</p>
+            <p class="padding-top5">朱珂萱</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3 class="text-center padding-top20">高师组</h3>
+          <div class="text-center">
+            <p class="padding-top5">黎翘珲</p>
+            <p class="padding-top5">李蕊</p>
+            <p class="padding-top5">王爽</p>
+            <p class="padding-top5">沈忱</p>
+            <p class="padding-top5">贾脂蒙</p>
+            <p class="padding-top5">覃琰</p>
+            <p class="padding-top5">徐芳林</p>
+            <p class="padding-top5">蒋晨晨</p>
+            <p class="padding-top5">黄梦洁</p>
+            <p class="padding-top5">王薇</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3 class="text-center padding-top20">室内乐</h3>
+          <div class="text-center">
+            <p class="padding-top5">过祎铭&王辰薇&罗彬</p>
+            <p class="padding-top5">刘高驰&黄嫣</p>
+            <p class="padding-top5">王小凡&邓一唯</p>
+            <p class="padding-top5">王岩&周映沁</p>
+            <p class="padding-top5">梁雅娇&郝羚君</p>
+            <p class="padding-top5">刘宛依&吴瑞轩</p>
+            <p class="padding-top5">姚云泽&兰知临</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3 class="text-center padding-top20">业余组</h3>
+          <h3 class="text-center padding-top20">业余青年组</h3>
+          <div class="text-center">
+            <p class="padding-top5">张璇</p>
+            <p class="padding-top5">王庄茜</p>
+            <p class="padding-top5">薛曜欣</p>
+            <p class="padding-top5">韩旭</p>
+            <p class="padding-top5">刘泽康</p>
+            <p class="padding-top5">张依依</p>
+            <p class="padding-top5">曹源</p>
+            <p class="padding-top5">周圣凯</p>
+            <p class="padding-top5">龚清颖</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3 class="text-center padding-top20">业余少年一组</h3>
+          <div class="text-center">
+            <p class="padding-top5">王希言</p>
+            <p class="padding-top5">肖香霓</p>
+            <p class="padding-top5">郑好</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3 class="text-center padding-top20">业余少年二组</h3>
+          <div class="text-center">
+            <p class="padding-top5">王治棋</p>
+            <p class="padding-top5">陈序恒</p>
+            <p class="padding-top5">王音奇</p>
+            <p class="padding-top5">陈颖萱</p>
+            <p class="padding-top5">庄亦欣</p>
+            <p class="padding-top5">李沐阳</p>
+            <p class="padding-top5">周雅睿</p>
+            <p class="padding-top5">沈愉希</p>
+            <p class="padding-top5">王子曦</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3 class="text-center padding-top20">儿童一组</h3>
+          <div class="text-center">
+            <p class="padding-top5">缪显钟</p>
+            <p class="padding-top5">栾美萱</p>
+            <p class="padding-top5">周董儿</p>
+            <p class="padding-top5">Elsha Zhu</p>
+            <p class="padding-top5">吴家辰</p>
+            <p class="padding-top5">王梓涵</p>
+            <p class="padding-top5">谢云瑾</p>
+            <p class="padding-top5">康凯鑫</p>
+            <p class="padding-top5">答子骞</p>
+            <p class="padding-top5">伍子谦</p>
+            <p class="padding-top5">孟祥羽</p>
+            <p class="padding-top5">龚心彤</p>
+            <p class="padding-top5">高可悦</p>
+            <p class="padding-top5">雷墨杨</p>
+            <p class="padding-top5">孙嘉赫</p>
+            <p class="padding-top5">吴瑞轩</p>
+            <p class="padding-top5">鲍昱邑</p>
+            <p class="padding-top5">郑嘉洵</p>
+            <p class="padding-top5">徐墨煖</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <h3 class="text-center padding-top20">儿童二组</h3>
+          <div class="text-center">
+            <p class="padding-top5">杨楚馨</p>
+            <p class="padding-top5">张婉迪</p>
+            <p class="padding-top5">郎奕博</p>
+            <p class="padding-top5">蒋林格</p>
+            <p class="padding-top5">何抒檀</p>
+            <p class="padding-top5">谢钰涵</p>
+            <p class="padding-top5">徐紫沂</p>
+            <p class="padding-top5">郭清扬</p>
+            <p class="padding-top5">叶天泽</p>
+            <p class="padding-top5">谢有颐</p>
+            <p class="padding-top5">曹一然</p>
+            <p class="padding-top5">肖涵月</p>
+            <p class="padding-top5">夏朗熙</p>
+            <p class="padding-top5">孔凌浩</p>
+            <p class="padding-top5">李秋泽</p>
+            <p class="padding-top5">张睿轩</p>
+            <p class="padding-top5">陈美妍</p>
+            <p class="padding-top5">赵麒童</p>
+            <p class="padding-top5">孟林睿</p>
+            <p class="padding-top5">刘曦远</p>
+            <p class="padding-top5">王沐子</p>
+            <p class="padding-top5">姚云泽</p>
+            <p class="padding-top5">白依诺</p>
+            <p class="padding-top5">刘沐之</p>
+            <p class="padding-top5">王艺霏</p>
           </div>
         </div>
       </div>
@@ -99,7 +197,7 @@
 
 <script>
 export default {
-  name: "chinaFinalists"
+  name: "chinaFinalists",
 };
 </script>
 

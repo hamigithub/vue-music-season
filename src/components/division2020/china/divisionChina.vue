@@ -27,6 +27,18 @@
     </div>
 
     <div class="container">
+      <div class="row padding-top20">
+        <div class="col-xs-12">
+          <router-link :to="{ name: 'chinaFinalists' }">
+            <div class="text-center pointer-hand division-all division1">
+              中国赛区 - 2021 决赛名单
+            </div>
+          </router-link>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
       <div class="row padding-top50">
         <div class="col-md-6 col-xs-12">
           <h2>赛事简介丨Competition Information</h2>
@@ -546,6 +558,23 @@ export default {
 </script>
 
 <style scoped>
+.division-all {
+  margin: 40px 40px;
+  padding: 10px;
+  color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+
+.division-all:hover {
+  background: #e6d242;
+  color: #000000;
+  box-shadow: 1px 1px 1px #757575;
+}
+
+.division1 {
+  background: #c2254c;
+}
 /*banner图*/
 .bannerWrap {
   position: relative;

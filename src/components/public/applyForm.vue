@@ -471,9 +471,9 @@ export default {
           let data = {
             participant: this.participant
           };
-          let jsonData = JSON.stringify(data);
+
           this.$http
-            .post("https://formspree.io/f/mknkjpgo", jsonData, {
+            .post("https://formspree.io/f/mknkjpgo", data, {
               emulateJSON: true,
             })
             .then(
