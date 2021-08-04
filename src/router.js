@@ -225,6 +225,11 @@ export default new Router({
       name: "submitted",
       component: () => import(/* webpackChunkName: "group-main" */'./components/public/Submitted.vue')
     },
+    {
+      path: "/donate",
+      name: "donate",
+      component: () => import(/* webpackChunkName: "group-main" */'./components/public/Donate.vue')
+    },
     // 简历路由
     {
       path: "/bio/enrico",
